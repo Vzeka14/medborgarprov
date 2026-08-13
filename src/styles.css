@@ -293,3 +293,22 @@ footer.site a { color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ---------- Stödblock ---------- */
+.support {
+  margin: 36px 0 0;
+  padding: 22px var(--pad);
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--mark);
+  border-radius: 3px;
+}
+.support a.btn { text-decoration: none; display: inline-block; }
+.swish {
+  font-size: 14px;
+  padding: 8px 14px;
+  border: 1px dashed var(--graphite);
+  border-radius: 2px;
+  color: var(--graphite);
+}
+.swish b { color: var(--ink); letter-spacing: 0.02em; }

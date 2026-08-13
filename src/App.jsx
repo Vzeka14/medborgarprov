@@ -3,6 +3,7 @@ import {
   buildExam, scoreExam, newVariantCode, bankSize,
   EXAM_SIZE, EXAM_MINUTES, DEFAULT_PASS, CHAPTER_TITLE
 } from './lib/exam'
+import { support } from './site.config'
 
 const KEY = 'medborgarprov:pagaende'
 const LETTER = ['A', 'B', 'C', 'D']
@@ -369,7 +370,10 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
               )
             })}
           </ul>
-          <p className="why"><b>Почему:</b> {q.why}</p>
+          <div className="why">
+            <p style={{ margin: 0 }}><b>Varför:</b> {q.whySv}</p>
+            {showRu && <p style={{ margin: '6px 0 0' }}><b>Почему:</b> {q.why}</p>}
+          </div>
         </div>
       ))}
 
@@ -377,11 +381,50 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
         <button className="btn" onClick={onAgain}>Nytt prov</button>
         <button className="btn btn-ghost" onClick={onRestart}>Till startsidan</button>
       </div>
+
+      <Support />
     </>
   )
 }
 
 /* ------------------------------------------------------------------ */
+
+function Support() {
+  const links = [
+    support.paypal && { href: support.paypal, label: 'PayPal' },
+    support.coffee && { href: support.coffee, label: 'Buy me a coffee' }
+  ].filter(Boolean)
+
+  if (!links.length && !support.swish) return null
+
+  return (
+    <section className="support">
+      <p className="eyebrow" style={{ marginBottom: 8 }}>Stötta sidan · Поддержать проект</p>
+      <p style={{ margin: '0 0 6px', fontWeight: 700 }}>
+        Sidan är gratis och kommer att förbli gratis.
+      </p>
+      <p className="small" style={{ marginBottom: 16 }}>
+        Den byggs och underhålls av en person på fritiden — nya frågor, rättelser och
+        översättningar. Om provet hjälpte dig får du gärna bjuda på en kaffe. Helt frivilligt,
+        ingenting låses bakom betalning.
+        <span className="muted"> · Сайт бесплатный и таким останется. Если тренажёр
+        помог — можно поддержать. Ничего не закрыто платно.</span>
+      </p>
+      <div className="btn-row">
+        {links.map(l => (
+          <a key={l.label} className="btn btn-small" href={l.href} target="_blank" rel="noopener noreferrer">
+            {l.label}
+          </a>
+        ))}
+        {support.swish && (
+          <span className="swish mono">
+            Swish <b>{support.swish}</b>
+          </span>
+        )}
+      </div>
+    </section>
+  )
+}
 
 function SiteFooter() {
   return (
