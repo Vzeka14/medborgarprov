@@ -7,13 +7,13 @@
 export const support = {
   // Ссылка вида https://paypal.me/твоёимя
   // Как получить: зайти на paypal.me, залогиниться, придумать себе имя ссылки.
-  paypal: '',
+  paypal: 'https://paypal.me/vzeka1',
 
   // Номер Swish. Оставь пустым, если решишь не показывать.
-  swish: '0704747110',
+  swish: '',
 
-  // Необязательно: https://buymeacoffee.com/имя или https://ko-fi.com/имя
-  coffee: '',
+  // Необязательно: https://buymeacoffee.com/vzeka1 или https://ko-fi.com/имя
+  coffee: 'https://buymeacoffee.com/vzeka1',
 
   // Необязательно: ссылка на репозиторий, показывается всегда
   github: 'https://github.com/vzeka14/medborgarprov'
