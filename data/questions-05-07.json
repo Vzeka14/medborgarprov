@@ -1,30 +1,1458 @@
 [
-{"id":"c5-01","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 16","sv":{"q":"Hur många grundlagar har Sverige?","o":["Två","Tre","Fyra","Fem"]},"ru":{"q":"Сколько основных законов (grundlagar) в Швеции?","o":["Два","Три","Четыре","Пять"]},"correct":2,"why":"Regeringsformen, tryckfrihetsförordningen, yttrandefrihetsgrundlagen, successionsordningen."},
-{"id":"c5-02","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 16","sv":{"q":"Vilken grundlag bestämmer vem som ska bli kung eller drottning efter den nuvarande?","o":["Regeringsformen","Tryckfrihetsförordningen","Yttrandefrihetsgrundlagen","Successionsordningen"]},"ru":{"q":"Какой основной закон определяет, кто станет королём или королевой после нынешнего монарха?","o":["Regeringsformen","Tryckfrihetsförordningen","Yttrandefrihetsgrundlagen","Successionsordningen"]},"correct":3,"why":"Successionsordningen — закон о престолонаследии."},
-{"id":"c5-03","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 16","sv":{"q":"Vilken grundlag skyddar det fria ordet i tryckt form, till exempel böcker och tidningar?","o":["Tryckfrihetsförordningen","Yttrandefrihetsgrundlagen","Regeringsformen","Diskrimineringslagen"]},"ru":{"q":"Какой основной закон защищает свободу слова в печатной форме, например книги и газеты?","o":["Tryckfrihetsförordningen","Yttrandefrihetsgrundlagen","Regeringsformen","Закон о запрете дискриминации"]},"correct":0,"why":"Yttrandefrihetsgrundlagen касается радио, ТВ и других форм высказывания. Diskrimineringslagen — не основной закон."},
-{"id":"c5-04","ch":5,"kind":"situation","ref":"Lag och rätt, s. 16","sv":{"q":"En person sprider på nätet påståenden som kränker och förtalar en folkgrupp. Vad gäller enligt svensk lag?","o":["Det är tillåtet eftersom yttrandefriheten gäller","Det kan vara ett brott, till exempel hets mot folkgrupp","Det är tillåtet om personen inte namnger någon","Det avgörs av det medium där texten publicerats"]},"ru":{"q":"Человек распространяет в сети утверждения, оскорбляющие и порочащие группу людей. Что действует по шведскому закону?","o":["Это разрешено, поскольку действует свобода слова","Это может быть преступлением, например разжиганием ненависти к группе (hets mot folkgrupp)","Это разрешено, если человек никого не называет по имени","Это решает то издание, где опубликован текст"]},"correct":1,"why":"Свобода слова защищает право высказывать мнения, но некоторые высказывания запрещены законом: förtal, hets mot folkgrupp, hatbrott."},
-{"id":"c5-05","ch":5,"kind":"situation","ref":"Lag och rätt, s. 17","sv":{"q":"En person vill tälta en natt i skogen på mark som någon annan äger. Vad gäller enligt allemansrätten?","o":["Det är förbjudet utan markägarens tillstånd","Det är tillåtet, men man får inte skada naturen eller störa markägaren","Det är tillåtet endast i nationalparker","Det är tillåtet endast för svenska medborgare"]},"ru":{"q":"Человек хочет переночевать в палатке в лесу на земле, которая принадлежит другому. Что действует по allemansrätten?","o":["Это запрещено без разрешения землевладельца","Это разрешено, но нельзя вредить природе или мешать землевладельцу","Это разрешено только в национальных парках","Это разрешено только гражданам Швеции"]},"correct":1,"why":"Allemansrätten защищена в regeringsformen. Нельзя ходить по полям крестьянина, заходить в чужой сад и мусорить."},
-{"id":"c5-06","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 17","sv":{"q":"Vilken myndighet avgör om en person som misstänks för brott ska ställas inför domstol?","o":["Polisen","Åklagarmyndigheten","Kriminalvården","Brottsoffermyndigheten"]},"ru":{"q":"Какое ведомство решает, будет ли подозреваемый в преступлении предан суду?","o":["Полиция","Прокуратура (Åklagarmyndigheten)","Служба исполнения наказаний","Ведомство по делам потерпевших"]},"correct":1,"why":"Полиция расследует, прокурор решает вопрос об обвинении, суд выносит приговор."},
-{"id":"c5-07","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 18","sv":{"q":"Vilken domstol är första instans där brottmål och tvistemål börjar?","o":["Hovrätten","Tingsrätten","Högsta domstolen","Europadomstolen"]},"ru":{"q":"Какой суд является первой инстанцией, где начинаются уголовные и гражданские дела?","o":["Апелляционный суд (hovrätten)","Суд первой инстанции (tingsrätten)","Верховный суд","Европейский суд"]},"correct":1,"why":"Порядок: tingsrätt → hovrätt → Högsta domstolen."},
-{"id":"c5-08","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 18","sv":{"q":"Hur länge kan en anhållen person som mest hållas inlåst innan häktning?","o":["24 timmar","48 timmar","72 timmar","En vecka"]},"ru":{"q":"Как долго задержанный (anhållen) может максимально находиться под стражей до решения о häktning?","o":["24 часа","48 часов","72 часа","Неделю"]},"correct":2,"why":"Решение о häktning принимает суд, и тогда человека можно держать дольше."},
-{"id":"c5-09","ch":5,"kind":"förståelse","ref":"Lag och rätt, s. 19","sv":{"q":"Vilken roll har nämndemännen i tingsrätten?","o":["De för statens talan mot den åtalade","De försvarar den åtalade","De dömer tillsammans med domaren och ska representera allmänheten","De skriver förundersökningen"]},"ru":{"q":"Какова роль народных заседателей (nämndemän) в суде первой инстанции?","o":["Они представляют государственное обвинение","Они защищают обвиняемого","Они выносят решение вместе с судьёй и представляют общественность","Они составляют материалы предварительного расследования"]},"correct":2,"why":"Nämndemän назначаются политическими партиями и обеспечивают гласность процесса."},
-{"id":"c5-10","ch":5,"kind":"fakta","ref":"Lag och rätt, s. 19","sv":{"q":"Från vilken ålder är en person straffmyndig i Sverige?","o":["13 år","15 år","16 år","18 år"]},"ru":{"q":"С какого возраста человек в Швеции подлежит уголовной ответственности?","o":["13 лет","15 лет","16 лет","18 лет"]},"correct":1,"why":"С 15 лет. В 2026 году правительство внесло предложение снизить порог до 13 лет для тяжких преступлений — но это пока предложение."},
-
-{"id":"c6-01","ch":6,"kind":"fakta","ref":"Mediernas roll, s. 20","sv":{"q":"Vad innebär offentlighetsprincipen?","o":["Att staten bestämmer vad medierna får publicera","Att allmänna handlingar från myndigheter är offentliga om de inte är hemliga","Att alla tidningar får statligt stöd","Att journalister måste uppge sina källor"]},"ru":{"q":"Что означает принцип публичности (offentlighetsprincipen)?","o":["Что государство решает, что СМИ вправе публиковать","Что официальные документы ведомств являются открытыми, если они не засекречены","Что все газеты получают государственную поддержку","Что журналисты обязаны раскрывать свои источники"]},"correct":1,"why":"Благодаря этому журналисты могут запрашивать письма и документы ведомств, чтобы проверить, как принимались решения."},
-{"id":"c6-02","ch":6,"kind":"situation","ref":"Mediernas roll, s. 20","sv":{"q":"En anställd lämnar uppgifter om missförhållanden till en tidning. Vad gäller?","o":["Personen kan straffas för att ha lämnat uppgifterna","Personen har rätt att lämna uppgifterna utan att straffas och har rätt att vara anonym","Personen måste först få tillstånd av sin arbetsgivare","Personen måste uppge sitt namn i artikeln"]},"ru":{"q":"Сотрудник передаёт газете сведения о нарушениях. Что действует?","o":["Человека можно наказать за передачу сведений","Человек имеет право передать сведения без наказания и имеет право остаться анонимным","Человек должен сначала получить разрешение работодателя","Человек обязан указать своё имя в статье"]},"correct":1,"why":"Это meddelarskydd — защита информатора и право на анонимность."},
-{"id":"c6-03","ch":6,"kind":"fakta","ref":"Mediernas roll, s. 21","sv":{"q":"Vilka tre medieföretag utgör public service i Sverige?","o":["SVT, TV4 och SR","SR, SVT och UR","SVT, UR och Bonnier","SR, TV4 och UR"]},"ru":{"q":"Какие три медиакомпании составляют public service в Швеции?","o":["SVT, TV4 и SR","SR, SVT и UR","SVT, UR и Bonnier","SR, TV4 и UR"]},"correct":1,"why":"Sveriges Radio, Sveriges Television и Utbildningsradion. TV4 — коммерческий канал."},
-{"id":"c6-04","ch":6,"kind":"fakta","ref":"Mediernas roll, s. 21","sv":{"q":"Hur finansieras public service-företagen i Sverige?","o":["Genom reklam","Genom en avgift som tas ut via skatten","Genom prenumerationer från tittarna","Genom bidrag från politiska partier"]},"ru":{"q":"Как финансируются компании public service в Швеции?","o":["За счёт рекламы","За счёт сбора, который взимается через налог","За счёт подписки зрителей","За счёт взносов политических партий"]},"correct":1,"why":"Им нельзя зарабатывать на рекламе. Цель — чтобы у всех был доступ к объективной информации независимо от места жительства и доходов."},
-{"id":"c6-05","ch":6,"kind":"fakta","ref":"Mediernas roll, s. 20","sv":{"q":"Vem är juridiskt ansvarig för vad som publiceras i en tidning eller i tv?","o":["Journalisten som skrivit texten","Den ansvarige utgivaren","Läsaren som sprider texten vidare","Regeringen"]},"ru":{"q":"Кто несёт юридическую ответственность за то, что публикуется в газете или на телевидении?","o":["Журналист, написавший текст","Ответственный издатель (ansvarig utgivare)","Читатель, который распространяет текст дальше","Правительство"]},"correct":1,"why":"Ответственный издатель обязан соблюдать законы, защищающие от клеветы и оскорблений."},
-{"id":"c6-06","ch":6,"kind":"situation","ref":"Mediernas roll, s. 21","sv":{"q":"En person läser en uppseendeväckande nyhet i ett socialt medium. Vad innebär det att vara källkritisk?","o":["Att alltid tro på det som flest personer delar","Att ifrågasätta och kontrollera om det man läser är korrekt","Att bara läsa nyheter från utländska medier","Att undvika att läsa nyheter helt"]},"ru":{"q":"Человек читает сенсационную новость в социальной сети. Что означает быть källkritisk?","o":["Всегда верить тому, чем делится больше всего людей","Подвергать сомнению и проверять, верно ли то, что читаешь","Читать новости только из зарубежных СМИ","Полностью избегать чтения новостей"]},"correct":1,"why":"В соцсетях контент может создавать кто угодно, и он не проверяется так, как в других медиа."},
-
-{"id":"c7-01","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 22","sv":{"q":"Vilket år presenterade FN förklaringen om de mänskliga rättigheterna?","o":["1945","1948","1951","1979"]},"ru":{"q":"В каком году ООН представила Всеобщую декларацию прав человека?","o":["1945","1948","1951","1979"]},"correct":1,"why":"ООН основана в 1945 году 51 страной, декларация принята в 1948 году и содержит 30 статей."},
-{"id":"c7-02","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 22","sv":{"q":"Vad förbjuder diskrimineringslagen i Sverige?","o":["Att kritisera regeringen","Att behandla människor sämre på grund av bland annat kön, ålder, etnicitet, religion, sexuell läggning eller funktionsnedsättning","Att bilda politiska partier","Att arbeta utan kollektivavtal"]},"ru":{"q":"Что запрещает шведский закон о недискриминации?","o":["Критиковать правительство","Обращаться с людьми хуже по признаку пола, возраста, этнической принадлежности, религии, сексуальной ориентации или инвалидности","Создавать политические партии","Работать без коллективного договора"]},"correct":1,"why":"За соблюдением следит Diskrimineringsombudsmannen (DO)."},
-{"id":"c7-03","ch":7,"kind":"förståelse","ref":"Mänskliga rättigheter, s. 23","sv":{"q":"Vad innebär den svenska samtyckeslagen?","o":["Att sex utanför äktenskapet är förbjudet","Att den som vill ha sex måste försäkra sig om att den andra personen deltar frivilligt","Att båda personerna måste vara över 18 år","Att sexuella relationer måste registreras"]},"ru":{"q":"Что означает шведский закон о согласии (samtyckeslagen)?","o":["Что секс вне брака запрещён","Что тот, кто хочет вступить в половую связь, обязан убедиться, что другой участвует добровольно","Что оба человека должны быть старше 18 лет","Что интимные отношения нужно регистрировать"]},"correct":1,"why":"Это правило действует и в браке."},
-{"id":"c7-04","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 24","sv":{"q":"Vad gäller enligt den svenska sexköpslagen?","o":["Både köparen och säljaren straffas","Köparen kan straffas men inte säljaren","Säljaren kan straffas men inte köparen","Ingen av dem straffas"]},"ru":{"q":"Что действует по шведскому закону о покупке сексуальных услуг?","o":["Наказываются и покупатель, и продавец","Покупателя можно наказать, а продавца — нет","Продавца можно наказать, а покупателя — нет","Не наказывают никого"]},"correct":1,"why":"Наказание направлено на покупателя, чтобы обозначить: использовать человека сексуально за плату неприемлемо."},
-{"id":"c7-05","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 24","sv":{"q":"Sedan vilket år är FN:s barnkonvention lag i Sverige?","o":["1979","2000","2009","2020"]},"ru":{"q":"С какого года Конвенция ООН о правах ребёнка является законом в Швеции?","o":["1979","2000","2009","2020"]},"correct":3,"why":"1979 — год запрета телесных наказаний детей; 2000 — признание национальных меньшинств; 2020 — barnkonventionen становится законом."},
-{"id":"c7-06","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 25","sv":{"q":"Vilket år erkände Sverige sina nationella minoriteter?","o":["1951","1979","2000","2020"]},"ru":{"q":"В каком году Швеция признала свои национальные меньшинства?","o":["1951","1979","2000","2020"]},"correct":2,"why":"В 2000 году признаны евреи, ромы, саамы, шведские финны и торнедальцы."},
-{"id":"c7-07","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 25","sv":{"q":"Vilket av dessa är inte ett nationellt minoritetsspråk i Sverige?","o":["Meänkieli","Jiddisch","Romani chib","Estniska"]},"ru":{"q":"Какой из перечисленных языков не является национальным языком меньшинства в Швеции?","o":["Меянкиели","Идиш","Романи чиб","Эстонский"]},"correct":3,"why":"Пять языков: jiddisch, romani chib, samiska, finska, meänkieli."},
-{"id":"c7-08","ch":7,"kind":"förståelse","ref":"Mänskliga rättigheter, s. 25","sv":{"q":"Vad är Sametinget?","o":["En domstol för mark- och renskötselfrågor","Ett folkvalt parlament som representerar den samiska befolkningen","En avdelning inom Migrationsverket","En förening för renskötare i Norrbotten"]},"ru":{"q":"Что такое Sametinget?","o":["Суд по вопросам земли и оленеводства","Избираемый народом парламент, представляющий саамское население","Отдел внутри Миграционного управления","Объединение оленеводов в Норрботтене"]},"correct":1,"why":"Совещательный орган по вопросам языка, культуры и идентичности, у которого есть и некоторые административные функции."},
-{"id":"c7-09","ch":7,"kind":"fakta","ref":"Mänskliga rättigheter, s. 26","sv":{"q":"Vilket år blev det lagligt att vara homosexuell i Sverige?","o":["1944","1979","2003","2009"]},"ru":{"q":"В каком году в Швеции гомосексуальность перестала быть незаконной?","o":["1944","1979","2003","2009"]},"correct":0,"why":"1944 — легализация; 2003 — право однополых пар усыновлять; 2009 — Шведская церковь разрешила венчание."},
-{"id":"c7-10","ch":7,"kind":"situation","ref":"Mänskliga rättigheter, s. 26","sv":{"q":"En person misshandlas på grund av sin religiösa tillhörighet. Vad kallas det och vad innebär det för straffet?","o":["Förtal, och straffet blir lindrigare","Hatbrott, och gärningspersonen får ett strängare straff","Diskriminering, och saken avgörs av DO i stället för domstol","Hets mot folkgrupp, och endast böter kan utdömas"]},"ru":{"q":"Человека избивают из-за его религиозной принадлежности. Как это называется и что это значит для наказания?","o":["Клевета, и наказание будет мягче","Преступление на почве ненависти (hatbrott), и виновный получает более строгое наказание","Дискриминация, и дело решает DO вместо суда","Разжигание ненависти к группе, и назначается только штраф"]},"correct":1,"why":"Мотив ненависти является отягчающим обстоятельством."}
+  {
+    "id": "c5-01",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Hur många grundlagar har Sverige?",
+      "o": [
+        "Två",
+        "Tre",
+        "Fyra",
+        "Fem"
+      ]
+    },
+    "ru": {
+      "q": "Сколько основных законов (grundlagar) в Швеции?",
+      "o": [
+        "Два",
+        "Три",
+        "Четыре",
+        "Пять"
+      ]
+    },
+    "correct": 2,
+    "why": "Regeringsformen, tryckfrihetsförordningen, yttrandefrihetsgrundlagen, successionsordningen."
+  },
+  {
+    "id": "c5-02",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Vilken grundlag bestämmer vem som ska bli kung eller drottning efter den nuvarande?",
+      "o": [
+        "Regeringsformen",
+        "Tryckfrihetsförordningen",
+        "Yttrandefrihetsgrundlagen",
+        "Successionsordningen"
+      ]
+    },
+    "ru": {
+      "q": "Какой основной закон определяет, кто станет королём или королевой после нынешнего монарха?",
+      "o": [
+        "Regeringsformen",
+        "Tryckfrihetsförordningen",
+        "Yttrandefrihetsgrundlagen",
+        "Successionsordningen"
+      ]
+    },
+    "correct": 3,
+    "why": "Successionsordningen — закон о престолонаследии."
+  },
+  {
+    "id": "c5-03",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Vilken grundlag skyddar det fria ordet i tryckt form, till exempel böcker och tidningar?",
+      "o": [
+        "Tryckfrihetsförordningen",
+        "Yttrandefrihetsgrundlagen",
+        "Regeringsformen",
+        "Diskrimineringslagen"
+      ]
+    },
+    "ru": {
+      "q": "Какой основной закон защищает свободу слова в печатной форме, например книги и газеты?",
+      "o": [
+        "Tryckfrihetsförordningen",
+        "Yttrandefrihetsgrundlagen",
+        "Regeringsformen",
+        "Закон о запрете дискриминации"
+      ]
+    },
+    "correct": 0,
+    "why": "Yttrandefrihetsgrundlagen касается радио, ТВ и других форм высказывания. Diskrimineringslagen — не основной закон."
+  },
+  {
+    "id": "c5-04",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "En person sprider på nätet påståenden som kränker och förtalar en folkgrupp. Vad gäller enligt svensk lag?",
+      "o": [
+        "Det är tillåtet eftersom yttrandefriheten gäller",
+        "Det kan vara ett brott, till exempel hets mot folkgrupp",
+        "Det är tillåtet om personen inte namnger någon",
+        "Det avgörs av det medium där texten publicerats"
+      ]
+    },
+    "ru": {
+      "q": "Человек распространяет в сети утверждения, оскорбляющие и порочащие группу людей. Что действует по шведскому закону?",
+      "o": [
+        "Это разрешено, поскольку действует свобода слова",
+        "Это может быть преступлением, например разжиганием ненависти к группе (hets mot folkgrupp)",
+        "Это разрешено, если человек никого не называет по имени",
+        "Это решает то издание, где опубликован текст"
+      ]
+    },
+    "correct": 1,
+    "why": "Свобода слова защищает право высказывать мнения, но некоторые высказывания запрещены законом: förtal, hets mot folkgrupp, hatbrott."
+  },
+  {
+    "id": "c5-05",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "En person vill tälta en natt i skogen på mark som någon annan äger. Vad gäller enligt allemansrätten?",
+      "o": [
+        "Det är förbjudet utan markägarens tillstånd",
+        "Det är tillåtet, men man får inte skada naturen eller störa markägaren",
+        "Det är tillåtet endast i nationalparker",
+        "Det är tillåtet endast för svenska medborgare"
+      ]
+    },
+    "ru": {
+      "q": "Человек хочет переночевать в палатке в лесу на земле, которая принадлежит другому. Что действует по allemansrätten?",
+      "o": [
+        "Это запрещено без разрешения землевладельца",
+        "Это разрешено, но нельзя вредить природе или мешать землевладельцу",
+        "Это разрешено только в национальных парках",
+        "Это разрешено только гражданам Швеции"
+      ]
+    },
+    "correct": 1,
+    "why": "Allemansrätten защищена в regeringsformen. Нельзя ходить по полям крестьянина, заходить в чужой сад и мусорить."
+  },
+  {
+    "id": "c5-06",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "Vilken myndighet avgör om en person som misstänks för brott ska ställas inför domstol?",
+      "o": [
+        "Polisen",
+        "Åklagarmyndigheten",
+        "Kriminalvården",
+        "Brottsoffermyndigheten"
+      ]
+    },
+    "ru": {
+      "q": "Какое ведомство решает, будет ли подозреваемый в преступлении предан суду?",
+      "o": [
+        "Полиция",
+        "Прокуратура (Åklagarmyndigheten)",
+        "Служба исполнения наказаний",
+        "Ведомство по делам потерпевших"
+      ]
+    },
+    "correct": 1,
+    "why": "Полиция расследует, прокурор решает вопрос об обвинении, суд выносит приговор."
+  },
+  {
+    "id": "c5-07",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vilken domstol är första instans där brottmål och tvistemål börjar?",
+      "o": [
+        "Hovrätten",
+        "Tingsrätten",
+        "Högsta domstolen",
+        "Europadomstolen"
+      ]
+    },
+    "ru": {
+      "q": "Какой суд является первой инстанцией, где начинаются уголовные и гражданские дела?",
+      "o": [
+        "Апелляционный суд (hovrätten)",
+        "Суд первой инстанции (tingsrätten)",
+        "Верховный суд",
+        "Европейский суд"
+      ]
+    },
+    "correct": 1,
+    "why": "Порядок: tingsrätt → hovrätt → Högsta domstolen."
+  },
+  {
+    "id": "c5-08",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Hur länge kan en anhållen person som mest hållas inlåst innan häktning?",
+      "o": [
+        "24 timmar",
+        "48 timmar",
+        "72 timmar",
+        "En vecka"
+      ]
+    },
+    "ru": {
+      "q": "Как долго задержанный (anhållen) может максимально находиться под стражей до решения о häktning?",
+      "o": [
+        "24 часа",
+        "48 часов",
+        "72 часа",
+        "Неделю"
+      ]
+    },
+    "correct": 2,
+    "why": "Решение о häktning принимает суд, и тогда человека можно держать дольше."
+  },
+  {
+    "id": "c5-09",
+    "ch": 5,
+    "kind": "förståelse",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Vilken roll har nämndemännen i tingsrätten?",
+      "o": [
+        "De för statens talan mot den åtalade",
+        "De försvarar den åtalade",
+        "De dömer tillsammans med domaren och ska representera allmänheten",
+        "De skriver förundersökningen"
+      ]
+    },
+    "ru": {
+      "q": "Какова роль народных заседателей (nämndemän) в суде первой инстанции?",
+      "o": [
+        "Они представляют государственное обвинение",
+        "Они защищают обвиняемого",
+        "Они выносят решение вместе с судьёй и представляют общественность",
+        "Они составляют материалы предварительного расследования"
+      ]
+    },
+    "correct": 2,
+    "why": "Nämndemän назначаются политическими партиями и обеспечивают гласность процесса."
+  },
+  {
+    "id": "c5-10",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Från vilken ålder är en person straffmyndig i Sverige?",
+      "o": [
+        "13 år",
+        "15 år",
+        "16 år",
+        "18 år"
+      ]
+    },
+    "ru": {
+      "q": "С какого возраста человек в Швеции подлежит уголовной ответственности?",
+      "o": [
+        "13 лет",
+        "15 лет",
+        "16 лет",
+        "18 лет"
+      ]
+    },
+    "correct": 1,
+    "why": "С 15 лет. В 2026 году правительство внесло предложение снизить порог до 13 лет для тяжких преступлений — но это пока предложение."
+  },
+  {
+    "id": "c5-11",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Vad säger regeringsformen om var den offentliga makten i Sverige har sitt ursprung?",
+      "o": [
+        "Hos kungen",
+        "Hos folket",
+        "Hos riksdagens talman",
+        "Hos Högsta domstolen"
+      ]
+    },
+    "ru": {
+      "q": "Что говорит regeringsformen о том, откуда исходит вся государственная власть в Швеции?",
+      "o": [
+        "От короля",
+        "От народа",
+        "От спикера риксдага",
+        "От Верховного суда"
+      ]
+    },
+    "correct": 1,
+    "why": "Regeringsformen устанавливает, что вся публичная власть в Швеции исходит от народа — базовый принцип демократии, а не от монарха или отдельного органа."
+  },
+  {
+    "id": "c5-12",
+    "ch": 5,
+    "kind": "förståelse",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Enligt regeringsformen ska den offentliga makten utövas med respekt för vad?",
+      "o": [
+        "I första hand statens ekonomiska intressen",
+        "De politiska partiernas program",
+        "Alla människors lika värde och den enskilda människans frihet och värdighet",
+        "Endast svenska medborgares rättigheter"
+      ]
+    },
+    "ru": {
+      "q": "Согласно regeringsformen, с уважением к чему должна осуществляться государственная власть?",
+      "o": [
+        "В первую очередь к экономическим интересам государства",
+        "К программам политических партий",
+        "К равной ценности всех людей и свободе и достоинству отдельного человека",
+        "Только к правам граждан Швеции"
+      ]
+    },
+    "correct": 2,
+    "why": "Это прямой принцип из regeringsformen, который распространяется на всех, кто находится в Швеции, а не только на граждан."
+  },
+  {
+    "id": "c5-13",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Vilken grundlag ger alla rätt att uttrycka sina åsikter fritt till exempel i radio och tv?",
+      "o": [
+        "Tryckfrihetsförordningen",
+        "Successionsordningen",
+        "Diskrimineringslagen",
+        "Yttrandefrihetsgrundlagen"
+      ]
+    },
+    "ru": {
+      "q": "Какой основной закон даёт право свободно выражать мнения, например, на радио и телевидении?",
+      "o": [
+        "Tryckfrihetsförordningen",
+        "Successionsordningen",
+        "Закон о запрете дискриминации",
+        "Yttrandefrihetsgrundlagen"
+      ]
+    },
+    "correct": 3,
+    "why": "Tryckfrihetsförordningen отвечает за печатную форму (книги, газеты), а yttrandefrihetsgrundlagen — за устные и электронные формы: радио, ТВ."
+  },
+  {
+    "id": "c5-14",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Förutom rätten att uttrycka åsikter, vilken rättighet ger yttrandefrihetsgrundlagen alla som bor i Sverige?",
+      "o": [
+        "Rätt till kostnadsfri hälso- och sjukvård",
+        "Rätt att bilda föreningar och att demonstrera",
+        "Rätt att rösta i riksdagsval",
+        "Rätt till en statlig bostad"
+      ]
+    },
+    "ru": {
+      "q": "Помимо права выражать мнения, какое право даёт yttrandefrihetsgrundlagen всем, кто живёт в Швеции?",
+      "o": [
+        "Право на бесплатную медицину",
+        "Право создавать объединения и демонстрировать",
+        "Право голосовать на выборах в риксдаг",
+        "Право на государственное жильё"
+      ]
+    },
+    "correct": 1,
+    "why": "Право голосовать в риксдаг требует шведского гражданства, а право на объединения и демонстрации распространяется на всех проживающих в стране."
+  },
+  {
+    "id": "c5-15",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "En person går genom en skog som ägs av någon annan och plockar blåbär och kantareller på vägen. Vad gäller enligt allemansrätten?",
+      "o": [
+        "Det är förbjudet utan markägarens tillstånd",
+        "Det är bara tillåtet om personen är svensk medborgare",
+        "Det är tillåtet så länge personen inte skadar naturen eller stör markägaren",
+        "Det är bara tillåtet i statligt ägd skog"
+      ]
+    },
+    "ru": {
+      "q": "Человек идёт через лес, принадлежащий другому владельцу, и по пути собирает чернику и лисички. Что действует по allemansrätten?",
+      "o": [
+        "Это запрещено без разрешения землевладельца",
+        "Это разрешено только гражданам Швеции",
+        "Это разрешено, пока человек не вредит природе и не мешает землевладельцу",
+        "Это разрешено только в государственных лесах"
+      ]
+    },
+    "correct": 2,
+    "why": "Allemansrätten разрешает собирать ягоды, грибы и цветы на чужой земле независимо от того, кто владелец, если не наносить вред."
+  },
+  {
+    "id": "c5-16",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "En vandrare tar en genväg rakt över en bondes nysådda åker för att komma fram snabbare. Är det tillåtet enligt allemansrätten?",
+      "o": [
+        "Nej, det är inte tillåtet att gå på bondens åkrar",
+        "Ja, allemansrätten tillåter det på all mark",
+        "Ja, men bara på hösten",
+        "Ja, om vandraren går tyst"
+      ]
+    },
+    "ru": {
+      "q": "Турист срезает путь прямо через свежезасеянное поле фермера, чтобы быстрее добраться до цели. Разрешено ли это по allemansrätten?",
+      "o": [
+        "Нет, ходить по полям фермера не разрешено",
+        "Да, allemansrätten разрешает это на любой земле",
+        "Да, но только осенью",
+        "Да, если турист идёт тихо"
+      ]
+    },
+    "correct": 0,
+    "why": "Allemansrätten не разрешает ходить по возделанным полям, заходить в чужой сад или мусорить — это ограничения, защищающие интересы землевладельца."
+  },
+  {
+    "id": "c5-17",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "Vad gäller enligt allemansrätten för vissa ovanliga växter i naturen?",
+      "o": [
+        "De får plockas fritt av vem som helst",
+        "De får bara plockas av markägaren",
+        "De får plockas om de säljs vidare till ett museum",
+        "De är skyddade av lagen och får inte plockas"
+      ]
+    },
+    "ru": {
+      "q": "Что действует по allemansrätten в отношении некоторых редких растений в природе?",
+      "o": [
+        "Их может свободно собирать кто угодно",
+        "Их может собирать только землевладелец",
+        "Их можно собирать, если потом передать в музей",
+        "Они охраняются законом, и их нельзя собирать"
+      ]
+    },
+    "correct": 3,
+    "why": "Некоторые редкие растения защищены отдельно, и на них не распространяется общее право собирать цветы по allemansrätten."
+  },
+  {
+    "id": "c5-18",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 16",
+    "sv": {
+      "q": "Vilken typ av information är förbjuden att sprida, trots tryck- och yttrandefriheten?",
+      "o": [
+        "Kritik mot regeringens politik",
+        "Information som kan skada Sveriges säkerhet, till exempel försvarshemligheter",
+        "Insändare med politiska åsikter",
+        "Recensioner av myndigheters arbete"
+      ]
+    },
+    "ru": {
+      "q": "Какую информацию запрещено распространять, несмотря на свободу печати и слова?",
+      "o": [
+        "Критику политики правительства",
+        "Информацию, которая может навредить безопасности Швеции, например тайны обороны",
+        "Письма читателей с политическим мнением",
+        "Отзывы о работе ведомств"
+      ]
+    },
+    "correct": 1,
+    "why": "Свобода печати и слова защищает критику власти и политические мнения. Запрещено то, что вредит национальной безопасности, например военные тайны."
+  },
+  {
+    "id": "c5-19",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "Vilken myndighet tar hand om personer som har utsatts för brott?",
+      "o": [
+        "Kriminalvården",
+        "Åklagarmyndigheten",
+        "Brottsoffermyndigheten",
+        "Diskrimineringsombudsmannen"
+      ]
+    },
+    "ru": {
+      "q": "Какое ведомство занимается людьми, пострадавшими от преступлений?",
+      "o": [
+        "Служба исполнения наказаний (Kriminalvården)",
+        "Прокуратура",
+        "Ведомство по делам жертв преступлений (Brottsoffermyndigheten)",
+        "Омбудсмен по вопросам дискриминации"
+      ]
+    },
+    "correct": 2,
+    "why": "Kriminalvården отвечает за осуждённых и тюрьмы, а Brottsoffermyndigheten — именно за пострадавших от преступлений."
+  },
+  {
+    "id": "c5-20",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "Vad ansvarar Kriminalvården för?",
+      "o": [
+        "Att utreda brott på brottsplatsen",
+        "Att besluta om åtal ska väckas",
+        "Att stödja personer som utsatts för brott",
+        "Fängelser och att dömda personer avtjänar sina straff"
+      ]
+    },
+    "ru": {
+      "q": "За что отвечает Kriminalvården (служба исполнения наказаний)?",
+      "o": [
+        "За расследование преступлений на месте преступления",
+        "За решение о предъявлении обвинения",
+        "За поддержку пострадавших от преступлений",
+        "За тюрьмы и отбывание наказания осуждёнными"
+      ]
+    },
+    "correct": 3,
+    "why": "Расследование на месте — задача полиции, решение об обвинении — прокурора, поддержка пострадавших — Brottsoffermyndigheten. Kriminalvården отвечает именно за исполнение наказания."
+  },
+  {
+    "id": "c5-21",
+    "ch": 5,
+    "kind": "förståelse",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "Vad innebär det att svenska domstolar är oberoende?",
+      "o": [
+        "Domstolarna behöver inte följa lagen",
+        "Regeringen eller riksdagen kan inte bestämma hur en domstol ska döma i ett enskilt fall",
+        "Domare väljs fritt av allmänheten i varje mål",
+        "Domstolarna finansieras helt av privata företag"
+      ]
+    },
+    "ru": {
+      "q": "Что означает независимость шведских судов?",
+      "o": [
+        "Суды не обязаны следовать закону",
+        "Правительство или риксдаг не могут указывать суду, как решить конкретное дело",
+        "Судей свободно выбирают граждане в каждом деле",
+        "Суды полностью финансируются частными компаниями"
+      ]
+    },
+    "correct": 1,
+    "why": "Независимость судов — ключевая часть rättssäkerhet: политическая власть не может влиять на конкретный приговор, хотя суды, конечно, обязаны следовать закону."
+  },
+  {
+    "id": "c5-22",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 17",
+    "sv": {
+      "q": "Vilka två rättigheter ingår i rättssäkerheten enligt kapitlet om lag och rätt?",
+      "o": [
+        "Rätt att välja sin egen domare och rätt till gratis böter",
+        "Rätt att slippa rättegång och rätt till skadestånd",
+        "Rätt att försvara sig med en advokat och rätt att överklaga en dom",
+        "Rätt att döma sig själv och rätt till amnesti"
+      ]
+    },
+    "ru": {
+      "q": "Какие два права входят в понятие rättssäkerhet (правовая защищённость)?",
+      "o": [
+        "Право выбирать своего судью и право на бесплатный штраф",
+        "Право избежать суда и право на компенсацию",
+        "Право на защиту адвоката и право обжаловать приговор",
+        "Право самому вынести себе приговор и право на амнистию"
+      ]
+    },
+    "correct": 2,
+    "why": "Rättssäkerhet включает право на адвоката и право на обжалование — это гарантирует, что решение можно перепроверить."
+  },
+  {
+    "id": "c5-23",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vad gör hovrätten?",
+      "o": [
+        "Är den domstol där brottmål alltid börjar",
+        "Prövar fall som har överklagats från tingsrätten",
+        "Prövar bara mål som rör grundlagarna",
+        "Beslutar om åtal ska väckas"
+      ]
+    },
+    "ru": {
+      "q": "Чем занимается hovrätten (апелляционный суд)?",
+      "o": [
+        "Является судом, где всегда начинаются уголовные дела",
+        "Пересматривает дела, обжалованные из tingsrätten",
+        "Рассматривает только дела о нарушении основных законов",
+        "Решает, предъявлять ли обвинение"
+      ]
+    },
+    "correct": 1,
+    "why": "Дела начинаются в tingsrätten, а hovrätten — вторая инстанция, куда обращаются при обжаловании."
+  },
+  {
+    "id": "c5-24",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vilka mål prövar Högsta domstolen (HD)?",
+      "o": [
+        "Alla mål som någon vill överklaga",
+        "Bara mål som rör utländska medborgare",
+        "Bara mål som gäller allemansrätten",
+        "Bara vissa viktiga fall som redan har gått igenom tingsrätt och hovrätt"
+      ]
+    },
+    "ru": {
+      "q": "Какие дела рассматривает Верховный суд (Högsta domstolen, HD)?",
+      "o": [
+        "Все дела, которые кто-то хочет обжаловать",
+        "Только дела, касающиеся иностранных граждан",
+        "Только дела об allemansrätten",
+        "Только некоторые важные дела, которые уже прошли tingsrätt и hovrätt"
+      ]
+    },
+    "correct": 3,
+    "why": "HD — не автоматическая третья инстанция для всех: он выбирает только отдельные принципиально важные дела, уже прошедшие первые две инстанции."
+  },
+  {
+    "id": "c5-25",
+    "ch": 5,
+    "kind": "förståelse",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Förutom brottmål, vilken typ av mål kan tingsrätten också hantera, till exempel när föräldrar är oense om var ett barn ska bo?",
+      "o": [
+        "Tvistemål",
+        "Förvaltningsmål om skatt",
+        "EU-mål",
+        "Grundlagsmål"
+      ]
+    },
+    "ru": {
+      "q": "Помимо уголовных дел, какой тип дел также рассматривает tingsrätten, например когда родители не могут договориться, где будет жить ребёнок?",
+      "o": [
+        "Гражданские споры (tvistemål)",
+        "Административные дела о налогах",
+        "Дела ЕС",
+        "Дела о нарушении основных законов"
+      ]
+    },
+    "correct": 0,
+    "why": "Vårdnadstvister между родителями относятся к tvistemål — гражданским спорам, которые тоже рассматривает tingsrätten, не только уголовные дела."
+  },
+  {
+    "id": "c5-26",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Hur ska en person som är misstänkt för ett brott betraktas innan en dom har fallit?",
+      "o": [
+        "Som skyldig tills motsatsen bevisas",
+        "Som skyldig om åklagaren väckt åtal",
+        "Som oskyldig",
+        "Det beror på brottets allvar"
+      ]
+    },
+    "ru": {
+      "q": "Как должен рассматриваться человек, подозреваемый в преступлении, до вынесения приговора?",
+      "o": [
+        "Как виновный, пока не доказано обратное",
+        "Как виновный, если прокурор предъявил обвинение",
+        "Как невиновный",
+        "Это зависит от тяжести преступления"
+      ]
+    },
+    "correct": 2,
+    "why": "Презумпция невиновности означает: подозреваемого считают невиновным, пока суд не вынес обвинительный приговор — независимо от того, что говорит прокурор."
+  },
+  {
+    "id": "c5-27",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vad är polisens huvudsakliga uppgift enligt kapitlet?",
+      "o": [
+        "Att döma i brottmål",
+        "Att upprätthålla lag och ordning samt förebygga och utreda brott",
+        "Att besluta om påföljder som fängelse",
+        "Att representera den åtalade i domstol"
+      ]
+    },
+    "ru": {
+      "q": "Какова главная задача полиции согласно главе?",
+      "o": [
+        "Выносить приговоры по уголовным делам",
+        "Поддерживать правопорядок, предупреждать и расследовать преступления",
+        "Назначать наказания, например тюремное заключение",
+        "Представлять обвиняемого в суде"
+      ]
+    },
+    "correct": 1,
+    "why": "Выносят приговор и назначают наказание суды, а полиция отвечает за порядок, профилактику и расследование."
+  },
+  {
+    "id": "c5-28",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vilken myndighet utfärdar pass och nationella id-kort till svenska medborgare?",
+      "o": [
+        "Polisen",
+        "Skatteverket",
+        "Migrationsverket",
+        "Domstolsverket"
+      ]
+    },
+    "ru": {
+      "q": "Какое ведомство выдаёт паспорта и национальные удостоверения личности гражданам Швеции?",
+      "o": [
+        "Полиция",
+        "Налоговое ведомство (Skatteverket)",
+        "Миграционное ведомство (Migrationsverket)",
+        "Ведомство судов"
+      ]
+    },
+    "correct": 0,
+    "why": "Паспорта и национальные ID-карты для граждан Швеции выдаёт именно полиция, а не налоговое или миграционное ведомство."
+  },
+  {
+    "id": "c5-29",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "En grupp vill ordna en demonstration på ett offentligt torg. Vem beslutar om tillstånd för det?",
+      "o": [
+        "Kommunfullmäktige",
+        "Åklagarmyndigheten",
+        "Tingsrätten",
+        "Polisen"
+      ]
+    },
+    "ru": {
+      "q": "Группа хочет провести демонстрацию на городской площади. Кто решает вопрос о разрешении?",
+      "o": [
+        "Городской совет (kommunfullmäktige)",
+        "Прокуратура",
+        "Суд первой инстанции",
+        "Полиция"
+      ]
+    },
+    "correct": 3,
+    "why": "Полиция не только расследует преступления, но и выдаёт разрешения, например на демонстрации."
+  },
+  {
+    "id": "c5-30",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vad är det första steget i en brottsutredning enligt kapitlet?",
+      "o": [
+        "Häktning",
+        "Polisanmälan",
+        "Rättegång",
+        "Förundersökning"
+      ]
+    },
+    "ru": {
+      "q": "Какой первый шаг в расследовании преступления согласно главе?",
+      "o": [
+        "Заключение под стражу (häktning)",
+        "Заявление в полицию (polisanmälan)",
+        "Судебное заседание",
+        "Предварительное следствие"
+      ]
+    },
+    "correct": 1,
+    "why": "Процесс начинается с того, что пострадавший заявляет о преступлении в полицию — только после этого возможны допросы, следствие и задержание."
+  },
+  {
+    "id": "c5-31",
+    "ch": 5,
+    "kind": "förståelse",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vad är skillnaden mellan förhör och förundersökning i en brottsutredning?",
+      "o": [
+        "Förhör handlar om att ta reda på mer om vad som hänt, medan förundersökningen samlar bevis och pratar med vittnen mer omfattande",
+        "Förhör och förundersökning är samma sak med olika namn",
+        "Förundersökning sker bara i domstol, förhör bara hos polisen",
+        "Förhör görs av domaren, förundersökning av åklagaren"
+      ]
+    },
+    "ru": {
+      "q": "В чём разница между förhör (допрос) и förundersökning (предварительное следствие) в расследовании преступления?",
+      "o": [
+        "Förhör — это выяснение произошедшего, а förundersökning — более широкий сбор доказательств и опрос свидетелей",
+        "Förhör и förundersökning — одно и то же под разными названиями",
+        "Förundersökning проходит только в суде, а förhör — только в полиции",
+        "Förhör проводит судья, а förundersökning — прокурор"
+      ]
+    },
+    "correct": 0,
+    "why": "Это два последовательных этапа: сначала полиция выясняет обстоятельства (förhör), затем идёт более широкое следствие со сбором улик и опросом свидетелей (förundersökning)."
+  },
+  {
+    "id": "c5-32",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Polisen har starka misstankar mot en person och griper hen. Vem kan sedan besluta att personen ska anhållas?",
+      "o": [
+        "En nämndeman",
+        "Kommunfullmäktige",
+        "En åklagare",
+        "Justitieombudsmannen"
+      ]
+    },
+    "ru": {
+      "q": "У полиции есть серьёзные подозрения против человека, и его задерживают. Кто затем может принять решение о заключении под стражу (anhållan)?",
+      "o": [
+        "Народный заседатель",
+        "Городской совет",
+        "Прокурор",
+        "Омбудсмен юстиции (JO)"
+      ]
+    },
+    "correct": 2,
+    "why": "После задержания полицией именно прокурор (не судья и не нямндеман) принимает решение об anhållan; более длительное содержание под стражей (häktning) уже решает суд."
+  },
+  {
+    "id": "c5-33",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 18",
+    "sv": {
+      "q": "Vem beslutar om en misstänkt person ska häktas, det vill säga hållas inlåst under en längre tid?",
+      "o": [
+        "En åklagare",
+        "En domstol",
+        "Polisen",
+        "Kriminalvården"
+      ]
+    },
+    "ru": {
+      "q": "Кто принимает решение о häktning — содержании подозреваемого под стражей более длительное время?",
+      "o": [
+        "Прокурор",
+        "Суд",
+        "Полиция",
+        "Служба исполнения наказаний"
+      ]
+    },
+    "correct": 1,
+    "why": "Anhållan (до 72 часов) решает прокурор, а häktning на более долгий срок требует именно решения суда."
+  },
+  {
+    "id": "c5-34",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Vad försöker åklagaren göra under en rättegång?",
+      "o": [
+        "Bevisa att den åtalade är skyldig till brottet",
+        "Försvara den åtalade mot anklagelserna",
+        "Bestämma vilken påföljd som ska ges",
+        "Representera brottsoffret i civilmål"
+      ]
+    },
+    "ru": {
+      "q": "Что пытается сделать прокурор во время судебного заседания?",
+      "o": [
+        "Доказать, что обвиняемый виновен в преступлении",
+        "Защищать обвиняемого от обвинений",
+        "Определить, какое наказание назначить",
+        "Представлять интересы жертвы в гражданском деле"
+      ]
+    },
+    "correct": 0,
+    "why": "Защита обвиняемого — задача адвоката, а наказание определяет судья; прокурор со своей стороны доказывает вину."
+  },
+  {
+    "id": "c5-35",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Vad har en åtalad person rätt att göra med hjälp av sin försvarsadvokat?",
+      "o": [
+        "Välja vilken domare som ska döma i målet",
+        "Bestämma vilken påföljd som är rimlig",
+        "Avbryta rättegången utan anledning",
+        "Ifrågasätta åklagarens bevis och lägga fram egna bevis"
+      ]
+    },
+    "ru": {
+      "q": "Что имеет право делать обвиняемый с помощью своего адвоката защиты?",
+      "o": [
+        "Выбирать, какой судья будет вести дело",
+        "Определять подходящее наказание",
+        "Прерывать судебное заседание без причины",
+        "Оспаривать доказательства прокурора и представлять собственные"
+      ]
+    },
+    "correct": 3,
+    "why": "Право на защиту включает возможность оспаривать доказательства обвинения и представлять свои — это часть rättssäkerhet."
+  },
+  {
+    "id": "c5-36",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Domstolen kommer fram till att den åtalade personen inte kan bevisas ha begått brottet. Vad händer då?",
+      "o": [
+        "Personen döms automatiskt till böter",
+        "Personen frikänns",
+        "Målet skickas direkt till Högsta domstolen",
+        "Personen registreras ändå i belastningsregistret"
+      ]
+    },
+    "ru": {
+      "q": "Суд приходит к выводу, что вину обвиняемого доказать не удалось. Что происходит в этом случае?",
+      "o": [
+        "Человека автоматически приговаривают к штрафу",
+        "Человека оправдывают",
+        "Дело сразу направляется в Верховный суд",
+        "Человека всё равно вносят в реестр судимостей"
+      ]
+    },
+    "correct": 1,
+    "why": "Если вина не доказана, суд выносит оправдательный приговор (frikänns) — никаких автоматических наказаний или записей в реестре не происходит."
+  },
+  {
+    "id": "c5-37",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Ett barn som är 12 år gammalt gör något brottsligt. Vem bestämmer vad som ska hända med barnet?",
+      "o": [
+        "Åklagarmyndigheten",
+        "Tingsrätten",
+        "Socialtjänsten",
+        "Kriminalvården"
+      ]
+    },
+    "ru": {
+      "q": "12-летний ребёнок совершает что-то противозаконное. Кто решает, что будет дальше с ребёнком?",
+      "o": [
+        "Прокуратура",
+        "Суд первой инстанции",
+        "Социальная служба (Socialtjänsten)",
+        "Служба исполнения наказаний"
+      ]
+    },
+    "correct": 2,
+    "why": "Ребёнок младше 15 лет не является straffmyndig, поэтому его делом занимается не суд или прокуратура, а социальная служба."
+  },
+  {
+    "id": "c5-38",
+    "ch": 5,
+    "kind": "fakta",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Vad har den svenska regeringen under 2026 lämnat ett förslag om, gällande straffmyndighetsåldern?",
+      "o": [
+        "Att sänka den till 13 år vid allvarliga brott",
+        "Att höja den till 18 år",
+        "Att avskaffa straffmyndighet helt",
+        "Att sänka den till 10 år för alla brott"
+      ]
+    },
+    "ru": {
+      "q": "О чём внесло предложение правительство Швеции в 2026 году в отношении возраста уголовной ответственности?",
+      "o": [
+        "Снизить его до 13 лет при тяжких преступлениях",
+        "Повысить его до 18 лет",
+        "Полностью отменить уголовную ответственность несовершеннолетних",
+        "Снизить его до 10 лет для всех преступлений"
+      ]
+    },
+    "correct": 0,
+    "why": "Предложение касается только тяжких преступлений и возраста 13 лет — это ещё не принятый закон, а именно предложение 2026 года."
+  },
+  {
+    "id": "c5-39",
+    "ch": 5,
+    "kind": "förståelse",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Vad kan en registrering i belastningsregistret försvåra för en person?",
+      "o": [
+        "Att rösta i kommunval",
+        "Att få jobb, körkort eller medborgarskap",
+        "Att teckna ett hyreskontrakt",
+        "Att gå med i ett fackförbund"
+      ]
+    },
+    "ru": {
+      "q": "Что может усложнить человеку регистрация в реестре судимостей (belastningsregister)?",
+      "o": [
+        "Голосование на муниципальных выборах",
+        "Получение работы, водительских прав или гражданства",
+        "Заключение договора аренды",
+        "Вступление в профсоюз"
+      ]
+    },
+    "correct": 1,
+    "why": "Belastningsregister напрямую влияет именно на такие решения, как трудоустройство, получение прав и гражданства — это прямо указано в главе."
+  },
+  {
+    "id": "c5-40",
+    "ch": 5,
+    "kind": "situation",
+    "ref": "Lag och rätt, s. 19",
+    "sv": {
+      "q": "Efter att åklagaren och försvarsadvokaten har lagt fram sina argument i tingsrätten, vem avgör om den åtalade är skyldig och vilken påföljd som ska ges?",
+      "o": [
+        "Åklagaren ensam",
+        "Försvarsadvokaten ensam",
+        "Domaren, tillsammans med nämndemännen",
+        "Polisen som utredde brottet"
+      ]
+    },
+    "ru": {
+      "q": "После того как прокурор и адвокат защиты представили свои аргументы в tingsrätten, кто решает, виновен ли обвиняемый и какое наказание назначить?",
+      "o": [
+        "Только прокурор",
+        "Только адвокат защиты",
+        "Судья вместе с народными заседателями (nämndemän)",
+        "Полиция, которая расследовала дело"
+      ]
+    },
+    "correct": 2,
+    "why": "Ни прокурор, ни адвокат, ни полиция не выносят приговор — это делает судья, а в tingsrätten ему помогают народные заседатели."
+  },
+  {
+    "id": "c6-01",
+    "ch": 6,
+    "kind": "fakta",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "Vad innebär offentlighetsprincipen?",
+      "o": [
+        "Att staten bestämmer vad medierna får publicera",
+        "Att allmänna handlingar från myndigheter är offentliga om de inte är hemliga",
+        "Att alla tidningar får statligt stöd",
+        "Att journalister måste uppge sina källor"
+      ]
+    },
+    "ru": {
+      "q": "Что означает принцип публичности (offentlighetsprincipen)?",
+      "o": [
+        "Что государство решает, что СМИ вправе публиковать",
+        "Что официальные документы ведомств являются открытыми, если они не засекречены",
+        "Что все газеты получают государственную поддержку",
+        "Что журналисты обязаны раскрывать свои источники"
+      ]
+    },
+    "correct": 1,
+    "why": "Благодаря этому журналисты могут запрашивать письма и документы ведомств, чтобы проверить, как принимались решения."
+  },
+  {
+    "id": "c6-02",
+    "ch": 6,
+    "kind": "situation",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "En anställd lämnar uppgifter om missförhållanden till en tidning. Vad gäller?",
+      "o": [
+        "Personen kan straffas för att ha lämnat uppgifterna",
+        "Personen har rätt att lämna uppgifterna utan att straffas och har rätt att vara anonym",
+        "Personen måste först få tillstånd av sin arbetsgivare",
+        "Personen måste uppge sitt namn i artikeln"
+      ]
+    },
+    "ru": {
+      "q": "Сотрудник передаёт газете сведения о нарушениях. Что действует?",
+      "o": [
+        "Человека можно наказать за передачу сведений",
+        "Человек имеет право передать сведения без наказания и имеет право остаться анонимным",
+        "Человек должен сначала получить разрешение работодателя",
+        "Человек обязан указать своё имя в статье"
+      ]
+    },
+    "correct": 1,
+    "why": "Это meddelarskydd — защита информатора и право на анонимность."
+  },
+  {
+    "id": "c6-03",
+    "ch": 6,
+    "kind": "fakta",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "Vilka tre medieföretag utgör public service i Sverige?",
+      "o": [
+        "SVT, TV4 och SR",
+        "SR, SVT och UR",
+        "SVT, UR och Bonnier",
+        "SR, TV4 och UR"
+      ]
+    },
+    "ru": {
+      "q": "Какие три медиакомпании составляют public service в Швеции?",
+      "o": [
+        "SVT, TV4 и SR",
+        "SR, SVT и UR",
+        "SVT, UR и Bonnier",
+        "SR, TV4 и UR"
+      ]
+    },
+    "correct": 1,
+    "why": "Sveriges Radio, Sveriges Television и Utbildningsradion. TV4 — коммерческий канал."
+  },
+  {
+    "id": "c6-04",
+    "ch": 6,
+    "kind": "fakta",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "Hur finansieras public service-företagen i Sverige?",
+      "o": [
+        "Genom reklam",
+        "Genom en avgift som tas ut via skatten",
+        "Genom prenumerationer från tittarna",
+        "Genom bidrag från politiska partier"
+      ]
+    },
+    "ru": {
+      "q": "Как финансируются компании public service в Швеции?",
+      "o": [
+        "За счёт рекламы",
+        "За счёт сбора, который взимается через налог",
+        "За счёт подписки зрителей",
+        "За счёт взносов политических партий"
+      ]
+    },
+    "correct": 1,
+    "why": "Им нельзя зарабатывать на рекламе. Цель — чтобы у всех был доступ к объективной информации независимо от места жительства и доходов."
+  },
+  {
+    "id": "c6-05",
+    "ch": 6,
+    "kind": "fakta",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "Vem är juridiskt ansvarig för vad som publiceras i en tidning eller i tv?",
+      "o": [
+        "Journalisten som skrivit texten",
+        "Den ansvarige utgivaren",
+        "Läsaren som sprider texten vidare",
+        "Regeringen"
+      ]
+    },
+    "ru": {
+      "q": "Кто несёт юридическую ответственность за то, что публикуется в газете или на телевидении?",
+      "o": [
+        "Журналист, написавший текст",
+        "Ответственный издатель (ansvarig utgivare)",
+        "Читатель, который распространяет текст дальше",
+        "Правительство"
+      ]
+    },
+    "correct": 1,
+    "why": "Ответственный издатель обязан соблюдать законы, защищающие от клеветы и оскорблений."
+  },
+  {
+    "id": "c6-06",
+    "ch": 6,
+    "kind": "situation",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "En person läser en uppseendeväckande nyhet i ett socialt medium. Vad innebär det att vara källkritisk?",
+      "o": [
+        "Att alltid tro på det som flest personer delar",
+        "Att ifrågasätta och kontrollera om det man läser är korrekt",
+        "Att bara läsa nyheter från utländska medier",
+        "Att undvika att läsa nyheter helt"
+      ]
+    },
+    "ru": {
+      "q": "Человек читает сенсационную новость в социальной сети. Что означает быть källkritisk?",
+      "o": [
+        "Всегда верить тому, чем делится больше всего людей",
+        "Подвергать сомнению и проверять, верно ли то, что читаешь",
+        "Читать новости только из зарубежных СМИ",
+        "Полностью избегать чтения новостей"
+      ]
+    },
+    "correct": 1,
+    "why": "В соцсетях контент может создавать кто угодно, и он не проверяется так, как в других медиа."
+  },
+  {
+    "id": "c7-01",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 22",
+    "sv": {
+      "q": "Vilket år presenterade FN förklaringen om de mänskliga rättigheterna?",
+      "o": [
+        "1945",
+        "1948",
+        "1951",
+        "1979"
+      ]
+    },
+    "ru": {
+      "q": "В каком году ООН представила Всеобщую декларацию прав человека?",
+      "o": [
+        "1945",
+        "1948",
+        "1951",
+        "1979"
+      ]
+    },
+    "correct": 1,
+    "why": "ООН основана в 1945 году 51 страной, декларация принята в 1948 году и содержит 30 статей."
+  },
+  {
+    "id": "c7-02",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 22",
+    "sv": {
+      "q": "Vad förbjuder diskrimineringslagen i Sverige?",
+      "o": [
+        "Att kritisera regeringen",
+        "Att behandla människor sämre på grund av bland annat kön, ålder, etnicitet, religion, sexuell läggning eller funktionsnedsättning",
+        "Att bilda politiska partier",
+        "Att arbeta utan kollektivavtal"
+      ]
+    },
+    "ru": {
+      "q": "Что запрещает шведский закон о недискриминации?",
+      "o": [
+        "Критиковать правительство",
+        "Обращаться с людьми хуже по признаку пола, возраста, этнической принадлежности, религии, сексуальной ориентации или инвалидности",
+        "Создавать политические партии",
+        "Работать без коллективного договора"
+      ]
+    },
+    "correct": 1,
+    "why": "За соблюдением следит Diskrimineringsombudsmannen (DO)."
+  },
+  {
+    "id": "c7-03",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Vad innebär den svenska samtyckeslagen?",
+      "o": [
+        "Att sex utanför äktenskapet är förbjudet",
+        "Att den som vill ha sex måste försäkra sig om att den andra personen deltar frivilligt",
+        "Att båda personerna måste vara över 18 år",
+        "Att sexuella relationer måste registreras"
+      ]
+    },
+    "ru": {
+      "q": "Что означает шведский закон о согласии (samtyckeslagen)?",
+      "o": [
+        "Что секс вне брака запрещён",
+        "Что тот, кто хочет вступить в половую связь, обязан убедиться, что другой участвует добровольно",
+        "Что оба человека должны быть старше 18 лет",
+        "Что интимные отношения нужно регистрировать"
+      ]
+    },
+    "correct": 1,
+    "why": "Это правило действует и в браке."
+  },
+  {
+    "id": "c7-04",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 24",
+    "sv": {
+      "q": "Vad gäller enligt den svenska sexköpslagen?",
+      "o": [
+        "Både köparen och säljaren straffas",
+        "Köparen kan straffas men inte säljaren",
+        "Säljaren kan straffas men inte köparen",
+        "Ingen av dem straffas"
+      ]
+    },
+    "ru": {
+      "q": "Что действует по шведскому закону о покупке сексуальных услуг?",
+      "o": [
+        "Наказываются и покупатель, и продавец",
+        "Покупателя можно наказать, а продавца — нет",
+        "Продавца можно наказать, а покупателя — нет",
+        "Не наказывают никого"
+      ]
+    },
+    "correct": 1,
+    "why": "Наказание направлено на покупателя, чтобы обозначить: использовать человека сексуально за плату неприемлемо."
+  },
+  {
+    "id": "c7-05",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 24",
+    "sv": {
+      "q": "Sedan vilket år är FN:s barnkonvention lag i Sverige?",
+      "o": [
+        "1979",
+        "2000",
+        "2009",
+        "2020"
+      ]
+    },
+    "ru": {
+      "q": "С какого года Конвенция ООН о правах ребёнка является законом в Швеции?",
+      "o": [
+        "1979",
+        "2000",
+        "2009",
+        "2020"
+      ]
+    },
+    "correct": 3,
+    "why": "1979 — год запрета телесных наказаний детей; 2000 — признание национальных меньшинств; 2020 — barnkonventionen становится законом."
+  },
+  {
+    "id": "c7-06",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vilket år erkände Sverige sina nationella minoriteter?",
+      "o": [
+        "1951",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "ru": {
+      "q": "В каком году Швеция признала свои национальные меньшинства?",
+      "o": [
+        "1951",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "correct": 2,
+    "why": "В 2000 году признаны евреи, ромы, саамы, шведские финны и торнедальцы."
+  },
+  {
+    "id": "c7-07",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vilket av dessa är inte ett nationellt minoritetsspråk i Sverige?",
+      "o": [
+        "Meänkieli",
+        "Jiddisch",
+        "Romani chib",
+        "Estniska"
+      ]
+    },
+    "ru": {
+      "q": "Какой из перечисленных языков не является национальным языком меньшинства в Швеции?",
+      "o": [
+        "Меянкиели",
+        "Идиш",
+        "Романи чиб",
+        "Эстонский"
+      ]
+    },
+    "correct": 3,
+    "why": "Пять языков: jiddisch, romani chib, samiska, finska, meänkieli."
+  },
+  {
+    "id": "c7-08",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vad är Sametinget?",
+      "o": [
+        "En domstol för mark- och renskötselfrågor",
+        "Ett folkvalt parlament som representerar den samiska befolkningen",
+        "En avdelning inom Migrationsverket",
+        "En förening för renskötare i Norrbotten"
+      ]
+    },
+    "ru": {
+      "q": "Что такое Sametinget?",
+      "o": [
+        "Суд по вопросам земли и оленеводства",
+        "Избираемый народом парламент, представляющий саамское население",
+        "Отдел внутри Миграционного управления",
+        "Объединение оленеводов в Норрботтене"
+      ]
+    },
+    "correct": 1,
+    "why": "Совещательный орган по вопросам языка, культуры и идентичности, у которого есть и некоторые административные функции."
+  },
+  {
+    "id": "c7-09",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Vilket år blev det lagligt att vara homosexuell i Sverige?",
+      "o": [
+        "1944",
+        "1979",
+        "2003",
+        "2009"
+      ]
+    },
+    "ru": {
+      "q": "В каком году в Швеции гомосексуальность перестала быть незаконной?",
+      "o": [
+        "1944",
+        "1979",
+        "2003",
+        "2009"
+      ]
+    },
+    "correct": 0,
+    "why": "1944 — легализация; 2003 — право однополых пар усыновлять; 2009 — Шведская церковь разрешила венчание."
+  },
+  {
+    "id": "c7-10",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "En person misshandlas på grund av sin religiösa tillhörighet. Vad kallas det och vad innebär det för straffet?",
+      "o": [
+        "Förtal, och straffet blir lindrigare",
+        "Hatbrott, och gärningspersonen får ett strängare straff",
+        "Diskriminering, och saken avgörs av DO i stället för domstol",
+        "Hets mot folkgrupp, och endast böter kan utdömas"
+      ]
+    },
+    "ru": {
+      "q": "Человека избивают из-за его религиозной принадлежности. Как это называется и что это значит для наказания?",
+      "o": [
+        "Клевета, и наказание будет мягче",
+        "Преступление на почве ненависти (hatbrott), и виновный получает более строгое наказание",
+        "Дискриминация, и дело решает DO вместо суда",
+        "Разжигание ненависти к группе, и назначается только штраф"
+      ]
+    },
+    "correct": 1,
+    "why": "Мотив ненависти является отягчающим обстоятельством."
+  }
 ]
