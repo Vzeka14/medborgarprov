@@ -247,7 +247,7 @@ function Exam({ exam, code, answers, setAnswers, at, setAt, left, timed, onFinis
                 <span className="opt-key">{LETTER[i]}</span>
                 <span className="opt-body">
                   {text}
-                  {showRu && <span className="opt-ru">{q.ru.o[i]}</span>}
+                  {showRu && q.ru.o[i] !== text && <span className="opt-ru">{q.ru.o[i]}</span>}
                 </span>
               </button>
             </li>
@@ -363,7 +363,7 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
                     <span className="opt-key">{LETTER[k]}</span>
                     <span className="opt-body">
                       {text}
-                      {showRu && <span className="opt-ru">{q.ru.o[k]}</span>}
+                      {showRu && q.ru.o[k] !== text && <span className="opt-ru">{q.ru.o[k]}</span>}
                     </span>
                   </div>
                 </li>
