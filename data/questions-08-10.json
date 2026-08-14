@@ -1,27 +1,1380 @@
 [
-{"id":"c8-01","ch":8,"kind":"fakta","ref":"Arbetsmarknad och privatekonomi, s. 27","sv":{"q":"Ungefär hur stor andel av alla som arbetar i Sverige arbetar inom den privata sektorn?","o":["Cirka 30 procent","Cirka 50 procent","Cirka 70 procent","Cirka 90 procent"]},"ru":{"q":"Примерно какая доля работающих в Швеции занята в частном секторе?","o":["Около 30 процентов","Около 50 процентов","Около 70 процентов","Около 90 процентов"]},"correct":2,"why":"Около 70 % — частный сектор, около 30 % — государственный, который финансируется налогами."},
-{"id":"c8-02","ch":8,"kind":"fakta","ref":"Arbetsmarknad och privatekonomi, s. 27","sv":{"q":"Vilket av dessa yrken hör till den offentliga sektorn?","o":["Butiksbiträde","Brandman","Lastbilschaufför på ett privat åkeri","Restaurangkock på en privat restaurang"]},"ru":{"q":"Какая из этих профессий относится к государственному сектору?","o":["Продавец в магазине","Пожарный","Водитель грузовика в частной транспортной фирме","Повар в частном ресторане"]},"correct":1,"why":"Государственный сектор — это деятельность государства, регионов и коммун: медперсонал, учителя, воспитатели, полиция, пожарные."},
-{"id":"c8-03","ch":8,"kind":"fakta","ref":"Arbetsmarknad och privatekonomi, s. 28","sv":{"q":"Vilken av dessa är en facklig centralorganisation?","o":["Svenskt näringsliv","SKR","LO","Arbetsgivarverket"]},"ru":{"q":"Какая из перечисленных организаций является профсоюзным центром?","o":["Svenskt näringsliv","SKR","LO","Arbetsgivarverket"]},"correct":2,"why":"Профсоюзные центры — LO, TCO, SACO. Остальные три представляют работодателей."},
-{"id":"c8-04","ch":8,"kind":"förståelse","ref":"Arbetsmarknad och privatekonomi, s. 28","sv":{"q":"Vem bestämmer lönerna i Sverige?","o":["Riksdagen genom lag","Regeringen genom förordning","Arbetsmarknadens parter genom förhandlingar och kollektivavtal","Kommunfullmäktige i varje kommun"]},"ru":{"q":"Кто устанавливает уровень зарплат в Швеции?","o":["Риксдаг через закон","Правительство через постановление","Стороны рынка труда путём переговоров и коллективных договоров","Kommunfullmäktige в каждой коммуне"]},"correct":2,"why":"Зарплаты определяются переговорами профсоюзов и работодателей, а не государством. В Швеции нет установленной законом минимальной зарплаты."},
-{"id":"c8-05","ch":8,"kind":"situation","ref":"Arbetsmarknad och privatekonomi, s. 29","sv":{"q":"En person har blivit arbetslös och vill få ersättning från A-kassan. Vad krävs?","o":["Att personen är svensk medborgare","Att personen har arbetat tillräckligt många timmar under en bestämd period och är aktivt arbetssökande","Att personen har varit medlem i ett politiskt parti","Att arbetsgivaren godkänner ansökan"]},"ru":{"q":"Человек потерял работу и хочет получать выплаты из A-kassan. Что для этого требуется?","o":["Быть гражданином Швеции","Отработать достаточное количество часов за определённый период и активно искать работу","Быть членом политической партии","Получить одобрение работодателя"]},"correct":1,"why":"A-kassan — экономическое объединение; выплаты финансируются государством и членскими взносами."},
-{"id":"c8-06","ch":8,"kind":"fakta","ref":"Arbetsmarknad och privatekonomi, s. 29","sv":{"q":"Vilken myndighet ser till att skulder blir betalda och kan hjälpa till med skuldsanering?","o":["Skatteverket","Kronofogdemyndigheten","Försäkringskassan","Konsumentverket"]},"ru":{"q":"Какое ведомство следит за взысканием долгов и может помочь с процедурой skuldsanering?","o":["Налоговое управление","Kronofogdemyndigheten","Försäkringskassan","Ведомство по защите прав потребителей"]},"correct":1,"why":"Skuldsanering — процедура приведения в порядок финансов человека с крупными долгами."},
-{"id":"c8-07","ch":8,"kind":"fakta","ref":"Arbetsmarknad och privatekonomi, s. 29","sv":{"q":"Vad gäller för skatt på arbete i Sverige?","o":["Alla betalar samma summa oavsett inkomst","Hur mycket man betalar beror på inkomsten","Man betalar bara skatt om man arbetar heltid","Skatt betalas endast av personer över 30 år"]},"ru":{"q":"Что действует в отношении налога на труд в Швеции?","o":["Все платят одинаковую сумму независимо от дохода","Размер выплаты зависит от дохода","Налог платят только те, кто работает полный рабочий день","Налог платят только люди старше 30 лет"]},"correct":1,"why":"Работать без уплаты налога незаконно."},
-
-{"id":"c9-01","ch":9,"kind":"fakta","ref":"Välfärdssamhället, s. 30","sv":{"q":"Vad kallas den skatt man betalar när man köper varor och tjänster?","o":["Inkomstskatt","Arbetsgivaravgift","Moms","Fastighetsavgift"]},"ru":{"q":"Как называется налог, который платят при покупке товаров и услуг?","o":["Подоходный налог","Взнос работодателя","НДС (moms)","Налог на недвижимость"]},"correct":2,"why":"Moms — mervärdesskatt. Arbetsgivaravgifter платит работодатель сверх зарплаты сотрудника."},
-{"id":"c9-02","ch":9,"kind":"fakta","ref":"Välfärdssamhället, s. 30","sv":{"q":"Vad finansierar staten, till skillnad från regionerna och kommunerna?","o":["Vårdcentraler och sjukhus","Förskolor och grundskolor","Pensioner, barnbidrag och studiestöd","Snöröjning och parkskötsel"]},"ru":{"q":"Что финансирует государство, в отличие от регионов и коммун?","o":["Поликлиники и больницы","Детские сады и начальные школы","Пенсии, детское пособие и учебные выплаты","Уборку снега и уход за парками"]},"correct":2,"why":"Государство также финансирует высшее образование и исследования. Медицина — регионы, школы и уход — коммуны."},
-{"id":"c9-03","ch":9,"kind":"situation","ref":"Välfärdssamhället, s. 31","sv":{"q":"En äldre person klarar inte längre vardagen på egen hand. Vem har ansvar för att erbjuda stöd och hjälp?","o":["Staten","Regionen","Kommunen","Arbetsgivaren"]},"ru":{"q":"Пожилой человек больше не справляется с повседневными делами самостоятельно. Кто обязан предложить поддержку и помощь?","o":["Государство","Регион","Коммуна","Работодатель"]},"correct":2,"why":"Äldreomsorg — обязанность коммуны по шведскому закону: помощь дома или переезд в специальное жильё."},
-{"id":"c9-04","ch":9,"kind":"situation","ref":"Välfärdssamhället, s. 31","sv":{"q":"En familj har inte tillräckligt med pengar för att klara sina utgifter. Vart kan de vända sig för ekonomiskt bistånd?","o":["Till socialtjänsten i sin kommun","Till Kronofogdemyndigheten","Till regionfullmäktige","Till Arbetsgivarverket"]},"ru":{"q":"У семьи не хватает денег, чтобы покрыть расходы. Куда они могут обратиться за материальной помощью?","o":["В социальную службу своей коммуны","В службу судебных приставов","В regionfullmäktige","В Arbetsgivarverket"]},"correct":0,"why":"Socialtjänsten есть в каждой коммуне: помощь, консультации, материальная поддержка и защита."},
-{"id":"c9-05","ch":9,"kind":"fakta","ref":"Välfärdssamhället, s. 31","sv":{"q":"Vad räknas som primärvård?","o":["Akutsjukhus och universitetssjukhus","Vårdcentraler, barnavårds- och mödravårdscentraler","Psykiatrisk vård och rehabilitering","Äldreboenden"]},"ru":{"q":"Что относится к первичной медицинской помощи (primärvård)?","o":["Больницы скорой помощи и университетские клиники","Поликлиники, детские и женские консультации","Психиатрическая помощь и реабилитация","Дома престарелых"]},"correct":1,"why":"Больницы — это sjukhusvård; психиатрия, реабилитация и стоматология идут в категории övrigt."},
-{"id":"c9-06","ch":9,"kind":"fakta","ref":"Välfärdssamhället, s. 31","sv":{"q":"För vilka åldrar finns grundskola i alla Sveriges kommuner?","o":["Mellan 3 och 15 år","Mellan 6 och 16 år","Mellan 7 och 18 år","Mellan 6 och 19 år"]},"ru":{"q":"Для какого возраста во всех коммунах Швеции есть grundskola?","o":["От 3 до 15 лет","От 6 до 16 лет","От 7 до 18 лет","От 6 до 19 лет"]},"correct":1,"why":"Кроме того, есть гимназии и коммунальное образование для взрослых (komvux)."},
-
-{"id":"c10-01","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 32","sv":{"q":"Ungefär hur många svenskar utvandrade till USA mellan 1850 och 1920?","o":["Cirka 100 000","Cirka 300 000","Över en miljon","Över tre miljoner"]},"ru":{"q":"Примерно сколько шведов эмигрировало в США между 1850 и 1920 годами?","o":["Около 100 000","Около 300 000","Более миллиона","Более трёх миллионов"]},"correct":2,"why":"Швеция была бедной страной; в начале XIX века население составляло около 2,5 млн, за сто лет оно удвоилось."},
-{"id":"c10-02","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 33","sv":{"q":"Vilket av dessa var en av de fyra största folkrörelserna i Sverige?","o":["Nykterhetsrörelsen","Miljörörelsen","Fredsrörelsen","Konsumentrörelsen"]},"ru":{"q":"Что из перечисленного было одним из четырёх крупнейших народных движений Швеции?","o":["Движение трезвости","Экологическое движение","Пацифистское движение","Потребительское движение"]},"correct":0,"why":"Четыре крупнейших: arbetarrörelsen, frikyrkorörelsen, kvinnorörelsen, nykterhetsrörelsen."},
-{"id":"c10-03","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 34","sv":{"q":"Vilket år genomfördes det första riksdagsvalet där både män och kvinnor fick rösta?","o":["1909","1918","1921","1938"]},"ru":{"q":"В каком году прошли первые выборы в риксдаг, где голосовали и мужчины, и женщины?","o":["1909","1918","1921","1938"]},"correct":2,"why":"1909 — право голоса почти для всех мужчин; 1918 — решение о всеобщем избирательном праве; 1921 — первые такие выборы. Тогда Швеция стала демократией."},
-{"id":"c10-04","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 35","sv":{"q":"Vad kallas avtalet från 1938 som lade grunden för den svenska modellen?","o":["Folkhemsavtalet","Saltsjöbadsavtalet","Ådalenavtalet","Miljonprogrammet"]},"ru":{"q":"Как называется соглашение 1938 года, заложившее основу «шведской модели»?","o":["Folkhemsavtalet","Saltsjöbadsavtalet","Ådalenavtalet","Miljonprogrammet"]},"correct":1,"why":"Заключено в Сальтшёбадене под Стокгольмом между работодателями и профсоюзами."},
-{"id":"c10-05","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 35","sv":{"q":"Vem formulerade 1928 idén om folkhemmet?","o":["Raoul Wallenberg","Per Albin Hansson","Gustav Vasa","Carl XVI Gustaf"]},"ru":{"q":"Кто в 1928 году сформулировал идею «народного дома» (folkhemmet)?","o":["Рауль Валленберг","Пер Альбин Ханссон","Густав Ваза","Карл XVI Густав"]},"correct":1,"why":"Тогдашний лидер социал-демократов описал общество, где все чувствуют защищённость и общность независимо от происхождения."},
-{"id":"c10-06","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 35","sv":{"q":"Vad hände i Ådalen 1931?","o":["En ny grundlag antogs","Militären sköt mot demonstrerande arbetare och flera personer dödades","Sverige gick med i Nato","Den allmänna rösträtten infördes"]},"ru":{"q":"Что произошло в Одалене в 1931 году?","o":["Был принят новый основной закон","Военные стреляли по демонстрирующим рабочим, несколько человек погибло","Швеция вступила в НАТО","Было введено всеобщее избирательное право"]},"correct":1,"why":"Событие потрясло Швецию и показало глубину конфликта между работодателями и рабочими."},
-{"id":"c10-07","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 35","sv":{"q":"Vilken svensk diplomat gav judar skyddspass under andra världskriget?","o":["Per Albin Hansson","Raoul Wallenberg","Dag Hammarskjöld","Olof Palme"]},"ru":{"q":"Какой шведский дипломат выдавал евреям охранные паспорта во время Второй мировой войны?","o":["Пер Альбин Ханссон","Рауль Валленберг","Даг Хаммаршёльд","Улоф Пальме"]},"correct":1,"why":"Швеция также приняла около 7000 датских евреев, а Красный Крест вывозил людей из лагерей на «белых автобусах»."},
-{"id":"c10-08","ch":10,"kind":"förståelse","ref":"Sveriges moderna historia, s. 36","sv":{"q":"Vad menas med de svenska rekordåren?","o":["Åren då Sverige vann flest internationella idrottstävlingar","Perioden efter andra världskriget med stark ekonomisk tillväxt och stora reformer","Åren då invandringen till Sverige var som lägst","Perioden då Sverige förde krig mot Ryssland"]},"ru":{"q":"Что понимается под шведскими «рекордными годами» (rekordåren)?","o":["Годы, когда Швеция выиграла больше всего международных спортивных соревнований","Период после Второй мировой войны с сильным экономическим ростом и крупными реформами","Годы, когда иммиграция в Швецию была минимальной","Период войны Швеции с Россией"]},"correct":1,"why":"Социал-демократы чаще всего были у власти с 1945 по 1976 год; появились 40-часовая неделя и пять недель оплачиваемого отпуска."},
-{"id":"c10-09","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 36","sv":{"q":"Vad var målet med miljonprogrammet på 1960-talet?","o":["Att bygga en miljon bostäder på tio år","Att skapa en miljon nya arbetstillfällen","Att en miljon svenskar skulle få högre utbildning","Att ta emot en miljon invandrare"]},"ru":{"q":"Какова была цель программы miljonprogrammet в 1960-е годы?","o":["Построить миллион квартир за десять лет","Создать миллион новых рабочих мест","Дать высшее образование миллиону шведов","Принять миллион иммигрантов"]},"correct":0,"why":"Быстрый переезд людей в города создал нехватку жилья; новые районы выросли в пригородах."},
-{"id":"c10-10","ch":10,"kind":"fakta","ref":"Sveriges moderna historia, s. 37","sv":{"q":"Vad innebar du-reformen på 1960-talet?","o":["Att alla fick rätt till fem veckors semester","Att människor började säga du till varandra i stället för att använda titlar eller ni","Att skolan blev obligatorisk för alla barn","Att kvinnor fick rätt att arbeta utanför hemmet"]},"ru":{"q":"Что означала du-реформа 1960-х годов?","o":["Что все получили право на пять недель отпуска","Что люди стали обращаться друг к другу на «ты» вместо титулов или «вы»","Что школа стала обязательной для всех детей","Что женщины получили право работать вне дома"]},"correct":1,"why":"Реформа отражала переход к более равному обществу."}
+  {
+    "id": "c8-01",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 27",
+    "sv": {
+      "q": "Ungefär hur stor andel av alla som arbetar i Sverige arbetar inom den privata sektorn?",
+      "o": [
+        "Cirka 30 procent",
+        "Cirka 50 procent",
+        "Cirka 70 procent",
+        "Cirka 90 procent"
+      ]
+    },
+    "ru": {
+      "q": "Примерно какая доля работающих в Швеции занята в частном секторе?",
+      "o": [
+        "Около 30 процентов",
+        "Около 50 процентов",
+        "Около 70 процентов",
+        "Около 90 процентов"
+      ]
+    },
+    "correct": 2,
+    "why": "Около 70 % — частный сектор, около 30 % — государственный, который финансируется налогами."
+  },
+  {
+    "id": "c8-02",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 27",
+    "sv": {
+      "q": "Vilket av dessa yrken hör till den offentliga sektorn?",
+      "o": [
+        "Butiksbiträde",
+        "Brandman",
+        "Lastbilschaufför på ett privat åkeri",
+        "Restaurangkock på en privat restaurang"
+      ]
+    },
+    "ru": {
+      "q": "Какая из этих профессий относится к государственному сектору?",
+      "o": [
+        "Продавец в магазине",
+        "Пожарный",
+        "Водитель грузовика в частной транспортной фирме",
+        "Повар в частном ресторане"
+      ]
+    },
+    "correct": 1,
+    "why": "Государственный сектор — это деятельность государства, регионов и коммун: медперсонал, учителя, воспитатели, полиция, пожарные."
+  },
+  {
+    "id": "c8-03",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "Vilken av dessa är en facklig centralorganisation?",
+      "o": [
+        "Svenskt näringsliv",
+        "SKR",
+        "LO",
+        "Arbetsgivarverket"
+      ]
+    },
+    "ru": {
+      "q": "Какая из перечисленных организаций является профсоюзным центром?",
+      "o": [
+        "Svenskt näringsliv",
+        "SKR",
+        "LO",
+        "Arbetsgivarverket"
+      ]
+    },
+    "correct": 2,
+    "why": "Профсоюзные центры — LO, TCO, SACO. Остальные три представляют работодателей."
+  },
+  {
+    "id": "c8-04",
+    "ch": 8,
+    "kind": "förståelse",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "Vem bestämmer lönerna i Sverige?",
+      "o": [
+        "Riksdagen genom lag",
+        "Regeringen genom förordning",
+        "Arbetsmarknadens parter genom förhandlingar och kollektivavtal",
+        "Kommunfullmäktige i varje kommun"
+      ]
+    },
+    "ru": {
+      "q": "Кто устанавливает уровень зарплат в Швеции?",
+      "o": [
+        "Риксдаг через закон",
+        "Правительство через постановление",
+        "Стороны рынка труда путём переговоров и коллективных договоров",
+        "Kommunfullmäktige в каждой коммуне"
+      ]
+    },
+    "correct": 2,
+    "why": "Зарплаты определяются переговорами профсоюзов и работодателей, а не государством. В Швеции нет установленной законом минимальной зарплаты."
+  },
+  {
+    "id": "c8-05",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "En person har blivit arbetslös och vill få ersättning från A-kassan. Vad krävs?",
+      "o": [
+        "Att personen är svensk medborgare",
+        "Att personen har arbetat tillräckligt många timmar under en bestämd period och är aktivt arbetssökande",
+        "Att personen har varit medlem i ett politiskt parti",
+        "Att arbetsgivaren godkänner ansökan"
+      ]
+    },
+    "ru": {
+      "q": "Человек потерял работу и хочет получать выплаты из A-kassan. Что для этого требуется?",
+      "o": [
+        "Быть гражданином Швеции",
+        "Отработать достаточное количество часов за определённый период и активно искать работу",
+        "Быть членом политической партии",
+        "Получить одобрение работодателя"
+      ]
+    },
+    "correct": 1,
+    "why": "A-kassan — экономическое объединение; выплаты финансируются государством и членскими взносами."
+  },
+  {
+    "id": "c8-06",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "Vilken myndighet ser till att skulder blir betalda och kan hjälpa till med skuldsanering?",
+      "o": [
+        "Skatteverket",
+        "Kronofogdemyndigheten",
+        "Försäkringskassan",
+        "Konsumentverket"
+      ]
+    },
+    "ru": {
+      "q": "Какое ведомство следит за взысканием долгов и может помочь с процедурой skuldsanering?",
+      "o": [
+        "Налоговое управление",
+        "Kronofogdemyndigheten",
+        "Försäkringskassan",
+        "Ведомство по защите прав потребителей"
+      ]
+    },
+    "correct": 1,
+    "why": "Skuldsanering — процедура приведения в порядок финансов человека с крупными долгами."
+  },
+  {
+    "id": "c8-07",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "Vad gäller för skatt på arbete i Sverige?",
+      "o": [
+        "Alla betalar samma summa oavsett inkomst",
+        "Hur mycket man betalar beror på inkomsten",
+        "Man betalar bara skatt om man arbetar heltid",
+        "Skatt betalas endast av personer över 30 år"
+      ]
+    },
+    "ru": {
+      "q": "Что действует в отношении налога на труд в Швеции?",
+      "o": [
+        "Все платят одинаковую сумму независимо от дохода",
+        "Размер выплаты зависит от дохода",
+        "Налог платят только те, кто работает полный рабочий день",
+        "Налог платят только люди старше 30 лет"
+      ]
+    },
+    "correct": 1,
+    "why": "Работать без уплаты налога незаконно."
+  },
+  {
+    "id": "c9-01",
+    "ch": 9,
+    "kind": "fakta",
+    "ref": "Välfärdssamhället, s. 30",
+    "sv": {
+      "q": "Vad kallas den skatt man betalar när man köper varor och tjänster?",
+      "o": [
+        "Inkomstskatt",
+        "Arbetsgivaravgift",
+        "Moms",
+        "Fastighetsavgift"
+      ]
+    },
+    "ru": {
+      "q": "Как называется налог, который платят при покупке товаров и услуг?",
+      "o": [
+        "Подоходный налог",
+        "Взнос работодателя",
+        "НДС (moms)",
+        "Налог на недвижимость"
+      ]
+    },
+    "correct": 2,
+    "why": "Moms — mervärdesskatt. Arbetsgivaravgifter платит работодатель сверх зарплаты сотрудника."
+  },
+  {
+    "id": "c9-02",
+    "ch": 9,
+    "kind": "fakta",
+    "ref": "Välfärdssamhället, s. 30",
+    "sv": {
+      "q": "Vad finansierar staten, till skillnad från regionerna och kommunerna?",
+      "o": [
+        "Vårdcentraler och sjukhus",
+        "Förskolor och grundskolor",
+        "Pensioner, barnbidrag och studiestöd",
+        "Snöröjning och parkskötsel"
+      ]
+    },
+    "ru": {
+      "q": "Что финансирует государство, в отличие от регионов и коммун?",
+      "o": [
+        "Поликлиники и больницы",
+        "Детские сады и начальные школы",
+        "Пенсии, детское пособие и учебные выплаты",
+        "Уборку снега и уход за парками"
+      ]
+    },
+    "correct": 2,
+    "why": "Государство также финансирует высшее образование и исследования. Медицина — регионы, школы и уход — коммуны."
+  },
+  {
+    "id": "c9-03",
+    "ch": 9,
+    "kind": "situation",
+    "ref": "Välfärdssamhället, s. 31",
+    "sv": {
+      "q": "En äldre person klarar inte längre vardagen på egen hand. Vem har ansvar för att erbjuda stöd och hjälp?",
+      "o": [
+        "Staten",
+        "Regionen",
+        "Kommunen",
+        "Arbetsgivaren"
+      ]
+    },
+    "ru": {
+      "q": "Пожилой человек больше не справляется с повседневными делами самостоятельно. Кто обязан предложить поддержку и помощь?",
+      "o": [
+        "Государство",
+        "Регион",
+        "Коммуна",
+        "Работодатель"
+      ]
+    },
+    "correct": 2,
+    "why": "Äldreomsorg — обязанность коммуны по шведскому закону: помощь дома или переезд в специальное жильё."
+  },
+  {
+    "id": "c9-04",
+    "ch": 9,
+    "kind": "situation",
+    "ref": "Välfärdssamhället, s. 31",
+    "sv": {
+      "q": "En familj har inte tillräckligt med pengar för att klara sina utgifter. Vart kan de vända sig för ekonomiskt bistånd?",
+      "o": [
+        "Till socialtjänsten i sin kommun",
+        "Till Kronofogdemyndigheten",
+        "Till regionfullmäktige",
+        "Till Arbetsgivarverket"
+      ]
+    },
+    "ru": {
+      "q": "У семьи не хватает денег, чтобы покрыть расходы. Куда они могут обратиться за материальной помощью?",
+      "o": [
+        "В социальную службу своей коммуны",
+        "В службу судебных приставов",
+        "В regionfullmäktige",
+        "В Arbetsgivarverket"
+      ]
+    },
+    "correct": 0,
+    "why": "Socialtjänsten есть в каждой коммуне: помощь, консультации, материальная поддержка и защита."
+  },
+  {
+    "id": "c9-05",
+    "ch": 9,
+    "kind": "fakta",
+    "ref": "Välfärdssamhället, s. 31",
+    "sv": {
+      "q": "Vad räknas som primärvård?",
+      "o": [
+        "Akutsjukhus och universitetssjukhus",
+        "Vårdcentraler, barnavårds- och mödravårdscentraler",
+        "Psykiatrisk vård och rehabilitering",
+        "Äldreboenden"
+      ]
+    },
+    "ru": {
+      "q": "Что относится к первичной медицинской помощи (primärvård)?",
+      "o": [
+        "Больницы скорой помощи и университетские клиники",
+        "Поликлиники, детские и женские консультации",
+        "Психиатрическая помощь и реабилитация",
+        "Дома престарелых"
+      ]
+    },
+    "correct": 1,
+    "why": "Больницы — это sjukhusvård; психиатрия, реабилитация и стоматология идут в категории övrigt."
+  },
+  {
+    "id": "c9-06",
+    "ch": 9,
+    "kind": "fakta",
+    "ref": "Välfärdssamhället, s. 31",
+    "sv": {
+      "q": "För vilka åldrar finns grundskola i alla Sveriges kommuner?",
+      "o": [
+        "Mellan 3 och 15 år",
+        "Mellan 6 och 16 år",
+        "Mellan 7 och 18 år",
+        "Mellan 6 och 19 år"
+      ]
+    },
+    "ru": {
+      "q": "Для какого возраста во всех коммунах Швеции есть grundskola?",
+      "o": [
+        "От 3 до 15 лет",
+        "От 6 до 16 лет",
+        "От 7 до 18 лет",
+        "От 6 до 19 лет"
+      ]
+    },
+    "correct": 1,
+    "why": "Кроме того, есть гимназии и коммунальное образование для взрослых (komvux)."
+  },
+  {
+    "id": "c10-01",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 32",
+    "sv": {
+      "q": "Ungefär hur många svenskar utvandrade till USA mellan 1850 och 1920?",
+      "o": [
+        "Cirka 100 000",
+        "Cirka 300 000",
+        "Över en miljon",
+        "Över tre miljoner"
+      ]
+    },
+    "ru": {
+      "q": "Примерно сколько шведов эмигрировало в США между 1850 и 1920 годами?",
+      "o": [
+        "Около 100 000",
+        "Около 300 000",
+        "Более миллиона",
+        "Более трёх миллионов"
+      ]
+    },
+    "correct": 2,
+    "why": "Швеция была бедной страной; в начале XIX века население составляло около 2,5 млн, за сто лет оно удвоилось."
+  },
+  {
+    "id": "c10-02",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilket av dessa var en av de fyra största folkrörelserna i Sverige?",
+      "o": [
+        "Nykterhetsrörelsen",
+        "Miljörörelsen",
+        "Fredsrörelsen",
+        "Konsumentrörelsen"
+      ]
+    },
+    "ru": {
+      "q": "Что из перечисленного было одним из четырёх крупнейших народных движений Швеции?",
+      "o": [
+        "Движение трезвости",
+        "Экологическое движение",
+        "Пацифистское движение",
+        "Потребительское движение"
+      ]
+    },
+    "correct": 0,
+    "why": "Четыре крупнейших: arbetarrörelsen, frikyrkorörelsen, kvinnorörelsen, nykterhetsrörelsen."
+  },
+  {
+    "id": "c10-03",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 34",
+    "sv": {
+      "q": "Vilket år genomfördes det första riksdagsvalet där både män och kvinnor fick rösta?",
+      "o": [
+        "1909",
+        "1918",
+        "1921",
+        "1938"
+      ]
+    },
+    "ru": {
+      "q": "В каком году прошли первые выборы в риксдаг, где голосовали и мужчины, и женщины?",
+      "o": [
+        "1909",
+        "1918",
+        "1921",
+        "1938"
+      ]
+    },
+    "correct": 2,
+    "why": "1909 — право голоса почти для всех мужчин; 1918 — решение о всеобщем избирательном праве; 1921 — первые такие выборы. Тогда Швеция стала демократией."
+  },
+  {
+    "id": "c10-04",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vad kallas avtalet från 1938 som lade grunden för den svenska modellen?",
+      "o": [
+        "Folkhemsavtalet",
+        "Saltsjöbadsavtalet",
+        "Ådalenavtalet",
+        "Miljonprogrammet"
+      ]
+    },
+    "ru": {
+      "q": "Как называется соглашение 1938 года, заложившее основу «шведской модели»?",
+      "o": [
+        "Folkhemsavtalet",
+        "Saltsjöbadsavtalet",
+        "Ådalenavtalet",
+        "Miljonprogrammet"
+      ]
+    },
+    "correct": 1,
+    "why": "Заключено в Сальтшёбадене под Стокгольмом между работодателями и профсоюзами."
+  },
+  {
+    "id": "c10-05",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vem formulerade 1928 idén om folkhemmet?",
+      "o": [
+        "Raoul Wallenberg",
+        "Per Albin Hansson",
+        "Gustav Vasa",
+        "Carl XVI Gustaf"
+      ]
+    },
+    "ru": {
+      "q": "Кто в 1928 году сформулировал идею «народного дома» (folkhemmet)?",
+      "o": [
+        "Рауль Валленберг",
+        "Пер Альбин Ханссон",
+        "Густав Ваза",
+        "Карл XVI Густав"
+      ]
+    },
+    "correct": 1,
+    "why": "Тогдашний лидер социал-демократов описал общество, где все чувствуют защищённость и общность независимо от происхождения."
+  },
+  {
+    "id": "c10-06",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vad hände i Ådalen 1931?",
+      "o": [
+        "En ny grundlag antogs",
+        "Militären sköt mot demonstrerande arbetare och flera personer dödades",
+        "Sverige gick med i Nato",
+        "Den allmänna rösträtten infördes"
+      ]
+    },
+    "ru": {
+      "q": "Что произошло в Одалене в 1931 году?",
+      "o": [
+        "Был принят новый основной закон",
+        "Военные стреляли по демонстрирующим рабочим, несколько человек погибло",
+        "Швеция вступила в НАТО",
+        "Было введено всеобщее избирательное право"
+      ]
+    },
+    "correct": 1,
+    "why": "Событие потрясло Швецию и показало глубину конфликта между работодателями и рабочими."
+  },
+  {
+    "id": "c10-07",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vilken svensk diplomat gav judar skyddspass under andra världskriget?",
+      "o": [
+        "Per Albin Hansson",
+        "Raoul Wallenberg",
+        "Dag Hammarskjöld",
+        "Olof Palme"
+      ]
+    },
+    "ru": {
+      "q": "Какой шведский дипломат выдавал евреям охранные паспорта во время Второй мировой войны?",
+      "o": [
+        "Пер Альбин Ханссон",
+        "Рауль Валленберг",
+        "Даг Хаммаршёльд",
+        "Улоф Пальме"
+      ]
+    },
+    "correct": 1,
+    "why": "Швеция также приняла около 7000 датских евреев, а Красный Крест вывозил людей из лагерей на «белых автобусах»."
+  },
+  {
+    "id": "c10-08",
+    "ch": 10,
+    "kind": "förståelse",
+    "ref": "Sveriges moderna historia, s. 36",
+    "sv": {
+      "q": "Vad menas med de svenska rekordåren?",
+      "o": [
+        "Åren då Sverige vann flest internationella idrottstävlingar",
+        "Perioden efter andra världskriget med stark ekonomisk tillväxt och stora reformer",
+        "Åren då invandringen till Sverige var som lägst",
+        "Perioden då Sverige förde krig mot Ryssland"
+      ]
+    },
+    "ru": {
+      "q": "Что понимается под шведскими «рекордными годами» (rekordåren)?",
+      "o": [
+        "Годы, когда Швеция выиграла больше всего международных спортивных соревнований",
+        "Период после Второй мировой войны с сильным экономическим ростом и крупными реформами",
+        "Годы, когда иммиграция в Швецию была минимальной",
+        "Период войны Швеции с Россией"
+      ]
+    },
+    "correct": 1,
+    "why": "Социал-демократы чаще всего были у власти с 1945 по 1976 год; появились 40-часовая неделя и пять недель оплачиваемого отпуска."
+  },
+  {
+    "id": "c10-09",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 36",
+    "sv": {
+      "q": "Vad var målet med miljonprogrammet på 1960-talet?",
+      "o": [
+        "Att bygga en miljon bostäder på tio år",
+        "Att skapa en miljon nya arbetstillfällen",
+        "Att en miljon svenskar skulle få högre utbildning",
+        "Att ta emot en miljon invandrare"
+      ]
+    },
+    "ru": {
+      "q": "Какова была цель программы miljonprogrammet в 1960-е годы?",
+      "o": [
+        "Построить миллион квартир за десять лет",
+        "Создать миллион новых рабочих мест",
+        "Дать высшее образование миллиону шведов",
+        "Принять миллион иммигрантов"
+      ]
+    },
+    "correct": 0,
+    "why": "Быстрый переезд людей в города создал нехватку жилья; новые районы выросли в пригородах."
+  },
+  {
+    "id": "c10-10",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 37",
+    "sv": {
+      "q": "Vad innebar du-reformen på 1960-talet?",
+      "o": [
+        "Att alla fick rätt till fem veckors semester",
+        "Att människor började säga du till varandra i stället för att använda titlar eller ni",
+        "Att skolan blev obligatorisk för alla barn",
+        "Att kvinnor fick rätt att arbeta utanför hemmet"
+      ]
+    },
+    "ru": {
+      "q": "Что означала du-реформа 1960-х годов?",
+      "o": [
+        "Что все получили право на пять недель отпуска",
+        "Что люди стали обращаться друг к другу на «ты» вместо титулов или «вы»",
+        "Что школа стала обязательной для всех детей",
+        "Что женщины получили право работать вне дома"
+      ]
+    },
+    "correct": 1,
+    "why": "Реформа отражала переход к более равному обществу."
+  },
+  {
+    "id": "c10-11",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 32",
+    "sv": {
+      "q": "Hur beskrivs Sverige för ungefär 200 år sedan, jämfört med andra länder i Europa?",
+      "o": [
+        "Ett rikt industriland",
+        "Ett fattigt jordbruksland",
+        "Ett stort kolonialt imperium",
+        "Ett höginkomstland med stark export"
+      ]
+    },
+    "ru": {
+      "q": "Как описывается Швеция примерно 200 лет назад по сравнению с другими странами Европы?",
+      "o": [
+        "Богатая индустриальная страна",
+        "Бедная аграрная страна",
+        "Крупная колониальная империя",
+        "Страна с высоким доходом и сильным экспортом"
+      ]
+    },
+    "correct": 1,
+    "why": "200 лет назад почти всё население жило в деревне и занималось земледелием; по сравнению с другими странами Европы Швеция была бедной."
+  },
+  {
+    "id": "c10-12",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 32",
+    "sv": {
+      "q": "Vad var en viktig orsak till att Sveriges befolkning fördubblades under det första århundradet av 1800-talet?",
+      "o": [
+        "Stor invandring från andra länder",
+        "Bättre jordbruksmetoder och medicinska framsteg",
+        "Kortare arbetstid för alla",
+        "Att kvinnor fick rösträtt"
+      ]
+    },
+    "ru": {
+      "q": "Что было важной причиной того, что население Швеции удвоилось за первое столетие XIX века?",
+      "o": [
+        "Большая иммиграция из других стран",
+        "Улучшенные методы земледелия и успехи медицины",
+        "Сокращённый рабочий день для всех",
+        "То, что женщины получили право голоса"
+      ]
+    },
+    "correct": 1,
+    "why": "Более эффективное сельское хозяйство давало больше еды, а успехи медицины снижали детскую смертность — вместе это удвоило население примерно за сто лет."
+  },
+  {
+    "id": "c10-13",
+    "ch": 10,
+    "kind": "situation",
+    "ref": "Sveriges moderna historia, s. 32",
+    "sv": {
+      "q": "En jordbruksarbetare i Sverige i slutet av 1800-talet har mycket svårt att försörja sig eftersom landet fortfarande är fattigt. Vad valde många i denna situation att göra?",
+      "o": [
+        "Att gå med i en fackförening som just då hade blivit lagligt",
+        "Att utvandra till USA i hopp om ett bättre liv",
+        "Att flytta till Norge som nyligen blivit självständigt",
+        "Att söka arbete inom den offentliga sektorn"
+      ]
+    },
+    "ru": {
+      "q": "Работнику сельского хозяйства в Швеции конца XIX века трудно прокормить себя, поскольку страна всё ещё бедна. Что выбирали делать многие в такой ситуации?",
+      "o": [
+        "Вступить в профсоюз, который как раз стал легальным",
+        "Эмигрировать в США в надежде на лучшую жизнь",
+        "Переехать в Норвегию, которая недавно стала независимой",
+        "Искать работу в государственном секторе"
+      ]
+    },
+    "correct": 1,
+    "why": "Более миллиона шведов эмигрировали в США между 1850 и 1920 годами именно из-за бедности и нехватки работы дома."
+  },
+  {
+    "id": "c10-14",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 32",
+    "sv": {
+      "q": "Vilka var bland de första större industrierna som startades i Sverige i mitten av 1800-talet?",
+      "o": [
+        "Bilindustri och flygindustri",
+        "Sågverk och stålindustri",
+        "IT-företag och telekomindustri",
+        "Livsmedelsindustri för export till Asien"
+      ]
+    },
+    "ru": {
+      "q": "Какие отрасли были одними из первых крупных промышленных производств, возникших в Швеции в середине XIX века?",
+      "o": [
+        "Автомобильная и авиационная промышленность",
+        "Лесопильные заводы и сталелитейная промышленность",
+        "IT-компании и телеком-индустрия",
+        "Пищевая промышленность на экспорт в Азию"
+      ]
+    },
+    "correct": 1,
+    "why": "Индустриализация Швеции началась с лесопилок, производивших пиломатериалы, и сталелитейных заводов; автомобильная и IT-отрасли появились намного позже."
+  },
+  {
+    "id": "c10-15",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilka grupper hade länge haft den politiska makten i Sverige innan landet demokratiserades?",
+      "o": [
+        "Endast riksdagens ledamöter, valda av alla vuxna",
+        "Kungen, adelsmän, kyrkan, köpmän och bönder",
+        "Enbart industriarbetarna genom fackföreningarna",
+        "De fem nordiska ländernas gemensamma råd"
+      ]
+    },
+    "ru": {
+      "q": "Какие группы долгое время обладали политической властью в Швеции до демократизации страны?",
+      "o": [
+        "Только депутаты риксдага, избранные всеми взрослыми",
+        "Король, дворянство, церковь, купцы и крестьяне",
+        "Только промышленные рабочие через профсоюзы",
+        "Общий совет пяти северных стран"
+      ]
+    },
+    "correct": 1,
+    "why": "Это классическое сословное деление власти в дореформенной Швеции — король и представители старых сословий: дворянство, духовенство, купечество, крестьянство."
+  },
+  {
+    "id": "c10-16",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilket årtal antog riksdagen en ny grundlag som begränsade kungens makt?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "ru": {
+      "q": "В каком году риксдаг принял новый основной закон, ограничивший власть короля?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "correct": 0,
+    "why": "1809 — самая ранняя из дат реформ на пути к демократии: ограничение власти короля. Остальные даты относятся к более поздним этапам: 1865 — реформа представительства, 1909 — избирательное право для мужчин, 1918 — решение о всеобщем избирательном праве."
+  },
+  {
+    "id": "c10-17",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilket årtal förlorade adeln och prästerna sitt gamla politiska inflytande genom en grundlagsändring, samtidigt som fler fick rösträtt till riksdagen?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "ru": {
+      "q": "В каком году дворянство и духовенство утратили своё прежнее политическое влияние в результате реформы, а больше людей получили право голоса в риксдаг?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "correct": 1,
+    "why": "1865 — реформа представительства риксдага, когда старые сословные привилегии дворянства и духовенства были отменены. Это позже 1809 (ограничение власти короля), но раньше 1909 и 1918 (расширение избирательного права)."
+  },
+  {
+    "id": "c10-18",
+    "ch": 10,
+    "kind": "förståelse",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Trots reformen 1865, varför var Sverige ännu inte en demokrati?",
+      "o": [
+        "Kvinnor saknade rösträtt och bara män med viss inkomst eller förmögenhet fick rösta",
+        "Riksdagen hade upphört att existera",
+        "Alla beslut fattades enbart av kungen personligen",
+        "Sverige styrdes fortfarande av Danmark"
+      ]
+    },
+    "ru": {
+      "q": "Несмотря на реформу 1865 года, почему Швеция всё ещё не была демократией?",
+      "o": [
+        "У женщин не было права голоса, а голосовать могли только мужчины с определённым доходом или состоянием",
+        "Риксдаг перестал существовать",
+        "Все решения принимал лично король",
+        "Швецией всё ещё управляла Дания"
+      ]
+    },
+    "correct": 0,
+    "why": "Реформа 1865 года убрала старые сословные привилегии, но не дала избирательное право женщинам и бедным мужчинам — притом самые богатые имели несколько голосов."
+  },
+  {
+    "id": "c10-19",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilka rättigheter var bland dem som folkrörelserna krävde under 1800-talet?",
+      "o": [
+        "Åtta timmars arbetsdag, rösträtt och religionsfrihet",
+        "Fri television och gratis internet",
+        "Rätt till betald föräldraledighet i tolv månader",
+        "Medlemskap i EU"
+      ]
+    },
+    "ru": {
+      "q": "Каких прав, среди прочего, добивались народные движения в XIX веке?",
+      "o": [
+        "Восьмичасового рабочего дня, права голоса и свободы вероисповедания",
+        "Бесплатного телевидения и интернета",
+        "Права на оплачиваемый отпуск по уходу за ребёнком на двенадцать месяцев",
+        "Членства в ЕС"
+      ]
+    },
+    "correct": 0,
+    "why": "Народные движения XIX века боролись за конкретные политические и трудовые права — восьмичасовой рабочий день, избирательное право, свободу вероисповедания."
+  },
+  {
+    "id": "c10-20",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilka metoder använde folkrörelserna för att föra fram sina budskap under 1800-talet?",
+      "o": [
+        "Väpnat uppror mot staten",
+        "Lagliga metoder som demonstrationer, protestmöten och tidningsartiklar",
+        "Bojkott av alla allmänna val",
+        "Hemliga sammansvärjningar mot kungahuset"
+      ]
+    },
+    "ru": {
+      "q": "Какими методами пользовались народные движения для продвижения своих идей в XIX веке?",
+      "o": [
+        "Вооружённое восстание против государства",
+        "Легальными методами: демонстрации, митинги протеста, статьи в газетах",
+        "Бойкот всех всеобщих выборов",
+        "Тайные заговоры против королевского дома"
+      ]
+    },
+    "correct": 1,
+    "why": "Несмотря на радикальные требования, движения действовали в рамках закона: демонстрации, протестные собрания, книги и статьи в прессе — а не насилие."
+  },
+  {
+    "id": "c10-21",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilket årtal genomförde riksdagen en lagförändring som gav nästan alla män rätt att rösta?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1921"
+      ]
+    },
+    "ru": {
+      "q": "В каком году риксдаг провёл законодательную реформу, давшую право голоса почти всем мужчинам?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1921"
+      ]
+    },
+    "correct": 1,
+    "why": "1909 касается почти всех мужчин, но ещё не женщин. Полное всеобщее избирательное право было решено позже, в 1918 году, а первые выборы с участием женщин прошли в 1921."
+  },
+  {
+    "id": "c10-22",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilket årtal togs beslutet om allmän rösträtt i Sverige, efter många år av protester och politisk oro?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1931"
+      ]
+    },
+    "ru": {
+      "q": "В каком году в Швеции было принято решение о всеобщем избирательном праве, после многих лет протестов и политической нестабильности?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1931"
+      ]
+    },
+    "correct": 2,
+    "why": "1918 — решение о полном всеобщем избирательном праве (включая женщин), но реально женщины впервые проголосовали на выборах в риксдаг лишь в 1921 году."
+  },
+  {
+    "id": "c10-23",
+    "ch": 10,
+    "kind": "situation",
+    "ref": "Sveriges moderna historia, s. 33",
+    "sv": {
+      "q": "Vilken av följande händelser inträffade FÖRST i tiden?",
+      "o": [
+        "Beslutet om allmän rösträtt togs av riksdagen",
+        "Det första riksdagsvalet där även kvinnor fick rösta hölls",
+        "Adeln och prästerna förlorade sitt gamla politiska inflytande",
+        "Militären sköt mot demonstrerande arbetare i Ådalen"
+      ]
+    },
+    "ru": {
+      "q": "Какое из следующих событий произошло РАНЬШЕ всех остальных?",
+      "o": [
+        "Риксдаг принял решение о всеобщем избирательном праве",
+        "Прошли первые выборы в риксдаг, где голосовали и женщины",
+        "Дворянство и духовенство утратили своё прежнее политическое влияние",
+        "Военные стреляли по демонстрирующим рабочим в Одалене"
+      ]
+    },
+    "correct": 2,
+    "why": "Порядок: 1865 (дворянство и духовенство теряют влияние) → 1918 (решение о всеобщем избирательном праве) → 1921 (первые выборы с участием женщин) → 1931 (Одален)."
+  },
+  {
+    "id": "c10-24",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 34",
+    "sv": {
+      "q": "Vilken hållning hade Sverige under första världskriget (1914–1918)?",
+      "o": [
+        "Sverige förklarade sig neutralt",
+        "Sverige gick med på den tyska sidan",
+        "Sverige gick med på den brittiska sidan",
+        "Sverige anslöt sig till Nationernas förbund som stridande part"
+      ]
+    },
+    "ru": {
+      "q": "Какую позицию занимала Швеция во время Первой мировой войны (1914–1918)?",
+      "o": [
+        "Швеция объявила себя нейтральной",
+        "Швеция выступила на стороне Германии",
+        "Швеция выступила на стороне Великобритании",
+        "Швеция вступила в Лигу Наций как воюющая сторона"
+      ]
+    },
+    "correct": 0,
+    "why": "Так же, как и во Второй мировой войне позже, Швеция объявила о нейтралитете в Первой мировой, хотя это не спасло страну от последствий войны."
+  },
+  {
+    "id": "c10-25",
+    "ch": 10,
+    "kind": "situation",
+    "ref": "Sveriges moderna historia, s. 34",
+    "sv": {
+      "q": "Även om Sverige stod utanför striderna i första världskriget, vad drabbade landet ändå?",
+      "o": [
+        "Stora jordbävningar",
+        "Brist på mat och andra viktiga varor, vilket ledde till demonstrationer",
+        "Massiv arbetslöshet på grund av digitaliseringen",
+        "En folkomröstning om att gå med i kriget"
+      ]
+    },
+    "ru": {
+      "q": "Хотя Швеция и не участвовала в боевых действиях Первой мировой войны, что всё же затронуло страну?",
+      "o": [
+        "Сильные землетрясения",
+        "Нехватка еды и других важных товаров, что привело к демонстрациям",
+        "Массовая безработица из-за цифровизации",
+        "Референдум о вступлении в войну"
+      ]
+    },
+    "correct": 1,
+    "why": "Нейтралитет не защитил Швецию от экономических последствий войны — нехватка товаров вызвала недовольство и протесты населения."
+  },
+  {
+    "id": "c10-26",
+    "ch": 10,
+    "kind": "förståelse",
+    "ref": "Sveriges moderna historia, s. 34",
+    "sv": {
+      "q": "Vad var en viktig orsak till de stora konflikterna mellan arbetsgivare och arbetare på 1920-talet, trots att demokratin nyligen hade genomförts?",
+      "o": [
+        "Att grundlagarna hade avskaffats",
+        "Hög arbetslöshet och fortsatt stora klasskillnader",
+        "Att Sverige just då gick med i EU",
+        "Att alla fackförbund hade förbjudits"
+      ]
+    },
+    "ru": {
+      "q": "Что было важной причиной крупных конфликтов между работодателями и рабочими в 1920-е годы, несмотря на недавнее установление демократии?",
+      "o": [
+        "Отмена основных законов",
+        "Высокая безработица и сохраняющееся большое социальное неравенство",
+        "Вступление Швеции в ЕС именно в этот период",
+        "Запрет всех профсоюзов"
+      ]
+    },
+    "correct": 1,
+    "why": "Демократический прорыв 1921 года не решил экономических проблем сразу — безработица и классовое неравенство оставались источником конфликтов и забастовок."
+  },
+  {
+    "id": "c10-27",
+    "ch": 10,
+    "kind": "förståelse",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vad innebär den så kallade svenska modellen, som fick sin grund i Saltsjöbadsavtalet 1938?",
+      "o": [
+        "Att staten bestämmer alla löner genom lag",
+        "Att arbetsgivare och fackförbund, inte politikerna, kommer överens om villkoren på arbetsmarknaden",
+        "Att alla anställda måste vara statligt anställda",
+        "Att löner bestäms genom folkomröstningar"
+      ]
+    },
+    "ru": {
+      "q": "Что означает так называемая «шведская модель», основа которой была заложена Сальтшёбаденским соглашением 1938 года?",
+      "o": [
+        "Что государство законом устанавливает все зарплаты",
+        "Что работодатели и профсоюзы, а не политики, договариваются об условиях на рынке труда",
+        "Что все работники должны быть государственными служащими",
+        "Что зарплаты определяются на референдумах"
+      ]
+    },
+    "correct": 1,
+    "why": "Ключевая идея шведской модели — переговоры между работодателями и профсоюзами напрямую, через коллективные договоры, без участия государства."
+  },
+  {
+    "id": "c10-28",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vilka minoritetsgrupper drabbades särskilt av den så kallade rasbiologiska forskningen på 1930-talet?",
+      "o": [
+        "Samer, tornedalingar, judar och romer",
+        "Sverigefinnar och norrmän",
+        "Danska och isländska invandrare",
+        "Katoliker och protestanter"
+      ]
+    },
+    "ru": {
+      "q": "Какие группы меньшинств особенно пострадали от так называемых «расово-биологических» исследований в 1930-е годы?",
+      "o": [
+        "Саамы, торнедальцы, евреи и рома",
+        "Финноязычные шведы и норвежцы",
+        "Датские и исландские иммигранты",
+        "Католики и протестанты"
+      ]
+    },
+    "correct": 0,
+    "why": "Это те же группы, которые позже, в 2000 году, были официально признаны национальными меньшинствами Швеции — но в 1930-е они стали жертвами дискриминационной псевдонауки."
+  },
+  {
+    "id": "c10-29",
+    "ch": 10,
+    "kind": "förståelse",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vilka personer placerades ofta på sjukhus eller andra vårdinrättningar, ibland för resten av livet, under denna period av svensk historia?",
+      "o": [
+        "Personer med psykiska sjukdomar eller funktionsnedsättningar",
+        "Alla som saknade fast anställning",
+        "Personer som röstade på oppositionen",
+        "Alla som utvandrat och sedan återvänt"
+      ]
+    },
+    "ru": {
+      "q": "Каких людей часто помещали в больницы или другие учреждения, иногда на всю оставшуюся жизнь, в этот период шведской истории?",
+      "o": [
+        "Людей с психическими заболеваниями или инвалидностью",
+        "Всех, у кого не было постоянной работы",
+        "Людей, голосовавших за оппозицию",
+        "Всех, кто эмигрировал и потом вернулся"
+      ]
+    },
+    "correct": 0,
+    "why": "Это тёмная сторона модернизации: людей, не вписывавшихся в общество по состоянию здоровья, изолировали — Швеция признала это лишь недавно и предоставила некоторым пострадавшим компенсацию."
+  },
+  {
+    "id": "c10-30",
+    "ch": 10,
+    "kind": "situation",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Sverige stod utanför andra världskriget, men landet hamnade ändå i svåra situationer. Vilket exempel ges i kapitlet?",
+      "o": [
+        "Sverige tillät tyska soldater att resa genom landet till ockuperade Norge och till Finland",
+        "Sverige skickade trupper för att försvara Danmark",
+        "Sverige bombades upprepade gånger av Sovjetunionen",
+        "Sverige tvingades ge upp Gotland till Tyskland"
+      ]
+    },
+    "ru": {
+      "q": "Швеция не участвовала во Второй мировой войне, но страна всё же оказывалась в сложных ситуациях. Какой пример приводится в главе?",
+      "o": [
+        "Швеция разрешила немецким солдатам проезжать через страну в оккупированную Норвегию и в Финляндию",
+        "Швеция направила войска на защиту Дании",
+        "Швеция неоднократно подвергалась бомбардировкам со стороны СССР",
+        "Швеция была вынуждена уступить остров Готланд Германии"
+      ]
+    },
+    "correct": 0,
+    "why": "Чтобы снизить риск быть втянутой в войну, шведское правительство разрешило германский транзит войск — компромисс нейтралитета, вызывающий споры до сих пор."
+  },
+  {
+    "id": "c10-31",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 35",
+    "sv": {
+      "q": "Vilken organisation räddade tusentals judar från tyska koncentrationsläger i slutet av andra världskriget med hjälp av så kallade vita bussar?",
+      "o": [
+        "Röda Korset",
+        "FN",
+        "Svenska kyrkan",
+        "Nato"
+      ]
+    },
+    "ru": {
+      "q": "Какая организация спасла тысячи евреев из немецких концлагерей в конце Второй мировой войны с помощью так называемых «белых автобусов»?",
+      "o": [
+        "Красный Крест",
+        "ООН",
+        "Шведская церковь",
+        "НАТО"
+      ]
+    },
+    "correct": 0,
+    "why": "И ООН, и НАТО были созданы только после войны, поэтому не могли участвовать; операцию «белые автобусы» провёл именно Красный Крест."
+  },
+  {
+    "id": "c10-32",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 36",
+    "sv": {
+      "q": "Vilket parti hade oftast regeringsmakten i Sverige under rekordåren, från 1945 till 1976?",
+      "o": [
+        "Socialdemokraterna",
+        "Moderaterna",
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ]
+    },
+    "ru": {
+      "q": "Какая партия чаще всего находилась у власти в Швеции в «рекордные годы», с 1945 по 1976 год?",
+      "o": [
+        "Социал-демократы",
+        "Умеренная коалиционная партия",
+        "Партия центра",
+        "Левая партия"
+      ]
+    },
+    "correct": 0,
+    "why": "Социал-демократы пользовались сильной поддержкой избирателей и почти непрерывно правили самостоятельно все эти три десятилетия."
+  },
+  {
+    "id": "c10-33",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 36",
+    "sv": {
+      "q": "Vilka arbetsvillkor infördes för anställda under rekordåren?",
+      "o": [
+        "40 timmars arbetsvecka och fem veckors betald semester",
+        "20 timmars arbetsvecka och två veckors semester",
+        "60 timmars arbetsvecka utan semester",
+        "35 timmars arbetsvecka men obetald semester"
+      ]
+    },
+    "ru": {
+      "q": "Какие условия труда были введены для работников в «рекордные годы»?",
+      "o": [
+        "40-часовая рабочая неделя и пять недель оплачиваемого отпуска",
+        "20-часовая рабочая неделя и две недели отпуска",
+        "60-часовая рабочая неделя без отпуска",
+        "35-часовая рабочая неделя, но неоплачиваемый отпуск"
+      ]
+    },
+    "correct": 0,
+    "why": "Именно эти конкретные условия — 40-часовая неделя со свободными субботами и пять недель полностью оплачиваемого отпуска — стали символом рекордных лет."
+  },
+  {
+    "id": "c10-34",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 36",
+    "sv": {
+      "q": "Från vilka länder invandrade många människor till Sverige för att arbeta under rekordåren?",
+      "o": [
+        "Finland, Grekland, Jugoslavien och Turkiet",
+        "Frankrike, Tyskland och Storbritannien",
+        "USA, Kanada och Australien",
+        "Japan, Kina och Sydkorea"
+      ]
+    },
+    "ru": {
+      "q": "Из каких стран многие люди иммигрировали в Швецию, чтобы работать, в «рекордные годы»?",
+      "o": [
+        "Из Финляндии, Греции, Югославии и Турции",
+        "Из Франции, Германии и Великобритании",
+        "Из США, Канады и Австралии",
+        "Из Японии, Китая и Южной Кореи"
+      ]
+    },
+    "correct": 0,
+    "why": "Именно эти страны названы в главе как основные источники трудовой миграции в Швецию в тот период."
+  },
+  {
+    "id": "c10-35",
+    "ch": 10,
+    "kind": "situation",
+    "ref": "Sveriges moderna historia, s. 36",
+    "sv": {
+      "q": "Sverige hade under 1800-talet varit ett land som många lämnade. Vad blev landet i stället under rekordåren, tack vare den starka ekonomin?",
+      "o": [
+        "Ett invandrarland",
+        "Ett land utan någon arbetskraft",
+        "Ett land med minskande befolkning",
+        "Ett land som stängde sina gränser helt"
+      ]
+    },
+    "ru": {
+      "q": "В XIX веке Швеция была страной, которую многие покидали. Чем страна стала вместо этого в «рекордные годы» благодаря сильной экономике?",
+      "o": [
+        "Страной иммиграции",
+        "Страной без рабочей силы",
+        "Страной с сокращающимся населением",
+        "Страной, полностью закрывшей границы"
+      ]
+    },
+    "correct": 0,
+    "why": "Роли поменялись: страна эмиграции XIX века (более миллиона уехавших в США) стала страной иммиграции благодаря экономическому росту рекордных лет."
+  },
+  {
+    "id": "c10-36",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 37",
+    "sv": {
+      "q": "Vilken ny teknik kom i början av 1960-talet och ändrade hur människor tog del av nyheter och underhållning?",
+      "o": [
+        "Tv-apparaten",
+        "Internet",
+        "Mobiltelefonen",
+        "Radion"
+      ]
+    },
+    "ru": {
+      "q": "Какая новая технология появилась в начале 1960-х годов и изменила то, как люди узнавали новости и развлекались?",
+      "o": [
+        "Телевизор",
+        "Интернет",
+        "Мобильный телефон",
+        "Радио"
+      ]
+    },
+    "correct": 0,
+    "why": "Радио уже существовало раньше; интернет и мобильный телефон появились значительно позже. Именно телевизор стал новинкой начала 1960-х."
+  },
+  {
+    "id": "c10-37",
+    "ch": 10,
+    "kind": "förståelse",
+    "ref": "Sveriges moderna historia, s. 37",
+    "sv": {
+      "q": "Varför ökade behovet av livslångt lärande och vuxenutbildning när informationssamhället växte fram från och med 1970-talet?",
+      "o": [
+        "Eftersom kunskap snabbt blev gammal i takt med att den tekniska utvecklingen gick allt fortare",
+        "Eftersom alla universitet hade stängts",
+        "Eftersom industrisamhället fortfarande dominerade helt",
+        "Eftersom staten krävde examen för att få rösta"
+      ]
+    },
+    "ru": {
+      "q": "Почему выросла потребность в непрерывном обучении и образовании для взрослых, когда с 1970-х годов формировалось информационное общество?",
+      "o": [
+        "Потому что знания быстро устаревали по мере ускорения технического развития",
+        "Потому что все университеты закрылись",
+        "Потому что индустриальное общество всё ещё полностью доминировало",
+        "Потому что государство требовало диплом для права голоса"
+      ]
+    },
+    "correct": 0,
+    "why": "Быстрое технологическое развитие означало, что полученные знания устаревали быстрее, чем раньше, — отсюда рост значения непрерывного и взрослого образования."
+  },
+  {
+    "id": "c10-38",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 37",
+    "sv": {
+      "q": "Vilket årtal fick Sverige, delvis som en reaktion på den ekonomiska krisen, sin första regering på flera decennier som inte var socialdemokratisk?",
+      "o": [
+        "1965",
+        "1976",
+        "1990",
+        "2003"
+      ]
+    },
+    "ru": {
+      "q": "В каком году Швеция, отчасти как реакция на экономический кризис, впервые за несколько десятилетий получила несоциал-демократическое правительство?",
+      "o": [
+        "1965",
+        "1976",
+        "1990",
+        "2003"
+      ]
+    },
+    "correct": 1,
+    "why": "После десятилетий социал-демократического правления (1945–1976) экономический кризис середины 1970-х привёл к смене власти в 1976 году — начало периода чередующихся правительств."
+  },
+  {
+    "id": "c10-39",
+    "ch": 10,
+    "kind": "situation",
+    "ref": "Sveriges moderna historia, s. 38",
+    "sv": {
+      "q": "Från 1980-talet vill allt fler människor i Sverige själva kunna välja till exempel vilken skola eller vårdcentral de använder. Vilken samhällsutveckling speglar detta?",
+      "o": [
+        "Ökad valfrihet och individens rättigheter fick större betydelse",
+        "Minskad valfrihet på grund av nya lagar",
+        "Att kommunerna tog bort alla valmöjligheter",
+        "Att staten förbjöd privata alternativ"
+      ]
+    },
+    "ru": {
+      "q": "С 1980-х годов всё больше людей в Швеции хотят сами выбирать, например, школу или медицинский центр. Какое общественное развитие это отражает?",
+      "o": [
+        "Рост свободы выбора и значения прав личности",
+        "Снижение свободы выбора из-за новых законов",
+        "То, что коммуны убрали все возможности выбора",
+        "То, что государство запретило частные альтернативы"
+      ]
+    },
+    "correct": 0,
+    "why": "С 1980-х годов усилилось внимание к правам и выбору отдельного человека — это отразилось, в частности, в возможности выбирать школу и медицинское учреждение."
+  },
+  {
+    "id": "c10-40",
+    "ch": 10,
+    "kind": "fakta",
+    "ref": "Sveriges moderna historia, s. 38",
+    "sv": {
+      "q": "Vilken stor förändring, som fortfarande pågår, inleddes i Sverige från och med 1990-talet och innefattar bland annat datorer, internet och smarta telefoner?",
+      "o": [
+        "Den digitala revolutionen",
+        "Industrialiseringen",
+        "Folkhemsreformen",
+        "Den agrara revolutionen"
+      ]
+    },
+    "ru": {
+      "q": "Какое крупное изменение, продолжающееся до сих пор, началось в Швеции с 1990-х годов и включает, среди прочего, компьютеры, интернет и смартфоны?",
+      "o": [
+        "Цифровая революция",
+        "Индустриализация",
+        "Реформа народного дома",
+        "Аграрная революция"
+      ]
+    },
+    "correct": 0,
+    "why": "Индустриализация относится к XIX веку, а цифровая революция — это изменение, начавшееся именно с 1990-х и продолжающееся сегодня, включая ИИ."
+  }
 ]
