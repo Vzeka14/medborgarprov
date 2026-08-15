@@ -75,7 +75,7 @@
       ]
     },
     "correct": 0,
-    "why": "Закон о свободе слова (yttrandefrihetsgrundlagen) касается радио, ТВ и других форм высказывания. Закон о недискриминации (diskrimineringslagen) не является основным законом."
+    "why": "Tryckfrihetsförordningen (закон о свободе печати) защищает именно печатную форму — книги и газеты. Yttrandefrihetsgrundlagen (закон о свободе слова) касается радио, ТВ и других форм высказывания, а diskrimineringslagen (закон о недискриминации) вообще не входит в число основных законов."
   },
   {
     "id": "c5-04",
@@ -343,7 +343,7 @@
     "kind": "fakta",
     "ref": "Lag och rätt, s. 16",
     "sv": {
-      "q": "Förutom rätten att uttrycka åsikter, vilken rättighet ger yttrandefrihetsgrundlagen alla som bor i Sverige?",
+      "q": "Yttrandefrihetsgrundlagen ger alla som bor i Sverige rätt att uttrycka åsikter. Vilken ytterligare rättighet ger grundlagen?",
       "o": [
         "Rätt till kostnadsfri hälso- och sjukvård",
         "Rätt att bilda föreningar och att demonstrera",
@@ -352,7 +352,7 @@
       ]
     },
     "ru": {
-      "q": "Помимо права выражать мнения, какое право даёт закон о свободе слова (yttrandefrihetsgrundlagen) всем, кто живёт в Швеции?",
+      "q": "Yttrandefrihetsgrundlagen (закон о свободе слова) даёт всем, кто живёт в Швеции, право выражать мнения. Какое ещё право даёт этот закон?",
       "o": [
         "Право на бесплатную медицину",
         "Право создавать объединения и демонстрировать",
@@ -425,7 +425,7 @@
       "o": [
         "De får plockas fritt av vem som helst",
         "De får bara plockas av markägaren",
-        "De får plockas om de säljs vidare till ett museum",
+        "De får plockas om man är försiktig och inte skadar naturen",
         "De är skyddade av lagen och får inte plockas"
       ]
     },
@@ -434,7 +434,7 @@
       "o": [
         "Их может свободно собирать кто угодно",
         "Их может собирать только землевладелец",
-        "Их можно собирать, если потом передать в музей",
+        "Их можно собирать, если делать это осторожно и не вредить природе",
         "Они охраняются законом, и их нельзя собирать"
       ]
     },
@@ -553,19 +553,19 @@
     "sv": {
       "q": "Vilka två rättigheter ingår i rättssäkerheten i Sverige?",
       "o": [
-        "Rätt att välja sin egen domare och rätt till gratis böter",
+        "Rätt att välja vilken domstol som ska döma i målet och rätt till kostnadsfri rättshjälp för alla",
         "Rätt att slippa rättegång och rätt till skadestånd",
         "Rätt att försvara sig med en advokat och rätt att överklaga en dom",
-        "Rätt att döma sig själv och rätt till amnesti"
+        "Rätt att bli dömd av nämndemän i stället för en domare och rätt att slippa åtal om man ångrar sig"
       ]
     },
     "ru": {
       "q": "Какие два права входят в понятие правовой защищённости (rättssäkerhet)?",
       "o": [
-        "Право выбирать своего судью и право на бесплатный штраф",
+        "Право выбирать, какой суд будет рассматривать дело, и право на бесплатную юридическую помощь для всех",
         "Право избежать суда и право на компенсацию",
         "Право на защиту адвоката и право обжаловать приговор",
-        "Право самому вынести себе приговор и право на амнистию"
+        "Право быть судимым народными заседателями вместо судьи и право избежать обвинения, если передумал"
       ]
     },
     "correct": 2,
@@ -629,7 +629,7 @@
     "kind": "förståelse",
     "ref": "Lag och rätt, s. 18",
     "sv": {
-      "q": "Förutom brottmål, vilken typ av mål kan tingsrätten också hantera, till exempel när föräldrar är oense om var ett barn ska bo?",
+      "q": "Tingsrätten hanterar brottmål. Vilken annan typ av mål kan tingsrätten också hantera, till exempel när föräldrar är oense om var ett barn ska bo?",
       "o": [
         "Tvistemål",
         "Förvaltningsmål om skatt",
@@ -638,7 +638,7 @@
       ]
     },
     "ru": {
-      "q": "Помимо уголовных дел, какой тип дел также рассматривает суд первой инстанции (tingsrätten), например когда родители не могут договориться, где будет жить ребёнок?",
+      "q": "Суд первой инстанции (tingsrätten) рассматривает уголовные дела. Какой ещё тип дел он может рассматривать, например когда родители не могут договориться, где будет жить ребёнок?",
       "o": [
         "Гражданские споры (tvistemål)",
         "Административные дела о налогах",
@@ -699,7 +699,7 @@
       ]
     },
     "correct": 1,
-    "why": "Выносят приговор и назначают наказание суды, а полиция отвечает за порядок, профилактику и расследование."
+    "why": "Полиция отвечает за порядок, профилактику и расследование преступлений. Выносят приговор и назначают наказание суды, а не полиция."
   },
   {
     "id": "c5-28",
@@ -881,7 +881,7 @@
       ]
     },
     "correct": 0,
-    "why": "Защита обвиняемого — задача адвоката, а наказание определяет судья; прокурор со своей стороны доказывает вину."
+    "why": "Прокурор во время судебного заседания доказывает вину обвиняемого. Защита обвиняемого — задача адвоката, а наказание определяет судья."
   },
   {
     "id": "c5-35",
@@ -1219,7 +1219,7 @@
       ]
     },
     "correct": 1,
-    "why": "ООН основана в 1945 году 51 страной, декларация принята в 1948 году и содержит 30 статей."
+    "why": "Декларация принята в 1948 году и содержит 30 статей. ООН была основана раньше, в 1945 году, 51 страной — эти два года легко перепутать."
   },
   {
     "id": "c7-02",
@@ -1323,7 +1323,7 @@
       ]
     },
     "correct": 3,
-    "why": "1979 — год запрета телесных наказаний детей; 2000 — признание национальных меньшинств; 2020 — конвенция о правах ребёнка (barnkonventionen) становится законом."
+    "why": "Конвенция о правах ребёнка (barnkonventionen) стала законом Швеции в 2020 году. Не путать с 1979 (запрет телесных наказаний детей) и 2000 (признание национальных меньшинств) — это другие даты из той же главы."
   },
   {
     "id": "c7-06",
@@ -1643,7 +1643,7 @@
     "kind": "förståelse",
     "ref": "Mänskliga rättigheter, s. 23",
     "sv": {
-      "q": "Vilka grupper, förutom kvinnor och flickor, kan också utsättas för hedersrelaterat våld och förtryck i Sverige?",
+      "q": "Hedersrelaterat våld och förtryck drabbar ofta kvinnor och flickor. Vilka andra grupper kan också utsättas för det i Sverige?",
       "o": [
         "Endast äldre personer",
         "Pojkar, män och hbtqi-personer",
@@ -1652,7 +1652,7 @@
       ]
     },
     "ru": {
-      "q": "Какие группы, помимо женщин и девочек, тоже могут подвергаться насилию и притеснению по мотивам чести в Швеции?",
+      "q": "Насилие и притеснение по мотивам чести часто затрагивают женщин и девочек. Какие ещё группы могут подвергаться этому в Швеции?",
       "o": [
         "Только пожилые люди",
         "Мальчики, мужчины и ЛГБТКИ-люди",
@@ -1851,7 +1851,7 @@
     "kind": "fakta",
     "ref": "Mänskliga rättigheter, s. 25",
     "sv": {
-      "q": "Förutom fysisk misshandel, vilka andra former av våld mot barn är förbjudna i Sverige?",
+      "q": "Fysisk misshandel av barn är förbjuden i Sverige. Vilka andra former av våld mot barn är också förbjudna?",
       "o": [
         "Endast ekonomiskt våld",
         "Endast mobbning i skolan",
@@ -1860,7 +1860,7 @@
       ]
     },
     "ru": {
-      "q": "Помимо физического насилия, какие ещё формы насилия над детьми запрещены в Швеции?",
+      "q": "Физическое избиение детей запрещено в Швеции. Какие ещё формы насилия над детьми тоже запрещены?",
       "o": [
         "Только экономическое насилие",
         "Только травля в школе",
@@ -2064,7 +2064,7 @@
         "Det är förbjudet enligt svensk lag",
         "Det är tillåtet, rätten att gifta sig med en person av samma kön är skyddad i lag",
         "Det är tillåtet men bara som en borgerlig ceremoni, aldrig i kyrkan",
-        "Det kräver särskilt tillstånd från Skatteverket i varje enskilt fall"
+        "Det har varit tillåtet sedan 2003, men bara om paret redan adopterat ett barn tillsammans"
       ]
     },
     "ru": {
@@ -2073,11 +2073,11 @@
         "Это запрещено шведским законом",
         "Это разрешено, право вступать в брак с человеком того же пола защищено законом",
         "Это разрешено, но только в виде светской церемонии, никогда в церкви",
-        "Это требует особого разрешения от налогового ведомства в каждом отдельном случае"
+        "Это разрешено с 2003 года, но только если пара уже усыновила ребёнка вместе"
       ]
     },
     "correct": 1,
-    "why": "Право вступать в брак с человеком того же пола прямо защищено законом в Швеции, причём с 2009 года это возможно и в церковной форме — а не только через светскую церемонию, и без специального разрешения от налогового ведомства (Skatteverket)."
+    "why": "Право вступать в брак с человеком того же пола прямо защищено законом в Швеции с 2009 года, причём это возможно и в церковной форме, а не только через светскую церемонию. Право на усыновление (2003 год) — это отдельное, более раннее право и не является условием для брака."
   },
   {
     "id": "c7-35",
