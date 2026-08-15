@@ -1454,5 +1454,785 @@
     },
     "correct": 1,
     "why": "Мотив ненависти является отягчающим обстоятельством."
+  },
+  {
+    "id": "c7-11",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 22",
+    "sv": {
+      "q": "Hur många länder gick samman för att grunda FN 1945?",
+      "o": [
+        "51 länder",
+        "25 länder",
+        "100 länder",
+        "193 länder"
+      ]
+    },
+    "ru": {
+      "q": "Сколько стран объединились, чтобы основать ООН в 1945 году?",
+      "o": [
+        "51 страна",
+        "25 стран",
+        "100 стран",
+        "193 страны"
+      ]
+    },
+    "correct": 0,
+    "why": "51 страна создала ООН в 1945 году, чтобы предотвратить будущие войны и защитить права каждого человека. Сегодня в ООН состоит гораздо больше стран (193), но именно 51 стояла у истоков организации."
+  },
+  {
+    "id": "c7-12",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 22",
+    "sv": {
+      "q": "En person tvingas lämna sitt hemland på grund av krig och kommer till ett annat land för att söka skydd. Vilken rättighet handlar detta om enligt FN:s förklaring om de mänskliga rättigheterna?",
+      "o": [
+        "Rätten att fritt välja bostadsort inom sitt eget land",
+        "Rätten till en betald semester",
+        "Rätten att fly, söka asyl och få skydd i ett annat land om ens liv är i fara",
+        "Rätten att bilda en egen stat"
+      ]
+    },
+    "ru": {
+      "q": "Человек вынужден покинуть свою страну из-за войны и приезжает в другую страну, чтобы искать защиту. О каком праве идёт речь согласно Всеобщей декларации прав человека ООН?",
+      "o": [
+        "Право свободно выбирать место жительства внутри своей страны",
+        "Право на оплачиваемый отпуск",
+        "Право бежать, искать убежище и получить защиту в другой стране, если жизнь под угрозой",
+        "Право создать собственное государство"
+      ]
+    },
+    "correct": 2,
+    "why": "Право бежать, искать убежище и получить защиту прямо перечислено среди прав из декларации ООН — его не стоит путать с правом на отпуск или свободой передвижения внутри страны, которые тоже входят в декларацию, но касаются другого."
+  },
+  {
+    "id": "c7-13",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 22",
+    "sv": {
+      "q": "En stat vill dra in en persons medborgarskap enbart för att personen har kritiserat regeringen offentligt. Är det tillåtet enligt de mänskliga rättigheterna?",
+      "o": [
+        "Ja, staten får alltid besluta fritt om medborgarskap",
+        "Ja, men bara om personen bor utomlands",
+        "Nej, men bara om personen är same eller tillhör en nationell minoritet",
+        "Nej, ingen får fråntas sitt medborgarskap utan en godkänd och saklig anledning enligt lagen"
+      ]
+    },
+    "ru": {
+      "q": "Государство хочет лишить человека гражданства только за то, что он публично раскритиковал правительство. Разрешено ли это согласно правам человека?",
+      "o": [
+        "Да, государство всегда вправе свободно решать вопросы гражданства",
+        "Да, но только если человек живёт за границей",
+        "Нет, но только если человек саам или относится к национальному меньшинству",
+        "Нет, никого нельзя лишить гражданства без обоснованной и законной причины"
+      ]
+    },
+    "correct": 3,
+    "why": "Никого нельзя лишить гражданства без обоснованной, законной причины — это прямо закреплено среди прав из декларации ООН, и критика правительства такой причиной не является. Это ограничение касается всех, а не только определённых групп населения."
+  },
+  {
+    "id": "c7-14",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Vad är det övergripande målet med Sveriges politik för jämställdhet mellan könen?",
+      "o": [
+        "Att kvinnor ska ha mer makt än män i samhället",
+        "Att kvinnor och män ska ha samma rättigheter, skyldigheter och lika mycket makt att påverka samhället och sina egna liv",
+        "Att alla yrken ska ha exakt lika många kvinnor som män anställda",
+        "Att kvinnor och män ska leva helt separerade liv"
+      ]
+    },
+    "ru": {
+      "q": "Какова общая цель шведской политики равенства между полами?",
+      "o": [
+        "Чтобы у женщин было больше власти в обществе, чем у мужчин",
+        "Чтобы женщины и мужчины имели равные права, обязанности и равную власть влиять на общество и свою жизнь",
+        "Чтобы во всех профессиях было ровно поровну женщин и мужчин",
+        "Чтобы женщины и мужчины жили полностью раздельными жизнями"
+      ]
+    },
+    "correct": 1,
+    "why": "Цель — равные права, обязанности и равное влияние на общество и собственную жизнь для женщин и мужчин, а не превосходство одного пола или механическое равенство в каждой профессии, которое в главе не упоминается."
+  },
+  {
+    "id": "c7-15",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Hur arbetar Sverige konkret för att kvinnor och män ska få lika lön för lika arbete?",
+      "o": [
+        "Genom att arbetsplatser kontrolleras och fackförbund och myndigheter arbetar för rättvisa löner",
+        "Genom att staten sätter en fast lön för varje yrke",
+        "Genom att endast kvinnor får förhandla om sin lön",
+        "Genom att lönerna hemlighålls för alla anställda"
+      ]
+    },
+    "ru": {
+      "q": "Как Швеция на практике добивается равной оплаты труда женщин и мужчин за одинаковую работу?",
+      "o": [
+        "Рабочие места проверяются, а профсоюзы и ведомства добиваются справедливых зарплат",
+        "Государство устанавливает фиксированную зарплату для каждой профессии",
+        "Только женщины имеют право договариваться о своей зарплате",
+        "Зарплаты держат в тайне от всех сотрудников"
+      ]
+    },
+    "correct": 0,
+    "why": "Контроль рабочих мест плюс работа профсоюзов и ведомств — конкретный механизм из главы, а не фиксированные государством ставки или секретность зарплат, которые там не упоминаются."
+  },
+  {
+    "id": "c7-16",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Ett föräldrapar väntar sitt första barn och vill båda kunna vara hemma en period när barnet är litet, inte bara mamman. Vilket system i Sverige gör detta möjligt?",
+      "o": [
+        "Sjukförsäkringen",
+        "A-kassan",
+        "Föräldrapenningen",
+        "Barnbidraget"
+      ]
+    },
+    "ru": {
+      "q": "Пара ожидает первого ребёнка и хочет, чтобы дома с малышом могли побыть оба родителя, а не только мама. Какая система в Швеции делает это возможным?",
+      "o": [
+        "Страхование по болезни",
+        "Пособие по безработице (A-kassan)",
+        "Родительское пособие (föräldrapenning)",
+        "Детское пособие (barnbidrag)"
+      ]
+    },
+    "correct": 2,
+    "why": "Именно föräldrapenning позволяет обоим родителям оставаться дома с ребёнком, и государство прямо поощряет делить это время — в отличие от barnbidrag (регулярное пособие на ребёнка) или A-kassan (пособие по безработице), которые решают другие задачи."
+  },
+  {
+    "id": "c7-17",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "En ung kvinna tvingas av sin familj att gifta sig med en man hon själv inte har valt, som ett sätt för familjen att kontrollera henne. Vad kallas detta enligt kapitlet?",
+      "o": [
+        "Våld i nära relationer i allmänhet",
+        "Diskriminering på grund av kön",
+        "Hatbrott",
+        "Hedersrelaterat våld eller förtryck"
+      ]
+    },
+    "ru": {
+      "q": "Молодую женщину заставляет её семья выйти замуж за мужчину, которого она сама не выбирала — так семья пытается контролировать её. Как это называется согласно главе?",
+      "o": [
+        "Насилие в близких отношениях в целом",
+        "Дискриминация по признаку пола",
+        "Преступление на почве ненависти",
+        "Насилие или притеснение по мотивам чести (hedersrelaterat våld)"
+      ]
+    },
+    "correct": 3,
+    "why": "Принуждение к браку как способ контроля со стороны семьи или группы — это именно hedersrelaterat våld/förtryck, отдельная категория, отличная от общего понятия «насилие в близких отношениях» или преступлений на почве ненависти к группе."
+  },
+  {
+    "id": "c7-18",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Vilka grupper, förutom kvinnor och flickor, kan enligt kapitlet också utsättas för hedersrelaterat våld och förtryck?",
+      "o": [
+        "Endast äldre personer",
+        "Pojkar, män och hbtqi-personer",
+        "Endast personer som inte är svenska medborgare",
+        "Endast personer som arbetar inom vården"
+      ]
+    },
+    "ru": {
+      "q": "Какие группы, помимо женщин и девочек, согласно главе тоже могут подвергаться насилию и притеснению по мотивам чести?",
+      "o": [
+        "Только пожилые люди",
+        "Мальчики, мужчины и ЛГБТКИ-люди",
+        "Только люди, не имеющие шведского гражданства",
+        "Только работники здравоохранения"
+      ]
+    },
+    "correct": 1,
+    "why": "Hedersrelaterat våld затрагивает не только женщин и девочек — в главе прямо указано, что жертвами могут быть и мальчики, мужчины и hbtqi-персоны, а не только определённые по возрасту, гражданству или профессии группы."
+  },
+  {
+    "id": "c7-19",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Från vilken ålder är det enligt svensk lag tillåtet att gifta sig?",
+      "o": [
+        "15 år",
+        "16 år",
+        "18 år",
+        "20 år"
+      ]
+    },
+    "ru": {
+      "q": "С какого возраста по шведскому закону разрешено вступать в брак?",
+      "o": [
+        "15 лет",
+        "16 лет",
+        "18 лет",
+        "20 лет"
+      ]
+    },
+    "correct": 2,
+    "why": "Разрешённый возраст для брака — 18 лет; брак с человеком младше этого возраста считается barnäktenskap и запрещён шведским законом, независимо от того, дал ли кто-то согласие."
+  },
+  {
+    "id": "c7-20",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 23",
+    "sv": {
+      "q": "Vilken myndighet ansvarar för det nationella arbetet mot hedersrelaterat våld och förtryck i Sverige?",
+      "o": [
+        "Jämställdhetsmyndigheten",
+        "Diskrimineringsombudsmannen (DO)",
+        "Migrationsverket",
+        "Socialstyrelsen"
+      ]
+    },
+    "ru": {
+      "q": "Какое ведомство отвечает за общенациональную работу против насилия и притеснения по мотивам чести в Швеции?",
+      "o": [
+        "Ведомство по вопросам гендерного равенства (Jämställdhetsmyndigheten)",
+        "Омбудсмен по вопросам дискриминации (DO)",
+        "Миграционное ведомство",
+        "Национальное управление здравоохранения и социального обеспечения"
+      ]
+    },
+    "correct": 0,
+    "why": "Именно Jämställdhetsmyndigheten отвечает за эту конкретную задачу и финансирует убежища и организации поддержки — в отличие от DO, который занимается дискриминацией в целом, а не именно этой темой."
+  },
+  {
+    "id": "c7-21",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 24",
+    "sv": {
+      "q": "Varför riktar den svenska sexköpslagen straffet mot den som köper sex och inte mot den som säljer det?",
+      "o": [
+        "För att säljaren alltid tvingas till det av köparen",
+        "För att det är lättare att bevisa köparens skuld i domstol",
+        "För att markera att det inte är acceptabelt att utnyttja någon sexuellt mot betalning",
+        "För att lagen bara gäller utländska medborgare som köper sex"
+      ]
+    },
+    "ru": {
+      "q": "Почему шведский закон о покупке секс-услуг наказывает того, кто покупает секс, а не того, кто его продаёт?",
+      "o": [
+        "Потому что продавца всегда принуждает к этому покупатель",
+        "Потому что вину покупателя легче доказать в суде",
+        "Чтобы подчеркнуть, что недопустимо сексуально использовать человека за деньги",
+        "Потому что закон касается только иностранных граждан, покупающих секс"
+      ]
+    },
+    "correct": 2,
+    "why": "Цель закона — именно обозначить недопустимость сексуального использования человека за деньги, а не техническое удобство доказывания вины или предположение, что продавца всегда принуждают, — это не указано в главе как причина."
+  },
+  {
+    "id": "c7-22",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 24",
+    "sv": {
+      "q": "Ett barns föräldrar ska skiljas och kan inte komma överens om var barnet ska bo. Vad ska domstolen göra enligt barnkonventionen?",
+      "o": [
+        "Fatta beslutet utan att fråga barnet, eftersom barnet är för ungt för att förstå",
+        "Alltid låta barnet bo hos den förälder som tjänar mest pengar",
+        "Skicka frågan till Socialstyrelsen för slutgiltigt beslut",
+        "Fråga barnet vad det vill"
+      ]
+    },
+    "ru": {
+      "q": "Родители ребёнка разводятся и не могут договориться, с кем он будет жить. Что должен сделать суд согласно Конвенции о правах ребёнка?",
+      "o": [
+        "Принять решение, не спрашивая ребёнка, поскольку он слишком мал, чтобы понимать",
+        "Всегда оставлять ребёнка с тем родителем, кто зарабатывает больше",
+        "Передать вопрос на окончательное решение в Управление здравоохранения",
+        "Спросить ребёнка, чего он хочет"
+      ]
+    },
+    "correct": 3,
+    "why": "Barnkonventionen требует, чтобы суд спросил мнение самого ребёнка при таком споре, а не автоматически решал по доходу родителя или передавал вопрос в другое ведомство."
+  },
+  {
+    "id": "c7-23",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 24",
+    "sv": {
+      "q": "En kommun planerar att bygga ett nytt bostadsområde med lekplatser och en ny skola. Vad ska kommunen enligt barnkonventionen särskilt tänka på i planeringen?",
+      "o": [
+        "Endast vad som är billigast att bygga",
+        "Barnets bästa",
+        "Endast vad de vuxna invånarna föredrar",
+        "Endast hur många parkeringsplatser som behövs"
+      ]
+    },
+    "ru": {
+      "q": "Коммуна планирует построить новый жилой район с детскими площадками и новой школой. О чём коммуна должна особенно думать при планировании согласно Конвенции о правах ребёнка?",
+      "o": [
+        "Только о том, что дешевле построить",
+        "О наилучших интересах ребёнка",
+        "Только о предпочтениях взрослых жителей",
+        "Только о количестве парковочных мест"
+      ]
+    },
+    "correct": 1,
+    "why": "Barnkonventionen прямо требует от коммун учитывать интересы детей при строительстве жилья, площадок и школ — а не только стоимость, предпочтения взрослых или парковку."
+  },
+  {
+    "id": "c7-24",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 24",
+    "sv": {
+      "q": "Vilket år blev Sverige det första landet i världen att besluta att det är förbjudet att slå barn?",
+      "o": [
+        "1948",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "ru": {
+      "q": "В каком году Швеция стала первой страной в мире, принявшей решение о запрете физических наказаний детей?",
+      "o": [
+        "1948",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "correct": 1,
+    "why": "1979 — год, когда Швеция первой в мире запретила бить детей; 1948 — год декларации ООН о правах человека, 2000 — признание национальных меньшинств, 2020 — barnkonventionen становится законом Швеции. Даты легко перепутать."
+  },
+  {
+    "id": "c7-25",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vem har enligt barnkonventionen det primära ansvaret för ett barns uppfostran och utveckling, och vad har den personen rätt till från samhället?",
+      "o": [
+        "Föräldrarna eller en annan vårdnadshavare har ansvaret, och har rätt till stöd från till exempel kommunen eller sjukvården",
+        "Skolan har hela ansvaret, och föräldrarna har ingen roll",
+        "Staten har hela ansvaret genom en särskild myndighet",
+        "Barnet självt ansvarar för sin egen uppfostran från sju års ålder"
+      ]
+    },
+    "ru": {
+      "q": "Кто согласно Конвенции о правах ребёнка несёт основную ответственность за воспитание и развитие ребёнка, и на что этот человек имеет право со стороны общества?",
+      "o": [
+        "Ответственность несут родители или другой опекун, и они имеют право на поддержку, например от коммуны или медицины",
+        "Всю ответственность несёт школа, а у родителей нет никакой роли",
+        "Всю ответственность несёт государство через специальное ведомство",
+        "Сам ребёнок отвечает за своё воспитание с семи лет"
+      ]
+    },
+    "correct": 0,
+    "why": "Ответственность лежит именно на родителях или опекунах, а не на школе, государстве напрямую или самом ребёнке, при этом у варднадсхавере есть право на поддержку общества, например от коммуны или здравоохранения."
+  },
+  {
+    "id": "c7-26",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Förutom fysisk misshandel, vilka andra former av våld mot barn nämns i kapitlet?",
+      "o": [
+        "Endast ekonomiskt våld",
+        "Endast mobbning i skolan",
+        "Psykiskt våld, sexuella övergrepp och kvinnlig könsstympning",
+        "Endast våld som sker på internet"
+      ]
+    },
+    "ru": {
+      "q": "Помимо физического насилия, какие ещё формы насилия над детьми упоминаются в главе?",
+      "o": [
+        "Только экономическое насилие",
+        "Только травля в школе",
+        "Психологическое насилие, сексуальное насилие и калечащие операции на женских половых органах",
+        "Только насилие в интернете"
+      ]
+    },
+    "correct": 2,
+    "why": "Глава прямо перечисляет несколько форм насилия над детьми: помимо физического избиения — психическое насилие, сексуальные посягательства и калечащие операции на женских половых органах, а не только школьную травлю или онлайн-насилие."
+  },
+  {
+    "id": "c7-27",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vilka länder sträcker sig det samiska landområdet Sápmi över?",
+      "o": [
+        "Endast Sverige och Norge",
+        "Sverige, Danmark och Island",
+        "Endast norra Sverige",
+        "Sverige, Norge, Finland och Ryssland"
+      ]
+    },
+    "ru": {
+      "q": "На территории каких стран простирается саамская земля Сápми?",
+      "o": [
+        "Только Швеции и Норвегии",
+        "Швеции, Дании и Исландии",
+        "Только северной Швеции",
+        "Швеции, Норвегии, Финляндии и России"
+      ]
+    },
+    "correct": 3,
+    "why": "Sápmi охватывает территории четырёх стран — Швеции, Норвегии, Финляндии и России, а не только Швецию и Норвегию или только север Швеции."
+  },
+  {
+    "id": "c7-28",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Medlemmar i en sameby bedriver renskötsel inom ett särskilt betesområde i norra Sverige. Vilken typ av rättighet grundar sig detta på?",
+      "o": [
+        "En vanlig näringsrättighet som vem som helst i Sverige kan ansöka om",
+        "Samernas särskilda rättigheter som erkänt urfolk, kopplade till mark och naturresurser i svenska Sápmi",
+        "En rättighet som EU beviljar alla medborgare i norra Europa",
+        "Ett tillfälligt tillstånd som förnyas varje år av kommunen"
+      ]
+    },
+    "ru": {
+      "q": "Члены саамской общины (sameby) занимаются оленеводством на особой пастбищной территории на севере Швеции. На каком праве это основано?",
+      "o": [
+        "На обычном праве на промысел, на которое может претендовать любой житель Швеции",
+        "На особых правах саамов как признанного коренного народа, связанных с землёй и природными ресурсами в шведской части Сápми",
+        "На праве, которое ЕС предоставляет всем гражданам северной Европы",
+        "На временном разрешении, которое коммуна продлевает ежегодно"
+      ]
+    },
+    "correct": 1,
+    "why": "Право на оленеводство связано именно с особым статусом саамов как признанного коренного народа (urfolk) и их правами на землю и ресурсы в Sápmi — это не общее право для всех жителей Швеции и не решение ЕС или коммуны."
+  },
+  {
+    "id": "c7-29",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Var har de nationella minoriteterna rätt att använda sina minoritetsspråk enligt kapitlet?",
+      "o": [
+        "I myndighetskontakter, i förskola och i äldreomsorg",
+        "Endast i hemmet",
+        "Endast i domstol",
+        "Endast i riksdagsdebatter"
+      ]
+    },
+    "ru": {
+      "q": "Где, согласно главе, национальные меньшинства имеют право использовать свои языки меньшинств?",
+      "o": [
+        "В общении с ведомствами, в детском саду и в уходе за пожилыми людьми",
+        "Только дома",
+        "Только в суде",
+        "Только в дебатах риксдага"
+      ]
+    },
+    "correct": 0,
+    "why": "Право использовать язык меньшинства касается конкретно контактов с органами власти, детского сада и ухода за пожилыми — а не только домашнего общения или узкоспециализированных сфер вроде суда или риксдага."
+  },
+  {
+    "id": "c7-30",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vad hade Sveriges nationella minoriteter gemensamt innan de fick sina rättigheter erkända år 2000, enligt kapitlet?",
+      "o": [
+        "De hade nyligen invandrat till Sverige",
+        "De vägrade lära sig svenska",
+        "De hade ofta inte samma rättigheter som majoritetsbefolkningen och blev diskriminerade, trots att de bott länge i Sverige",
+        "De hade inga egna språk eller kulturer"
+      ]
+    },
+    "ru": {
+      "q": "Что было общим у национальных меньшинств Швеции до признания их прав в 2000 году, согласно главе?",
+      "o": [
+        "Они недавно иммигрировали в Швецию",
+        "Они отказывались учить шведский язык",
+        "У них часто не было тех же прав, что у большинства населения, и они подвергались дискриминации, несмотря на долгую историю проживания в Швеции",
+        "У них не было собственных языков и культур"
+      ]
+    },
+    "correct": 2,
+    "why": "Национальные меньшинства жили в Швеции очень долго, имели собственные языки и культуры, но именно поэтому исторически не имели равных прав с большинством и подвергались дискриминации — это не про недавнюю иммиграцию или отсутствие языка."
+  },
+  {
+    "id": "c7-31",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 25",
+    "sv": {
+      "q": "Vilken speciell status har samerna, utöver att vara en av Sveriges nationella minoriteter?",
+      "o": [
+        "De är den enda gruppen med eget skriftspråk",
+        "De är den enda gruppen som får rösta i riksdagsval",
+        "De är den enda gruppen med rätt till svenskt medborgarskap automatiskt",
+        "De är det enda erkända urfolket i Sverige"
+      ]
+    },
+    "ru": {
+      "q": "Какой особый статус имеют саамы помимо того, что они являются одним из национальных меньшинств Швеции?",
+      "o": [
+        "Они единственная группа с собственной письменностью",
+        "Они единственная группа, имеющая право голосовать на выборах в риксдаг",
+        "Они единственная группа с автоматическим правом на шведское гражданство",
+        "Они единственный признанный коренной народ (urfolk) Швеции"
+      ]
+    },
+    "correct": 3,
+    "why": "Саамы — единственный официально признанный коренной народ (urfolk) Швеции, что даёт им дополнительные права помимо статуса национального меньшинства, которым обладают также евреи, ромы, шведские финны и торнедальцы."
+  },
+  {
+    "id": "c7-32",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Vilket år fick homosexuella par i Sverige rätt att adoptera barn?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "ru": {
+      "q": "В каком году однополые пары в Швеции получили право усыновлять детей?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "correct": 1,
+    "why": "2003 — год, когда однополые пары получили право усыновления; 1944 — год легализации гомосексуальности, 2009 — год, когда церковь разрешила венчание однополых пар. Эти даты легко перепутать."
+  },
+  {
+    "id": "c7-33",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Vilket år tillät Svenska kyrkan homosexuella att gifta sig i kyrkan?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "ru": {
+      "q": "В каком году Шведская церковь разрешила венчание однополых пар?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "correct": 2,
+    "why": "2009 — год, когда Шведская церковь разрешила венчание однополых пар в церкви; это отдельный и более поздний шаг по сравнению с легализацией гомосексуальности (1944) и правом на усыновление (2003)."
+  },
+  {
+    "id": "c7-34",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Två kvinnor i Sverige vill gifta sig med varandra. Vad gäller enligt svensk lag?",
+      "o": [
+        "Det är förbjudet enligt svensk lag",
+        "Det är tillåtet, rätten att gifta sig med en person av samma kön är skyddad i lag",
+        "Det är tillåtet men bara som en borgerlig ceremoni, aldrig i kyrkan",
+        "Det kräver särskilt tillstånd från Skatteverket i varje enskilt fall"
+      ]
+    },
+    "ru": {
+      "q": "Две женщины в Швеции хотят пожениться друг с другом. Что действует по шведскому закону?",
+      "o": [
+        "Это запрещено шведским законом",
+        "Это разрешено, право вступать в брак с человеком того же пола защищено законом",
+        "Это разрешено, но только в виде светской церемонии, никогда в церкви",
+        "Это требует особого разрешения от налогового ведомства в каждом отдельном случае"
+      ]
+    },
+    "correct": 1,
+    "why": "Право вступать в брак с человеком того же пола прямо защищено законом в Швеции, причём с 2009 года это возможно и в церковной форме — а не только через светскую церемонию, и без специального разрешения от Skatteverket."
+  },
+  {
+    "id": "c7-35",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Vilka två typer av lagar nämns i kapitlet när det gäller personer med funktionsnedsättning?",
+      "o": [
+        "Lagar som skyddar mot diskriminering och lagar som ger möjlighet att delta i samhället på jämlika villkor",
+        "Lagar som ger ekonomiskt bidrag och lagar om bostadsbidrag",
+        "Lagar som reglerar arbetstider och lagar om semester",
+        "Lagar om trafikregler och lagar om djurskydd"
+      ]
+    },
+    "ru": {
+      "q": "Какие два типа законов упоминаются в главе применительно к людям с инвалидностью?",
+      "o": [
+        "Законы, защищающие от дискриминации, и законы, дающие возможность участвовать в жизни общества на равных условиях",
+        "Законы о денежных пособиях и законы о жилищных субсидиях",
+        "Законы о рабочем времени и законы об отпуске",
+        "Законы о правилах дорожного движения и законы о защите животных"
+      ]
+    },
+    "correct": 0,
+    "why": "Речь идёт именно о законах против дискриминации и законах, обеспечивающих равное участие в жизни общества, а не о пособиях, рабочем времени или других темах, не связанных напрямую с этим разделом главы."
+  },
+  {
+    "id": "c7-36",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "En person med funktionsnedsättning nekas en anställning enbart på grund av sin funktionsnedsättning, trots att personen är kvalificerad för jobbet. Vad gäller enligt svensk lag?",
+      "o": [
+        "Arbetsgivaren får neka fritt eftersom anställning alltid är frivillig",
+        "Det är tillåtet om arbetsgivaren är ett litet företag",
+        "Det är förbjudet enligt diskrimineringslagen",
+        "Det är bara förbjudet inom offentlig sektor"
+      ]
+    },
+    "ru": {
+      "q": "Человеку с инвалидностью отказывают в приёме на работу исключительно из-за инвалидности, хотя он квалифицирован для этой должности. Что действует по шведскому закону?",
+      "o": [
+        "Работодатель вправе отказывать свободно, так как приём на работу всегда добровольный",
+        "Это разрешено, если работодатель — небольшая компания",
+        "Это запрещено законом о недискриминации",
+        "Это запрещено только в государственном секторе"
+      ]
+    },
+    "correct": 2,
+    "why": "Дискриминация при найме по признаку инвалидности запрещена законом независимо от размера компании или сектора — частного или государственного."
+  },
+  {
+    "id": "c7-37",
+    "ch": 7,
+    "kind": "fakta",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Vad är Diskrimineringsombudsmannens (DO) huvudsakliga uppgift?",
+      "o": [
+        "Att döma i diskrimineringsmål i stället för domstol",
+        "Att besluta om uppehållstillstånd för asylsökande",
+        "Att sätta löner på den svenska arbetsmarknaden",
+        "Att se till att diskrimineringslagen följs och arbeta för allas lika rättigheter och möjligheter"
+      ]
+    },
+    "ru": {
+      "q": "Какова основная задача Омбудсмена по вопросам дискриминации (DO)?",
+      "o": [
+        "Выносить приговоры по делам о дискриминации вместо суда",
+        "Принимать решения о видах на жительство для просителей убежища",
+        "Устанавливать зарплаты на шведском рынке труда",
+        "Следить за соблюдением закона о недискриминации и работать за равные права и возможности для всех"
+      ]
+    },
+    "correct": 3,
+    "why": "DO — надзорное ведомство, следящее за соблюдением закона о недискриминации, а не суд, не миграционное ведомство и не орган, устанавливающий зарплаты — эти задачи выполняют другие структуры."
+  },
+  {
+    "id": "c7-38",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Ett företag nekar systematiskt att anställa personer över en viss ålder. Till vilken myndighet kan en person som drabbats vända sig för hjälp?",
+      "o": [
+        "Kronofogdemyndigheten",
+        "Diskrimineringsombudsmannen (DO)",
+        "Migrationsverket",
+        "Skatteverket"
+      ]
+    },
+    "ru": {
+      "q": "Компания систематически отказывается нанимать людей старше определённого возраста. В какое ведомство может обратиться за помощью пострадавший?",
+      "o": [
+        "Служба взыскания долгов (Kronofogdemyndigheten)",
+        "Омбудсмен по вопросам дискриминации (DO)",
+        "Миграционное ведомство",
+        "Налоговое ведомство"
+      ]
+    },
+    "correct": 1,
+    "why": "DO — именно то ведомство, которое занимается случаями дискриминации, включая возрастную, а не взысканием долгов, миграцией или налогами."
+  },
+  {
+    "id": "c7-39",
+    "ch": 7,
+    "kind": "situation",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "En skola upptäcker återkommande diskriminering av elever på grund av deras etniska tillhörighet. Vad förväntas skolan göra enligt kapitlet?",
+      "o": [
+        "Arbeta med aktiva åtgärder mot diskriminering",
+        "Ignorera problemet eftersom det sker mellan eleverna själva",
+        "Endast rapportera händelsen till polisen och inte göra något mer",
+        "Vänta på att DO ska agera på egen hand"
+      ]
+    },
+    "ru": {
+      "q": "Школа выявляет повторяющуюся дискриминацию учеников по признаку этнической принадлежности. Что, согласно главе, должна делать школа?",
+      "o": [
+        "Проводить активные меры против дискриминации",
+        "Игнорировать проблему, так как это происходит между самими учениками",
+        "Только сообщить о случившемся в полицию и больше ничего не предпринимать",
+        "Ждать, пока DO само примет меры"
+      ]
+    },
+    "correct": 0,
+    "why": "Школы, как и рабочие места, обязаны сами вести активную работу против дискриминации, а не просто сообщать в полицию или ждать вмешательства DO со стороны."
+  },
+  {
+    "id": "c7-40",
+    "ch": 7,
+    "kind": "förståelse",
+    "ref": "Mänskliga rättigheter, s. 26",
+    "sv": {
+      "q": "Vad skiljer ett hatbrott från diskriminering i allmänhet?",
+      "o": [
+        "Hatbrott är ett mildare begrepp än diskriminering",
+        "Diskriminering kan bara begås av myndigheter, hatbrott bara av privatpersoner",
+        "Hatbrott handlar om ett brott begånget mot en person specifikt för att personen tillhör en viss grupp, vilket ger ett strängare straff",
+        "Det finns ingen skillnad, orden betyder exakt samma sak"
+      ]
+    },
+    "ru": {
+      "q": "Чем преступление на почве ненависти (hatbrott) отличается от дискриминации в целом?",
+      "o": [
+        "Hatbrott — более мягкое понятие, чем дискриминация",
+        "Дискриминацию могут совершать только ведомства, а hatbrott — только частные лица",
+        "Hatbrott — это преступление, совершённое против человека именно из-за его принадлежности к определённой группе, что влечёт более строгое наказание",
+        "Разницы нет, это два слова для одного и того же"
+      ]
+    },
+    "correct": 2,
+    "why": "Hatbrott — это именно преступление против конкретного человека из-за его принадлежности к группе, за которое положено более строгое наказание, тогда как дискриминация — более широкое понятие о худшем обращении, не обязательно являющееся уголовным преступлением с отягчающим мотивом."
   }
 ]
