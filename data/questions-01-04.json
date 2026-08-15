@@ -1,36 +1,808 @@
 [
-{"id":"c1-01","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 5","sv":{"q":"Vilken är Sveriges nordligaste punkt?","o":["Smygehuk","Kebnekaise","Treriksröset","Malmberget"]},"ru":{"q":"Какая точка является самой северной в Швеции?","o":["Смюгехук","Кебнекайсе","Трериксрёсет","Мальмбергет"]},"correct":2,"why":"Швеция вытянута примерно на 1600 км от Трериксрёсета на севере до Смюгехука на юге."},
-{"id":"c1-02","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 5","sv":{"q":"Vad heter havet vid Sveriges östra kust?","o":["Skagerrak","Östersjön","Kattegatt","Atlanten"]},"ru":{"q":"Как называется море у восточного побережья Швеции?","o":["Скагеррак","Балтийское море","Каттегат","Атлантика"]},"correct":1,"why":"На востоке — Östersjön. На западном побережье — Skagerrak и Kattegatt."},
-{"id":"c1-03","ch":1,"kind":"förståelse","ref":"Landet Sverige, s. 5","sv":{"q":"Varför har Sverige ett milt klimat jämfört med andra områden på samma breddgrad?","o":["För att landet har många sjöar","För att Golfströmmen och Nordatlantiska strömmen för varmt vatten mot Europa","För att mer än hälften av ytan täcks av skog","För att landet ligger norr om polcirkeln"]},"ru":{"q":"Почему в Швеции мягкий климат по сравнению с другими территориями на той же широте?","o":["Потому что в стране много озёр","Потому что Гольфстрим и Северо-Атлантическое течение несут тёплую воду к Европе","Потому что больше половины площади покрыто лесом","Потому что страна лежит севернее полярного круга"]},"correct":1,"why":"Тёплая вода греет воздух, а ветры приносят более мягкий и влажный воздух на Швецию."},
-{"id":"c1-04","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 6","sv":{"q":"Vilka är Sveriges tre största sjöar?","o":["Vänern, Vättern och Mälaren","Vänern, Öland och Gotland","Mälaren, Kattegatt och Vättern","Vättern, Siljan och Storsjön"]},"ru":{"q":"Какие три озера в Швеции самые большие?","o":["Венерн, Веттерн и Меларен","Венерн, Эланд и Готланд","Меларен, Каттегат и Веттерн","Веттерн, Сильян и Стуршён"]},"correct":0,"why":"Эланд и Готланд — это острова, а Каттегат — море."},
-{"id":"c1-05","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 6","sv":{"q":"I hur många kommuner är Sverige indelat?","o":["21","25","290","349"]},"ru":{"q":"На сколько коммун разделена Швеция?","o":["21","25","290","349"]},"correct":2,"why":"290 коммун, 21 лен (län), 25 ландскапов (landskap), 349 депутатов риксдага. Эти четыре числа часто путают."},
-{"id":"c1-06","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 6","sv":{"q":"Vilken landsdel omfattar mer än hälften av Sveriges yta?","o":["Götaland","Svealand","Norrland","Bohuslän"]},"ru":{"q":"Какая часть страны занимает больше половины площади Швеции?","o":["Гёталанд","Свеаланд","Норрланд","Бухуслен"]},"correct":2,"why":"Норрланд — север; Свеаланд — центр; Гёталанд — юг. Бухуслен — это ландскап, а не одна из трёх частей."},
-{"id":"c1-07","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 7","sv":{"q":"Ungefär hur stor del av Sveriges befolkning bor i städer?","o":["Ungefär 50 procent","Ungefär 65 procent","Ungefär 85 procent","Nästan 100 procent"]},"ru":{"q":"Примерно какая доля населения Швеции живёт в городах?","o":["Около 50 процентов","Около 65 процентов","Около 85 процентов","Почти 100 процентов"]},"correct":2,"why":"В Швеции живёт почти 11 млн человек, около 85 % — в городах."},
-{"id":"c1-08","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 7","sv":{"q":"Var finns Sveriges största järnmalmsgruvor?","o":["I Norrbottens län","I Skåne","På Gotland","I Bohuslän"]},"ru":{"q":"Где находятся крупнейшие железорудные шахты Швеции?","o":["В лене Норрботтен","В Сконе","На Готланде","В Бухуслене"]},"correct":0,"why":"Кируна и Мальмбергет — в Норрботтене; руду вывозят поездами."},
-{"id":"c1-09","ch":1,"kind":"fakta","ref":"Landet Sverige, s. 9","sv":{"q":"Vilket år ska Sveriges utsläpp av växthusgaser enligt klimatlagens mål vara så nära noll som möjligt?","o":["2030","2035","2045","2050"]},"ru":{"q":"К какому году, согласно цели климатического закона, выбросы парниковых газов в Швеции должны быть максимально близки к нулю?","o":["2030","2035","2045","2050"]},"correct":2,"why":"2045 — цель шведского klimatlag. Не путать с целью ЕС на 2050 год."},
-
-{"id":"c2-01","ch":2,"kind":"fakta","ref":"Sveriges demokratiska system, s. 10","sv":{"q":"Vad betyder ordet demokrati?","o":["Rättssäkerhet","Folkstyre","Yttrandefrihet","Majoritetsbeslut"]},"ru":{"q":"Что означает слово «демократия»?","o":["Правовая защищённость","Народовластие","Свобода слова","Решение большинства"]},"correct":1,"why":"Слово греческого происхождения и означает folkstyre — народовластие."},
-{"id":"c2-02","ch":2,"kind":"förståelse","ref":"Sveriges demokratiska system, s. 10","sv":{"q":"Vad innebär det att valen i Sverige är hemliga?","o":["Att resultatet inte offentliggörs förrän efter en månad","Att ingen behöver avslöja hur hen har röstat","Att endast myndigheter får veta vilka partier som ställer upp","Att man måste rösta på samma parti som förra gången"]},"ru":{"q":"Что означает, что выборы в Швеции тайные?","o":["Что результат публикуют только через месяц","Что никто не обязан раскрывать, как он проголосовал","Что только органы власти знают, какие партии участвуют","Что нужно голосовать за ту же партию, что и раньше"]},"correct":1,"why":"Все голосуют за ширмой (röstbås), чтобы никто не видел выбор."},
-{"id":"c2-03","ch":2,"kind":"fakta","ref":"Sveriges demokratiska system, s. 10","sv":{"q":"Vad kallas principen att ingen får dömas utan en rättvis rättegång?","o":["Offentlighetsprincipen","Rättssäkerhet","Allemansrätten","Folksuveränitet"]},"ru":{"q":"Как называется принцип, по которому никого нельзя осудить без справедливого судебного разбирательства?","o":["Принцип публичности","Правовая защищённость (rättssäkerhet)","Право общего доступа к природе","Народный суверенитет"]},"correct":1,"why":"Rättssäkerhet также означает, что законы действуют одинаково для всех в Швеции."},
-{"id":"c2-04","ch":2,"kind":"situation","ref":"Sveriges demokratiska system, s. 10","sv":{"q":"En person vill påverka ett beslut om en ny lekplats i sin kommun. Vilket alternativ är ett lagligt sätt att påverka?","o":["Hota den ansvariga politikern","Lämna synpunkter och förslag till kommunen","Rösta flera gånger i kommunvalet","Vägra betala kommunalskatt"]},"ru":{"q":"Человек хочет повлиять на решение о новой детской площадке в своей коммуне. Какой вариант — законный способ повлиять?","o":["Угрожать ответственному политику","Направить в коммуну своё мнение и предложение","Проголосовать несколько раз на выборах в коммуну","Отказаться платить коммунальный налог"]},"correct":1,"why":"Влиять можно голосованием, обращением к политикам, демонстрациями, сбором подписей, обращением в коммуну."},
-{"id":"c2-05","ch":2,"kind":"förståelse","ref":"Sveriges demokratiska system, s. 11","sv":{"q":"Varför är ett lågt valdeltagande ett problem för demokratin?","o":["För att valet då måste göras om","För att människor får mindre möjligheter att påverka politiska beslut i sin vardag","För att partierna då förlorar sitt ekonomiska stöd","För att riksdagen då inte kan stifta lagar"]},"ru":{"q":"Почему низкая явка на выборах — проблема для демократии?","o":["Потому что выборы придётся проводить заново","Потому что у людей становится меньше возможностей влиять на политические решения в повседневной жизни","Потому что партии лишаются финансовой поддержки","Потому что риксдаг не сможет принимать законы"]},"correct":1,"why":"Низкая явка может увеличивать разрыв между группами в обществе."},
-{"id":"c2-06","ch":2,"kind":"fakta","ref":"Sveriges demokratiska system, s. 11","sv":{"q":"Vad betyder integration?","o":["Att människor lever åtskilda beroende på inkomst eller etnisk bakgrund","Att människor med olika bakgrund lever närmare varandra och känner sig delaktiga i samhället","Att staten bestämmer var människor ska bo","Att alla måste tillhöra samma trossamfund"]},"ru":{"q":"Что означает интеграция?","o":["Что люди живут раздельно в зависимости от дохода или этнического происхождения","Что люди с разным происхождением живут ближе друг к другу и чувствуют себя частью общества","Что государство решает, где людям жить","Что все обязаны принадлежать к одной религиозной общине"]},"correct":1,"why":"Первый вариант описывает segregation — противоположное понятие."},
-
-{"id":"c3-01","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 12","sv":{"q":"Hur många ledamöter har riksdagen?","o":["290","310","349","400"]},"ru":{"q":"Сколько депутатов в риксдаге?","o":["290","310","349","400"]},"correct":2,"why":"349 депутатов, избираются каждые четыре года."},
-{"id":"c3-02","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 12","sv":{"q":"Vem utser ministrarna i regeringen?","o":["Kungen","Riksdagens talman","Statsministern","Väljarna i allmänna val"]},"ru":{"q":"Кто назначает министров в правительстве?","o":["Король","Спикер риксдага","Премьер-министр","Избиратели на всеобщих выборах"]},"correct":2,"why":"Риксдаг выбирает премьер-министра, а тот уже сам подбирает министров."},
-{"id":"c3-03","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 12","sv":{"q":"Vad kallas regeringens årliga förslag till riksdagen om statens inkomster och utgifter?","o":["Regeringsformen","Budgetpropositionen","Kollektivavtalet","Förundersökningen"]},"ru":{"q":"Как называется ежегодное предложение правительства риксдагу о доходах и расходах государства?","o":["Форма правления","Бюджетное предложение (budgetproposition)","Коллективный договор","Предварительное расследование"]},"correct":1,"why":"Подаётся каждую осень и показывает приоритеты правительства."},
-{"id":"c3-04","ch":3,"kind":"situation","ref":"Så här styrs Sverige, s. 13","sv":{"q":"En person ansöker om föräldrapenning. Vilken myndighet fattar beslut om ansökan?","o":["Skatteverket","Försäkringskassan","Arbetsförmedlingen","Migrationsverket"]},"ru":{"q":"Человек подаёт заявление на родительское пособие. Какое ведомство принимает решение по заявлению?","o":["Налоговое управление","Försäkringskassan","Служба занятости","Миграционное управление"]},"correct":1,"why":"Försäkringskassan отвечает за социальное страхование, включая föräldrapenning."},
-{"id":"c3-05","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 13","sv":{"q":"Vilka myndigheter kontrollerar att andra myndigheter gör rätt?","o":["Justitieombudsmannen (JO) och Justitiekanslern (JK)","Polismyndigheten och Kriminalvården","Skatteverket och Kronofogdemyndigheten","Riksdagen och regeringen"]},"ru":{"q":"Какие органы контролируют, что другие ведомства действуют правильно?","o":["Justitieombudsmannen (JO) и Justitiekanslern (JK)","Полиция и служба исполнения наказаний","Налоговое управление и служба судебных приставов","Риксдаг и правительство"]},"correct":0,"why":"JO и JK — специальные надзорные органы за деятельностью ведомств."},
-{"id":"c3-06","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 13","sv":{"q":"Vilken är regionernas främsta uppgift?","o":["Att ansvara för grundskolan","Att ansvara för hälso- och sjukvården","Att ansvara för polisen","Att ansvara för äldreomsorgen"]},"ru":{"q":"Какая главная задача регионов (regioner)?","o":["Отвечать за начальную школу","Отвечать за здравоохранение","Отвечать за полицию","Отвечать за уход за пожилыми"]},"correct":1,"why":"Регионы также отвечают за общественный транспорт и лены-музеи. Школа и уход за пожилыми — задача коммуны."},
-{"id":"c3-07","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 13","sv":{"q":"Vad kallas den församling där kommunens folkvalda politiker fattar beslut?","o":["Regionfullmäktige","Kommunfullmäktige","Riksdagen","Kulturnämnden"]},"ru":{"q":"Как называется собрание, где избранные политики коммуны принимают решения?","o":["Regionfullmäktige","Kommunfullmäktige","Риксдаг","Комитет по культуре"]},"correct":1,"why":"Kommunfullmäktige также назначает членов отраслевых комитетов (nämnder)."},
-{"id":"c3-08","ch":3,"kind":"förståelse","ref":"Så här styrs Sverige, s. 13","sv":{"q":"Vad innebär det att Sverige är en konstitutionell monarki?","o":["Att kungen styr landet tillsammans med regeringen","Att statschefen är en kung eller drottning utan politisk makt","Att kungen kan stoppa lagar som riksdagen beslutat","Att statsministern utses av kungen"]},"ru":{"q":"Что означает, что Швеция — конституционная монархия?","o":["Что король правит страной вместе с правительством","Что глава государства — король или королева без политической власти","Что король может блокировать законы, принятые риксдагом","Что премьер-министра назначает король"]},"correct":1,"why":"Король — символ страны, наносит государственные визиты и принимает глав других государств."},
-{"id":"c3-09","ch":3,"kind":"fakta","ref":"Så här styrs Sverige, s. 13","sv":{"q":"Vem står näst på tur att bli monark efter kronprinsessan Victoria?","o":["Prins Carl Philip","Prinsessan Madeleine","Prinsessan Estelle","Prins Oscar"]},"ru":{"q":"Кто следующий в очереди на престол после кронпринцессы Виктории?","o":["Принц Карл Филип","Принцесса Мадлен","Принцесса Эстель","Принц Оскар"]},"correct":2,"why":"Порядок престолонаследия закреплён в successionsordningen — одном из четырёх основных законов."},
-
-{"id":"c4-01","ch":4,"kind":"fakta","ref":"Politiska val och partier, s. 14","sv":{"q":"Hur ofta hålls val till EU-parlamentet?","o":["Vart tredje år","Vart fjärde år","Vart femte år","Vart sjätte år"]},"ru":{"q":"Как часто проходят выборы в Европарламент?","o":["Каждые три года","Каждые четыре года","Каждые пять лет","Каждые шесть лет"]},"correct":2,"why":"В риксдаг, регион и коммуну — каждые четыре года; в Европарламент — каждые пять."},
-{"id":"c4-02","ch":4,"kind":"förståelse","ref":"Politiska val och partier, s. 14","sv":{"q":"Vad krävs för att få rösta i riksdagsvalet?","o":["Att ha fyllt 18 år och vara svensk medborgare","Att ha fyllt 18 år och vara folkbokförd i Sverige","Att ha bott i Sverige i tre år","Att vara medlem i ett politiskt parti"]},"ru":{"q":"Что нужно, чтобы иметь право голосовать на выборах в риксдаг?","o":["Достичь 18 лет и быть гражданином Швеции","Достичь 18 лет и быть прописанным в Швеции","Прожить в Швеции три года","Быть членом политической партии"]},"correct":0,"why":"Для выборов в коммуну и регион гражданство не нужно — достаточно 3 лет проживания и прописки."},
-{"id":"c4-03","ch":4,"kind":"situation","ref":"Politiska val och partier, s. 14","sv":{"q":"En person som inte är svensk medborgare har bott och varit folkbokförd i Sverige i fyra år. I vilka val får personen rösta?","o":["Inga val","Endast riksdagsvalet","Kommun- och regionvalen","Alla val i Sverige"]},"ru":{"q":"Человек без шведского гражданства прожил и был прописан в Швеции четыре года. На каких выборах он может голосовать?","o":["Ни на каких","Только на выборах в риксдаг","На выборах в коммуну и регион","На всех выборах в Швеции"]},"correct":2,"why":"Требуется в сумме три года проживания и прописки. Для граждан ЕС и Северных стран достаточно только прописки."},
-{"id":"c4-04","ch":4,"kind":"fakta","ref":"Politiska val och partier, s. 14","sv":{"q":"Vad gäller för resultatet av en folkomröstning i Sverige?","o":["Politikerna måste alltid följa resultatet","Folkomröstningen är rådgivande och politikerna måste inte följa resultatet","Resultatet gäller bara om fler än 75 procent röstar","Folkomröstningar får bara hållas om grundlagar"]},"ru":{"q":"Что действует в отношении результата референдума в Швеции?","o":["Политики обязаны всегда следовать результату","Референдум носит рекомендательный характер, и политики не обязаны следовать результату","Результат действует, только если проголосовало более 75 процентов","Референдумы можно проводить только по основным законам"]},"correct":1,"why":"В 2003 году на референдуме о евро народ проголосовал против, и Швеция сохранила крону."},
-{"id":"c4-05","ch":4,"kind":"fakta","ref":"Politiska val och partier, s. 15","sv":{"q":"Hur många procent av rösterna måste ett parti minst få för att komma in i riksdagen?","o":["Två procent","Fyra procent","Fem procent","Tio procent"]},"ru":{"q":"Сколько процентов голосов минимум должна набрать партия, чтобы попасть в риксдаг?","o":["Два процента","Четыре процента","Пять процентов","Десять процентов"]},"correct":1,"why":"Барьер в 4 % существует, чтобы в риксдаг не попадало слишком много партий и было легче создавать устойчивое большинство."},
-{"id":"c4-06","ch":4,"kind":"förståelse","ref":"Politiska val och partier, s. 15","sv":{"q":"Vad innebär proportionella val?","o":["Att det parti som får flest röster får alla platser","Att partierna får platser utifrån den andel röster de fått","Att varje kommun får lika många platser","Att väljarna röstar på personer i stället för partier"]},"ru":{"q":"Что означает пропорциональная избирательная система?","o":["Что партия с наибольшим числом голосов получает все места","Что партии получают места в соответствии с долей набранных голосов","Что каждая коммуна получает одинаковое число мест","Что избиратели голосуют за людей, а не за партии"]},"correct":1,"why":"Двадцать процентов голосов дают примерно двадцать процентов мест. Поэтому партиям часто приходится договариваться о большинстве."},
-{"id":"c4-07","ch":4,"kind":"fakta","ref":"Politiska val och partier, s. 15","sv":{"q":"Vilket av dessa är inte ett parti som satt i riksdagen fram till valet 2026?","o":["Centerpartiet","Miljöpartiet","Folkpartiet","Vänsterpartiet"]},"ru":{"q":"Что из перечисленного не является партией, представленной в риксдаге до выборов 2026 года?","o":["Centerpartiet","Miljöpartiet","Folkpartiet","Vänsterpartiet"]},"correct":2,"why":"Восемь партий: C, KD, L, MP, M, S, SD, V. Folkpartiet — прежнее название Liberalerna."}
+  {
+    "id": "c1-01",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 5",
+    "sv": {
+      "q": "Vilken är Sveriges nordligaste punkt?",
+      "o": [
+        "Smygehuk",
+        "Kebnekaise",
+        "Treriksröset",
+        "Malmberget"
+      ]
+    },
+    "ru": {
+      "q": "Какая точка является самой северной в Швеции?",
+      "o": [
+        "Смюгехук",
+        "Кебнекайсе",
+        "Трериксрёсет",
+        "Мальмбергет"
+      ]
+    },
+    "correct": 2,
+    "why": "Швеция вытянута примерно на 1600 км от Трериксрёсета на севере до Смюгехука на юге."
+  },
+  {
+    "id": "c1-02",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 5",
+    "sv": {
+      "q": "Vad heter havet vid Sveriges östra kust?",
+      "o": [
+        "Skagerrak",
+        "Östersjön",
+        "Kattegatt",
+        "Atlanten"
+      ]
+    },
+    "ru": {
+      "q": "Как называется море у восточного побережья Швеции?",
+      "o": [
+        "Скагеррак",
+        "Балтийское море",
+        "Каттегат",
+        "Атлантика"
+      ]
+    },
+    "correct": 1,
+    "why": "На востоке — Балтийское море. На западном побережье — Скагеррак и Каттегат."
+  },
+  {
+    "id": "c1-03",
+    "ch": 1,
+    "kind": "förståelse",
+    "ref": "Landet Sverige, s. 5",
+    "sv": {
+      "q": "Varför har Sverige ett milt klimat jämfört med andra områden på samma breddgrad?",
+      "o": [
+        "För att landet har många sjöar",
+        "För att Golfströmmen och Nordatlantiska strömmen för varmt vatten mot Europa",
+        "För att mer än hälften av ytan täcks av skog",
+        "För att landet ligger norr om polcirkeln"
+      ]
+    },
+    "ru": {
+      "q": "Почему в Швеции мягкий климат по сравнению с другими территориями на той же широте?",
+      "o": [
+        "Потому что в стране много озёр",
+        "Потому что Гольфстрим и Северо-Атлантическое течение несут тёплую воду к Европе",
+        "Потому что больше половины площади покрыто лесом",
+        "Потому что страна лежит севернее полярного круга"
+      ]
+    },
+    "correct": 1,
+    "why": "Тёплая вода греет воздух, а ветры приносят более мягкий и влажный воздух на Швецию."
+  },
+  {
+    "id": "c1-04",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 6",
+    "sv": {
+      "q": "Vilka är Sveriges tre största sjöar?",
+      "o": [
+        "Vänern, Vättern och Mälaren",
+        "Vänern, Öland och Gotland",
+        "Mälaren, Kattegatt och Vättern",
+        "Vättern, Siljan och Storsjön"
+      ]
+    },
+    "ru": {
+      "q": "Какие три озера в Швеции самые большие?",
+      "o": [
+        "Венерн, Веттерн и Меларен",
+        "Венерн, Эланд и Готланд",
+        "Меларен, Каттегат и Веттерн",
+        "Веттерн, Сильян и Стуршён"
+      ]
+    },
+    "correct": 0,
+    "why": "Эланд и Готланд — это острова, а Каттегат — море."
+  },
+  {
+    "id": "c1-05",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 6",
+    "sv": {
+      "q": "I hur många kommuner är Sverige indelat?",
+      "o": [
+        "21",
+        "25",
+        "290",
+        "349"
+      ]
+    },
+    "ru": {
+      "q": "На сколько коммун разделена Швеция?",
+      "o": [
+        "21",
+        "25",
+        "290",
+        "349"
+      ]
+    },
+    "correct": 2,
+    "why": "290 коммун, 21 лен, 25 ландскапов, 349 депутатов риксдага. Эти четыре числа часто путают."
+  },
+  {
+    "id": "c1-06",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 6",
+    "sv": {
+      "q": "Vilken landsdel omfattar mer än hälften av Sveriges yta?",
+      "o": [
+        "Götaland",
+        "Svealand",
+        "Norrland",
+        "Bohuslän"
+      ]
+    },
+    "ru": {
+      "q": "Какая часть страны занимает больше половины площади Швеции?",
+      "o": [
+        "Гёталанд",
+        "Свеаланд",
+        "Норрланд",
+        "Бухуслен"
+      ]
+    },
+    "correct": 2,
+    "why": "Норрланд — север; Свеаланд — центр; Гёталанд — юг. Бухуслен — это ландскап, а не одна из трёх частей."
+  },
+  {
+    "id": "c1-07",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 7",
+    "sv": {
+      "q": "Ungefär hur stor del av Sveriges befolkning bor i städer?",
+      "o": [
+        "Ungefär 50 procent",
+        "Ungefär 65 procent",
+        "Ungefär 85 procent",
+        "Nästan 100 procent"
+      ]
+    },
+    "ru": {
+      "q": "Примерно какая доля населения Швеции живёт в городах?",
+      "o": [
+        "Около 50 процентов",
+        "Около 65 процентов",
+        "Около 85 процентов",
+        "Почти 100 процентов"
+      ]
+    },
+    "correct": 2,
+    "why": "В Швеции живёт почти 11 млн человек, около 85 % — в городах."
+  },
+  {
+    "id": "c1-08",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 7",
+    "sv": {
+      "q": "Var finns Sveriges största järnmalmsgruvor?",
+      "o": [
+        "I Norrbottens län",
+        "I Skåne",
+        "På Gotland",
+        "I Bohuslän"
+      ]
+    },
+    "ru": {
+      "q": "Где находятся крупнейшие железорудные шахты Швеции?",
+      "o": [
+        "В лене Норрботтен",
+        "В Сконе",
+        "На Готланде",
+        "В Бухуслене"
+      ]
+    },
+    "correct": 0,
+    "why": "Кируна и Мальмбергет — в Норрботтене; руду вывозят поездами."
+  },
+  {
+    "id": "c1-09",
+    "ch": 1,
+    "kind": "fakta",
+    "ref": "Landet Sverige, s. 9",
+    "sv": {
+      "q": "Vilket år ska Sveriges utsläpp av växthusgaser enligt klimatlagens mål vara så nära noll som möjligt?",
+      "o": [
+        "2030",
+        "2035",
+        "2045",
+        "2050"
+      ]
+    },
+    "ru": {
+      "q": "К какому году, согласно цели климатического закона, выбросы парниковых газов в Швеции должны быть максимально близки к нулю?",
+      "o": [
+        "2030",
+        "2035",
+        "2045",
+        "2050"
+      ]
+    },
+    "correct": 2,
+    "why": "2045 — цель шведского закона о климате (klimatlag). Не путать с целью ЕС на 2050 год."
+  },
+  {
+    "id": "c2-01",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "Vad betyder ordet demokrati?",
+      "o": [
+        "Rättssäkerhet",
+        "Folkstyre",
+        "Yttrandefrihet",
+        "Majoritetsbeslut"
+      ]
+    },
+    "ru": {
+      "q": "Что означает слово «демократия»?",
+      "o": [
+        "Правовая защищённость",
+        "Народовластие",
+        "Свобода слова",
+        "Решение большинства"
+      ]
+    },
+    "correct": 1,
+    "why": "Слово греческого происхождения и означает народовластие."
+  },
+  {
+    "id": "c2-02",
+    "ch": 2,
+    "kind": "förståelse",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "Vad innebär det att valen i Sverige är hemliga?",
+      "o": [
+        "Att resultatet inte offentliggörs förrän efter en månad",
+        "Att ingen behöver avslöja hur hen har röstat",
+        "Att endast myndigheter får veta vilka partier som ställer upp",
+        "Att man måste rösta på samma parti som förra gången"
+      ]
+    },
+    "ru": {
+      "q": "Что означает, что выборы в Швеции тайные?",
+      "o": [
+        "Что результат публикуют только через месяц",
+        "Что никто не обязан раскрывать, как он проголосовал",
+        "Что только органы власти знают, какие партии участвуют",
+        "Что нужно голосовать за ту же партию, что и раньше"
+      ]
+    },
+    "correct": 1,
+    "why": "Все голосуют за ширмой, чтобы никто не видел выбор."
+  },
+  {
+    "id": "c2-03",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "Vad kallas principen att ingen får dömas utan en rättvis rättegång?",
+      "o": [
+        "Offentlighetsprincipen",
+        "Rättssäkerhet",
+        "Allemansrätten",
+        "Folksuveränitet"
+      ]
+    },
+    "ru": {
+      "q": "Как называется принцип, по которому никого нельзя осудить без справедливого судебного разбирательства?",
+      "o": [
+        "Принцип публичности",
+        "Правовая защищённость (rättssäkerhet)",
+        "Право общего доступа к природе",
+        "Народный суверенитет"
+      ]
+    },
+    "correct": 1,
+    "why": "Правовая защищённость (rättssäkerhet) также означает, что законы действуют одинаково для всех в Швеции."
+  },
+  {
+    "id": "c2-04",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "En person vill påverka ett beslut om en ny lekplats i sin kommun. Vilket alternativ är ett lagligt sätt att påverka?",
+      "o": [
+        "Hota den ansvariga politikern",
+        "Lämna synpunkter och förslag till kommunen",
+        "Rösta flera gånger i kommunvalet",
+        "Vägra betala kommunalskatt"
+      ]
+    },
+    "ru": {
+      "q": "Человек хочет повлиять на решение о новой детской площадке в своей коммуне. Какой вариант — законный способ повлиять?",
+      "o": [
+        "Угрожать ответственному политику",
+        "Направить в коммуну своё мнение и предложение",
+        "Проголосовать несколько раз на выборах в коммуну",
+        "Отказаться платить коммунальный налог"
+      ]
+    },
+    "correct": 1,
+    "why": "Влиять можно голосованием, обращением к политикам, демонстрациями, сбором подписей, обращением в коммуну."
+  },
+  {
+    "id": "c2-05",
+    "ch": 2,
+    "kind": "förståelse",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Varför är ett lågt valdeltagande ett problem för demokratin?",
+      "o": [
+        "För att valet då måste göras om",
+        "För att människor får mindre möjligheter att påverka politiska beslut i sin vardag",
+        "För att partierna då förlorar sitt ekonomiska stöd",
+        "För att riksdagen då inte kan stifta lagar"
+      ]
+    },
+    "ru": {
+      "q": "Почему низкая явка на выборах — проблема для демократии?",
+      "o": [
+        "Потому что выборы придётся проводить заново",
+        "Потому что у людей становится меньше возможностей влиять на политические решения в повседневной жизни",
+        "Потому что партии лишаются финансовой поддержки",
+        "Потому что риксдаг не сможет принимать законы"
+      ]
+    },
+    "correct": 1,
+    "why": "Низкая явка может увеличивать разрыв между группами в обществе."
+  },
+  {
+    "id": "c2-06",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Vad betyder integration?",
+      "o": [
+        "Att människor lever åtskilda beroende på inkomst eller etnisk bakgrund",
+        "Att människor med olika bakgrund lever närmare varandra och känner sig delaktiga i samhället",
+        "Att staten bestämmer var människor ska bo",
+        "Att alla måste tillhöra samma trossamfund"
+      ]
+    },
+    "ru": {
+      "q": "Что означает интеграция?",
+      "o": [
+        "Что люди живут раздельно в зависимости от дохода или этнического происхождения",
+        "Что люди с разным происхождением живут ближе друг к другу и чувствуют себя частью общества",
+        "Что государство решает, где людям жить",
+        "Что все обязаны принадлежать к одной религиозной общине"
+      ]
+    },
+    "correct": 1,
+    "why": "Первый вариант описывает сегрегацию — противоположное понятие."
+  },
+  {
+    "id": "c3-01",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Hur många ledamöter har riksdagen?",
+      "o": [
+        "290",
+        "310",
+        "349",
+        "400"
+      ]
+    },
+    "ru": {
+      "q": "Сколько депутатов в риксдаге?",
+      "o": [
+        "290",
+        "310",
+        "349",
+        "400"
+      ]
+    },
+    "correct": 2,
+    "why": "349 депутатов, избираются каждые четыре года."
+  },
+  {
+    "id": "c3-02",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vem utser ministrarna i regeringen?",
+      "o": [
+        "Kungen",
+        "Riksdagens talman",
+        "Statsministern",
+        "Väljarna i allmänna val"
+      ]
+    },
+    "ru": {
+      "q": "Кто назначает министров в правительстве?",
+      "o": [
+        "Король",
+        "Спикер риксдага",
+        "Премьер-министр",
+        "Избиратели на всеобщих выборах"
+      ]
+    },
+    "correct": 2,
+    "why": "Риксдаг выбирает премьер-министра, а тот уже сам подбирает министров."
+  },
+  {
+    "id": "c3-03",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vad kallas regeringens årliga förslag till riksdagen om statens inkomster och utgifter?",
+      "o": [
+        "Regeringsformen",
+        "Budgetpropositionen",
+        "Kollektivavtalet",
+        "Förundersökningen"
+      ]
+    },
+    "ru": {
+      "q": "Как называется ежегодное предложение правительства риксдагу о доходах и расходах государства?",
+      "o": [
+        "Форма правления",
+        "Бюджетное предложение (budgetproposition)",
+        "Коллективный договор",
+        "Предварительное расследование"
+      ]
+    },
+    "correct": 1,
+    "why": "Подаётся каждую осень и показывает приоритеты правительства."
+  },
+  {
+    "id": "c3-04",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "En person ansöker om föräldrapenning. Vilken myndighet fattar beslut om ansökan?",
+      "o": [
+        "Skatteverket",
+        "Försäkringskassan",
+        "Arbetsförmedlingen",
+        "Migrationsverket"
+      ]
+    },
+    "ru": {
+      "q": "Человек подаёт заявление на родительское пособие. Какое ведомство принимает решение по заявлению?",
+      "o": [
+        "Налоговое управление",
+        "Ведомство социального страхования (Försäkringskassan)",
+        "Служба занятости",
+        "Миграционное управление"
+      ]
+    },
+    "correct": 1,
+    "why": "Ведомство социального страхования (Försäkringskassan) отвечает за социальное страхование, включая родительское пособие."
+  },
+  {
+    "id": "c3-05",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vilka myndigheter kontrollerar att andra myndigheter gör rätt?",
+      "o": [
+        "Justitieombudsmannen (JO) och Justitiekanslern (JK)",
+        "Polismyndigheten och Kriminalvården",
+        "Skatteverket och Kronofogdemyndigheten",
+        "Riksdagen och regeringen"
+      ]
+    },
+    "ru": {
+      "q": "Какие органы контролируют, что другие ведомства действуют правильно?",
+      "o": [
+        "Омбудсмен юстиции (JO) и канцлер юстиции (JK)",
+        "Полиция и служба исполнения наказаний",
+        "Налоговое управление и служба судебных приставов",
+        "Риксдаг и правительство"
+      ]
+    },
+    "correct": 0,
+    "why": "JO и JK — специальные надзорные органы за деятельностью ведомств."
+  },
+  {
+    "id": "c3-06",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vilken är regionernas främsta uppgift?",
+      "o": [
+        "Att ansvara för grundskolan",
+        "Att ansvara för hälso- och sjukvården",
+        "Att ansvara för polisen",
+        "Att ansvara för äldreomsorgen"
+      ]
+    },
+    "ru": {
+      "q": "Какая главная задача регионов?",
+      "o": [
+        "Отвечать за начальную школу",
+        "Отвечать за здравоохранение",
+        "Отвечать за полицию",
+        "Отвечать за уход за пожилыми"
+      ]
+    },
+    "correct": 1,
+    "why": "Регионы также отвечают за общественный транспорт и лены-музеи. Школа и уход за пожилыми — задача коммуны."
+  },
+  {
+    "id": "c3-07",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vad kallas den församling där kommunens folkvalda politiker fattar beslut?",
+      "o": [
+        "Regionfullmäktige",
+        "Kommunfullmäktige",
+        "Riksdagen",
+        "Kulturnämnden"
+      ]
+    },
+    "ru": {
+      "q": "Как называется собрание, где избранные политики коммуны принимают решения?",
+      "o": [
+        "Совет региона (regionfullmäktige)",
+        "Городской совет (kommunfullmäktige)",
+        "Риксдаг",
+        "Комитет по культуре"
+      ]
+    },
+    "correct": 1,
+    "why": "Городской совет (kommunfullmäktige) также назначает членов отраслевых комитетов."
+  },
+  {
+    "id": "c3-08",
+    "ch": 3,
+    "kind": "förståelse",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vad innebär det att Sverige är en konstitutionell monarki?",
+      "o": [
+        "Att kungen styr landet tillsammans med regeringen",
+        "Att statschefen är en kung eller drottning utan politisk makt",
+        "Att kungen kan stoppa lagar som riksdagen beslutat",
+        "Att statsministern utses av kungen"
+      ]
+    },
+    "ru": {
+      "q": "Что означает, что Швеция — конституционная монархия?",
+      "o": [
+        "Что король правит страной вместе с правительством",
+        "Что глава государства — король или королева без политической власти",
+        "Что король может блокировать законы, принятые риксдагом",
+        "Что премьер-министра назначает король"
+      ]
+    },
+    "correct": 1,
+    "why": "Король — символ страны, наносит государственные визиты и принимает глав других государств."
+  },
+  {
+    "id": "c3-09",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vem står näst på tur att bli monark efter kronprinsessan Victoria?",
+      "o": [
+        "Prins Carl Philip",
+        "Prinsessan Madeleine",
+        "Prinsessan Estelle",
+        "Prins Oscar"
+      ]
+    },
+    "ru": {
+      "q": "Кто следующий в очереди на престол после кронпринцессы Виктории?",
+      "o": [
+        "Принц Карл Филип",
+        "Принцесса Мадлен",
+        "Принцесса Эстель",
+        "Принц Оскар"
+      ]
+    },
+    "correct": 2,
+    "why": "Порядок престолонаследия закреплён в законе о престолонаследии (successionsordningen) — одном из четырёх основных законов."
+  },
+  {
+    "id": "c4-01",
+    "ch": 4,
+    "kind": "fakta",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "Hur ofta hålls val till EU-parlamentet?",
+      "o": [
+        "Vart tredje år",
+        "Vart fjärde år",
+        "Vart femte år",
+        "Vart sjätte år"
+      ]
+    },
+    "ru": {
+      "q": "Как часто проходят выборы в Европарламент?",
+      "o": [
+        "Каждые три года",
+        "Каждые четыре года",
+        "Каждые пять лет",
+        "Каждые шесть лет"
+      ]
+    },
+    "correct": 2,
+    "why": "В риксдаг, регион и коммуну — каждые четыре года; в Европарламент — каждые пять."
+  },
+  {
+    "id": "c4-02",
+    "ch": 4,
+    "kind": "förståelse",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "Vad krävs för att få rösta i riksdagsvalet?",
+      "o": [
+        "Att ha fyllt 18 år och vara svensk medborgare",
+        "Att ha fyllt 18 år och vara folkbokförd i Sverige",
+        "Att ha bott i Sverige i tre år",
+        "Att vara medlem i ett politiskt parti"
+      ]
+    },
+    "ru": {
+      "q": "Что нужно, чтобы иметь право голосовать на выборах в риксдаг?",
+      "o": [
+        "Достичь 18 лет и быть гражданином Швеции",
+        "Достичь 18 лет и быть прописанным в Швеции",
+        "Прожить в Швеции три года",
+        "Быть членом политической партии"
+      ]
+    },
+    "correct": 0,
+    "why": "Для выборов в коммуну и регион гражданство не нужно — достаточно 3 лет проживания и прописки."
+  },
+  {
+    "id": "c4-03",
+    "ch": 4,
+    "kind": "situation",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "En person som inte är svensk medborgare har bott och varit folkbokförd i Sverige i fyra år. I vilka val får personen rösta?",
+      "o": [
+        "Inga val",
+        "Endast riksdagsvalet",
+        "Kommun- och regionvalen",
+        "Alla val i Sverige"
+      ]
+    },
+    "ru": {
+      "q": "Человек без шведского гражданства прожил и был прописан в Швеции четыре года. На каких выборах он может голосовать?",
+      "o": [
+        "Ни на каких",
+        "Только на выборах в риксдаг",
+        "На выборах в коммуну и регион",
+        "На всех выборах в Швеции"
+      ]
+    },
+    "correct": 2,
+    "why": "Требуется в сумме три года проживания и прописки. Для граждан ЕС и Северных стран достаточно только прописки."
+  },
+  {
+    "id": "c4-04",
+    "ch": 4,
+    "kind": "fakta",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "Vad gäller för resultatet av en folkomröstning i Sverige?",
+      "o": [
+        "Politikerna måste alltid följa resultatet",
+        "Folkomröstningen är rådgivande och politikerna måste inte följa resultatet",
+        "Resultatet gäller bara om fler än 75 procent röstar",
+        "Folkomröstningar får bara hållas om grundlagar"
+      ]
+    },
+    "ru": {
+      "q": "Что действует в отношении результата референдума в Швеции?",
+      "o": [
+        "Политики обязаны всегда следовать результату",
+        "Референдум носит рекомендательный характер, и политики не обязаны следовать результату",
+        "Результат действует, только если проголосовало более 75 процентов",
+        "Референдумы можно проводить только по основным законам"
+      ]
+    },
+    "correct": 1,
+    "why": "В 2003 году на референдуме о евро народ проголосовал против, и Швеция сохранила крону."
+  },
+  {
+    "id": "c4-05",
+    "ch": 4,
+    "kind": "fakta",
+    "ref": "Politiska val och partier, s. 15",
+    "sv": {
+      "q": "Hur många procent av rösterna måste ett parti minst få för att komma in i riksdagen?",
+      "o": [
+        "Två procent",
+        "Fyra procent",
+        "Fem procent",
+        "Tio procent"
+      ]
+    },
+    "ru": {
+      "q": "Сколько процентов голосов минимум должна набрать партия, чтобы попасть в риксдаг?",
+      "o": [
+        "Два процента",
+        "Четыре процента",
+        "Пять процентов",
+        "Десять процентов"
+      ]
+    },
+    "correct": 1,
+    "why": "Барьер в 4 % существует, чтобы в риксдаг не попадало слишком много партий и было легче создавать устойчивое большинство."
+  },
+  {
+    "id": "c4-06",
+    "ch": 4,
+    "kind": "förståelse",
+    "ref": "Politiska val och partier, s. 15",
+    "sv": {
+      "q": "Vad innebär proportionella val?",
+      "o": [
+        "Att det parti som får flest röster får alla platser",
+        "Att partierna får platser utifrån den andel röster de fått",
+        "Att varje kommun får lika många platser",
+        "Att väljarna röstar på personer i stället för partier"
+      ]
+    },
+    "ru": {
+      "q": "Что означает пропорциональная избирательная система?",
+      "o": [
+        "Что партия с наибольшим числом голосов получает все места",
+        "Что партии получают места в соответствии с долей набранных голосов",
+        "Что каждая коммуна получает одинаковое число мест",
+        "Что избиратели голосуют за людей, а не за партии"
+      ]
+    },
+    "correct": 1,
+    "why": "Двадцать процентов голосов дают примерно двадцать процентов мест. Поэтому партиям часто приходится договариваться о большинстве."
+  },
+  {
+    "id": "c4-07",
+    "ch": 4,
+    "kind": "fakta",
+    "ref": "Politiska val och partier, s. 15",
+    "sv": {
+      "q": "Vilket av dessa är inte ett parti som satt i riksdagen fram till valet 2026?",
+      "o": [
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Folkpartiet",
+        "Vänsterpartiet"
+      ]
+    },
+    "ru": {
+      "q": "Что из перечисленного не является партией, представленной в риксдаге до выборов 2026 года?",
+      "o": [
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Folkpartiet",
+        "Vänsterpartiet"
+      ]
+    },
+    "correct": 2,
+    "why": "Восемь партий: C, KD, L, MP, M, S, SD, V. Folkpartiet — прежнее название Liberalerna."
+  }
 ]
