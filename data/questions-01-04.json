@@ -1274,6 +1274,526 @@
     "why": "Следующая после кронпринцессы Виктории — её дочь Эстель, согласно порядку престолонаследия, закреплённому в законе о престолонаследии (successionsordningen)."
   },
   {
+    "id": "c3-10",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "En kommun i Sverige måste följa nya regler om till exempel miljöskydd som beslutats gemensamt av flera länder och som gäller i alla medlemsländer. Varifrån kommer sådana regler troligen?",
+      "o": [
+        "Från Nordiska rådet",
+        "Från Europeiska unionen (EU)",
+        "Från FN:s säkerhetsråd",
+        "Från Europarådet"
+      ]
+    },
+    "ru": {
+      "q": "Коммуна в Швеции должна соблюдать новые правила, например об охране окружающей среды, принятые совместно несколькими странами и действующие во всех странах-участницах. Откуда, скорее всего, взялись такие правила?",
+      "o": [
+        "От Северного совета (Nordiska rådet)",
+        "От Европейского союза (ЕС)",
+        "От Совета Безопасности ООН",
+        "От Совета Европы"
+      ]
+    },
+    "correct": 1,
+    "why": "Правила, обязательные для всех стран-участниц, — это решения Европейского союза (ЕС): страны ЕС сотрудничают и принимают общие законы, действующие во всех государствах-членах. Северный совет, Совет Безопасности ООН и Совет Европы — тоже реальные международные организации, в которых состоит Швеция, но их решения не действуют напрямую как обязательное законодательство во всех странах-членах."
+  },
+  {
+    "id": "c3-11",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vad brukar räknas till det som kallas staten i Sverige?",
+      "o": [
+        "Endast riksdagen och regeringen",
+        "Kommuner, regioner och riksdagen",
+        "Riksdag, regering, myndigheter och domstolar",
+        "Endast kungahuset och regeringen"
+      ]
+    },
+    "ru": {
+      "q": "Что обычно относят к тому, что в Швеции называют «государством» (staten)?",
+      "o": [
+        "Только риксдаг и правительство",
+        "Коммуны, регионы и риксдаг",
+        "Риксдаг, правительство, ведомства и суды",
+        "Только королевский двор и правительство"
+      ]
+    },
+    "correct": 2,
+    "why": "Государство (staten) включает риксдаг, правительство, ведомства и суды. Это шире, чем «только риксдаг и правительство», и не включает коммуны и регионы (это отдельные уровни власти) или королевский двор (у короля нет политической власти)."
+  },
+  {
+    "id": "c3-12",
+    "ch": 3,
+    "kind": "förståelse",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vad innebär det att Sverige är en parlamentarisk representativ demokrati?",
+      "o": [
+        "Att medborgarna röstar i allmänna val och väljer ledamöter till riksdagen, som sedan fattar beslut å deras vägnar",
+        "Att alla medborgare röstar direkt om varje enskild lag",
+        "Att kungen utser riksdagens ledamöter",
+        "Att bara partiledarna får rösta i riksdagen"
+      ]
+    },
+    "ru": {
+      "q": "Что означает, что Швеция — парламентская представительная демократия?",
+      "o": [
+        "Что граждане голосуют на всеобщих выборах и выбирают депутатов риксдага, которые затем принимают решения от их имени",
+        "Что все граждане голосуют напрямую по каждому отдельному закону",
+        "Что депутатов риксдага назначает король",
+        "Что голосовать в риксдаге могут только лидеры партий"
+      ]
+    },
+    "correct": 0,
+    "why": "Парламентская представительная демократия означает, что граждане голосуют на выборах и выбирают депутатов, которые затем принимают решения от их имени, — а не то, что каждый закон выносится на прямое голосование всех граждан, что депутатов назначает король или что право голоса в риксдаге есть только у партийных лидеров."
+  },
+  {
+    "id": "c3-13",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "En person tycker inte om ett beslut som riksdagen fattat om skatter och har inte själv röstat om just den lagen. Hur fungerar detta i en representativ demokrati?",
+      "o": [
+        "Personen kan vägra betala skatt om hen inte höll med",
+        "De folkvalda ledamöterna fattar beslut å väljarnas vägnar mellan valen",
+        "Varje enskild lag måste godkännas av alla medborgare i en separat folkomröstning",
+        "Beslutet gäller bara de som röstade för det vinnande partiet"
+      ]
+    },
+    "ru": {
+      "q": "Человеку не нравится решение риксдага о налогах, и сам он за этот конкретный закон не голосовал. Как это работает в представительной демократии?",
+      "o": [
+        "Человек может отказаться платить налог, если он не согласен",
+        "Избранные депутаты принимают решения от имени избирателей между выборами",
+        "Каждый отдельный закон должен утверждаться всеми гражданами на отдельном референдуме",
+        "Решение действует только для тех, кто голосовал за победившую партию"
+      ]
+    },
+    "correct": 1,
+    "why": "В представительной демократии избранные депутаты принимают решения от имени всех избирателей между выборами, а не только тех, кто голосовал за победившую партию, — и закон действует для всех, независимо от того, голосовал ли конкретный человек лично. Отказ платить налог из-за несогласия с законом незаконен, а вынесение каждого закона на отдельный референдум противоречило бы самой сути представительной демократии."
+  },
+  {
+    "id": "c3-14",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Innan riksdagens ledamöter röstar om ett lagförslag, vad brukar hända i riksdagen?",
+      "o": [
+        "Kungen bestämmer ensam om förslaget ska antas",
+        "Endast regeringspartierna får uttala sig om förslaget",
+        "Förslaget skickas direkt till domstol för godkännande",
+        "Regeringspartierna och oppositionen diskuterar och debatterar förslaget"
+      ]
+    },
+    "ru": {
+      "q": "Прежде чем депутаты риксдага проголосуют по законопроекту, что обычно происходит в риксдаге?",
+      "o": [
+        "Король единолично решает, принять ли законопроект",
+        "Высказаться о законопроекте могут только партии правительства",
+        "Законопроект сразу отправляют в суд на утверждение",
+        "Партии правительства и оппозиция обсуждают и дебатируют законопроект"
+      ]
+    },
+    "correct": 3,
+    "why": "Перед голосованием партии правительства и оппозиция обсуждают и дебатируют законопроект в риксдаге. Король не имеет политической власти решать судьбу законов, оппозиция тоже имеет право высказываться, а суды не утверждают законопроекты — это задача самого риксдага."
+  },
+  {
+    "id": "c3-15",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vem väljer Sveriges statsminister?",
+      "o": [
+        "Riksdagen",
+        "Kungen",
+        "Folket direkt i en särskild statsministeromröstning",
+        "Regeringens ministrar sinsemellan"
+      ]
+    },
+    "ru": {
+      "q": "Кто выбирает премьер-министра Швеции?",
+      "o": [
+        "Риксдаг",
+        "Король",
+        "Народ напрямую на отдельных выборах премьер-министра",
+        "Министры правительства между собой"
+      ]
+    },
+    "correct": 0,
+    "why": "Премьер-министра избирает риксдаг, который затем поручает ему сформировать правительство. Король не участвует в этом решении — у него нет политической власти, а отдельных всенародных выборов премьер-министра или голосования среди министров в Швеции не существует."
+  },
+  {
+    "id": "c3-16",
+    "ch": 3,
+    "kind": "förståelse",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vad visar regeringens budgetproposition, som lämnas till riksdagen varje höst?",
+      "o": [
+        "Vilka nya lagar Högsta domstolen har beslutat om",
+        "Hur många röster varje parti fick i senaste valet",
+        "Vilken politik regeringen vill föra och vad staten ska prioritera",
+        "Vilka kommuner som har högst kommunalskatt"
+      ]
+    },
+    "ru": {
+      "q": "Что показывает бюджетное предложение (budgetproposition) правительства, которое подаётся риксдагу каждую осень?",
+      "o": [
+        "Какие новые законы принял Верховный суд",
+        "Сколько голосов получила каждая партия на последних выборах",
+        "Какую политику намерено проводить правительство и что государство должно приоритизировать",
+        "В каких коммунах самый высокий муниципальный налог"
+      ]
+    },
+    "correct": 2,
+    "why": "Бюджетное предложение показывает, какую политику намерено проводить правительство и что государство должно приоритизировать — оно касается доходов и расходов государства, а не решений Верховного суда, результатов выборов или уровня муниципальных налогов, которые коммуны устанавливают сами."
+  },
+  {
+    "id": "c3-17",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vilka partier räknas som opposition i riksdagen?",
+      "o": [
+        "De partier som har flest platser i riksdagen",
+        "De partier som sitter i regeringen",
+        "De partier som inte fick tillräckligt med röster för att komma in i riksdagen",
+        "De partier som inte stödjer regeringen"
+      ]
+    },
+    "ru": {
+      "q": "Какие партии считаются оппозицией в риксдаге?",
+      "o": [
+        "Партии, у которых больше всего мест в риксдаге",
+        "Партии, входящие в правительство",
+        "Партии, которые не набрали достаточно голосов, чтобы попасть в риксдаг",
+        "Партии, которые не поддерживают правительство"
+      ]
+    },
+    "correct": 3,
+    "why": "Оппозиция — это партии, которые не поддерживают правительство. Партия с наибольшим числом мест или партии, входящие в само правительство, не обязательно относятся к оппозиции, а партии, не прошедшие в риксдаг, вообще не участвуют в его работе."
+  },
+  {
+    "id": "c3-18",
+    "ch": 3,
+    "kind": "förståelse",
+    "ref": "Så här styrs Sverige, s. 12",
+    "sv": {
+      "q": "Vad är oppositionens huvudsakliga uppgift i riksdagen?",
+      "o": [
+        "Att granska regeringens arbete och föreslå en annan politik",
+        "Att genomföra regeringens beslut i praktiken",
+        "Att utse domare till Högsta domstolen",
+        "Att bestämma vilka myndigheter som ska finnas"
+      ]
+    },
+    "ru": {
+      "q": "Какова главная задача оппозиции в риксдаге?",
+      "o": [
+        "Проверять работу правительства и предлагать другую политику",
+        "Претворять решения правительства в жизнь",
+        "Назначать судей в Верховный суд",
+        "Решать, какие ведомства должны существовать"
+      ]
+    },
+    "correct": 0,
+    "why": "Задача оппозиции — проверять работу правительства и предлагать альтернативную политику. Реализация решений правительства — задача самого правительства и ведомств, а назначение судей и создание новых ведомств не относятся к работе оппозиции."
+  },
+  {
+    "id": "c3-19",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "En person har blivit arbetslös och vill ha hjälp att hitta ett nytt jobb. Vilken myndighet kan hjälpa till med detta?",
+      "o": [
+        "Skatteverket",
+        "Arbetsförmedlingen",
+        "Migrationsverket",
+        "Polismyndigheten"
+      ]
+    },
+    "ru": {
+      "q": "Человек потерял работу и хочет получить помощь в поиске нового рабочего места. Какое ведомство может в этом помочь?",
+      "o": [
+        "Налоговое ведомство (Skatteverket)",
+        "Служба занятости (Arbetsförmedlingen)",
+        "Миграционное ведомство (Migrationsverket)",
+        "Полицейское управление"
+      ]
+    },
+    "correct": 1,
+    "why": "Именно служба занятости (Arbetsförmedlingen) помогает людям найти работу. Налоговое ведомство занимается налогами, миграционное — вопросами гражданства и видов на жительство, а полиция — охраной правопорядка; ни одно из них не занимается трудоустройством."
+  },
+  {
+    "id": "c3-20",
+    "ch": 3,
+    "kind": "förståelse",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vad måste svenska myndigheter göra i sitt arbete?",
+      "o": [
+        "Fatta egna beslut helt oberoende av lagen",
+        "Följa direkta order från kommunfullmäktige i varje kommun",
+        "Följa lagen och de instruktioner de fått av regeringen",
+        "Rådfråga kungen inför varje beslut"
+      ]
+    },
+    "ru": {
+      "q": "Что должны делать шведские ведомства в своей работе?",
+      "o": [
+        "Принимать собственные решения полностью независимо от закона",
+        "Следовать прямым указаниям городского совета (kommunfullmäktige) в каждой коммуне",
+        "Следовать закону и инструкциям, полученным от правительства",
+        "Советоваться с королём перед каждым решением"
+      ]
+    },
+    "correct": 2,
+    "why": "Ведомства обязаны следовать закону и инструкциям, полученным от правительства, — они не действуют независимо от закона, не подчиняются напрямую городским советам коммун и не консультируются с королём, у которого нет политической власти."
+  },
+  {
+    "id": "c3-21",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "En person anser sig ha blivit felaktigt behandlad av en myndighet, men det handlar inte om ett brott som ska prövas i domstol. Vem kan då granska myndighetens agerande?",
+      "o": [
+        "Endast en allmän domstol som tingsrätten",
+        "Endast regeringen",
+        "Endast kommunfullmäktige",
+        "Justitieombudsmannen (JO) eller Justitiekanslern (JK)"
+      ]
+    },
+    "ru": {
+      "q": "Человек считает, что ведомство обошлось с ним неправильно, но речь не о преступлении, которое должен рассматривать суд. Кто может проверить действия ведомства в таком случае?",
+      "o": [
+        "Только обычный суд, например суд первой инстанции (tingsrätten)",
+        "Только правительство",
+        "Только городской совет (kommunfullmäktige)",
+        "Омбудсмен юстиции (JO) или канцлер юстиции (JK)"
+      ]
+    },
+    "correct": 3,
+    "why": "Именно к омбудсмену юстиции (JO) или канцлеру юстиции (JK) можно обратиться, если считаешь, что ведомство поступило неправильно, но дело не касается преступления для суда. Обычные суды рассматривают уголовные и гражданские дела, а не общий надзор за ведомствами, а правительство и городской совет коммуны не выполняют эту надзорную функцию."
+  },
+  {
+    "id": "c3-22",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vem tar beslut i en regions regionfullmäktige?",
+      "o": [
+        "Politiker som invånarna i regionen har valt i regionvalet",
+        "Statliga tjänstemän utsedda av regeringen",
+        "Kommunfullmäktige i regionens kommuner gemensamt",
+        "Regeringen direkt"
+      ]
+    },
+    "ru": {
+      "q": "Кто принимает решения в региональном собрании (regionfullmäktige)?",
+      "o": [
+        "Политики, которых жители региона избрали на региональных выборах",
+        "Государственные чиновники, назначенные правительством",
+        "Городские советы (kommunfullmäktige) коммун региона совместно",
+        "Само правительство напрямую"
+      ]
+    },
+    "correct": 0,
+    "why": "В региональном собрании (regionfullmäktige) решения принимают политики, которых сами жители региона избрали на региональных выборах, — а не назначенные правительством чиновники, не городские советы коммун региона и не правительство напрямую."
+  },
+  {
+    "id": "c3-23",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Regionerna ansvarar för hälso- och sjukvården. Vilket annat ansvar har de också?",
+      "o": [
+        "Att bestämma nivån på den kommunala skatten i varje kommun",
+        "Att det finns kollektivtrafik och att sköta länsmuseerna",
+        "Att bygga nya bostäder i städerna",
+        "Att utse ledamöter till Sveriges riksdag"
+      ]
+    },
+    "ru": {
+      "q": "Регионы отвечают за здравоохранение. Какая ещё задача есть у них?",
+      "o": [
+        "Определять уровень муниципального налога в каждой коммуне",
+        "Обеспечивать работу общественного транспорта и заботиться о лен-музеях",
+        "Строить новое жильё в городах",
+        "Назначать депутатов риксдага Швеции"
+      ]
+    },
+    "correct": 1,
+    "why": "Регионы также следят за наличием общественного транспорта (автобусы, трамваи, метро) и отвечают за лен-музеи. Уровень муниципального налога устанавливают сами коммуны, строительство жилья — не задача регионов, а депутатов риксдага избирают на выборах, а не назначают регионы."
+  },
+  {
+    "id": "c3-24",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vilken nämnd i en kommun ansvarar vanligtvis för biblioteken?",
+      "o": [
+        "Utbildningsnämnden",
+        "Socialnämnden",
+        "Kulturnämnden",
+        "Miljönämnden"
+      ]
+    },
+    "ru": {
+      "q": "Какой комитет (nämnd) в коммуне обычно отвечает за библиотеки?",
+      "o": [
+        "Комитет по образованию",
+        "Комитет по социальным вопросам",
+        "Комитет по культуре",
+        "Комитет по экологии"
+      ]
+    },
+    "correct": 2,
+    "why": "За библиотеки обычно отвечает комитет по культуре (kulturnämnden). Комитет по образованию отвечает за школы, комитет по социальным вопросам — за помощь и защиту жителей, а комитет по экологии не упоминается в связи с библиотеками."
+  },
+  {
+    "id": "c3-25",
+    "ch": 3,
+    "kind": "förståelse",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vem väljer ledamöterna till kommunens nämnder?",
+      "o": [
+        "Regeringen",
+        "Regionfullmäktige",
+        "Invånarna direkt i ett separat val",
+        "Kommunfullmäktige"
+      ]
+    },
+    "ru": {
+      "q": "Кто выбирает членов комитетов (nämnder) коммуны?",
+      "o": [
+        "Правительство",
+        "Региональное собрание (regionfullmäktige)",
+        "Жители напрямую на отдельных выборах",
+        "Городской совет (kommunfullmäktige)"
+      ]
+    },
+    "correct": 3,
+    "why": "Членов комитетов выбирает городской совет (kommunfullmäktige) — не правительство, не региональное собрание и не сами жители напрямую на отдельных выборах, которых для этого не существует."
+  },
+  {
+    "id": "c3-26",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vilket av följande hör till kommunens ansvar för invånarnas vardag?",
+      "o": [
+        "Vatten och avlopp samt snöröjning",
+        "Hälso- och sjukvård på sjukhus",
+        "Utrikespolitik och försvar",
+        "Utformningen av grundlagarna"
+      ]
+    },
+    "ru": {
+      "q": "Что из перечисленного относится к обязанностям коммуны в повседневной жизни жителей?",
+      "o": [
+        "Водоснабжение, канализация и уборка снега",
+        "Здравоохранение в больницах",
+        "Внешняя политика и оборона",
+        "Разработка основных законов"
+      ]
+    },
+    "correct": 0,
+    "why": "Коммуна отвечает за такие повседневные услуги, как водоснабжение, канализация и уборка снега. Здравоохранение в больницах — задача регионов, внешняя политика и оборона — государства, а разработка основных законов — задача риксдага."
+  },
+  {
+    "id": "c3-27",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "En person jämför Sveriges kommuner och undrar vilken som har flest invånare. Vilken kommun är störst?",
+      "o": [
+        "Göteborg",
+        "Malmö",
+        "Stockholm",
+        "Dorotea"
+      ]
+    },
+    "ru": {
+      "q": "Человек сравнивает коммуны Швеции и хочет узнать, в какой из них больше всего жителей. Какая коммуна самая большая?",
+      "o": [
+        "Гётеборг",
+        "Мальмё",
+        "Стокгольм",
+        "Дорутеа"
+      ]
+    },
+    "correct": 2,
+    "why": "Самая большая коммуна Швеции — Стокгольм, столица страны, где живёт почти миллион человек. Гётеборг и Мальмё — тоже крупные города, но меньше по числу жителей, а Дорутеа в лене Вестерботтен — наоборот, самая маленькая коммуна страны, с населением менее 3000 человек."
+  },
+  {
+    "id": "c3-28",
+    "ch": 3,
+    "kind": "fakta",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Vad gör den svenska kungen i sin roll som statschef?",
+      "o": [
+        "Utser ministrarna i regeringen",
+        "Stiftar Sveriges lagar",
+        "Dömer i Sveriges domstolar",
+        "Fungerar som en symbol för Sverige, gör statsbesök och tar emot andra länders statschefer"
+      ]
+    },
+    "ru": {
+      "q": "Что делает шведский король в своей роли главы государства?",
+      "o": [
+        "Назначает министров правительства",
+        "Принимает законы Швеции",
+        "Выносит приговоры в судах Швеции",
+        "Служит символом Швеции, совершает государственные визиты и принимает глав других государств"
+      ]
+    },
+    "correct": 3,
+    "why": "Король служит символом Швеции, совершает государственные визиты и принимает глав других государств, — но не назначает министров (это делает премьер-министр), не принимает законы (это делает риксдаг) и не выносит судебные приговоры (это делают суды), поскольку у него нет политической власти."
+  },
+  {
+    "id": "c3-29",
+    "ch": 3,
+    "kind": "situation",
+    "ref": "Så här styrs Sverige, s. 13",
+    "sv": {
+      "q": "Riksdagen har beslutat om en ny lag. Kan kungen stoppa lagen från att träda i kraft?",
+      "o": [
+        "Nej, kungen har ingen politisk makt att stoppa lagar",
+        "Ja, kungen kan alltid stoppa en lag riksdagen beslutat",
+        "Ja, men bara om regeringen ber honom göra det",
+        "Ja, men bara under en begränsad tid varje år"
+      ]
+    },
+    "ru": {
+      "q": "Риксдаг принял новый закон. Может ли король остановить вступление закона в силу?",
+      "o": [
+        "Нет, у короля нет политической власти останавливать законы",
+        "Да, король всегда может остановить закон, принятый риксдагом",
+        "Да, но только если правительство попросит его об этом",
+        "Да, но только в течение ограниченного времени раз в год"
+      ]
+    },
+    "correct": 0,
+    "why": "Нет — у короля нет политической власти, и он не может остановить закон, принятый риксдагом, ни при каких условиях, включая просьбу правительства или определённый период года. Это ключевая часть того, что Швеция — конституционная монархия."
+  },
+  {
     "id": "c4-01",
     "ch": 4,
     "kind": "fakta",
