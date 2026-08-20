@@ -1,11 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   buildExam, scoreExam, newVariantCode, bankSize,
-  EXAM_SIZE, EXAM_MINUTES, DEFAULT_PASS, CHAPTER_TITLE
+  EXAM_SIZE, EXAM_MINUTES, DEFAULT_PASS, CHAPTER_TITLE,
+  chapterCounts, buildChapterPractice, buildBankPractice, newSeed, refBreakdown
 } from './lib/exam'
 import { support } from './site.config'
 
 const KEY = 'medborgarprov:pagaende'
+const chapterKey = ch => `medborgarprov:kapitel:${ch}`
+const BANK_KEY = 'medborgarprov:bank'
 const LETTER = ['A', 'B', 'C', 'D']
 
 function mmss(s) {
@@ -13,9 +16,11 @@ function mmss(s) {
   return `${String(m).padStart(2, '0')}:${String(Math.max(0, s) % 60).padStart(2, '0')}`
 }
 
-function loadSaved() {
-  try { return JSON.parse(localStorage.getItem(KEY) || 'null') } catch { return null }
+function loadJSON(key) {
+  try { return JSON.parse(localStorage.getItem(key) || 'null') } catch { return null }
 }
+
+function loadSaved() { return loadJSON(KEY) }
 
 export default function App() {
   const [screen, setScreen] = useState('start')
@@ -28,7 +33,18 @@ export default function App() {
   const [pass, setPass] = useState(DEFAULT_PASS)
   const [saved, setSaved] = useState(() => loadSaved())
 
+  // Övningsläge (kapitel eller hela banken) — delar mekanik, skiljs åt av `mode`.
+  const [mode, setMode] = useState(null) // 'chapter' | 'bank'
+  const [pCh, setPCh] = useState(null)
+  const [pSeed, setPSeed] = useState(null)
+  const [pAt, setPAt] = useState(0)
+  const [pAnswers, setPAnswers] = useState([])
+
   const exam = useMemo(() => (code ? buildExam(code) : []), [code])
+  const practice = useMemo(() => {
+    if (!pSeed) return []
+    return mode === 'chapter' ? buildChapterPractice(pSeed, pCh) : buildBankPractice(pSeed)
+  }, [mode, pSeed, pCh])
 
   useEffect(() => {
     if (screen !== 'exam' || !timed) return
@@ -44,6 +60,38 @@ export default function App() {
       localStorage.setItem(KEY, JSON.stringify({ code, answers, at, left, showRu, timed, pass }))
     }
   }, [screen, code, answers, at, left, showRu, timed, pass])
+
+  useEffect(() => {
+    if (screen !== 'practice') return
+    const key = mode === 'chapter' ? chapterKey(pCh) : BANK_KEY
+    localStorage.setItem(key, JSON.stringify({ seed: pSeed, at: pAt, answers: pAnswers }))
+  }, [screen, mode, pCh, pSeed, pAt, pAnswers])
+
+  function startChapter(ch, save) {
+    const seed = save?.seed ?? newSeed()
+    const set = buildChapterPractice(seed, ch)
+    setMode('chapter')
+    setPCh(ch)
+    setPSeed(seed)
+    setPAnswers(save?.answers ?? Array(set.length).fill(null))
+    setPAt(save?.at ?? 0)
+    setScreen('practice')
+  }
+
+  function startBank(save) {
+    const seed = save?.seed ?? newSeed()
+    setMode('bank')
+    setPCh(null)
+    setPSeed(seed)
+    setPAnswers(save?.answers ?? Array(bankSize).fill(null))
+    setPAt(save?.at ?? 0)
+    setScreen('practice')
+  }
+
+  function finishPractice() {
+    localStorage.removeItem(mode === 'chapter' ? chapterKey(pCh) : BANK_KEY)
+    setScreen('practiceResult')
+  }
 
   function start(newCode) {
     const c = (newCode || newVariantCode()).toUpperCase().trim()
@@ -87,6 +135,7 @@ export default function App() {
           {...common}
           saved={saved} onResume={resume} onStart={start}
           timed={timed} setTimed={setTimed} pass={pass} setPass={setPass}
+          onStartChapter={startChapter} onStartBank={startBank}
         />
       )}
       {screen === 'exam' && (
@@ -103,6 +152,22 @@ export default function App() {
           onRestart={backToStart} onAgain={() => start()}
         />
       )}
+      {screen === 'practice' && (
+        <Practice
+          {...common}
+          mode={mode} ch={pCh} questions={practice}
+          at={pAt} setAt={setPAt} answers={pAnswers} setAnswers={setPAnswers}
+          onFinish={finishPractice} onExit={() => setScreen('start')}
+        />
+      )}
+      {screen === 'practiceResult' && (
+        <PracticeResult
+          {...common}
+          mode={mode} ch={pCh} questions={practice} answers={pAnswers}
+          onAgain={() => (mode === 'chapter' ? startChapter(pCh, null) : startBank(null))}
+          onRestart={() => setScreen('start')}
+        />
+      )}
       <SiteFooter />
     </div>
   )
@@ -110,16 +175,19 @@ export default function App() {
 
 /* ------------------------------------------------------------------ */
 
-function Start({ saved, onResume, onStart, showRu, setShowRu, timed, setTimed, pass, setPass }) {
+function Start({
+  saved, onResume, onStart, showRu, setShowRu, timed, setTimed, pass, setPass,
+  onStartChapter, onStartBank
+}) {
   const [manual, setManual] = useState('')
   return (
     <>
       <p className="eyebrow">Övningsprov · inte ett officiellt prov</p>
       <h1>Träna inför provet i samhällskunskap</h1>
       <p className="lead">
-        {EXAM_SIZE} frågor på {EXAM_MINUTES} minuter, byggda på UHR:s utbildningsmaterial{' '}
-        <i>Sverige i fokus</i>. Varje variant lottas fram på nytt ur en bank på {bankSize} frågor.
-        Frågorna visas på svenska, med rysk översättning som stöd.
+        Tre sätt att öva: ett provliknande test på {EXAM_SIZE} frågor med tid, fri träning på
+        ett enskilt kapitel, eller hela frågebanken på {bankSize} frågor. Allt är byggt på UHR:s
+        utbildningsmaterial <i>Sverige i fokus</i> och visas på svenska, med rysk översättning som stöd.
       </p>
 
       <div className="notice">
@@ -191,7 +259,70 @@ function Start({ saved, onResume, onStart, showRu, setShowRu, timed, setTimed, p
           Öppna varianten
         </button>
       </div>
+
+      <hr className="rule" />
+
+      <h2>Öva på ett kapitel</h2>
+      <p className="lead">
+        Alla frågor i ett kapitel, i slumpad ordning, utan tidsgräns. Rätt svar visas direkt efter
+        varje fråga, med förklaring.
+      </p>
+      <ChapterList onStart={onStartChapter} />
+
+      <hr className="rule" />
+
+      <h2>Hela frågebanken</h2>
+      <p className="lead">
+        Alla {bankSize} frågor i banken, i slumpad ordning, utan tidsgräns. Samma direkta rättning
+        som i kapitelträningen.
+      </p>
+      <BankBlock onStart={onStartBank} />
     </>
+  )
+}
+
+function ChapterList({ onStart }) {
+  const chapters = useMemo(() => chapterCounts(), [])
+  return (
+    <div>
+      {chapters.map(c => {
+        const save = loadJSON(chapterKey(c.ch))
+        const done = save ? save.answers.filter(a => a !== null && a !== undefined).length : 0
+        return (
+          <div className="chapter-row" key={c.ch}>
+            <span className="chapter-row-title">{c.ch}. {c.title}</span>
+            <span className="mono small muted">{c.count} frågor</span>
+            <span className="btn-row">
+              {save && (
+                <button className="btn btn-ghost btn-small" onClick={() => onStart(c.ch, save)}>
+                  Fortsätt ({done}/{save.answers.length})
+                </button>
+              )}
+              <button className="btn btn-small" onClick={() => onStart(c.ch, null)}>
+                {save ? 'Börja om' : 'Öva'}
+              </button>
+            </span>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function BankBlock({ onStart }) {
+  const save = loadJSON(BANK_KEY)
+  const done = save ? save.answers.filter(a => a !== null && a !== undefined).length : 0
+  return (
+    <div className="btn-row">
+      <button className="btn" onClick={() => onStart(save)}>
+        {save ? `Fortsätt (${done}/${bankSize})` : 'Starta'}
+      </button>
+      {save && (
+        <button className="btn btn-ghost btn-small" onClick={() => onStart(null)}>
+          Börja om (nollställ)
+        </button>
+      )}
+    </div>
   )
 }
 
@@ -379,6 +510,194 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
 
       <div className="btn-row" style={{ marginTop: 28 }}>
         <button className="btn" onClick={onAgain}>Nytt prov</button>
+        <button className="btn btn-ghost" onClick={onRestart}>Till startsidan</button>
+      </div>
+
+      <Support />
+    </>
+  )
+}
+
+/* ------------------------------------------------------------------ */
+
+function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinish, onExit, showRu, setShowRu }) {
+  const q = questions[at]
+  const topRef = useRef(null)
+  const answered = answers[at] !== null && answers[at] !== undefined
+  const done = answers.filter(a => a !== null && a !== undefined).length
+
+  useEffect(() => { topRef.current?.scrollIntoView({ block: 'start' }) }, [at])
+
+  if (!q) return null
+
+  function choose(i) {
+    if (answered) return
+    const next = [...answers]
+    next[at] = i
+    setAnswers(next)
+  }
+
+  function next() {
+    if (at < questions.length - 1) setAt(at + 1)
+    else onFinish()
+  }
+
+  const verdicts = questions.map((qq, i) => {
+    const a = answers[i]
+    if (a === null || a === undefined) return undefined
+    return a === qq.correct ? 'right' : 'wrong'
+  })
+
+  return (
+    <>
+      <div className="statusbar">
+        <span className="mono">
+          {mode === 'chapter' ? `KAPITEL ${ch} · ${CHAPTER_TITLE[ch]}` : 'HELA FRÅGEBANKEN'} · FRÅGA {at + 1}/{questions.length}
+        </span>
+        <span className="mono">{done} klara</span>
+        <button className="btn btn-ghost btn-small" onClick={onExit}>Till startsidan</button>
+      </div>
+
+      <div ref={topRef} />
+
+      <Sheet
+        count={questions.length} answers={answers} current={at} verdicts={verdicts}
+        onJump={i => { if (answers[i] !== null && answers[i] !== undefined) setAt(i) }}
+      />
+
+      <div className="qcard" style={{ marginTop: 20 }}>
+        <div className="qhead">
+          <span className="eyebrow" style={{ margin: 0 }}>Fråga {at + 1}</span>
+          <button className="btn btn-ghost btn-small" onClick={() => setShowRu(v => !v)}>
+            {showRu ? 'Dölj översättning' : 'Visa översättning'}
+          </button>
+        </div>
+
+        <p className="qtext">{q.sv.q}</p>
+        {showRu && <p className="qtext-ru">{q.ru.q}</p>}
+
+        <ul className="opts">
+          {q.sv.o.map((text, i) => {
+            const verdict = answered ? (i === q.correct ? 'right' : (answers[at] === i ? 'wrong' : undefined)) : undefined
+            return (
+              <li key={i}>
+                <button
+                  className="opt" aria-pressed={answers[at] === i} data-verdict={verdict}
+                  disabled={answered} onClick={() => choose(i)}
+                >
+                  <span className="opt-key">{LETTER[i]}</span>
+                  <span className="opt-body">
+                    {text}
+                    {showRu && q.ru.o[i] !== text && <span className="opt-ru">{q.ru.o[i]}</span>}
+                  </span>
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+
+        {answered && (
+          <div className="why" style={{ marginTop: 18 }}>
+            <p className="small muted" style={{ margin: '0 0 6px' }}>{q.ref}</p>
+            <p style={{ margin: 0 }}><b>Varför:</b> {q.whySv}</p>
+            {showRu && <p style={{ margin: '6px 0 0' }}><b>Почему:</b> {q.why}</p>}
+          </div>
+        )}
+      </div>
+
+      <div className="btn-row" style={{ marginTop: 18 }}>
+        <button className="btn" disabled={!answered} onClick={next}>
+          {at === questions.length - 1 ? 'Avsluta' : 'Nästa'}
+        </button>
+      </div>
+    </>
+  )
+}
+
+function PracticeResult({ mode, ch, questions, answers, onAgain, onRestart, showRu }) {
+  const [onlyWrong, setOnlyWrong] = useState(true)
+  const total = questions.length
+  const correct = questions.reduce((s, q, i) => s + (answers[i] === q.correct ? 1 : 0), 0)
+  const verdicts = questions.map((q, i) => (answers[i] === q.correct ? 'right' : 'wrong'))
+  const shown = questions.map((q, i) => ({ q, i })).filter(({ i }) => !onlyWrong || verdicts[i] === 'wrong')
+  const weak = useMemo(() => (mode === 'chapter' ? refBreakdown(questions, answers) : []), [mode, questions, answers])
+
+  return (
+    <>
+      <p className="eyebrow">
+        {mode === 'chapter' ? `Resultat · Kapitel ${ch}: ${CHAPTER_TITLE[ch]}` : 'Resultat · Hela frågebanken'}
+      </p>
+
+      <div className="verdict" data-pass={correct === total}>
+        <div className="score">{correct}<span className="muted" style={{ fontSize: '0.45em' }}> / {total}</span></div>
+        <p style={{ margin: '10px 0 0' }}>
+          {correct === total ? 'Alla rätt den här gången.' : 'Titta igenom felen nedan innan du övar igen.'}
+        </p>
+      </div>
+
+      {mode === 'chapter' && weak.length > 0 && (
+        <>
+          <h2>Sidor att läsa om</h2>
+          <div className="bars">
+            {weak.map(s => (
+              <div className="bar-row" key={s.ref} data-weak={s.right / s.total < 0.7}>
+                <span>{s.ref}</span>
+                <span className="bar-track">
+                  <span className="bar-fill" style={{ width: `${(s.right / s.total) * 100}%` }} />
+                </span>
+                <span className="mono small">{s.right}/{s.total}</span>
+              </div>
+            ))}
+          </div>
+          <p className="small muted">Svagaste avsnitten överst — läs om dem i <i>Sverige i fokus</i>.</p>
+        </>
+      )}
+
+      <hr className="rule" />
+
+      <div className="toggle-row">
+        <h2 style={{ margin: 0, flex: 1 }}>Genomgång</h2>
+        <button className="btn btn-ghost btn-small" onClick={() => setOnlyWrong(v => !v)}>
+          {onlyWrong ? 'Visa alla frågor' : 'Visa bara felen'}
+        </button>
+      </div>
+
+      <Sheet count={total} answers={answers} current={-1} verdicts={verdicts} />
+
+      {shown.length === 0 && <p className="muted">Inga fel den här gången.</p>}
+
+      {shown.map(({ q, i }) => (
+        <div className="review-item" key={q.id}>
+          <p className="eyebrow" style={{ marginBottom: 6 }}>Fråga {i + 1} · {q.ref}</p>
+          <p style={{ fontWeight: 700, margin: '0 0 4px' }}>{q.sv.q}</p>
+          {showRu && <p className="small muted" style={{ margin: '0 0 12px' }}>{q.ru.q}</p>}
+          <ul className="opts">
+            {q.sv.o.map((text, k) => {
+              const verdict = k === q.correct ? 'right' : (answers[i] === k ? 'wrong' : undefined)
+              return (
+                <li key={k}>
+                  <div className="opt" data-verdict={verdict}>
+                    <span className="opt-key">{LETTER[k]}</span>
+                    <span className="opt-body">
+                      {text}
+                      {showRu && q.ru.o[k] !== text && <span className="opt-ru">{q.ru.o[k]}</span>}
+                    </span>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+          <div className="why">
+            <p style={{ margin: 0 }}><b>Varför:</b> {q.whySv}</p>
+            {showRu && <p style={{ margin: '6px 0 0' }}><b>Почему:</b> {q.why}</p>}
+          </div>
+        </div>
+      ))}
+
+      <div className="btn-row" style={{ marginTop: 28 }}>
+        <button className="btn" onClick={onAgain}>
+          {mode === 'chapter' ? 'Öva om kapitlet' : 'Öva om hela banken'}
+        </button>
         <button className="btn btn-ghost" onClick={onRestart}>Till startsidan</button>
       </div>
 

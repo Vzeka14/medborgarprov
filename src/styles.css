@@ -277,6 +277,18 @@ hr.rule {
   color: var(--ink);
 }
 
+/* ---------- Kapitellista (kapitelträning) ---------- */
+.chapter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  border-top: 1px solid var(--rule);
+  padding: 12px 0;
+}
+.chapter-row:first-child { border-top: none; }
+.chapter-row-title { flex: 1 1 260px; font-weight: 600; }
+
 .notice {
   border: 1px dashed var(--graphite);
   padding: 14px 16px;

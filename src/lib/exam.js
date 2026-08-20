@@ -63,6 +63,26 @@ export function codeToSeed(code) {
   return h >>> 0
 }
 
+// Slumpmässigt frö för de otimade övningslägena (kapitel / hela banken).
+// Sparas i localStorage så att samma frö bygger om exakt samma
+// slumpade ordning när man återupptar en påbörjad övning.
+export function newSeed() {
+  return Math.floor(Math.random() * 0xffffffff) >>> 0
+}
+
+// Blandar ordningen på de fyra svarsalternativen för en fråga och
+// flyttar med det rätta svaret. Delas av alla lägen som bygger frågelistor.
+function shuffleOptions(q, rand) {
+  const order = shuffle([0, 1, 2, 3], rand)
+  return {
+    ...q,
+    order,
+    sv: { q: q.sv.q, o: order.map(i => q.sv.o[i]) },
+    ru: { q: q.ru.q, o: order.map(i => q.ru.o[i]) },
+    correct: order.indexOf(q.correct)
+  }
+}
+
 /**
  * Bygger ett prov på `size` frågor. Samma kod ger alltid samma prov,
  * så en variant går att dela med någon annan.
@@ -94,16 +114,50 @@ export function buildExam(code, size = EXAM_SIZE) {
   const questions = shuffle(picked, rand).slice(0, size)
 
   // Steg 3: blanda svarsalternativen och flytta med det rätta svaret.
-  return questions.map(q => {
-    const order = shuffle([0, 1, 2, 3], rand)
-    return {
-      ...q,
-      order,
-      sv: { q: q.sv.q, o: order.map(i => q.sv.o[i]) },
-      ru: { q: q.ru.q, o: order.map(i => q.ru.o[i]) },
-      correct: order.indexOf(q.correct)
-    }
+  return questions.map(q => shuffleOptions(q, rand))
+}
+
+// Antal frågor per kapitel i banken — används av kapitelväljaren.
+export function chapterCounts() {
+  const counts = {}
+  for (const q of bank) counts[q.ch] = (counts[q.ch] || 0) + 1
+  return Object.keys(CHAPTER_TITLE)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map(ch => ({ ch, title: CHAPTER_TITLE[ch], count: counts[ch] || 0 }))
+}
+
+/**
+ * Bygger en övningsrunda med ALLA frågor i ett kapitel, i slumpad ordning.
+ * Samma frö ger samma ordning, så en påbörjad runda kan återupptas.
+ */
+export function buildChapterPractice(seed, ch) {
+  const rand = rng(seed)
+  const pool = bank.filter(q => q.ch === Number(ch))
+  return shuffle(pool, rand).map(q => shuffleOptions(q, rand))
+}
+
+/**
+ * Bygger en övningsrunda med HELA frågebanken, i slumpad ordning.
+ */
+export function buildBankPractice(seed) {
+  const rand = rng(seed)
+  return shuffle(bank, rand).map(q => shuffleOptions(q, rand))
+}
+
+// Grupperar fel svar efter `ref` (kapitel + sida i broschyren) så att
+// man ser vilka avsnitt som är svagast efter en kapitelövning.
+export function refBreakdown(questions, answers) {
+  const stats = {}
+  questions.forEach((q, i) => {
+    const s = (stats[q.ref] ??= { right: 0, total: 0 })
+    s.total++
+    if (answers[i] === q.correct) s.right++
   })
+  return Object.entries(stats)
+    .map(([ref, s]) => ({ ref, ...s }))
+    .filter(s => s.right < s.total)
+    .sort((a, b) => a.right / a.total - b.right / b.total)
 }
 
 export function scoreExam(exam, answers) {
