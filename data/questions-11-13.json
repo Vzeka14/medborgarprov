@@ -858,6 +858,396 @@
     "why": "Тогда евреи впервые получили право жить и исповедовать свою религию в Швеции; полные гражданские права — только в 1870 году."
   },
   {
+    "id": "c12-07",
+    "ch": 12,
+    "kind": "situation",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "En person i Sverige väljer att lämna sin religion helt och inte tillhöra någon religion alls. Är detta tillåtet enligt svensk lag?",
+      "o": [
+        "Ja, alla har rätt att fritt välja sin tro eller att inte tro alls",
+        "Nej, alla i Sverige måste tillhöra något trossamfund",
+        "Ja, men bara om personen anmäler det till Skatteverket varje år",
+        "Nej, det är bara tillåtet för den som är medlem i Svenska kyrkan"
+      ]
+    },
+    "ru": {
+      "q": "Человек в Швеции решает полностью отказаться от своей религии и не принадлежать ни к какой религии. Разрешено ли это по шведскому закону?",
+      "o": [
+        "Да, каждый имеет право свободно выбирать свою веру или не верить вообще",
+        "Нет, в Швеции каждый обязан состоять в какой-либо религиозной общине",
+        "Да, но только если человек ежегодно сообщает об этом в налоговое ведомство",
+        "Нет, это разрешено только членам Шведской церкви"
+      ]
+    },
+    "correct": 0,
+    "why": "Да — каждый в Швеции имеет право свободно выбирать свою веру или не верить вообще, это прямо закреплено свободой вероисповедания. Никакой обязанности состоять в религиозной общине, ежегодно отчитываться перед налоговым ведомством или ограничения этого права только членами Шведской церкви не существует."
+  },
+  {
+    "id": "c12-08",
+    "ch": 12,
+    "kind": "fakta",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "Vilket år blev det första gången tillåtet för svenskar att lämna Svenska kyrkan, om de gick med i ett annat kristet samfund?",
+      "o": [
+        "1700-talet",
+        "1860",
+        "1951",
+        "2000"
+      ]
+    },
+    "ru": {
+      "q": "В каком году впервые стало разрешено шведам выходить из Шведской церкви, если они вступали в другую христианскую общину?",
+      "o": [
+        "В XVIII веке",
+        "В 1860 году",
+        "В 1951 году",
+        "В 2000 году"
+      ]
+    },
+    "correct": 1,
+    "why": "Впервые это стало разрешено в 1860 году, но только при условии вступления в другую христианскую общину. XVIII век — это период, к которому относится история иудаизма в Швеции, 1951 год — принятие закона о полной свободе вероисповедания, а 2000 год — отделение Шведской церкви от государства; эти даты легко перепутать."
+  },
+  {
+    "id": "c12-09",
+    "ch": 12,
+    "kind": "förståelse",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "Vad säger regeringsformen om religion?",
+      "o": [
+        "Att alla svenska medborgare måste tillhöra ett kristet samfund",
+        "Att endast Svenska kyrkans medlemmar har rösträtt",
+        "Att alla har rätt att utöva sin religion och att ingen får diskrimineras på grund av sin tro",
+        "Att religiösa samfund inte får ta emot nya medlemmar"
+      ]
+    },
+    "ru": {
+      "q": "Что говорится в законе о форме правления (regeringsformen) о религии?",
+      "o": [
+        "Что все граждане Швеции обязаны состоять в христианской общине",
+        "Что право голоса есть только у членов Шведской церкви",
+        "Что каждый имеет право исповедовать свою религию и никто не может подвергаться дискриминации из-за веры",
+        "Что религиозным общинам запрещено принимать новых членов"
+      ]
+    },
+    "correct": 2,
+    "why": "Закон о форме правления (regeringsformen) гарантирует, что каждый имеет право исповедовать свою религию, и никто не может подвергаться дискриминации из-за веры. Никакой обязанности состоять в христианской общине, ограничения права голоса по религии или запрета на приём новых членов в религиозные общины закон не устанавливает."
+  },
+  {
+    "id": "c12-10",
+    "ch": 12,
+    "kind": "situation",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "En elev i den svenska skolan läser ämnet religionskunskap. Vad är målet med den undervisningen?",
+      "o": [
+        "Att lära eleverna att endast kristendomen är den rätta religionen",
+        "Att förbereda eleverna för dop i Svenska kyrkan",
+        "Att övertyga eleverna om att inte tro på någon religion alls",
+        "Att ge en bred förståelse för olika religioner och livsåskådningar samt främja tolerans och respekt"
+      ]
+    },
+    "ru": {
+      "q": "Ученик в шведской школе изучает предмет «религиоведение». Какова цель этого предмета?",
+      "o": [
+        "Научить учеников, что только христианство является единственно верной религией",
+        "Подготовить учеников к обряду крещения в Шведской церкви",
+        "Убедить учеников не верить ни в одну религию",
+        "Дать широкое понимание разных религий и мировоззрений и содействовать терпимости и уважению"
+      ]
+    },
+    "correct": 3,
+    "why": "Цель предмета — дать широкое понимание разных религий и мировоззрений и содействовать терпимости и уважению. Обучение тому, что христианство «единственно верное», подготовка к крещению или попытка убедить не верить ни во что — всё это противоречит нейтральной цели предмета."
+  },
+  {
+    "id": "c12-11",
+    "ch": 12,
+    "kind": "situation",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "En person i Sverige firar jul och påsk med sin familj, men beskriver sig själv som icke troende. Är detta vanligt i Sverige?",
+      "o": [
+        "Ja, många firar kristna högtider som en del av kulturarvet trots att de inte är religiöst troende",
+        "Nej, endast medlemmar i Svenska kyrkan får fira dessa högtider",
+        "Nej, det är förbjudet att fira religiösa högtider utan att vara troende",
+        "Ja, men bara om personen döps först"
+      ]
+    },
+    "ru": {
+      "q": "Человек в Швеции отмечает Рождество и Пасху с семьёй, но описывает себя как неверующего. Это распространённая практика в Швеции?",
+      "o": [
+        "Да, многие отмечают христианские праздники как часть культурного наследия, даже не будучи религиозно верующими",
+        "Нет, отмечать эти праздники могут только члены Шведской церкви",
+        "Нет, отмечать религиозные праздники без веры запрещено",
+        "Да, но только если человек прошёл обряд крещения"
+      ]
+    },
+    "correct": 0,
+    "why": "Да — многие в Швеции отмечают христианские праздники как часть культурного наследия, даже не будучи религиозно верующими. Никакого ограничения по членству в Шведской церкви, запрета на празднование без веры или обязательного крещения для этого не существует."
+  },
+  {
+    "id": "c12-12",
+    "ch": 12,
+    "kind": "förståelse",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "Vilka religiösa ritualer är fortfarande vanliga i Sverige, även bland medlemmar i Svenska kyrkan som inte beskriver sig som troende?",
+      "o": [
+        "Endast dagliga böner fem gånger om dagen",
+        "Dop, bröllop i kyrkan och kristen begravning",
+        "Endast fasta under fastemånaden ramadan",
+        "Endast pilgrimsresor till heliga platser"
+      ]
+    },
+    "ru": {
+      "q": "Какие религиозные обряды по-прежнему распространены в Швеции, даже среди членов Шведской церкви, которые не считают себя верующими?",
+      "o": [
+        "Только ежедневные молитвы пять раз в день",
+        "Крещение, венчание в церкви и христианские похороны",
+        "Только пост во время месяца Рамадан",
+        "Только паломничества к святым местам"
+      ]
+    },
+    "correct": 1,
+    "why": "По-прежнему распространены такие обряды, как крещение, венчание в церкви и христианские похороны, даже среди тех, кто не считает себя верующим. Ежедневные молитвы и пост во время Рамадана относятся к исламским практикам, а не к шведским христианским обрядам, о которых идёт речь здесь."
+  },
+  {
+    "id": "c12-13",
+    "ch": 12,
+    "kind": "förståelse",
+    "ref": "En sekulär stat, s. 42",
+    "sv": {
+      "q": "Varför finns det i dag fler olika religioner representerade i Sverige än tidigare?",
+      "o": [
+        "Eftersom staten numera kräver att alla väljer en ny religion",
+        "Eftersom Svenska kyrkan har delat upp sig i flera nya samfund",
+        "Eftersom invandringen har ökat, och därmed också mängden religioner som utövas i landet",
+        "Eftersom antalet invånare i Sverige har minskat kraftigt"
+      ]
+    },
+    "ru": {
+      "q": "Почему сегодня в Швеции представлено больше разных религий, чем раньше?",
+      "o": [
+        "Потому что государство теперь требует, чтобы каждый выбрал новую религию",
+        "Потому что Шведская церковь разделилась на несколько новых общин",
+        "Потому что иммиграция выросла, а вместе с ней и количество религий, которые исповедуют в стране",
+        "Потому что население Швеции сильно сократилось"
+      ]
+    },
+    "correct": 2,
+    "why": "Разнообразие религий выросло, потому что увеличилась иммиграция, а вместе с ней и количество религий, исповедуемых в стране. Государство не требует выбирать новую религию, Шведская церковь не разделялась на новые общины, а население Швеции не сокращалось — оно, наоборот, растёт."
+  },
+  {
+    "id": "c12-14",
+    "ch": 12,
+    "kind": "fakta",
+    "ref": "En sekulär stat, s. 43",
+    "sv": {
+      "q": "Vilka är de tre huvudinriktningarna inom kristendomen som finns representerade bland de kristna samfunden i dagens Sverige?",
+      "o": [
+        "Sunni, shia och sufism",
+        "Hinduism, buddhism och judendom",
+        "Lutherdom, islam och judendom",
+        "Ortodoxa kyrkor, den katolska kyrkan och protestantiska kyrkor"
+      ]
+    },
+    "ru": {
+      "q": "Какие три основных направления христианства представлены среди христианских общин современной Швеции?",
+      "o": [
+        "Суннизм, шиизм и суфизм",
+        "Индуизм, буддизм и иудаизм",
+        "Лютеранство, ислам и иудаизм",
+        "Православные церкви, католическая церковь и протестантские церкви"
+      ]
+    },
+    "correct": 3,
+    "why": "Три основных направления христианства — православные церкви, католическая церковь и протестантские церкви. Суннизм, шиизм и суфизм относятся к исламу, индуизм, буддизм и иудаизм — совсем другие мировые религии, а сочетание «лютеранство, ислам и иудаизм» смешивает одно направление христианства с двумя другими религиями."
+  },
+  {
+    "id": "c12-15",
+    "ch": 12,
+    "kind": "fakta",
+    "ref": "En sekulär stat, s. 43",
+    "sv": {
+      "q": "Vilken religiös tradition har Svenska kyrkan sina historiska rötter i?",
+      "o": [
+        "Den lutherska, protestantiska traditionen",
+        "Den ortodoxa traditionen",
+        "Den katolska traditionen, som fortfarande gäller i Sverige i dag",
+        "Islam"
+      ]
+    },
+    "ru": {
+      "q": "К какой религиозной традиции восходят исторические корни Шведской церкви?",
+      "o": [
+        "К лютеранской протестантской традиции",
+        "К православной традиции",
+        "К католической традиции, которая до сих пор действует в Швеции",
+        "К исламу"
+      ]
+    },
+    "correct": 0,
+    "why": "Исторические корни Шведской церкви — в лютеранской протестантской традиции, сложившейся в XVI веке. Православная традиция не связана со Шведской церковью, католической Швеция была лишь до этого перехода в XVI веке, а не сегодня, а ислам — совсем другая религия."
+  },
+  {
+    "id": "c12-16",
+    "ch": 12,
+    "kind": "situation",
+    "ref": "En sekulär stat, s. 43",
+    "sv": {
+      "q": "En turist besöker en gammal medeltida kyrka i det svenska landskapet. Vilken religion tillhörde Sverige som land under medeltiden, innan den lutherska traditionen grundades på 1500-talet?",
+      "o": [
+        "Sverige var ett muslimskt land",
+        "Sverige var ett katolskt land",
+        "Sverige var ett buddhistiskt land",
+        "Sverige hade ingen religion alls under medeltiden"
+      ]
+    },
+    "ru": {
+      "q": "Турист посещает старинную средневековую церковь в одном из шведских ландскапов. К какой религии принадлежала Швеция как страна в Средние века, до того как лютеранская традиция утвердилась в XVI веке?",
+      "o": [
+        "Швеция была мусульманской страной",
+        "Швеция была католической страной",
+        "Швеция была буддийской страной",
+        "В Средние века в Швеции вообще не было религии"
+      ]
+    },
+    "correct": 1,
+    "why": "В Средние века, до перехода к лютеранской традиции в XVI веке, Швеция была католической страной — отсюда и множество сохранившихся средневековых церквей по всей стране. Мусульманской или буддийской страной Швеция никогда не была, а отсутствие религии в Средние века не соответствует действительности."
+  },
+  {
+    "id": "c12-17",
+    "ch": 12,
+    "kind": "fakta",
+    "ref": "En sekulär stat, s. 43",
+    "sv": {
+      "q": "Vilket år fick judar fullständiga medborgerliga rättigheter i Sverige?",
+      "o": [
+        "1860",
+        "1951",
+        "1870",
+        "2000"
+      ]
+    },
+    "ru": {
+      "q": "В каком году евреи получили полные гражданские права в Швеции?",
+      "o": [
+        "В 1860 году",
+        "В 1951 году",
+        "В 1870 году",
+        "В 2000 году"
+      ]
+    },
+    "correct": 2,
+    "why": "Полные гражданские права евреи получили в 1870 году. 1860 год — год, когда шведам впервые разрешили выходить из Шведской церкви, 1951 — год принятия закона о полной свободе вероисповедания, а 2000 — год отделения Шведской церкви от государства; эти даты легко перепутать."
+  },
+  {
+    "id": "c12-18",
+    "ch": 12,
+    "kind": "fakta",
+    "ref": "En sekulär stat, s. 43",
+    "sv": {
+      "q": "Under vilket århundrade började kontakterna mellan Sverige och hinduismen respektive buddhismen, bland annat genom resor till Asien?",
+      "o": [
+        "1700-talet",
+        "1500-talet",
+        "2000-talet",
+        "1900-talet"
+      ]
+    },
+    "ru": {
+      "q": "В каком веке начались контакты Швеции с индуизмом и буддизмом, в том числе благодаря поездкам в Азию?",
+      "o": [
+        "В XVIII веке",
+        "В XVI веке",
+        "В XXI веке",
+        "В XX веке"
+      ]
+    },
+    "correct": 3,
+    "why": "Контакты с индуизмом и буддизмом начались в основном в XX веке, в частности благодаря поездкам в Азию и растущему интересу к медитации и йоге. XVIII век относится к истории иудаизма в Швеции, XVI век — к переходу к лютеранской традиции, а сами религии присутствуют в Швеции задолго до XXI века."
+  },
+  {
+    "id": "c12-19",
+    "ch": 12,
+    "kind": "situation",
+    "ref": "En sekulär stat, s. 44",
+    "sv": {
+      "q": "En person undrar varför det finns fler moskéer i Sverige i dag än i början av 1900-talet. Vad är den huvudsakliga förklaringen?",
+      "o": [
+        "Antalet muslimer ökade genom invandring efter andra världskriget, och de första moskéerna byggdes på 1970-talet",
+        "Antalet muslimer i Sverige var som störst redan på 1800-talet, långt före moskébyggena",
+        "Moskéerna ersatte gamla medeltida kyrkor som revs på 1970-talet",
+        "Islam blev en av Sveriges fyra grundlagsskyddade religioner på 1970-talet"
+      ]
+    },
+    "ru": {
+      "q": "Человек интересуется, почему в Швеции сегодня больше мечетей, чем в начале XX века. В чём основная причина?",
+      "o": [
+        "Число мусульман выросло за счёт иммиграции после Второй мировой войны, а первые мечети построили в 1970-е годы",
+        "Мусульман в Швеции было больше всего ещё в XIX веке, задолго до строительства мечетей",
+        "Мечети заменили собой старые средневековые церкви, снесённые в 1970-е годы",
+        "Ислам стал одной из четырёх религий, защищённых основными законами Швеции, в 1970-е годы"
+      ]
+    },
+    "correct": 0,
+    "why": "Число мусульман в Швеции выросло за счёт иммиграции после Второй мировой войны, а первые мечети были построены в 1970-е годы. В XIX веке мусульман в Швеции почти не было, средневековые церкви не сносили ради мечетей, а среди четырёх основных законов Швеции никакой отдельной «защищённой религии» не существует."
+  },
+  {
+    "id": "c12-20",
+    "ch": 12,
+    "kind": "fakta",
+    "ref": "En sekulär stat, s. 44",
+    "sv": {
+      "q": "Vilka olika riktningar inom islam finns representerade bland de muslimska församlingarna i Sverige?",
+      "o": [
+        "Ortodox och katolsk",
+        "Sunni och shia",
+        "Luthersk och reformert",
+        "Hinduism och buddhism"
+      ]
+    },
+    "ru": {
+      "q": "Какие направления представлены среди мусульманских общин в современной Швеции?",
+      "o": [
+        "Православие и католицизм",
+        "Суннизм и шиизм",
+        "Лютеранство и реформатство",
+        "Индуизм и буддизм"
+      ]
+    },
+    "correct": 1,
+    "why": "Среди мусульманских общин Швеции представлены такие направления, как суннизм и шиизм. Православие и католицизм — направления христианства, лютеранство и реформатство также относятся к христианству, а индуизм и буддизм — совсем другие мировые религии."
+  },
+  {
+    "id": "c12-21",
+    "ch": 12,
+    "kind": "förståelse",
+    "ref": "En sekulär stat, s. 44",
+    "sv": {
+      "q": "Vilken roll spelar religiösa församlingar, till exempel judiska, muslimska, buddhistiska och hinduiska, i Sverige i dag?",
+      "o": [
+        "De bestämmer vilka lagar som gäller för sina medlemmar i stället för svensk lag",
+        "De ansvarar för att ta ut skatt åt staten från sina medlemmar",
+        "De erbjuder gemenskap och hjälper till att bevara och främja respektive religions tradition och kultur",
+        "De ersätter kommunernas socialtjänst för sina medlemmar"
+      ]
+    },
+    "ru": {
+      "q": "Какую роль играют религиозные общины в Швеции сегодня — например, иудейские, мусульманские, буддийские и индуистские?",
+      "o": [
+        "Они определяют, какие законы действуют для их членов вместо шведского закона",
+        "Они отвечают за сбор налога с членов в пользу государства",
+        "Они дают чувство общности и помогают сохранять и развивать традицию и культуру своей религии",
+        "Они заменяют собой социальную службу коммуны для своих членов"
+      ]
+    },
+    "correct": 2,
+    "why": "Религиозные общины дают чувство общности и помогают сохранять и развивать традицию и культуру своей религии. Они не устанавливают собственные законы вместо шведских (Швеция — светское государство с единым законом для всех), не собирают налоги для государства и не заменяют собой социальную службу коммуны."
+  },
+  {
     "id": "c13-01",
     "ch": 13,
     "kind": "fakta",
