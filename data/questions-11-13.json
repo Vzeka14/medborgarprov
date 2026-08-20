@@ -1038,5 +1038,395 @@
     },
     "correct": 2,
     "why": "Ид аль-фитр — праздник, которым завершается месяц поста Рамадан. Навруз (Nouruz) и его курдский вариант Newroz — это персидский и курдский Новый год, отмечаются в день весеннего равноденствия 21 марта и с Рамаданом не связаны."
+  },
+  {
+    "id": "c13-08",
+    "ch": 13,
+    "kind": "förståelse",
+    "ref": "Traditioner och högtider, s. 45",
+    "sv": {
+      "q": "Varför firar många i Sverige i dag kristna högtider som jul och påsk på nya sätt, utan koppling till den kristna tron?",
+      "o": [
+        "Eftersom traditioner förändras i takt med att samhället utvecklas",
+        "Eftersom högtiderna bytt namn och inte längre räknas som kristna alls",
+        "Eftersom Svenska kyrkan förbjudit religiösa firanden efter år 2000",
+        "Eftersom endast invandrare i Sverige fortfarande firar högtiderna religiöst"
+      ]
+    },
+    "ru": {
+      "q": "Почему многие в Швеции сегодня отмечают христианские праздники, например Рождество и Пасху, по-новому, без связи с христианской верой?",
+      "o": [
+        "Потому что традиции меняются вместе с развитием общества",
+        "Потому что праздники сменили название и больше не считаются христианскими",
+        "Потому что Шведская церковь запретила религиозные празднования после 2000 года",
+        "Потому что религиозно эти праздники теперь отмечают только иммигранты в Швеции"
+      ]
+    },
+    "correct": 0,
+    "why": "Традиции меняются вместе с развитием общества — праздники не меняли названия и не переставали быть христианскими по сути, Шведская церковь ничего подобного не запрещала (в 2000 году произошло лишь отделение церкви от государства), и религиозное празднование не ограничено какой-то одной группой населения."
+  },
+  {
+    "id": "c13-09",
+    "ch": 13,
+    "kind": "fakta",
+    "ref": "Traditioner och högtider, s. 45",
+    "sv": {
+      "q": "Hur firas nyårsafton den 31 december i Sverige, precis som på många andra håll i världen?",
+      "o": [
+        "Genom att äta ägg, lamm och sill",
+        "Med fester, middagar och fyrverkerier vid midnatt",
+        "Genom att binda blomsterkransar och dansa runt en stång",
+        "Med en gudstjänst tidigt på morgonen som kallas julotta"
+      ]
+    },
+    "ru": {
+      "q": "Как в Швеции, как и во многих других странах мира, отмечают новогоднюю ночь 31 декабря?",
+      "o": [
+        "Едят яйца, ягнятину и сельдь",
+        "Устраивают вечеринки, ужины и фейерверки в полночь",
+        "Плетут венки из цветов и танцуют вокруг шеста",
+        "Посещают церковную службу рано утром, которая называется юлотта"
+      ]
+    },
+    "correct": 1,
+    "why": "Новогоднюю ночь в Швеции, как и во многих странах мира, отмечают вечеринками, ужинами и фейерверками в полночь. Яйца, ягнятина и сельдь — это пасхальная еда, венки и танцы вокруг шеста — часть праздника Мидсоммар, а юлотта — рождественская утренняя служба; всё это другие праздники года."
+  },
+  {
+    "id": "c13-10",
+    "ch": 13,
+    "kind": "fakta",
+    "ref": "Traditioner och högtider, s. 45",
+    "sv": {
+      "q": "Vad ska påsken minnas, enligt den kristna traditionen?",
+      "o": [
+        "Jesu födelse",
+        "Helgonet Lucia och ljuset mitt i vintermörkret",
+        "Jesu död på långfredagen och hans uppståndelse på påskdagen",
+        "Minnet av släktingar och vänner som har dött"
+      ]
+    },
+    "ru": {
+      "q": "Что, согласно христианской традиции, призвана напоминать Пасха?",
+      "o": [
+        "Рождение Иисуса",
+        "Святую Люсию и свет посреди зимней тьмы",
+        "Смерть Иисуса в Страстную пятницу и его воскресение в пасхальное воскресенье",
+        "Память об умерших родственниках и друзьях"
+      ]
+    },
+    "correct": 2,
+    "why": "Пасха напоминает о смерти Иисуса в Страстную пятницу и его воскресении в пасхальное воскресенье. Рождение Иисуса отмечают на Рождество, святую Люсию и свет посреди зимней тьмы — во время дня Люсии, а память об умерших родственниках — в День всех святых; всё это другие праздники года."
+  },
+  {
+    "id": "c13-11",
+    "ch": 13,
+    "kind": "situation",
+    "ref": "Traditioner och högtider, s. 45",
+    "sv": {
+      "q": "En familj i Sverige dukar bordet på påskafton med traditionell mat. Vilka rätter är typiska för påskafton?",
+      "o": [
+        "Sill, färskpotatis och jordgubbar",
+        "Lussebullar med saffran",
+        "Traditionell julmat, som äts på julafton",
+        "Ägg, lamm, lax och sill"
+      ]
+    },
+    "ru": {
+      "q": "Семья в Швеции накрывает стол в Страстную субботу традиционными блюдами. Какие блюда типичны для этого дня?",
+      "o": [
+        "Сельдь, молодой картофель и клубника",
+        "Шафранные булочки (lussebullar)",
+        "Традиционная рождественская еда, которую едят в сочельник",
+        "Яйца, ягнятина, лосось и сельдь"
+      ]
+    },
+    "correct": 3,
+    "why": "На Страстную субботу традиционно едят яйца, ягнятину, лосось и сельдь. Сельдь с молодым картофелем и клубникой — это еда Мидсоммара, шафранные булочки — угощение дня Люсии, а рождественская еда подаётся в сочельник; всё это другие праздники."
+  },
+  {
+    "id": "c13-12",
+    "ch": 13,
+    "kind": "fakta",
+    "ref": "Traditioner och högtider, s. 46",
+    "sv": {
+      "q": "Vad gör man traditionellt på valborgsmässoafton för att välkomna våren?",
+      "o": [
+        "Tänder stora brasor och sjunger vårsånger",
+        "Binder blomsterkransar och dansar runt en stång",
+        "Tänder ljus på släktingars gravar",
+        "Öppnar en lucka i en kalender"
+      ]
+    },
+    "ru": {
+      "q": "Что традиционно делают в Вальпургиеву ночь, чтобы поприветствовать весну?",
+      "o": [
+        "Зажигают большие костры и поют весенние песни",
+        "Плетут венки из цветов и танцуют вокруг шеста",
+        "Зажигают свечи на могилах родственников",
+        "Открывают окошко в календаре"
+      ]
+    },
+    "correct": 0,
+    "why": "В Вальпургиеву ночь традиционно зажигают большие костры и поют весенние песни, приветствуя весну. Венки и танцы вокруг шеста — часть Мидсоммара, свечи на могилах — традиция Дня всех святых, а открывание окошка в календаре — часть Адвента; всё это другие праздники."
+  },
+  {
+    "id": "c13-13",
+    "ch": 13,
+    "kind": "situation",
+    "ref": "Traditioner och högtider, s. 46",
+    "sv": {
+      "q": "Den 1 maj samlas många människor till demonstrationer runt om i Sverige. Vilka håller ofta tal där, om sociala och politiska frågor?",
+      "o": [
+        "Endast representanter för Svenska kyrkan",
+        "Personer från fackförbund, politiska partier och andra grupper",
+        "Endast medlemmar av kungafamiljen",
+        "Endast anställda inom Försvarsmakten"
+      ]
+    },
+    "ru": {
+      "q": "Первого мая многие люди по всей Швеции собираются на демонстрации. Кто там часто выступает с речами о социальных и политических вопросах?",
+      "o": [
+        "Только представители Шведской церкви",
+        "Представители профсоюзов, политических партий и других групп",
+        "Только члены королевской семьи",
+        "Только сотрудники Вооружённых сил (Försvarsmakten)"
+      ]
+    },
+    "correct": 1,
+    "why": "На демонстрациях 1 мая обычно выступают представители профсоюзов, политических партий и других групп. Шведская церковь, королевская семья и Вооружённые силы — реальные шведские институты, но они не связаны с организацией первомайских демонстраций рабочего движения."
+  },
+  {
+    "id": "c13-14",
+    "ch": 13,
+    "kind": "situation",
+    "ref": "Traditioner och högtider, s. 46",
+    "sv": {
+      "q": "En kommun i Sverige ordnar en särskild ceremoni den 6 juni för att välkomna människor som just fått svenskt medborgarskap. Vilken dag är det?",
+      "o": [
+        "Valborgsmässoafton",
+        "Midsommarafton",
+        "Sveriges nationaldag",
+        "Första maj"
+      ]
+    },
+    "ru": {
+      "q": "Коммуна в Швеции устраивает 6 июня специальную церемонию, чтобы приветствовать людей, только что получивших шведское гражданство. Какой это день?",
+      "o": [
+        "Вальпургиева ночь",
+        "Канун Мидсоммара",
+        "Национальный день Швеции",
+        "Первое мая"
+      ]
+    },
+    "correct": 2,
+    "why": "6 июня — Национальный день Швеции, и именно в этот день многие коммуны устраивают церемонии для новых граждан страны. Вальпургиева ночь, канун Мидсоммара и Первое мая — другие праздники года, отмечаемые в другие даты."
+  },
+  {
+    "id": "c13-15",
+    "ch": 13,
+    "kind": "förståelse",
+    "ref": "Traditioner och högtider, s. 46",
+    "sv": {
+      "q": "Vad är särskilt med midsommarfirandets ursprung, jämfört med till exempel jul och påsk?",
+      "o": [
+        "Det infördes av staten genom ett riksdagsbeslut 2005",
+        "Det är en tradition som kom till Sverige med invandrare under de senaste decennierna",
+        "Det är en kristen högtid som minns Jesu uppståndelse",
+        "Det är en gammal tradition som kommer från tiden före kristendomen"
+      ]
+    },
+    "ru": {
+      "q": "Что особенного в происхождении праздника Мидсоммар по сравнению, например, с Рождеством и Пасхой?",
+      "o": [
+        "Он был введён государством по решению риксдага в 2005 году",
+        "Это традиция, пришедшая в Швецию вместе с иммигрантами в последние десятилетия",
+        "Это христианский праздник, напоминающий о воскресении Иисуса",
+        "Это древняя традиция, зародившаяся ещё до прихода христианства"
+      ]
+    },
+    "correct": 3,
+    "why": "Мидсоммар — древняя традиция, зародившаяся ещё до прихода христианства в Швецию. Решением риксдага в 2005 году праздничным днём стало 6 июня (Национальный день), с иммигрантами в Швецию пришли, например, Навруз и Ид аль-фитр, а о воскресении Иисуса напоминает Пасха — всё это другие праздники или события."
+  },
+  {
+    "id": "c13-16",
+    "ch": 13,
+    "kind": "fakta",
+    "ref": "Traditioner och högtider, s. 46",
+    "sv": {
+      "q": "Vad gör man ofta under midsommarafton i Sverige?",
+      "o": [
+        "Binder blomsterkransar och dansar runt en midsommarstång",
+        "Tänder stora brasor och håller tal till våren",
+        "Öppnar en lucka i en adventskalender",
+        "Går till kyrkogården för att tända ljus på gravar"
+      ]
+    },
+    "ru": {
+      "q": "Что часто делают в канун Мидсоммара в Швеции?",
+      "o": [
+        "Плетут венки из цветов и танцуют вокруг майского шеста",
+        "Зажигают большие костры и произносят речи о весне",
+        "Открывают окошко в адвент-календаре",
+        "Идут на кладбище зажечь свечи на могилах"
+      ]
+    },
+    "correct": 0,
+    "why": "В канун Мидсоммара часто плетут венки из цветов и танцуют вокруг майского шеста. Костры и речи о весне — традиция Вальпургиевой ночи, окошко в календаре — часть Адвента, а свечи на могилах зажигают в День всех святых; всё это другие праздники."
+  },
+  {
+    "id": "c13-17",
+    "ch": 13,
+    "kind": "situation",
+    "ref": "Traditioner och högtider, s. 46",
+    "sv": {
+      "q": "En person besöker en kyrkogård en lördag i slutet av oktober för att tända ljus på en avliden släktings grav. Vilken högtid handlar det troligen om?",
+      "o": [
+        "Midsommarafton",
+        "Alla helgons dag",
+        "Första maj",
+        "Nyårsafton"
+      ]
+    },
+    "ru": {
+      "q": "Человек приходит на кладбище в субботу в конце октября, чтобы зажечь свечу на могиле умершего родственника. О каком празднике, скорее всего, идёт речь?",
+      "o": [
+        "Канун Мидсоммара",
+        "День всех святых",
+        "Первое мая",
+        "Канун Нового года"
+      ]
+    },
+    "correct": 1,
+    "why": "Зажигание свечей на могилах в субботу в конце октября или начале ноября — традиция Дня всех святых. Канун Мидсоммара, Первое мая и канун Нового года — другие праздники, отмечаемые иначе и в другое время года."
+  },
+  {
+    "id": "c13-18",
+    "ch": 13,
+    "kind": "förståelse",
+    "ref": "Traditioner och högtider, s. 47",
+    "sv": {
+      "q": "Vad betyder ordet advent, och vad firas under adventstiden?",
+      "o": [
+        "Advent betyder ljus, firas till minne av helgonet Lucia",
+        "Advent betyder uppståndelse, firas i samband med påsken",
+        "Advent betyder ankomst och är en förberedelseperiod inför julen",
+        "Advent betyder frihet, firas till minne av Sveriges självständighet"
+      ]
+    },
+    "ru": {
+      "q": "Что означает слово адвент, и что отмечают в этот период?",
+      "o": [
+        "Адвент означает свет и отмечается в память о святой Люсии",
+        "Адвент означает воскресение и отмечается в связи с Пасхой",
+        "Адвент означает пришествие и является периодом подготовки к Рождеству",
+        "Адвент означает свободу и отмечается в память о независимости Швеции"
+      ]
+    },
+    "correct": 2,
+    "why": "Адвент означает пришествие и является периодом подготовки к Рождеству — четыре воскресенья перед Рождеством. Со светом и святой Люсией связан день Люсии, с воскресением — Пасха, а с независимостью Швеции — Национальный день; всё это другие понятия и праздники."
+  },
+  {
+    "id": "c13-19",
+    "ch": 13,
+    "kind": "situation",
+    "ref": "Traditioner och högtider, s. 47",
+    "sv": {
+      "q": "En skola ordnar ett luciatåg där en elev bär en ljuskrona på huvudet och de andra bär ljus i händerna, medan de sjunger särskilda sånger. Vilken tradition handlar detta om?",
+      "o": [
+        "Julottan",
+        "Adventsfirandet",
+        "Valborgsmässofirandet",
+        "Luciafirandet"
+      ]
+    },
+    "ru": {
+      "q": "Школа устраивает шествие (luciatåg), где одна ученица несёт на голове венок со свечами, а остальные держат свечи в руках, и все поют особые песни. О какой традиции идёт речь?",
+      "o": [
+        "Юлотта",
+        "Празднование Адвента",
+        "Празднование Вальпургиевой ночи",
+        "Празднование дня Люсии"
+      ]
+    },
+    "correct": 3,
+    "why": "Шествие с венком из свечей на голове и особыми песнями — это празднование дня Люсии. Юлотта — рождественская утренняя служба, Адвент — период ожидания Рождества, а Вальпургиева ночь отмечается кострами и весенними песнями; всё это другие традиции."
+  },
+  {
+    "id": "c13-20",
+    "ch": 13,
+    "kind": "fakta",
+    "ref": "Traditioner och högtider, s. 47",
+    "sv": {
+      "q": "Vad gör många familjer i Sverige på julafton den 24 december?",
+      "o": [
+        "Samlas för att umgås, äta julmat och ge varandra julklappar",
+        "Tänder stora brasor och håller tal till våren",
+        "Tänder ljus på gravar på kyrkogården",
+        "Deltar i ett luciatåg i skolan"
+      ]
+    },
+    "ru": {
+      "q": "Что делают многие семьи в Швеции в сочельник, 24 декабря?",
+      "o": [
+        "Собираются вместе, едят праздничную еду и дарят друг другу подарки",
+        "Зажигают большие костры и произносят речи о весне",
+        "Зажигают свечи на могилах на кладбище",
+        "Участвуют в школьном шествии дня Люсии"
+      ]
+    },
+    "correct": 0,
+    "why": "В сочельник многие семьи в Швеции собираются вместе, едят праздничную еду и дарят друг другу подарки. Костры и речи о весне — традиция Вальпургиевой ночи, свечи на могилах — День всех святых, а шествие дня Люсии проходит 13 декабря; всё это другие даты и праздники."
+  },
+  {
+    "id": "c13-21",
+    "ch": 13,
+    "kind": "förståelse",
+    "ref": "Traditioner och högtider, s. 47",
+    "sv": {
+      "q": "Varför firar många svenskar jul som en familjehögtid, trots att de inte är religiöst troende?",
+      "o": [
+        "Eftersom Svenska kyrkan kräver att alla i Sverige firar jul",
+        "Eftersom julen i dag för många har blivit en tradition utan religiös betydelse",
+        "Eftersom alla i Sverige måste tillhöra Svenska kyrkan",
+        "Eftersom julen bytt namn och inte längre är en kristen högtid alls"
+      ]
+    },
+    "ru": {
+      "q": "Почему многие шведы отмечают Рождество как семейный праздник, даже не будучи религиозно верующими?",
+      "o": [
+        "Потому что Шведская церковь требует, чтобы все в Швеции праздновали Рождество",
+        "Потому что сегодня Рождество для многих стало традицией без религиозного значения",
+        "Потому что все в Швеции обязаны состоять в Шведской церкви",
+        "Потому что Рождество сменило название и больше не является христианским праздником"
+      ]
+    },
+    "correct": 1,
+    "why": "Сегодня Рождество для многих шведов стало семейной традицией без религиозного значения. Шведская церковь никого не обязывает праздновать Рождество и не требует членства (с 2000 года церковь отделена от государства), а название и суть праздника не менялись."
+  },
+  {
+    "id": "c13-22",
+    "ch": 13,
+    "kind": "fakta",
+    "ref": "Traditioner och högtider, s. 47",
+    "sv": {
+      "q": "Id al-fitr är en högtid som kommit till Sverige med invandrare. Vilka andra högtider nämns som exempel på detta?",
+      "o": [
+        "Midsommar och valborgsmässoafton",
+        "Jul och påsk",
+        "Det persiska nyåret Nouruz och det kurdiska nyåret Newroz",
+        "Alla helgons dag och första maj"
+      ]
+    },
+    "ru": {
+      "q": "Ид аль-фитр — праздник, пришедший в Швецию вместе с иммигрантами. Какие ещё праздники приводятся в качестве примеров такого рода?",
+      "o": [
+        "Мидсоммар и Вальпургиева ночь",
+        "Рождество и Пасха",
+        "Персидский Новый год Навруз и курдский Навруз (Newroz)",
+        "День всех святых и Первое мая"
+      ]
+    },
+    "correct": 2,
+    "why": "Наряду с Ид аль-фитр в Швецию с иммигрантами пришли, например, персидский Новый год Навруз и курдский Навруз (Newroz), отмечаемые в день весеннего равноденствия. Мидсоммар, Вальпургиева ночь, Рождество, Пасха, День всех святых и Первое мая — старые шведские традиции, а не праздники, пришедшие с иммигрантами."
   }
 ]
