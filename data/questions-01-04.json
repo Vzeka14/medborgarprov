@@ -2364,5 +2364,265 @@
     },
     "correct": 2,
     "why": "Восемь партий: C, KD, L, MP, M, S, SD, V. Folkpartiet — прежнее название Liberalerna."
+  },
+  {
+    "id": "c4-08",
+    "ch": 4,
+    "kind": "fakta",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "Hur ofta hålls val till riksdag, regionfullmäktige och kommunfullmäktige i Sverige?",
+      "o": [
+        "Vartannat år",
+        "Vart fjärde år",
+        "Vart femte år",
+        "Vart sjätte år"
+      ]
+    },
+    "ru": {
+      "q": "Как часто в Швеции проходят выборы в риксдаг, региональные собрания и городские советы?",
+      "o": [
+        "Каждые два года",
+        "Каждые четыре года",
+        "Каждые пять лет",
+        "Каждые шесть лет"
+      ]
+    },
+    "correct": 1,
+    "why": "Выборы в риксдаг, региональные собрания и городские советы проходят каждые четыре года — все три одновременно. Каждые пять лет проходят выборы в Европарламент, а двухлетнего и шестилетнего циклов в шведской системе выборов не существует."
+  },
+  {
+    "id": "c4-09",
+    "ch": 4,
+    "kind": "situation",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "En person fyller 18 år tre månader efter valdagen. Får personen rösta i det valet?",
+      "o": [
+        "Ja, om personen är svensk medborgare",
+        "Ja, om personen är folkbokförd i Sverige",
+        "Ja, men bara i kommunvalet",
+        "Nej, man måste ha fyllt 18 år för att få rösta"
+      ]
+    },
+    "ru": {
+      "q": "Человеку исполняется 18 лет через три месяца после дня выборов. Может ли он голосовать на этих выборах?",
+      "o": [
+        "Да, если человек является гражданином Швеции",
+        "Да, если человек прописан в Швеции",
+        "Да, но только на выборах в коммуну",
+        "Нет, чтобы голосовать, нужно уже достичь 18 лет"
+      ]
+    },
+    "correct": 3,
+    "why": "Нет — чтобы иметь право голоса, нужно уже достичь 18 лет. Возрастной ценз действует одинаково на всех выборах, поэтому ни гражданство, ни прописка, ни тип выборов не позволяют обойти это требование."
+  },
+  {
+    "id": "c4-10",
+    "ch": 4,
+    "kind": "situation",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "En person från Tyskland är EU-medborgare och nyligen folkbokförd i Sverige. Vad krävs för att personen ska få rösta i kommun- och regionvalen?",
+      "o": [
+        "Att personen har bott och varit folkbokförd i Sverige i sammanlagt tre år",
+        "Att personen först blir svensk medborgare",
+        "Endast att personen är folkbokförd i landet",
+        "Att personen har fyllt 21 år"
+      ]
+    },
+    "ru": {
+      "q": "Человек из Германии является гражданином ЕС и недавно прописался в Швеции. Что требуется, чтобы он мог голосовать на выборах в коммуну и регион?",
+      "o": [
+        "Прожить и быть прописанным в Швеции в общей сложности три года",
+        "Сначала получить шведское гражданство",
+        "Только быть прописанным в стране",
+        "Достичь 21 года"
+      ]
+    },
+    "correct": 2,
+    "why": "Гражданам ЕС и стран Северной Европы достаточно быть прописанными в Швеции — трёхлетний срок проживания требуется от граждан других стран. Шведское гражданство для участия в коммунальных и региональных выборах не нужно, а возрастной ценз везде составляет 18 лет, а не 21."
+  },
+  {
+    "id": "c4-11",
+    "ch": 4,
+    "kind": "fakta",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "I vilket land röstar en EU-medborgare till EU-parlamentet?",
+      "o": [
+        "I det land där personen är folkbokförd",
+        "Alltid i det land där personen är född",
+        "I valfritt EU-land som personen väljer",
+        "Endast i det land som utfärdat personens pass"
+      ]
+    },
+    "ru": {
+      "q": "В какой стране гражданин ЕС голосует на выборах в Европарламент?",
+      "o": [
+        "В той стране, где человек прописан",
+        "Всегда в стране, где человек родился",
+        "В любой стране ЕС по своему выбору",
+        "Только в стране, выдавшей человеку паспорт"
+      ]
+    },
+    "correct": 0,
+    "why": "Граждане ЕС голосуют на выборах в Европарламент в той стране, где они прописаны. Страна рождения и страна выдачи паспорта здесь роли не играют, и выбирать страну голосования произвольно тоже нельзя."
+  },
+  {
+    "id": "c4-12",
+    "ch": 4,
+    "kind": "förståelse",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "På vilka nivåer kan folkomröstningar hållas i Sverige?",
+      "o": [
+        "Endast nationellt",
+        "Nationellt, i en region eller i en kommun",
+        "Endast i en kommun",
+        "Endast inom EU-samarbetet"
+      ]
+    },
+    "ru": {
+      "q": "На каких уровнях в Швеции могут проводиться референдумы?",
+      "o": [
+        "Только на общенациональном",
+        "На общенациональном, на уровне региона или коммуны",
+        "Только на уровне коммуны",
+        "Только в рамках сотрудничества ЕС"
+      ]
+    },
+    "correct": 1,
+    "why": "Референдумы в Швеции могут проводиться как на общенациональном уровне, так и в отдельном регионе или коммуне. Ограничение только общенациональным или только коммунальным уровнем не соответствует действительности, и это внутришведский инструмент, а не часть сотрудничества ЕС."
+  },
+  {
+    "id": "c4-13",
+    "ch": 4,
+    "kind": "situation",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "År 2003 höll Sverige en folkomröstning om att byta ut den svenska kronan mot euro. Vad blev resultatet?",
+      "o": [
+        "Folket röstade ja, och Sverige införde euron",
+        "Omröstningen ställdes in innan den genomfördes",
+        "Resultatet blev exakt lika och frågan avgjordes av riksdagen",
+        "Folket röstade nej, och Sverige behöll den svenska kronan"
+      ]
+    },
+    "ru": {
+      "q": "В 2003 году в Швеции прошёл референдум о замене шведской кроны на евро. Каким был результат?",
+      "o": [
+        "Народ проголосовал за, и Швеция ввела евро",
+        "Референдум отменили до его проведения",
+        "Голоса разделились поровну, и вопрос решил риксдаг",
+        "Народ проголосовал против, и Швеция сохранила шведскую крону"
+      ]
+    },
+    "correct": 3,
+    "why": "На референдуме 2003 года народ проголосовал против замены кроны на евро, и Швеция сохранила шведскую крону. Евро в Швеции не вводили, референдум состоялся, и результат не был ничейным."
+  },
+  {
+    "id": "c4-14",
+    "ch": 4,
+    "kind": "situation",
+    "ref": "Politiska val och partier, s. 14",
+    "sv": {
+      "q": "En person får ett röstkort hemskickat före valet, men kan inte gå till sin vallokal på valdagen. Vilken möjlighet finns?",
+      "o": [
+        "Personen kan rösta i förväg på särskilda platser",
+        "Personen förlorar sin rösträtt i det valet",
+        "Personen måste be någon annan rösta i sitt ställe",
+        "Personen kan rösta först efter valdagen"
+      ]
+    },
+    "ru": {
+      "q": "Человек получает по почте карточку избирателя перед выборами, но не может прийти на свой избирательный участок в день голосования. Какая есть возможность?",
+      "o": [
+        "Человек может проголосовать досрочно в специальных местах",
+        "Человек теряет право голоса на этих выборах",
+        "Человек должен попросить кого-то проголосовать вместо себя",
+        "Человек может проголосовать только после дня выборов"
+      ]
+    },
+    "correct": 0,
+    "why": "Можно проголосовать досрочно в специально отведённых для этого местах. Право голоса при этом не теряется, голосовать за другого человека нельзя, а после дня выборов голосование уже не проводится."
+  },
+  {
+    "id": "c4-15",
+    "ch": 4,
+    "kind": "förståelse",
+    "ref": "Politiska val och partier, s. 15",
+    "sv": {
+      "q": "Varför röstar alla bakom en skärm i den svenska vallokalen?",
+      "o": [
+        "För att valen är hemliga och ingen annan ska kunna se vilket val man gör",
+        "För att valförrättarna ska hinna räkna rösterna snabbare",
+        "För att endast en person åt gången ryms i vallokalen",
+        "För att partierna ska kunna kontrollera hur deras medlemmar röstar"
+      ]
+    },
+    "ru": {
+      "q": "Почему на шведском избирательном участке все голосуют за ширмой?",
+      "o": [
+        "Потому что выборы тайные и никто другой не должен видеть, какой выбор делает человек",
+        "Чтобы члены комиссии успевали быстрее подсчитывать голоса",
+        "Потому что в помещении участка помещается только один человек за раз",
+        "Чтобы партии могли проверить, как голосуют их члены"
+      ]
+    },
+    "correct": 0,
+    "why": "Голосование проходит за ширмой, потому что выборы тайные и никто другой не должен видеть сделанный выбор. Это никак не связано со скоростью подсчёта или вместимостью помещения, а контроль партий за голосованием своих членов прямо противоречит принципу тайных выборов."
+  },
+  {
+    "id": "c4-16",
+    "ch": 4,
+    "kind": "situation",
+    "ref": "Politiska val och partier, s. 15",
+    "sv": {
+      "q": "En grupp människor delar samma idéer om hur samhället ska styras, men tycker inte att något befintligt parti driver deras frågor. Vad kan de göra i Sverige?",
+      "o": [
+        "De måste välja ett av de partier som redan finns",
+        "De kan starta ett nytt parti tillsammans",
+        "De kan bara påverka genom att rösta blankt",
+        "De måste först få tillstånd från riksdagen"
+      ]
+    },
+    "ru": {
+      "q": "Группа людей разделяет общие взгляды на то, как должно управляться общество, но считает, что ни одна существующая партия не продвигает их вопросы. Что они могут сделать в Швеции?",
+      "o": [
+        "Они обязаны выбрать одну из уже существующих партий",
+        "Они могут вместе создать новую партию",
+        "Они могут повлиять только через пустой бюллетень",
+        "Им сначала нужно получить разрешение риксдага"
+      ]
+    },
+    "correct": 1,
+    "why": "В Швеции можно вместе с другими создать новую партию — это открытая возможность для всех желающих. Обязанности выбирать из существующих партий нет, пустой бюллетень не единственный способ выразить позицию, и разрешение риксдага для создания партии не требуется."
+  },
+  {
+    "id": "c4-17",
+    "ch": 4,
+    "kind": "förståelse",
+    "ref": "Politiska val och partier, s. 15",
+    "sv": {
+      "q": "Vad kännetecknar särskilda partier som ställer upp i region- och kommunval i Sverige?",
+      "o": [
+        "De har alltid platser även i riksdagen",
+        "De får ställa upp endast om de finns i minst tio kommuner",
+        "De driver politik bara för sin egen region eller kommun, inte på riksnivå",
+        "De utses av regeringen i stället för att väljas"
+      ]
+    },
+    "ru": {
+      "q": "Что характерно для особых партий, участвующих в региональных и муниципальных выборах в Швеции?",
+      "o": [
+        "У них всегда есть места и в риксдаге",
+        "Они могут участвовать, только если представлены минимум в десяти коммунах",
+        "Они ведут политику только для своего региона или коммуны, а не на общенациональном уровне",
+        "Их назначает правительство, а не избирают"
+      ]
+    },
+    "correct": 2,
+    "why": "Такие партии ведут политику только для своего региона или коммуны, а не на общенациональном уровне. Мест в риксдаге у них нет, никакого требования быть представленными минимум в десяти коммунах не существует, а назначение партий правительством противоречило бы демократическим выборам."
   }
 ]

@@ -1196,6 +1196,266 @@
     "why": "В соцсетях контент может создавать кто угодно, и он не проверяется так, как в других медиа."
   },
   {
+    "id": "c6-07",
+    "ch": 6,
+    "kind": "förståelse",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "Vad gäller för statens möjlighet att bestämma vad som sägs i svenska medier?",
+      "o": [
+        "Staten kan inte bestämma eller påverka vad som sägs i medierna",
+        "Staten godkänner alla nyheter innan de publiceras",
+        "Staten bestämmer innehållet i public service men inte i privata medier",
+        "Staten beslutar vilka ämnen journalister får skriva om"
+      ]
+    },
+    "ru": {
+      "q": "Что действует в отношении возможности государства решать, что говорится в шведских СМИ?",
+      "o": [
+        "Государство не может решать или влиять на то, что говорится в СМИ",
+        "Государство утверждает все новости перед публикацией",
+        "Государство определяет содержание общественного вещания (public service), но не частных СМИ",
+        "Государство решает, на какие темы журналистам разрешено писать"
+      ]
+    },
+    "correct": 0,
+    "why": "Государство не может решать или влиять на то, что говорится в шведских СМИ — это гарантируют основные законы о свободе печати и свободе слова. Предварительного одобрения новостей не существует, компании общественного вещания должны быть независимы от политических интересов, и список разрешённых тем государство не устанавливает."
+  },
+  {
+    "id": "c6-08",
+    "ch": 6,
+    "kind": "fakta",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "Vilka funktioner fyller medierna i det svenska samhället?",
+      "o": [
+        "Endast att sprida statens officiella information",
+        "Endast att sälja reklamplats till företag",
+        "Endast att kontrollera vad medborgarna skriver på nätet",
+        "De informerar om nyheter, fungerar som en plats för diskussion och står för nöje och underhållning"
+      ]
+    },
+    "ru": {
+      "q": "Какие функции выполняют СМИ в шведском обществе?",
+      "o": [
+        "Только распространять официальную информацию государства",
+        "Только продавать рекламные места компаниям",
+        "Только контролировать, что граждане пишут в интернете",
+        "Они информируют о новостях, служат площадкой для обсуждения и обеспечивают развлечение"
+      ]
+    },
+    "correct": 3,
+    "why": "СМИ информируют о новостях, служат площадкой, где люди могут свободно обсуждать общество, и обеспечивают развлечение. Распространение официальной государственной информации не является их задачей, продажа рекламы — лишь способ финансирования части СМИ, а контроль за тем, что пишут граждане, вообще не входит в функции медиа."
+  },
+  {
+    "id": "c6-09",
+    "ch": 6,
+    "kind": "situation",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "En journalist vill undersöka hur en myndighet fattat ett omdiskuterat beslut och begär ut myndighetens e-post och handlingar. Vad ger journalisten den möjligheten?",
+      "o": [
+        "Meddelarskyddet",
+        "Offentlighetsprincipen",
+        "Att journalisten har en ansvarig utgivare",
+        "Det statliga stödet till nyhetsmedier"
+      ]
+    },
+    "ru": {
+      "q": "Журналист хочет разобраться, как ведомство приняло спорное решение, и запрашивает его электронную переписку и документы. Что даёт журналисту такую возможность?",
+      "o": [
+        "Защита информатора (meddelarskydd)",
+        "Принцип публичности (offentlighetsprincipen)",
+        "То, что у журналиста есть ответственный издатель",
+        "Государственная поддержка новостных изданий"
+      ]
+    },
+    "correct": 1,
+    "why": "Такую возможность даёт принцип публичности (offentlighetsprincipen): официальные документы ведомств открыты, и любой может их запросить, если они не засекречены. Защита информатора касается того, кто передаёт сведения в СМИ, ответственный издатель отвечает за публикуемое, а государственная поддержка изданий — вопрос финансирования, а не доступа к документам."
+  },
+  {
+    "id": "c6-10",
+    "ch": 6,
+    "kind": "förståelse",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "Vad innebär det att en handling hos en myndighet är hemlig, alltså under sekretess?",
+      "o": [
+        "Att handlingen inte får lämnas ut, till skillnad från allmänna handlingar som är offentliga",
+        "Att handlingen måste publiceras i en dagstidning inom en vecka",
+        "Att endast utländska journalister får ta del av den",
+        "Att handlingen automatiskt blir offentlig efter tre dagar"
+      ]
+    },
+    "ru": {
+      "q": "Что означает, что документ в ведомстве является секретным (под sekretess)?",
+      "o": [
+        "Что документ не выдаётся, в отличие от официальных документов, которые открыты",
+        "Что документ обязаны опубликовать в газете в течение недели",
+        "Что доступ к нему имеют только иностранные журналисты",
+        "Что документ автоматически становится открытым через три дня"
+      ]
+    },
+    "correct": 0,
+    "why": "Секретный документ не выдаётся — в отличие от официальных документов ведомств, которые по принципу публичности открыты для всех. Обязательной публикации в газете, особого доступа для иностранных журналистов или автоматического рассекречивания через три дня не предусмотрено."
+  },
+  {
+    "id": "c6-11",
+    "ch": 6,
+    "kind": "förståelse",
+    "ref": "Mediernas roll, s. 20",
+    "sv": {
+      "q": "Varför ger staten ekonomiskt stöd till nyhetsmedier och dagstidningar i Sverige?",
+      "o": [
+        "För att staten ska kunna styra innehållet i tidningarna",
+        "För att det är viktigt att det finns många olika medier som ger oss nyheter",
+        "För att tidningarna inte ska behöva ha någon ansvarig utgivare",
+        "För att ersätta public service-företagen"
+      ]
+    },
+    "ru": {
+      "q": "Почему государство оказывает финансовую поддержку новостным изданиям и ежедневным газетам в Швеции?",
+      "o": [
+        "Чтобы государство могло управлять содержанием газет",
+        "Потому что важно, чтобы существовало много разных СМИ, дающих новости",
+        "Чтобы газетам не нужно было иметь ответственного издателя",
+        "Чтобы заменить собой компании общественного вещания"
+      ]
+    },
+    "correct": 1,
+    "why": "Государство поддерживает СМИ потому, что важно наличие многих разных источников новостей. Поддержка не даёт государству права управлять содержанием, не отменяет обязанность иметь ответственного издателя и не заменяет собой общественное вещание, которое финансируется иначе."
+  },
+  {
+    "id": "c6-12",
+    "ch": 6,
+    "kind": "situation",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "En journalist får ett tips om en uppseendeväckande händelse från en enda källa. Vad ska journalisten göra innan uppgifterna publiceras?",
+      "o": [
+        "Publicera direkt, eftersom tipset kom från en person som var på plats",
+        "Kontrollera uppgifterna med flera oberoende källor och se att källorna är pålitliga",
+        "Skicka uppgifterna till en myndighet för godkännande",
+        "Vänta tills minst en annan tidning har publicerat samma sak"
+      ]
+    },
+    "ru": {
+      "q": "Журналист получает наводку о нашумевшем событии от одного-единственного источника. Что журналист должен сделать до публикации сведений?",
+      "o": [
+        "Опубликовать сразу, раз наводка пришла от человека, который был на месте",
+        "Проверить сведения по нескольким независимым источникам и убедиться, что источники надёжны",
+        "Отправить сведения в ведомство на утверждение",
+        "Подождать, пока минимум одна другая газета опубликует то же самое"
+      ]
+    },
+    "correct": 1,
+    "why": "Журналист должен проверить сведения по нескольким независимым источникам и убедиться в их надёжности. Публикация с одного источника без проверки, отправка материала в ведомство на утверждение (что противоречило бы свободе прессы) или ожидание публикации у конкурентов не заменяют собственную проверку фактов."
+  },
+  {
+    "id": "c6-13",
+    "ch": 6,
+    "kind": "fakta",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "Varifrån får kommersiella radio- och tv-kanaler i Sverige sina inkomster?",
+      "o": [
+        "Från en avgift som tas ut via skatten",
+        "Från bidrag som betalas ut av riksdagen",
+        "Från att sälja reklamplats eller från att människor betalar för att se en särskild kanal",
+        "Från medlemsavgifter i politiska partier"
+      ]
+    },
+    "ru": {
+      "q": "Откуда коммерческие радио- и телеканалы в Швеции получают доходы?",
+      "o": [
+        "Из сбора, который взимается через налог",
+        "Из дотаций, выплачиваемых риксдагом",
+        "От продажи рекламных мест или от того, что люди платят за просмотр определённого канала",
+        "Из членских взносов в политических партиях"
+      ]
+    },
+    "correct": 2,
+    "why": "Коммерческие каналы зарабатывают на продаже рекламных мест или на том, что люди платят за доступ к определённому каналу. Сбор через налог финансирует общественное вещание, а не коммерческие каналы, дотаций от риксдага они не получают, и с членскими взносами партий их доходы никак не связаны."
+  },
+  {
+    "id": "c6-14",
+    "ch": 6,
+    "kind": "situation",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "En person vill läsa dagens nyheter från en svensk dagstidning flera gånger under dagen, utan att köpa papperstidningen. Är det möjligt?",
+      "o": [
+        "Nej, dagstidningar finns bara som tryckta exemplar",
+        "Nej, tidningarnas nyheter uppdateras bara en gång i veckan",
+        "Ja, men bara om personen tecknar en prenumeration på papperstidningen",
+        "Ja, de flesta tidningar finns på internet och uppdateras flera gånger per dag"
+      ]
+    },
+    "ru": {
+      "q": "Человек хочет читать новости шведской ежедневной газеты несколько раз в день, не покупая бумажный выпуск. Возможно ли это?",
+      "o": [
+        "Нет, ежедневные газеты существуют только в печатном виде",
+        "Нет, новости газет обновляются лишь раз в неделю",
+        "Да, но только если человек оформит подписку на бумажную газету",
+        "Да, большинство газет есть в интернете и обновляются несколько раз в день"
+      ]
+    },
+    "correct": 3,
+    "why": "Да — сегодня большинство шведских газет доступны в интернете и обновляют новости несколько раз в день. Печатная форма не единственная, обновление раз в неделю не соответствует действительности, а подписка на бумажную версию для доступа к сайту не требуется."
+  },
+  {
+    "id": "c6-15",
+    "ch": 6,
+    "kind": "förståelse",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "Vilka krav ställs på public service-företagen när de rapporterar om samhället?",
+      "o": [
+        "De ska vara oberoende av politiska och andra intressen och låta olika åsikter komma till tals utan att välja sida",
+        "De ska följa regeringens linje i politiska frågor",
+        "De ska bara rapportera om positiva nyheter från Sverige",
+        "De ska välja sida i politiska konflikter för att göra saken tydlig för tittarna"
+      ]
+    },
+    "ru": {
+      "q": "Какие требования предъявляются к компаниям общественного вещания (public service) при освещении общественной жизни?",
+      "o": [
+        "Быть независимыми от политических и других интересов и давать высказаться разным мнениям, не принимая ничью сторону",
+        "Придерживаться линии правительства в политических вопросах",
+        "Освещать только положительные новости из Швеции",
+        "Занимать чью-то сторону в политических конфликтах, чтобы зрителям было понятнее"
+      ]
+    },
+    "correct": 0,
+    "why": "Компании общественного вещания должны быть независимы от политических и других интересов и давать высказаться разным мнениям, не принимая ничью сторону. Следование линии правительства, отбор только положительных новостей или занятие чьей-либо стороны прямо противоречат требованию независимости."
+  },
+  {
+    "id": "c6-16",
+    "ch": 6,
+    "kind": "situation",
+    "ref": "Mediernas roll, s. 21",
+    "sv": {
+      "q": "En person publicerar ett videoklipp med påståenden om en samhällsfråga på ett socialt medium. Vad skiljer detta innehåll från innehållet i traditionella medier?",
+      "o": [
+        "Innehåll på sociala medier granskas alltid hårdare än innehåll i tidningar",
+        "Innehåll på sociala medier får bara publiceras av journalister",
+        "Vem som helst kan skapa innehåll där, och det kontrolleras inte på samma sätt som i andra medier",
+        "Innehåll på sociala medier måste först godkännas av en ansvarig utgivare"
+      ]
+    },
+    "ru": {
+      "q": "Человек публикует в социальной сети видеоролик с утверждениями по общественно значимому вопросу. Чем это содержание отличается от содержания традиционных СМИ?",
+      "o": [
+        "Содержание в соцсетях всегда проверяется строже, чем в газетах",
+        "Публиковать содержание в соцсетях могут только журналисты",
+        "Создавать там содержание может кто угодно, и оно не проверяется так, как в других СМИ",
+        "Содержание в соцсетях должно сначала утвердить ответственный издатель"
+      ]
+    },
+    "correct": 2,
+    "why": "В социальных сетях содержание может создавать кто угодно, и оно не контролируется так, как в традиционных СМИ. Проверка там не строже, а слабее, публикация не ограничена журналистами, и требования об утверждении ответственным издателем к соцсетям не применяются — в отличие от газет, радио и телевидения."
+  },
+  {
     "id": "c7-01",
     "ch": 7,
     "kind": "fakta",
