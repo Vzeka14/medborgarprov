@@ -182,6 +182,526 @@
     "why": "Всеобщая воинская обязанность (värnplikt) — это другое: она касается мужчин и женщин, достигших 18 лет."
   },
   {
+    "id": "c11-08",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "Genom vilka organ samarbetar Sverige främst med de andra nordiska länderna?",
+      "o": [
+        "Nordiska rådet och Nordiska ministerrådet",
+        "Europeiska unionen och Europarådet",
+        "FN:s generalförsamling och säkerhetsråd",
+        "Försvarsmakten och Sida"
+      ]
+    },
+    "ru": {
+      "q": "Через какие органы Швеция в первую очередь сотрудничает с другими странами Северной Европы?",
+      "o": [
+        "Северный совет (Nordiska rådet) и Северный совет министров (Nordiska ministerrådet)",
+        "Европейский союз и Совет Европы",
+        "Генеральная Ассамблея и Совет Безопасности ООН",
+        "Вооружённые силы (Försvarsmakten) и агентство по развитию (Sida)"
+      ]
+    },
+    "correct": 0,
+    "why": "Швеция в первую очередь сотрудничает с другими странами Северной Европы через Северный совет (Nordiska rådet) и Северный совет министров (Nordiska ministerrådet) — оба органа согласовывают вопросы, которые затем реализует каждая страна. Европейский союз, Совет Европы, органы ООН и шведские Вооружённые силы и агентство по развитию (Sida) — тоже реальные структуры международного сотрудничества Швеции, но не относятся именно к сотрудничеству внутри Северной Европы."
+  },
+  {
+    "id": "c11-09",
+    "ch": 11,
+    "kind": "förståelse",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "Inom vilka områden samarbetar EU-länderna?",
+      "o": [
+        "Endast gemensam valuta för alla medlemsländer",
+        "Jordbruk, ekonomi, miljö, handel och migration",
+        "Endast militärt försvar genom Nato",
+        "Endast utvecklingssamarbete genom Sida"
+      ]
+    },
+    "ru": {
+      "q": "В каких областях сотрудничают страны ЕС?",
+      "o": [
+        "Только в единой валюте для всех стран-членов",
+        "В сельском хозяйстве, экономике, экологии, торговле и миграции",
+        "Только в военной обороне через НАТО",
+        "Только в сотрудничестве по развитию через агентство (Sida)"
+      ]
+    },
+    "correct": 1,
+    "why": "Страны ЕС сотрудничают во многих областях — сельском хозяйстве, экономике, экологии, торговле и миграции. Единая валюта касается не всех стран ЕС (Швеция, например, сохранила крону), военная оборона — задача НАТО, а агентство по развитию (Sida) — отдельное шведское ведомство, не связанное напрямую с сотрудничеством внутри ЕС."
+  },
+  {
+    "id": "c11-10",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "En person med spanskt medborgarskap vill flytta till Sverige för att arbeta, utan att behöva ansöka om ett särskilt arbetstillstånd. Vilket samarbete gör detta möjligt?",
+      "o": [
+        "Europarådet",
+        "Nato",
+        "De fyra friheterna",
+        "Nordiska rådet"
+      ]
+    },
+    "ru": {
+      "q": "Гражданин Испании хочет переехать в Швецию, чтобы работать, не оформляя отдельное разрешение на работу. Какое сотрудничество делает это возможным?",
+      "o": [
+        "Совет Европы",
+        "НАТО",
+        "Четыре свободы",
+        "Северный совет (Nordiska rådet)"
+      ]
+    },
+    "correct": 2,
+    "why": "Именно четыре свободы ЕС дают гражданам стран-членов право свободно учиться, переезжать, работать и продавать товары в других странах ЕС без отдельного разрешения. Совет Европы занимается правами человека и демократией, НАТО — военной обороной, а Северный совет — сотрудничеством внутри Северной Европы, а не всего ЕС."
+  },
+  {
+    "id": "c11-11",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "Vilket år bildades Europarådet, och vad arbetar organisationen för?",
+      "o": [
+        "1995, för en gemensam valuta i Europa",
+        "1945, för att bevara fred och säkerhet i världen",
+        "2024, för att skydda medlemsländer militärt",
+        "1949, för mänskliga rättigheter, demokrati och rättsstatens principer"
+      ]
+    },
+    "ru": {
+      "q": "В каком году был основан Совет Европы, и чем занимается эта организация?",
+      "o": [
+        "В 1995 году, для введения единой валюты в Европе",
+        "В 1945 году, для сохранения мира и безопасности в мире",
+        "В 2024 году, для военной защиты стран-членов",
+        "В 1949 году, для защиты прав человека, демократии и принципов правового государства"
+      ]
+    },
+    "correct": 3,
+    "why": "Совет Европы основан в 1949 году и занимается правами человека, демократией и принципами правового государства. 1995 год — это год вступления Швеции в ЕС, 1945 — год основания ООН, а 2024 — год вступления Швеции в НАТО; эти даты и организации легко перепутать."
+  },
+  {
+    "id": "c11-12",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "Vilket år grundades Förenta nationerna (FN), och hur många av världens länder är med?",
+      "o": [
+        "1945, nästan alla världens länder",
+        "1949, endast europeiska länder",
+        "1995, endast EU-länder",
+        "2024, endast Nato-länder"
+      ]
+    },
+    "ru": {
+      "q": "В каком году была основана Организация Объединённых Наций (ООН), и сколько стран мира в ней состоит?",
+      "o": [
+        "В 1945 году, почти все страны мира",
+        "В 1949 году, только европейские страны",
+        "В 1995 году, только страны ЕС",
+        "В 2024 году, только страны НАТО"
+      ]
+    },
+    "correct": 0,
+    "why": "ООН основана в 1945 году, и в ней состоят почти все страны мира. 1949 год — год основания Совета Европы, 1995 — год вступления Швеции в ЕС, а 2024 — год вступления Швеции в НАТО; эти организации гораздо уже по составу, чем ООН."
+  },
+  {
+    "id": "c11-13",
+    "ch": 11,
+    "kind": "förståelse",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "Vad är ett av FN:s huvudsakliga syften?",
+      "o": [
+        "Att övervaka medlemsländernas ekonomi och valutor",
+        "Att bevara fred och säkerhet i världen samt arbeta för mänskliga rättigheter",
+        "Att samordna medlemsländernas militära försvar under en gemensam befälhavare",
+        "Att fördela EU:s jordbruksstöd"
+      ]
+    },
+    "ru": {
+      "q": "Какова одна из главных целей ООН?",
+      "o": [
+        "Следить за экономикой и валютами стран-членов",
+        "Сохранять мир и безопасность в мире и работать за права человека",
+        "Координировать военную оборону стран-членов под единым командованием",
+        "Распределять сельскохозяйственную помощь ЕС"
+      ]
+    },
+    "correct": 1,
+    "why": "Одна из главных целей ООН — сохранять мир и безопасность в мире и работать за права человека. Контроль над экономикой и валютами — не задача ООН, координация военной обороны под единым командованием больше напоминает функцию военного блока вроде НАТО, а сельхозпомощь ЕС — задача самого Евросоюза, а не ООН."
+  },
+  {
+    "id": "c11-14",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 39",
+    "sv": {
+      "q": "Vad stödjer Sverige andra länder med, genom myndigheten Sida?",
+      "o": [
+        "Att ge medlemskap i EU till andra länder",
+        "Att bygga upp andra länders militära styrkor",
+        "Att utveckla demokrati, jämställdhet, ekonomi och ett hållbart samhälle",
+        "Att kräva att andra länder inför svensk lagstiftning"
+      ]
+    },
+    "ru": {
+      "q": "В чём Швеция поддерживает другие страны через агентство по развитию (Sida)?",
+      "o": [
+        "Помогает странам получить членство в ЕС",
+        "Помогает наращивать военные силы других стран",
+        "Помогает развивать демократию, равноправие, экономику и устойчивое общество",
+        "Требует, чтобы другие страны ввели шведское законодательство"
+      ]
+    },
+    "correct": 2,
+    "why": "Через агентство по развитию (Sida) Швеция поддерживает другие страны в развитии демократии, равноправия, экономики и устойчивого общества. Sida не даёт членство в ЕС (это решают сами страны ЕС), не наращивает военные силы других стран и не требует введения шведских законов — это не задачи агентства по международному развитию."
+  },
+  {
+    "id": "c11-15",
+    "ch": 11,
+    "kind": "förståelse",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "Vad är särskilt med Sveriges fredshistoria jämfört med många andra länder?",
+      "o": [
+        "Sverige har aldrig varit inblandat i något krig alls, någonsin i historien",
+        "Sverige har alltid varit medlem i Nato sedan andra världskriget",
+        "Sverige har fört krig oftare än de flesta andra länder i Europa",
+        "Sverige har haft fred under mycket lång sammanhängande tid, sedan början av 1800-talet"
+      ]
+    },
+    "ru": {
+      "q": "Что особенного в истории мира Швеции по сравнению со многими другими странами?",
+      "o": [
+        "Швеция никогда за всю историю не участвовала ни в одной войне",
+        "Швеция всегда была членом НАТО начиная со Второй мировой войны",
+        "Швеция воевала чаще, чем большинство других европейских стран",
+        "Швеция сохраняет мир на протяжении очень долгого непрерывного периода, с начала XIX века"
+      ]
+    },
+    "correct": 3,
+    "why": "Особенность Швеции в том, что она сохраняет мир на протяжении очень долгого непрерывного периода — с начала XIX века, — это одна из немногих стран мира с таким долгим периодом без войн. Утверждение, что Швеция вообще никогда не воевала, неверно (последняя война была как раз в начале 1800-х), в НАТО Швеция вступила только в 2024 году, а не сразу после Второй мировой, и воевала она реже, а не чаще большинства европейских стран."
+  },
+  {
+    "id": "c11-16",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "Vad hände med Norge några år efter att Sverige förlorat Finland i kriget 1808–1809?",
+      "o": [
+        "Norge tvingades in i en union med Sverige, som ett resultat av Napoleonkrigen",
+        "Norge erövrade delar av norra Sverige",
+        "Norge gick med i Nato tillsammans med Sverige",
+        "Norge blev en del av Danmark igen"
+      ]
+    },
+    "ru": {
+      "q": "Что произошло с Норвегией через несколько лет после того, как Швеция потеряла Финляндию в войне 1808–1809 годов?",
+      "o": [
+        "Норвегию втянули в унию со Швецией в результате Наполеоновских войн",
+        "Норвегия завоевала часть северной Швеции",
+        "Норвегия вступила в НАТО вместе со Швецией",
+        "Норвегия снова стала частью Дании"
+      ]
+    },
+    "correct": 0,
+    "why": "В результате Наполеоновских войн Норвегию втянули в унию со Швецией. Норвегия не завоёвывала территорий у Швеции, в НАТО она вступила гораздо позже и отдельно от Швеции (в 1949 году), а до унии со Швецией Норвегия была в союзе с Данией, но не воссоединилась с ней в этот период — наоборот, вошла в новую унию со Швецией."
+  },
+  {
+    "id": "c11-17",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "En historieintresserad person undrar hur unionen mellan Sverige och Norge till slut upplöstes. Vad stämmer?",
+      "o": [
+        "Norge blev självständigt efter ett krig med Sverige 1905",
+        "Norge blev självständigt på fredlig väg 1905",
+        "Unionen upplöstes efter första världskriget 1918",
+        "Unionen finns fortfarande kvar i dag"
+      ]
+    },
+    "ru": {
+      "q": "Человек, интересующийся историей, хочет знать, как в итоге распалась уния между Швецией и Норвегией. Что из этого верно?",
+      "o": [
+        "Норвегия стала независимой после войны со Швецией в 1905 году",
+        "Норвегия стала независимой мирным путём в 1905 году",
+        "Уния распалась после Первой мировой войны в 1918 году",
+        "Уния существует до сих пор"
+      ]
+    },
+    "correct": 1,
+    "why": "Норвегия стала независимой мирным путём в 1905 году, без войны. Войны между Швецией и Норвегией по этому поводу не было, распад унии не связан с Первой мировой войной 1918 года, а сама уния давно не существует — Норвегия независима уже больше века."
+  },
+  {
+    "id": "c11-18",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "Vad kännetecknade det kalla kriget efter andra världskriget?",
+      "o": [
+        "Ett öppet krig mellan Sverige och Sovjetunionen",
+        "Ett samarbete mellan alla europeiska länder inom EU",
+        "En konflikt mellan ett västligt block med USA och ett östligt block med Sovjetunionen",
+        "En allians mellan Norden och Sovjetunionen"
+      ]
+    },
+    "ru": {
+      "q": "Что было характерно для холодной войны после Второй мировой войны?",
+      "o": [
+        "Открытая война между Швецией и Советским Союзом",
+        "Сотрудничество всех европейских стран в рамках ЕС",
+        "Противостояние западного блока во главе с США и восточного блока во главе с Советским Союзом",
+        "Союз между Северной Европой и Советским Союзом"
+      ]
+    },
+    "correct": 2,
+    "why": "Холодная война была противостоянием западного блока во главе с США и восточного блока во главе с Советским Союзом. Открытой войны между Швецией и СССР не было, ЕС в современном виде тогда ещё не объединял все европейские страны так, как сейчас, а союза между Северной Европой и СССР никогда не существовало."
+  },
+  {
+    "id": "c11-19",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "Under det kalla kriget gick Danmark och Norge med i Nato. Vad valde Sverige att göra?",
+      "o": [
+        "Sverige gick också med i Nato samtidigt",
+        "Sverige gick i stället med i Sovjetunionens allians",
+        "Sverige bildade en egen försvarsallians tillsammans med Finland",
+        "Sverige fortsatte att vara neutralt och stod utanför Nato"
+      ]
+    },
+    "ru": {
+      "q": "Во время холодной войны Дания и Норвегия вступили в НАТО. Что решила делать Швеция?",
+      "o": [
+        "Швеция тоже вступила в НАТО одновременно с ними",
+        "Швеция вместо этого вступила в союз Советского Союза",
+        "Швеция создала собственный оборонный союз вместе с Финляндией",
+        "Швеция продолжала оставаться нейтральной и не входила в НАТО"
+      ]
+    },
+    "correct": 3,
+    "why": "Швеция продолжала оставаться нейтральной и не входила в НАТО во время холодной войны — в отличие от Дании и Норвегии. Она не вступала ни в НАТО, ни в союз СССР, и отдельного оборонного союза с Финляндией в тот период тоже не создавала — совместную заявку в НАТО обе страны подали значительно позже, в 2022 году."
+  },
+  {
+    "id": "c11-20",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "Varför ansökte Sverige om medlemskap i Nato år 2022, tillsammans med Finland?",
+      "o": [
+        "Oron för säkerheten i Norden ökade efter Rysslands anfall på Ukraina 2022",
+        "Sverige ville byta ut den svenska kronan mot euro",
+        "EU krävde att Sverige skulle gå med i Nato",
+        "Kalla kriget mellan öst och väst hade precis brutit ut"
+      ]
+    },
+    "ru": {
+      "q": "Почему в 2022 году Швеция вместе с Финляндией подала заявку на вступление в НАТО?",
+      "o": [
+        "Обеспокоенность безопасностью в Северной Европе выросла после нападения России на Украину в 2022 году",
+        "Швеция хотела заменить шведскую крону на евро",
+        "ЕС потребовал от Швеции вступить в НАТО",
+        "Холодная война между Востоком и Западом только что началась"
+      ]
+    },
+    "correct": 0,
+    "why": "Заявку на вступление в НАТО Швеция подала из-за роста обеспокоенности безопасностью в Северной Европе после нападения России на Украину в 2022 году. Референдум о евро был в 2003 году и не связан с НАТО, ЕС не требует от стран-членов вступления в НАТО, а холодная война к 2022 году давно закончилась, а не только началась."
+  },
+  {
+    "id": "c11-21",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 40",
+    "sv": {
+      "q": "En person är 65 år och bor i Sverige, men är inte svensk medborgare. Omfattas personen av totalförsvarsplikten?",
+      "o": [
+        "Nej, bara svenska medborgare omfattas",
+        "Ja, alla som bor i Sverige och är mellan 16 och 70 år kan omfattas",
+        "Nej, personen är för gammal eftersom plikten gäller upp till 65 år",
+        "Nej, endast personer med militär utbildning omfattas"
+      ]
+    },
+    "ru": {
+      "q": "Человеку 65 лет, он живёт в Швеции, но не является гражданином Швеции. Распространяется ли на него всеобщая обязанность участвовать в обороне страны (totalförsvarsplikt)?",
+      "o": [
+        "Нет, она распространяется только на граждан Швеции",
+        "Да, ею может быть охвачен любой, кто живёт в Швеции и кому от 16 до 70 лет",
+        "Нет, человек слишком стар — обязанность действует только до 65 лет",
+        "Нет, ею охвачены только люди с военной подготовкой"
+      ]
+    },
+    "correct": 1,
+    "why": "Обязанность участвовать в обороне страны (totalförsvarsplikt) может распространяться на любого, кто живёт в Швеции и кому от 16 до 70 лет, — гражданство не требуется, и 65-летний человек всё ещё попадает в этот диапазон. Наличие военной подготовки тоже не является условием."
+  },
+  {
+    "id": "c11-22",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 41",
+    "sv": {
+      "q": "Vilka omfattas av Sveriges allmänna värnplikt?",
+      "o": [
+        "Endast män som har fyllt 18 år",
+        "Endast personer som redan arbetar inom Försvarsmakten",
+        "Alla män och kvinnor som har fyllt 18 år",
+        "Endast personer mellan 16 och 20 år"
+      ]
+    },
+    "ru": {
+      "q": "Кого охватывает всеобщая воинская обязанность (allmän värnplikt) в Швеции?",
+      "o": [
+        "Только мужчин, достигших 18 лет",
+        "Только людей, уже работающих в Вооружённых силах (Försvarsmakten)",
+        "Всех мужчин и женщин, достигших 18 лет",
+        "Только людей от 16 до 20 лет"
+      ]
+    },
+    "correct": 2,
+    "why": "Всеобщая воинская обязанность в Швеции охватывает всех мужчин и женщин, достигших 18 лет, — а не только мужчин, как было раньше, и не только тех, кто уже служит в Вооружённых силах. Возрастной диапазон 16–20 лет относится к другому понятию — обязанность участвовать в обороне страны (totalförsvarsplikt) начинается с 16 лет, а не воинская обязанность (värnplikt)."
+  },
+  {
+    "id": "c11-23",
+    "ch": 11,
+    "kind": "förståelse",
+    "ref": "Sverige och omvärlden, s. 41",
+    "sv": {
+      "q": "Vad händer efter att en person med värnplikt svarat på frågor och gjort tester?",
+      "o": [
+        "Alla som svarat på frågorna måste omedelbart göra militärtjänst i minst ett år",
+        "Personen blir automatiskt befriad från värnplikt för resten av livet",
+        "Personen blir automatiskt uttagen till marinen utan vidare urval",
+        "Det beslutas vilka som blir aktuella för grundläggande militär utbildning, men bara en del går vidare"
+      ]
+    },
+    "ru": {
+      "q": "Что происходит после того, как человек с воинской обязанностью ответил на вопросы и прошёл тесты?",
+      "o": [
+        "Все, кто ответил на вопросы, обязаны немедленно пройти военную службу не менее года",
+        "Человек автоматически освобождается от воинской обязанности до конца жизни",
+        "Человека автоматически направляют на флот без дальнейшего отбора",
+        "Решается, кто подходит для базовой военной подготовки, но проходят её дальше не все"
+      ]
+    },
+    "correct": 3,
+    "why": "После тестов решается, кто подходит для базовой военной подготовки, но фактически проходят её дальше не все. Немедленной обязательной службы для всех, автоматического пожизненного освобождения или автоматического распределения на флот без отбора не происходит."
+  },
+  {
+    "id": "c11-24",
+    "ch": 11,
+    "kind": "fakta",
+    "ref": "Sverige och omvärlden, s. 41",
+    "sv": {
+      "q": "Vilka delar består det svenska militära försvaret, Försvarsmakten, av?",
+      "o": [
+        "Armén, marinen och flygvapnet",
+        "Polisen, Kustbevakningen och Tullverket",
+        "Endast en gemensam Natostyrka",
+        "Regeringen och riksdagens försvarsutskott"
+      ]
+    },
+    "ru": {
+      "q": "Из каких частей состоят Вооружённые силы Швеции (Försvarsmakten)?",
+      "o": [
+        "Сухопутные войска, флот и военно-воздушные силы",
+        "Полиция, береговая охрана и таможня",
+        "Только объединённые силы НАТО",
+        "Правительство и комитет риксдага по обороне"
+      ]
+    },
+    "correct": 0,
+    "why": "Вооружённые силы Швеции (Försvarsmakten) состоят из сухопутных войск, флота и военно-воздушных сил. Полиция, береговая охрана и таможня — реальные шведские ведомства, но не входят в Försvarsmakten; объединённые силы НАТО — не то же самое, что национальные вооружённые силы Швеции, а правительство и комитет риксдага занимаются политическими решениями, а не входят в структуру вооружённых сил."
+  },
+  {
+    "id": "c11-25",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 41",
+    "sv": {
+      "q": "Sverige deltar med trupper i en internationell fredsbevarande insats utomlands. Vilken del av det svenska försvaret gör detta möjligt?",
+      "o": [
+        "Endast civilförsvaret",
+        "Försvarsmakten, som också kan delta i internationella insatser",
+        "Endast Nordiska rådet",
+        "Endast Polismyndigheten"
+      ]
+    },
+    "ru": {
+      "q": "Швеция направляет военнослужащих в международную миротворческую операцию за рубежом. Какая часть шведской обороны делает это возможным?",
+      "o": [
+        "Только гражданская оборона",
+        "Вооружённые силы (Försvarsmakten), которые могут также участвовать в международных операциях",
+        "Только Северный совет (Nordiska rådet)",
+        "Только полицейское управление"
+      ]
+    },
+    "correct": 1,
+    "why": "Именно Вооружённые силы (Försvarsmakten) могут участвовать в международных операциях, помимо защиты территории Швеции. Гражданская оборона занимается функционированием общества внутри страны, Северный совет — это орган сотрудничества, а не военная структура, а полиция отвечает за правопорядок, а не за международные военные операции."
+  },
+  {
+    "id": "c11-26",
+    "ch": 11,
+    "kind": "förståelse",
+    "ref": "Sverige och omvärlden, s. 41",
+    "sv": {
+      "q": "Vad innebär det civila försvaret i Sverige?",
+      "o": [
+        "Att endast Försvarsmakten ansvarar för landets säkerhet",
+        "Att civilbefolkningen evakueras till andra länder vid en kris",
+        "Att verksamheter som skola, arbete och sjukvård ska kunna fortsätta fungera vid krig eller kris",
+        "Att alla civila myndigheter läggs ner vid krig"
+      ]
+    },
+    "ru": {
+      "q": "Что означает гражданская оборона (civila försvaret) в Швеции?",
+      "o": [
+        "Что за безопасность страны отвечают только Вооружённые силы",
+        "Что при кризисе гражданское население эвакуируют в другие страны",
+        "Что такие сферы, как школа, работа и здравоохранение, должны продолжать функционировать при войне или кризисе",
+        "Что все гражданские ведомства закрываются при войне"
+      ]
+    },
+    "correct": 2,
+    "why": "Гражданская оборона означает, что такие сферы, как школа, работа и здравоохранение, должны продолжать функционировать при войне или кризисе. Это дополняет, а не заменяет работу Вооружённых сил, эвакуация населения за границу не описывается как часть гражданской обороны, а гражданские ведомства при войне не закрываются, а наоборот, должны продолжать работать."
+  },
+  {
+    "id": "c11-27",
+    "ch": 11,
+    "kind": "situation",
+    "ref": "Sverige och omvärlden, s. 41",
+    "sv": {
+      "q": "En kommun övar på hur skolor och sjukvård ska kunna fortsätta fungera även om Sverige skulle drabbas av en kris eller ett krig. Vilken del av totalförsvaret handlar detta om?",
+      "o": [
+        "Endast Försvarsmakten",
+        "Endast Natos gemensamma styrkor",
+        "Endast Nordiska ministerrådet",
+        "Det civila försvaret"
+      ]
+    },
+    "ru": {
+      "q": "Коммуна тренируется, как обеспечить работу школ и здравоохранения, даже если Швеция столкнётся с кризисом или войной. О какой части тотальной обороны идёт речь?",
+      "o": [
+        "Только о Вооружённых силах",
+        "Только об объединённых силах НАТО",
+        "Только о Северном совете министров (Nordiska ministerrådet)",
+        "О гражданской обороне"
+      ]
+    },
+    "correct": 3,
+    "why": "Речь идёт о гражданской обороне — именно она отвечает за то, чтобы школы, работа и здравоохранение продолжали функционировать при кризисе или войне. Это не задача Вооружённых сил, объединённых сил НАТО или Северного совета министров, которые занимаются другими вопросами."
+  },
+  {
     "id": "c12-01",
     "ch": 12,
     "kind": "förståelse",

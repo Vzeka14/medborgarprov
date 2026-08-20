@@ -1775,8 +1775,8 @@
     "sv": {
       "q": "Riksdagen har beslutat om en ny lag. Kan kungen stoppa lagen från att träda i kraft?",
       "o": [
-        "Nej, kungen har ingen politisk makt att stoppa lagar",
         "Ja, kungen kan alltid stoppa en lag riksdagen beslutat",
+        "Nej, kungen har ingen politisk makt att stoppa lagar",
         "Ja, men bara om regeringen ber honom göra det",
         "Ja, men bara under en begränsad tid varje år"
       ]
@@ -1784,13 +1784,13 @@
     "ru": {
       "q": "Риксдаг принял новый закон. Может ли король остановить вступление закона в силу?",
       "o": [
-        "Нет, у короля нет политической власти останавливать законы",
         "Да, король всегда может остановить закон, принятый риксдагом",
+        "Нет, у короля нет политической власти останавливать законы",
         "Да, но только если правительство попросит его об этом",
         "Да, но только в течение ограниченного времени раз в год"
       ]
     },
-    "correct": 0,
+    "correct": 1,
     "why": "Нет — у короля нет политической власти, и он не может остановить закон, принятый риксдагом, ни при каких условиях, включая просьбу правительства или определённый период года. Это ключевая часть того, что Швеция — конституционная монархия."
   },
   {
