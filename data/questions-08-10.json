@@ -182,6 +182,396 @@
     "why": "Размер налога на труд зависит от дохода — чем выше зарплата, тем выше налог. Работать без уплаты налога при этом незаконно."
   },
   {
+    "id": "c8-08",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 27",
+    "sv": {
+      "q": "Ungefär hur stor andel av alla som arbetar i Sverige arbetar inom den offentliga sektorn?",
+      "o": [
+        "Cirka 30 procent",
+        "Cirka 10 procent",
+        "Cirka 50 procent",
+        "Cirka 70 procent"
+      ]
+    },
+    "ru": {
+      "q": "Примерно какая доля работающих в Швеции занята в государственном секторе?",
+      "o": [
+        "Около 30 процентов",
+        "Около 10 процентов",
+        "Около 50 процентов",
+        "Около 70 процентов"
+      ]
+    },
+    "correct": 0,
+    "why": "Около 30 % работающих в Швеции заняты в государственном секторе — он финансируется за счёт налогов. Оставшиеся примерно 70 % работают в частном секторе; 10 % и 50 % — не соответствующие действительности числа."
+  },
+  {
+    "id": "c8-09",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 27",
+    "sv": {
+      "q": "En person arbetar som frisör i en salong som ägs av en privatperson. Vilken sektor av arbetsmarknaden hör yrket till?",
+      "o": [
+        "Den offentliga sektorn",
+        "Den privata sektorn",
+        "Ingen av sektorerna, eftersom frisörer inte räknas som arbetstagare",
+        "Både den privata och den offentliga sektorn samtidigt"
+      ]
+    },
+    "ru": {
+      "q": "Человек работает парикмахером в салоне, которым владеет частное лицо. К какому сектору рынка труда относится эта профессия?",
+      "o": [
+        "К государственному сектору",
+        "К частному сектору",
+        "Ни к одному из секторов, поскольку парикмахеры не считаются наёмными работниками",
+        "Одновременно и к частному, и к государственному сектору"
+      ]
+    },
+    "correct": 1,
+    "why": "Салон, принадлежащий частному лицу, относится к частному сектору — так же, как магазины, рестораны и другие частные компании. К государственному сектору относятся профессии, финансируемые за счёт налогов, например врачи, учителя и полицейские; парикмахеры при этом остаются полноценными наёмными работниками, и одна профессия не может относиться сразу к обоим секторам."
+  },
+  {
+    "id": "c8-10",
+    "ch": 8,
+    "kind": "förståelse",
+    "ref": "Arbetsmarknad och privatekonomi, s. 27",
+    "sv": {
+      "q": "Varför finns det ofta stora industrier som stålverk och pappersbruk i mindre städer och orter i Sverige, snarare än i storstäderna?",
+      "o": [
+        "Eftersom storstäder enligt lag inte får ha industriverksamhet",
+        "Eftersom industrier bara får drivas av kommunen, inte av privata företag",
+        "Eftersom sådana industrier ofta ligger nära de naturresurser de behöver",
+        "Eftersom alla anställda inom industrin måste bo i glesbygd"
+      ]
+    },
+    "ru": {
+      "q": "Почему в небольших городах и населённых пунктах Швеции часто находятся крупные производства, например сталелитейные и целлюлозно-бумажные заводы, а не в больших городах?",
+      "o": [
+        "Потому что в больших городах по закону запрещена промышленная деятельность",
+        "Потому что промышленностью может заниматься только коммуна, а не частные компании",
+        "Потому что такие производства часто расположены рядом с нужными им природными ресурсами",
+        "Потому что все работники промышленности обязаны жить в сельской местности"
+      ]
+    },
+    "correct": 2,
+    "why": "Такие производства часто находятся рядом с нужными им природными ресурсами. Никакого закона, запрещающего промышленность в больших городах, не существует, промышленные предприятия в Швеции в основном частные, а не только муниципальные, и работники промышленности не обязаны жить именно в сельской местности."
+  },
+  {
+    "id": "c8-11",
+    "ch": 8,
+    "kind": "förståelse",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "Vad är skillnaden mellan en arbetsgivare och en arbetstagare på den svenska arbetsmarknaden?",
+      "o": [
+        "Arbetsgivaren utför arbetet, medan arbetstagaren betalar lön",
+        "Båda orden betyder exakt samma sak",
+        "Endast staten kan vara arbetsgivare i Sverige",
+        "Arbetsgivaren anställer och betalar lön, medan arbetstagaren utför arbetet mot lön"
+      ]
+    },
+    "ru": {
+      "q": "В чём разница между работодателем (arbetsgivare) и работником (arbetstagare) на шведском рынке труда?",
+      "o": [
+        "Работодатель выполняет работу, а работник платит зарплату",
+        "Оба слова означают одно и то же",
+        "Работодателем в Швеции может быть только государство",
+        "Работодатель нанимает и платит зарплату, а работник выполняет работу за плату"
+      ]
+    },
+    "correct": 3,
+    "why": "Работодатель нанимает работников и платит им зарплату, а работник выполняет работу за эту плату — это не одно и то же понятие, и роли не перепутаны местами. Работодателем в Швеции может быть не только государство, но и частная компания, коммуна или регион."
+  },
+  {
+    "id": "c8-12",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "Vilken organisation representerar arbetsgivare inom den privata sektorn i Sverige?",
+      "o": [
+        "Svenskt näringsliv",
+        "Landsorganisationen i Sverige (LO)",
+        "Arbetsgivarverket",
+        "SKR (Sveriges kommuner och regioner)"
+      ]
+    },
+    "ru": {
+      "q": "Какая организация представляет работодателей в частном секторе Швеции?",
+      "o": [
+        "Конфедерация шведских предпринимателей (Svenskt näringsliv)",
+        "Центральное объединение профсоюзов Швеции (LO)",
+        "Государственное агентство работодателей (Arbetsgivarverket)",
+        "Объединение коммун и регионов Швеции (SKR)"
+      ]
+    },
+    "correct": 0,
+    "why": "Работодателей в частном секторе представляет Конфедерация шведских предпринимателей (Svenskt näringsliv). LO представляет работников, а не работодателей, а Arbetsgivarverket и SKR тоже представляют работодателей, но в государственном секторе, а не в частном."
+  },
+  {
+    "id": "c8-13",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "Vilka är de tre största fackliga centralorganisationerna i Sverige?",
+      "o": [
+        "Svenskt näringsliv, Arbetsgivarverket och SKR",
+        "LO, TCO och SACO",
+        "Försäkringskassan, Skatteverket och Arbetsförmedlingen",
+        "Riksdagen, regeringen och myndigheterna"
+      ]
+    },
+    "ru": {
+      "q": "Какие три организации являются крупнейшими профцентрами Швеции?",
+      "o": [
+        "Svenskt näringsliv (объединение предпринимателей), Arbetsgivarverket (агентство работодателей) и SKR (объединение коммун и регионов)",
+        "LO (профсоюз рабочих), TCO (профсоюз служащих) и SACO (профсоюз лиц с высшим образованием)",
+        "Кассы социального страхования, налоговое ведомство и служба занятости",
+        "Риксдаг, правительство и ведомства"
+      ]
+    },
+    "correct": 1,
+    "why": "Крупнейшие профцентры Швеции — LO (профсоюз рабочих), TCO (профсоюз служащих) и SACO (профсоюз лиц с высшим образованием). Svenskt näringsliv, Arbetsgivarverket и SKR — реальные организации, но представляют работодателей, а не работников; государственные ведомства и органы власти вообще не относятся к организациям сторон рынка труда."
+  },
+  {
+    "id": "c8-14",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "En anställd får problem med sin arbetsgivare och vänder sig till sitt fackförbund för hjälp. Vad kan fackförbundet göra?",
+      "o": [
+        "Besluta om medlemmens skatt",
+        "Bestämma vilket parti medlemmen ska rösta på",
+        "Förhandla om löner och hjälpa medlemmen med problem på arbetet",
+        "Ta över medlemmens anställning helt"
+      ]
+    },
+    "ru": {
+      "q": "Сотрудник сталкивается с проблемами на работе с работодателем и обращается за помощью в свой профсоюз. Что может сделать профсоюз?",
+      "o": [
+        "Определить размер налога сотрудника",
+        "Решить, за какую партию должен голосовать сотрудник",
+        "Вести переговоры о зарплате и помочь сотруднику с проблемами на работе",
+        "Полностью взять на себя трудоустройство сотрудника"
+      ]
+    },
+    "correct": 2,
+    "why": "Профсоюз ведёт переговоры о зарплате с работодателем и может помочь члену профсоюза, если у него возникли проблемы на работе. Профсоюзы не определяют налоги, не решают, за кого голосовать, и не заменяют собой трудовые отношения работника с работодателем."
+  },
+  {
+    "id": "c8-15",
+    "ch": 8,
+    "kind": "förståelse",
+    "ref": "Arbetsmarknad och privatekonomi, s. 28",
+    "sv": {
+      "q": "Vad innebär ett kollektivavtal som fackförbund och arbetsgivarorganisationer tecknar?",
+      "o": [
+        "Det är en lag som riksdagen beslutar om varje år",
+        "Det är ett avtal som bara gäller den som personligen skrivit under det",
+        "Det är ett avtal mellan staten och en enskild anställd",
+        "Det är en överenskommelse om löner och arbetsvillkor som gäller alla anställda på de arbetsplatser som ingår i avtalet"
+      ]
+    },
+    "ru": {
+      "q": "Что означает коллективный договор (kollektivavtal), который заключают профсоюзы и организации работодателей?",
+      "o": [
+        "Это закон, который риксдаг принимает каждый год",
+        "Это договор, который действует только для того, кто лично его подписал",
+        "Это договор между государством и отдельным сотрудником",
+        "Это соглашение о зарплатах и условиях труда, которое действует для всех сотрудников на рабочих местах, охваченных договором"
+      ]
+    },
+    "correct": 3,
+    "why": "Коллективный договор — это соглашение о зарплатах и условиях труда, которое действует для всех сотрудников на рабочих местах, охваченных договором, а не только для того, кто лично его подписал. Это не закон риксдага и не договор между государством и отдельным работником — зарплаты в Швеции определяют именно стороны рынка труда через переговоры."
+  },
+  {
+    "id": "c8-16",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "En arbetsgivare vill att en anställd ska arbeta orimligt många timmar utan någon semester alls. Vad säger svensk lag om detta?",
+      "o": [
+        "Det finns lagar om arbetstider, arbetsmiljö och semester som skyddar den anställda",
+        "Arbetsgivaren får bestämma fritt eftersom det inte finns några lagar om detta",
+        "Det är tillåtet så länge den anställda får högre lön i stället",
+        "Det är bara förbjudet inom den offentliga sektorn"
+      ]
+    },
+    "ru": {
+      "q": "Работодатель хочет, чтобы сотрудник работал неоправданно много часов вообще без отпуска. Что говорит на этот счёт шведский закон?",
+      "o": [
+        "Существуют законы о рабочем времени, рабочей среде и отпуске, которые защищают сотрудника",
+        "Работодатель вправе решать это свободно, поскольку таких законов не существует",
+        "Это разрешено, если взамен сотрудник получает более высокую зарплату",
+        "Это запрещено только в государственном секторе"
+      ]
+    },
+    "correct": 0,
+    "why": "В Швеции существуют законы о рабочем времени, рабочей среде и отпуске, которые защищают сотрудника, — работодатель не может свободно устанавливать любые условия. Более высокая зарплата не отменяет действие этих законов, и они действуют одинаково и в частном, и в государственном секторе."
+  },
+  {
+    "id": "c8-17",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "En arbetsgivare i Sverige betalar lön till sina anställda. Vad mer måste arbetsgivaren betala till staten för de anställda?",
+      "o": [
+        "Den anställdas medlemsavgift till facket",
+        "Avgifter för de anställdas pension och sjukförsäkring",
+        "Den anställdas privata banklån",
+        "Kommunalskatt för den anställdas bostad"
+      ]
+    },
+    "ru": {
+      "q": "Работодатель в Швеции платит своим сотрудникам зарплату. Что ещё работодатель обязан платить государству за сотрудников?",
+      "o": [
+        "Членский взнос сотрудника в профсоюз",
+        "Взносы на пенсию и медицинское страхование сотрудников",
+        "Личный банковский кредит сотрудника",
+        "Муниципальный налог за жильё сотрудника"
+      ]
+    },
+    "correct": 1,
+    "why": "Работодатель обязан платить государству взносы на пенсию и медицинское страхование сотрудников. Членские взносы в профсоюз сотрудник платит сам, а личные банковские кредиты и муниципальный налог за жильё вообще не относятся к обязанностям работодателя."
+  },
+  {
+    "id": "c8-18",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "En person arbetar svart, det vill säga utan att betala skatt på sin lön. Är detta tillåtet i Sverige?",
+      "o": [
+        "Ja, om personen tjänar mindre än ett visst belopp per år",
+        "Ja, så länge arbetsgivaren godkänner det",
+        "Nej, det är olagligt att arbeta utan att betala skatt",
+        "Ja, men bara under det första anställningsåret"
+      ]
+    },
+    "ru": {
+      "q": "Человек работает «в чёрную», то есть не платит налог со своей зарплаты. Разрешено ли это в Швеции?",
+      "o": [
+        "Да, если человек зарабатывает меньше определённой суммы в год",
+        "Да, если работодатель на это согласен",
+        "Нет, работать без уплаты налога незаконно",
+        "Да, но только в первый год работы"
+      ]
+    },
+    "correct": 2,
+    "why": "Работать без уплаты налога в Швеции незаконно — никаких исключений по сумме дохода, согласию работодателя или первому году работы не существует."
+  },
+  {
+    "id": "c8-19",
+    "ch": 8,
+    "kind": "fakta",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "Hur finansieras ersättningen från A-kassan?",
+      "o": [
+        "Endast av arbetsgivarnas vinster",
+        "Endast av kommunalskatten",
+        "Endast av EU:s gemensamma budget",
+        "Av staten och av medlemmarnas medlemsavgifter"
+      ]
+    },
+    "ru": {
+      "q": "Как финансируются выплаты из кассы страхования по безработице (A-kassan)?",
+      "o": [
+        "Только за счёт прибыли работодателей",
+        "Только за счёт муниципального налога",
+        "Только за счёт общего бюджета ЕС",
+        "За счёт государства и членских взносов участников"
+      ]
+    },
+    "correct": 3,
+    "why": "Выплаты из A-kassan финансируются государством и членскими взносами участников. Прибыль работодателей, муниципальный налог и бюджет ЕС не связаны с финансированием A-kassan напрямую."
+  },
+  {
+    "id": "c8-20",
+    "ch": 8,
+    "kind": "förståelse",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "Vad räknas som en persons privatekonomi i Sverige?",
+      "o": [
+        "Personens privata inkomster, till exempel lön eller bidrag, och utgifter för sådant som boende, mat och kläder",
+        "Endast de pengar en person har på ett bankkonto",
+        "Endast statens inkomster och utgifter",
+        "Endast en persons skatteinbetalningar"
+      ]
+    },
+    "ru": {
+      "q": "Что относится к личным финансам (privatekonomi) человека в Швеции?",
+      "o": [
+        "Личные доходы человека, например зарплата или пособия, и расходы на такие вещи, как жильё, еда и одежда",
+        "Только деньги, которые есть у человека на банковском счёте",
+        "Только доходы и расходы государства",
+        "Только налоговые платежи человека"
+      ]
+    },
+    "correct": 0,
+    "why": "Личные финансы охватывают личные доходы человека — например, зарплату или пособия — и расходы на такие вещи, как жильё, еда и одежда. Это шире, чем просто деньги на банковском счёте или уплаченные налоги, и не имеет отношения к доходам и расходам самого государства."
+  },
+  {
+    "id": "c8-21",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "En person vill köpa en dyr vara men saknar pengar just nu, och väljer att betala med kreditkort i stället för att spara ihop pengarna. Vad bör personen tänka på?",
+      "o": [
+        "Att kreditkort alltid är helt gratis att använda",
+        "Att räntan på den här typen av krediter ofta är hög",
+        "Att staten automatiskt betalar tillbaka krediten efter ett år",
+        "Att det är olagligt att använda kreditkort i Sverige"
+      ]
+    },
+    "ru": {
+      "q": "Человек хочет купить дорогую вещь, но сейчас у него нет денег, и он решает заплатить кредитной картой вместо того, чтобы накопить нужную сумму. О чём стоит помнить?",
+      "o": [
+        "Что пользоваться кредитной картой всегда полностью бесплатно",
+        "Что процентная ставка по такому виду кредита часто высокая",
+        "Что государство автоматически погашает такой кредит через год",
+        "Что использовать кредитную карту в Швеции незаконно"
+      ]
+    },
+    "correct": 1,
+    "why": "Стоит помнить, что процентная ставка по такому виду кредита часто высокая. Кредитные карты не бесплатны, государство не погашает подобные долги автоматически, а сам по себе расчёт кредитной картой в Швеции полностью законен."
+  },
+  {
+    "id": "c8-22",
+    "ch": 8,
+    "kind": "situation",
+    "ref": "Arbetsmarknad och privatekonomi, s. 29",
+    "sv": {
+      "q": "En familj har ett stort bostadslån efter att ha köpt en bostad när priserna var höga, och dessutom skulder på flera kreditkort. Familjen har svårt att betala allt. Vilken myndighet kan hjälpa dem att få ordning på ekonomin?",
+      "o": [
+        "Skatteverket, genom att sänka deras skatt",
+        "Migrationsverket, genom att bevilja uppehållstillstånd",
+        "Kronofogdemyndigheten, genom så kallad skuldsanering",
+        "Försäkringskassan, genom att betala ut sjukpenning"
+      ]
+    },
+    "ru": {
+      "q": "У семьи большой ипотечный кредит, взятый, когда цены на жильё были высокими, и вдобавок долги по нескольким кредитным картам. Семье трудно со всем этим справляться. Какое ведомство может помочь навести порядок в финансах?",
+      "o": [
+        "Налоговое ведомство (Skatteverket), снизив им налог",
+        "Миграционное ведомство (Migrationsverket), выдав вид на жительство",
+        "Служба судебных приставов (Kronofogdemyndigheten), через процедуру урегулирования долгов (skuldsanering)",
+        "Кассы социального страхования (Försäkringskassan), выплатив пособие по болезни"
+      ]
+    },
+    "correct": 2,
+    "why": "Помочь навести порядок в финансах может служба судебных приставов (Kronofogdemyndigheten) через процедуру урегулирования долгов (skuldsanering). Налоговое и миграционное ведомства, а также кассы социального страхования — реальные шведские структуры, но ни одна из них не занимается урегулированием долгов конкретной семьи."
+  },
+  {
     "id": "c9-01",
     "ch": 9,
     "kind": "fakta",
