@@ -1040,6 +1040,396 @@
     "why": "Интеграция означает, что люди с разным происхождением живут ближе друг к другу и чувствуют себя частью общества. Первый вариант описывает противоположное понятие — сегрегацию."
   },
   {
+    "id": "c2-07",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "Vad ska gälla för dem som får makten i en demokrati, som Sverige?",
+      "o": [
+        "De som får makten ska kunna bytas ut",
+        "De som får makten sitter kvar för alltid",
+        "Endast en person kan inneha makten i taget",
+        "Makten går automatiskt i arv inom samma familj"
+      ]
+    },
+    "ru": {
+      "q": "Что должно быть верно в отношении тех, кто получает власть, в демократии, такой как Швеция?",
+      "o": [
+        "Тех, кто получил власть, должно быть можно сменить",
+        "Те, кто получил власть, остаются у неё навсегда",
+        "Власть может принадлежать только одному человеку одновременно",
+        "Власть автоматически передаётся по наследству внутри одной семьи"
+      ]
+    },
+    "correct": 0,
+    "why": "В демократии тех, кто получил власть, должно быть можно сменить — например, на очередных выборах. Пожизненное удержание власти, концентрация власти в руках одного человека или наследственная передача власти в одной семье противоречат самой сути демократии."
+  },
+  {
+    "id": "c2-08",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "En person väljer att inte rösta alls i ett svenskt val, eftersom hen inte vill. Är detta tillåtet?",
+      "o": [
+        "Nej, röstning är obligatorisk i Sverige och man kan bötfällas",
+        "Ja, man har rätt att inte delta i valet",
+        "Ja, men bara om personen skriftligt anmäler det i förväg",
+        "Nej, alla röstberättigade måste rösta på något parti"
+      ]
+    },
+    "ru": {
+      "q": "Человек решает вообще не голосовать на шведских выборах, потому что не хочет. Разрешено ли это?",
+      "o": [
+        "Нет, голосование в Швеции обязательно, и за неучастие могут оштрафовать",
+        "Да, у человека есть право не участвовать в выборах",
+        "Да, но только если человек заранее письменно уведомит об этом",
+        "Нет, все, кто имеет право голоса, обязаны проголосовать хоть за какую-то партию"
+      ]
+    },
+    "correct": 1,
+    "why": "Да — у каждого есть право не участвовать в выборах, голосование в Швеции не обязательно, и штрафов за неучастие не предусмотрено. Никакого требования заранее письменно уведомлять о неучастии не существует."
+  },
+  {
+    "id": "c2-09",
+    "ch": 2,
+    "kind": "förståelse",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "Vad innebär det att valen i Sverige är fria?",
+      "o": [
+        "Att endast redan folkvalda personer får rösta",
+        "Att man får rösta hur många gånger man vill",
+        "Att det ska finnas flera partier att välja mellan och att alla kan rösta utan hot eller tvång",
+        "Att bara medlemmar i politiska partier får rösta"
+      ]
+    },
+    "ru": {
+      "q": "Что означает то, что выборы в Швеции свободные?",
+      "o": [
+        "Что голосовать могут только уже избранные депутаты",
+        "Что голосовать можно сколько угодно раз",
+        "Что должно быть несколько партий на выбор и каждый может голосовать без угроз и принуждения",
+        "Что голосовать могут только члены политических партий"
+      ]
+    },
+    "correct": 2,
+    "why": "Свободные выборы означают, что должно быть несколько партий на выбор, а каждый может голосовать, не подвергаясь угрозам или принуждению, и у каждого есть один голос. Голосование не ограничено уже избранными депутатами или членами партий, и голосовать несколько раз нельзя."
+  },
+  {
+    "id": "c2-10",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "Vad innebär yttrandefrihet i Sverige?",
+      "o": [
+        "Rätten att rösta i alla val oavsett ålder",
+        "Rätten att bilda regering utan val",
+        "Skyldigheten att alltid hålla med majoriteten",
+        "Rätten att skriva och säga vad man tycker"
+      ]
+    },
+    "ru": {
+      "q": "Что означает свобода слова (yttrandefrihet) в Швеции?",
+      "o": [
+        "Право голосовать на всех выборах независимо от возраста",
+        "Право формировать правительство без выборов",
+        "Обязанность всегда соглашаться с большинством",
+        "Право писать и говорить то, что думаешь"
+      ]
+    },
+    "correct": 3,
+    "why": "Свобода слова — это право писать и говорить то, что думаешь. Право голосовать связано с достижением определённого возраста, формирование правительства требует выборов, а свобода слова, наоборот, означает, что не нужно всегда соглашаться с большинством."
+  },
+  {
+    "id": "c2-11",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "En lärare i den svenska grundskolan undervisar eleverna om deras rättigheter och varför det är viktigt att rösta. Varför är detta en del av utbildningen?",
+      "o": [
+        "Eftersom utbildningen i Sverige bygger på demokratiska värderingar",
+        "Eftersom eleverna måste rösta redan i grundskolan",
+        "Eftersom läraren personligen valt att göra det, utan koppling till läroplanen",
+        "Eftersom det är ett krav för att få gå vidare till gymnasiet"
+      ]
+    },
+    "ru": {
+      "q": "Учитель в шведской общеобразовательной школе рассказывает ученикам об их правах и о том, почему важно голосовать. Почему это часть образования?",
+      "o": [
+        "Потому что образование в Швеции строится на демократических ценностях",
+        "Потому что ученики обязаны голосовать уже в общеобразовательной школе",
+        "Потому что учитель лично так решил, и это не связано с учебной программой",
+        "Потому что это обязательное условие для перехода в гимназию"
+      ]
+    },
+    "correct": 0,
+    "why": "Это часть образования, потому что образование в Швеции строится на демократических ценностях. Ученики не голосуют на настоящих выборах уже в школе, это не личная инициатива отдельного учителя вне программы, и это не формальное условие перехода в гимназию."
+  },
+  {
+    "id": "c2-12",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "En person vill påverka en politisk fråga genom att samla in namnunderskrifter och skriva en debattartikel i en tidning. Är detta lagliga sätt att engagera sig i Sverige?",
+      "o": [
+        "Nej, endast politiker får uttrycka åsikter i tidningar",
+        "Ja, att starta en namninsamling och skriva debattartiklar är lagliga sätt att påverka",
+        "Ja, men bara om personen är medlem i ett politiskt parti",
+        "Nej, namninsamlingar är förbjudna i Sverige"
+      ]
+    },
+    "ru": {
+      "q": "Человек хочет повлиять на политический вопрос, собирая подписи и написав статью-мнение в газету. Это законные способы участия в общественной жизни Швеции?",
+      "o": [
+        "Нет, высказывать мнение в газетах могут только политики",
+        "Да, сбор подписей и написание статей-мнений — законные способы влиять на ситуацию",
+        "Да, но только если человек состоит в политической партии",
+        "Нет, сбор подписей в Швеции запрещён"
+      ]
+    },
+    "correct": 1,
+    "why": "Да — сбор подписей и написание статей-мнений в СМИ являются законными способами влиять на общественные вопросы. Такое право не ограничено политиками или членами партий, и сбор подписей в Швеции не запрещён."
+  },
+  {
+    "id": "c2-13",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "En anställd vill påverka sin arbetsplats genom sin fackförening. Är detta ett exempel på hur man kan delta i samhället?",
+      "o": [
+        "Nej, fackföreningar har inget med samhällsengagemang att göra",
+        "Ja, men bara om personen också är politiker",
+        "Ja, att påverka på sin arbetsplats genom exempelvis fackföreningar är ett sätt att delta i samhället",
+        "Nej, det är förbjudet att blanda fackligt arbete med politik"
+      ]
+    },
+    "ru": {
+      "q": "Сотрудник хочет повлиять на свою работу через профсоюз. Это пример того, как можно участвовать в жизни общества?",
+      "o": [
+        "Нет, профсоюзы не имеют отношения к общественному участию",
+        "Да, но только если человек ещё и политик",
+        "Да, влияние на свою работу через, например, профсоюзы — один из способов участвовать в жизни общества",
+        "Нет, совмещать профсоюзную деятельность с политикой запрещено"
+      ]
+    },
+    "correct": 2,
+    "why": "Да — влияние на свою работу через профсоюзы, например, является одним из способов участия в жизни общества. Профсоюзная активность доступна не только политикам, и никакого запрета совмещать её с политическими темами не существует."
+  },
+  {
+    "id": "c2-14",
+    "ch": 2,
+    "kind": "förståelse",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Vad är ett exempel på ett hot mot demokratin som nämns i samband med sociala medier?",
+      "o": [
+        "Att för många människor röstar i valen",
+        "Att det finns för många politiska partier att välja mellan",
+        "Att staten kontrollerar allt innehåll på sociala medier",
+        "Att falsk information och hat sprids för att skapa konflikter i samhället"
+      ]
+    },
+    "ru": {
+      "q": "Какая проблема демократии упоминается в связи с социальными сетями?",
+      "o": [
+        "То, что слишком много людей голосует на выборах",
+        "То, что для выбора существует слишком много политических партий",
+        "То, что государство контролирует всё содержимое социальных сетей",
+        "То, что распространяются ложная информация и ненависть, создающие конфликты в обществе"
+      ]
+    },
+    "correct": 3,
+    "why": "Проблема, связанная с социальными сетями, — это распространение ложной информации и ненависти, создающих конфликты в обществе. Слишком высокая явка на выборах или слишком много партий — не реальные проблемы демократии, а полный государственный контроль над соцсетями — как раз противоположность реальной ситуации."
+  },
+  {
+    "id": "c2-15",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "En journalist som skriver om samhällsfrågor blir hotad och väljer därför att sluta skriva om detta ämne. Vilket problem för demokratin beskriver detta?",
+      "o": [
+        "Att hot mot personer som deltar i samhällsdebatten kan skrämma dem från att delta",
+        "Att journalister aldrig får kritisera politiker i Sverige",
+        "Att alla journalister måste vara medlemmar i ett politiskt parti",
+        "Att det är förbjudet att skriva om samhällsfrågor i svenska medier"
+      ]
+    },
+    "ru": {
+      "q": "Журналист, пишущий на общественно значимые темы, получает угрозы и решает перестать писать на эту тему. Какую проблему для демократии это описывает?",
+      "o": [
+        "То, что угрозы в адрес участников общественной дискуссии могут отпугнуть их от участия",
+        "То, что журналистам в Швеции вообще запрещено критиковать политиков",
+        "То, что все журналисты обязаны состоять в какой-либо политической партии",
+        "То, что писать об общественных вопросах в шведских СМИ запрещено"
+      ]
+    },
+    "correct": 0,
+    "why": "Это описывает проблему, что угрозы в адрес участников общественной дискуссии могут отпугнуть их от участия. Критика политиков журналистами разрешена и является частью свободы прессы, журналисты не обязаны состоять в партиях, а писать об общественных вопросах в СМИ Швеции никогда не запрещалось."
+  },
+  {
+    "id": "c2-16",
+    "ch": 2,
+    "kind": "förståelse",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Vad krävs för att demokratin i Sverige ska fungera bra?",
+      "o": [
+        "Att endast experter får uttala sig om politik",
+        "Att många kan vara med och påverka, att informationen är sann och att samhället skyddar dem som deltar i debatten",
+        "Att alla medborgare tillhör samma politiska parti",
+        "Att valen hålls så sällan som möjligt"
+      ]
+    },
+    "ru": {
+      "q": "Что нужно для того, чтобы демократия в Швеции работала хорошо?",
+      "o": [
+        "Чтобы высказываться о политике могли только эксперты",
+        "Чтобы многие могли участвовать и влиять, чтобы информация была правдивой и чтобы общество защищало тех, кто участвует в дискуссии",
+        "Чтобы все граждане состояли в одной и той же политической партии",
+        "Чтобы выборы проводились как можно реже"
+      ]
+    },
+    "correct": 1,
+    "why": "Для хорошей работы демократии важно, чтобы многие могли участвовать и влиять, чтобы информация была правдивой и чтобы общество защищало тех, кто участвует в общественной дискуссии. Ограничение права голоса только экспертами, единая партия для всех граждан или редкие выборы противоречат самой идее демократии."
+  },
+  {
+    "id": "c2-17",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "I ett bostadsområde bor nästan bara människor med låga inkomster, medan ett annat område nästan bara har höginkomsttagare, och de båda grupperna har mycket lite kontakt med varandra. Vad kallas detta fenomen?",
+      "o": [
+        "Integration",
+        "Rättssäkerhet",
+        "Segregation",
+        "Yttrandefrihet"
+      ]
+    },
+    "ru": {
+      "q": "В одном жилом районе живут почти исключительно люди с низкими доходами, а в другом — почти исключительно люди с высокими доходами, и у этих двух групп очень мало контактов друг с другом. Как называется это явление?",
+      "o": [
+        "Интеграция",
+        "Правовая защищённость",
+        "Сегрегация",
+        "Свобода слова"
+      ]
+    },
+    "correct": 2,
+    "why": "Это явление называется сегрегацией — раздельным проживанием людей в зависимости от дохода или этнического происхождения. Интеграция описывает противоположную ситуацию, а правовая защищённость и свобода слова — совсем другие понятия, не связанные с проживанием людей."
+  },
+  {
+    "id": "c2-18",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Vad kan bli en konsekvens av att ett samhälle är segregerat?",
+      "o": [
+        "Alla invånare får automatiskt exakt samma inkomst",
+        "Segregation gör alltid att brottsligheten minskar i hela landet",
+        "Alla partier får automatiskt lika många platser i riksdagen",
+        "Människor kan få olika tillgång till samhällsservice och kultur, och vissa områden kan upplevas som mindre trygga"
+      ]
+    },
+    "ru": {
+      "q": "Какое последствие может иметь сегрегация в обществе?",
+      "o": [
+        "Все жители автоматически получают одинаковый доход",
+        "Сегрегация всегда снижает уровень преступности по всей стране",
+        "Все партии автоматически получают одинаковое число мест в риксдаге",
+        "У людей может оказаться разный доступ к общественным услугам и культуре, а некоторые районы могут восприниматься как менее безопасные"
+      ]
+    },
+    "correct": 3,
+    "why": "Последствием сегрегации может стать то, что у людей окажется разный доступ к общественным услугам и культуре, а некоторые районы будут восприниматься как менее безопасные. Сегрегация не уравнивает доходы, не снижает преступность по всей стране и никак не влияет на распределение мест в риксдаге между партиями."
+  },
+  {
+    "id": "c2-19",
+    "ch": 2,
+    "kind": "förståelse",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Hur kan segregation påverka demokratin i ett samhälle?",
+      "o": [
+        "Segregation kan minska förtroendet för myndigheterna och det politiska engagemanget, vilket kan försvaga demokratin",
+        "Segregation stärker alltid demokratin genom att skapa fler politiska partier",
+        "Segregation har ingen som helst koppling till demokratin",
+        "Segregation gör att fler människor automatiskt röstar i varje val"
+      ]
+    },
+    "ru": {
+      "q": "Как сегрегация может повлиять на демократию в обществе?",
+      "o": [
+        "Сегрегация может снижать доверие к органам власти и политическую вовлечённость, что может ослаблять демократию",
+        "Сегрегация всегда укрепляет демократию, создавая больше политических партий",
+        "Сегрегация вообще никак не связана с демократией",
+        "Сегрегация автоматически заставляет больше людей голосовать на каждых выборах"
+      ]
+    },
+    "correct": 0,
+    "why": "Сегрегация может снижать доверие к органам власти и политическую вовлечённость, что, в свою очередь, может ослаблять демократию. Она не создаёт новые партии, напрямую связана с демократией (а не наоборот), и не увеличивает явку на выборах — скорее снижает вовлечённость."
+  },
+  {
+    "id": "c2-20",
+    "ch": 2,
+    "kind": "fakta",
+    "ref": "Sveriges demokratiska system, s. 11",
+    "sv": {
+      "q": "Vilka åtgärder föreslår politiker ofta för att motverka segregation och underlätta integration?",
+      "o": [
+        "Att bygga fler områden med bara en typ av bostad",
+        "Språkutbildning och olika typer av bostäder i ett område",
+        "Att avskaffa den kommunala skolplikten",
+        "Att förbjuda föreningar och organisationer"
+      ]
+    },
+    "ru": {
+      "q": "Какие меры политики часто предлагают для борьбы с сегрегацией и облегчения интеграции?",
+      "o": [
+        "Строить больше районов только с одним типом жилья",
+        "Языковое обучение и разные типы жилья в одном районе",
+        "Отменить обязательное школьное образование в коммунах",
+        "Запретить объединения и организации"
+      ]
+    },
+    "correct": 1,
+    "why": "Политики часто предлагают языковое обучение и создание разных типов жилья в одном районе. Строительство районов только с одним типом жилья, наоборот, усиливает сегрегацию, а отмена школьного обучения или запрет объединений противоречат другим важным ценностям."
+  },
+  {
+    "id": "c2-21",
+    "ch": 2,
+    "kind": "situation",
+    "ref": "Sveriges demokratiska system, s. 10",
+    "sv": {
+      "q": "En person med mycket pengar och en person utan pengar begår samma brott i Sverige. Ska lagen behandla dem olika?",
+      "o": [
+        "Ja, den som har mer pengar får en lindrigare påföljd",
+        "Ja, den som har mindre pengar döms alltid hårdare",
+        "Nej, lagarna gäller för alla i Sverige på samma sätt",
+        "Nej, men bara om båda tillhör samma politiska parti"
+      ]
+    },
+    "ru": {
+      "q": "Богатый человек и человек без денег совершают в Швеции одно и то же преступление. Должен ли закон относиться к ним по-разному?",
+      "o": [
+        "Да, у того, кто богаче, наказание будет мягче",
+        "Да, у того, кто беднее, наказание всегда будет строже",
+        "Нет, законы действуют одинаково для всех в Швеции",
+        "Нет, но только если оба состоят в одной политической партии"
+      ]
+    },
+    "correct": 2,
+    "why": "Нет — законы в Швеции действуют одинаково для всех, независимо от материального положения. Ни более мягкое наказание для богатых, ни более суровое для бедных, ни какая-либо зависимость от партийной принадлежности не соответствуют принципу правовой защищённости."
+  },
+  {
     "id": "c3-01",
     "ch": 3,
     "kind": "fakta",
