@@ -224,9 +224,11 @@ hr.rule {
   top: 0;
   z-index: 5;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 14px;
+  row-gap: 6px;
   background: var(--paper);
   border-bottom: 1px solid var(--rule);
   padding: 10px 0;
@@ -235,6 +237,18 @@ hr.rule {
 }
 .statusbar[data-urgent="true"] .clock { color: var(--no); }
 .clock { font-family: "IBM Plex Mono", ui-monospace, monospace; font-weight: 600; font-size: 16px; }
+
+/* Kompakt förloppslinje för övningslägena (kapitel / hela banken) —
+   ersätter cirkelrutnätet på det löpande övningsskärmen, se .omr nedan
+   som fortfarande används i provet och på resultatskärmarna. */
+.statusbar[data-progress] {
+  border-bottom: none;
+  background-image: linear-gradient(to right, var(--mark) var(--pct, 0%), var(--rule) 0);
+  background-repeat: no-repeat;
+  background-size: 100% 3px;
+  background-position: left bottom;
+  padding-bottom: 13px;
+}
 
 /* ---------- Resultat ---------- */
 .verdict {

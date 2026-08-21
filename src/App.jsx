@@ -523,10 +523,18 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
 function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinish, onExit, showRu, setShowRu }) {
   const q = questions[at]
   const topRef = useRef(null)
+  const barRef = useRef(null)
   const answered = answers[at] !== null && answers[at] !== undefined
   const done = answers.filter(a => a !== null && a !== undefined).length
+  const correctSoFar = answers.reduce((s, a, i) => s + (a !== null && a !== undefined && a === questions[i].correct ? 1 : 0), 0)
 
-  useEffect(() => { topRef.current?.scrollIntoView({ block: 'start' }) }, [at])
+  useEffect(() => {
+    // Statusraden är sticky och ligger ovanpå innehållet — utan den här
+    // marginalen skulle scrollIntoView gömma frågehuvudet bakom den.
+    const barHeight = barRef.current?.getBoundingClientRect().height ?? 0
+    if (topRef.current) topRef.current.style.scrollMarginTop = `${barHeight + 12}px`
+    topRef.current?.scrollIntoView({ block: 'start' })
+  }, [at])
 
   if (!q) return null
 
@@ -542,28 +550,22 @@ function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinis
     else onFinish()
   }
 
-  const verdicts = questions.map((qq, i) => {
-    const a = answers[i]
-    if (a === null || a === undefined) return undefined
-    return a === qq.correct ? 'right' : 'wrong'
-  })
-
   return (
     <>
-      <div className="statusbar">
-        <span className="mono">
-          {mode === 'chapter' ? `KAPITEL ${ch} · ${CHAPTER_TITLE[ch]}` : 'HELA FRÅGEBANKEN'} · FRÅGA {at + 1}/{questions.length}
-        </span>
-        <span className="mono">{done} klara</span>
+      <p className="eyebrow">
+        {mode === 'chapter' ? `Kapitel ${ch} · ${CHAPTER_TITLE[ch]}` : 'Hela frågebanken'}
+      </p>
+
+      <div
+        className="statusbar" data-progress="true" ref={barRef}
+        style={{ '--pct': `${(done / questions.length) * 100}%` }}
+      >
+        <span className="mono">Fråga {at + 1} av {questions.length}</span>
+        <span className="mono">{correctSoFar} rätt</span>
         <button className="btn btn-ghost btn-small" onClick={onExit}>Till startsidan</button>
       </div>
 
       <div ref={topRef} />
-
-      <Sheet
-        count={questions.length} answers={answers} current={at} verdicts={verdicts}
-        onJump={i => { if (answers[i] !== null && answers[i] !== undefined) setAt(i) }}
-      />
 
       <div className="qcard" style={{ marginTop: 20 }}>
         <div className="qhead">
