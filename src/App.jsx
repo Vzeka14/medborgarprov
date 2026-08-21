@@ -748,6 +748,9 @@ function Support() {
 }
 
 function SiteFooter() {
+  const donateLinks = [support.paypal && { href: support.paypal, label: 'PayPal' }].filter(Boolean)
+  const hasSwish = !!support.swish
+
   return (
     <footer className="site">
       <p>
@@ -761,6 +764,20 @@ function SiteFooter() {
         Hittat ett fel i en fråga? Öppna ett issue på{' '}
         <a href="https://github.com/vzeka14">GitHub</a> — då rättas den för alla.
       </p>
+      {(donateLinks.length > 0 || hasSwish) && (
+        <p>
+          Sidan är gratis. Vill du bjuda på en kaffe?{' '}
+          {donateLinks.map((l, i) => (
+            <span key={l.label}>
+              {i > 0 && ' · '}
+              <a href={l.href}>{l.label}</a>
+            </span>
+          ))}
+          {donateLinks.length > 0 && hasSwish && ' · '}
+          {hasSwish && `Swish ${support.swish}`}
+          <span className="muted"> · Сайт бесплатный. Хотите угостить кофе? Необязательно.</span>
+        </p>
+      )}
     </footer>
   )
 }
