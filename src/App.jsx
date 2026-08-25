@@ -748,7 +748,10 @@ function Support() {
 }
 
 function SiteFooter() {
-  const donateLinks = [support.paypal && { href: support.paypal, label: 'PayPal' }].filter(Boolean)
+  const donateLinks = [
+    support.paypal && { href: support.paypal, label: 'PayPal' },
+    support.coffee && { href: support.coffee, label: 'Buy me a coffee' }
+  ].filter(Boolean)
   const hasSwish = !!support.swish
 
   return (
@@ -775,7 +778,7 @@ function SiteFooter() {
           ))}
           {donateLinks.length > 0 && hasSwish && ' · '}
           {hasSwish && `Swish ${support.swish}`}
-          <span className="muted"> · Сайт бесплатный. Хотите угостить кофе? Необязательно.</span>
+          <span className="muted"> · The site is free. Want to buy me a coffee?</span>
         </p>
       )}
     </footer>
