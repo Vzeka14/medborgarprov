@@ -79,6 +79,8 @@ function shuffleOptions(q, rand) {
     order,
     sv: { q: q.sv.q, o: order.map(i => q.sv.o[i]) },
     ru: { q: q.ru.q, o: order.map(i => q.ru.o[i]) },
+    en: { q: q.en.q, o: order.map(i => q.en.o[i]) },
+    ar: { q: q.ar.q, o: order.map(i => q.ar.o[i]) },
     correct: order.indexOf(q.correct)
   }
 }

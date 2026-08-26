@@ -185,6 +185,11 @@ hr.rule {
   margin: 0 0 22px;
 }
 
+/* Arabisk översättning ska läsas höger till vänster, oavsett att
+   resten av sidan (och den svenska frågetexten) ligger kvar
+   vänster till höger. */
+[dir="rtl"] { text-align: right; }
+
 .opts { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
 
 .opt {
