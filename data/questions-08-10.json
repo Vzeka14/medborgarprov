@@ -22,6 +22,24 @@
         "Около 90 процентов"
       ]
     },
+    "en": {
+      "q": "Roughly what share of all people working in Sweden work in the private sector?",
+      "o": [
+        "About 30 percent",
+        "About 50 percent",
+        "About 70 percent",
+        "About 90 percent"
+      ]
+    },
+    "ar": {
+      "q": "ما هي تقريبًا نسبة العاملين في السويد الذين يعملون في القطاع الخاص؟",
+      "o": [
+        "حوالي 30 بالمئة",
+        "حوالي 50 بالمئة",
+        "حوالي 70 بالمئة",
+        "حوالي 90 بالمئة"
+      ]
+    },
     "correct": 2,
     "why": "Около 70 % — частный сектор, около 30 % — государственный, который финансируется налогами."
   },
@@ -46,6 +64,24 @@
         "Пожарный",
         "Водитель грузовика в частной транспортной фирме",
         "Повар в частном ресторане"
+      ]
+    },
+    "en": {
+      "q": "Which of these occupations belongs to the public sector?",
+      "o": [
+        "Shop assistant",
+        "Firefighter",
+        "Truck driver at a private haulage company",
+        "Restaurant chef at a private restaurant"
+      ]
+    },
+    "ar": {
+      "q": "أي من هذه المهن ينتمي إلى القطاع العام؟",
+      "o": [
+        "موظف مبيعات في متجر",
+        "رجل إطفاء",
+        "سائق شاحنة في شركة نقل خاصة",
+        "طاهٍ في مطعم خاص"
       ]
     },
     "correct": 1,
@@ -74,6 +110,24 @@
         "Государственное агентство работодателей (Arbetsgivarverket)"
       ]
     },
+    "en": {
+      "q": "Which of these is a trade union confederation?",
+      "o": [
+        "Svenskt näringsliv",
+        "SKR",
+        "LO",
+        "Arbetsgivarverket"
+      ]
+    },
+    "ar": {
+      "q": "أي مما يلي اتحاد نقابي مركزي؟",
+      "o": [
+        "اتحاد الأعمال السويدي (Svenskt näringsliv)",
+        "اتحاد البلديات والأقاليم السويدية (SKR)",
+        "الاتحاد المركزي للنقابات العمالية (LO)",
+        "وكالة أرباب العمل الحكومية (Arbetsgivarverket)"
+      ]
+    },
     "correct": 2,
     "why": "Профсоюзные центры — LO (профсоюз рабочих), TCO (профсоюз служащих) и SACO (профсоюз лиц с высшим образованием). Остальные три варианта представляют работодателей."
   },
@@ -98,6 +152,24 @@
         "Правительство через постановление",
         "Стороны рынка труда путём переговоров и коллективных договоров",
         "Городской совет (kommunfullmäktige) в каждой коммуне"
+      ]
+    },
+    "en": {
+      "q": "Who sets wage levels in Sweden?",
+      "o": [
+        "The Riksdag through law",
+        "The government through a regulation",
+        "The labor market's parties through negotiation and collective agreements",
+        "The municipal council in each municipality"
+      ]
+    },
+    "ar": {
+      "q": "من يحدد مستوى الأجور في السويد؟",
+      "o": [
+        "البرلمان عبر القانون",
+        "الحكومة عبر لائحة تنفيذية",
+        "أطراف سوق العمل عبر التفاوض والاتفاقيات الجماعية",
+        "المجلس البلدي في كل بلدية"
       ]
     },
     "correct": 2,
@@ -126,6 +198,24 @@
         "Получить одобрение работодателя"
       ]
     },
+    "en": {
+      "q": "A person has become unemployed and wants to receive compensation from the unemployment insurance fund (A-kassan). What is required?",
+      "o": [
+        "That the person is a Swedish citizen",
+        "That the person has worked enough hours during a set period and is actively seeking work",
+        "That the person has been a member of a political party",
+        "That the employer approves the application"
+      ]
+    },
+    "ar": {
+      "q": "أصبح شخص عاطلًا عن العمل ويريد الحصول على تعويض من صندوق تأمين البطالة (A-kassan). ما المطلوب لذلك؟",
+      "o": [
+        "أن يكون الشخص مواطنًا سويديًا",
+        "أن يكون قد عمل عددًا كافيًا من الساعات خلال فترة محددة وأن يكون يبحث بنشاط عن عمل",
+        "أن يكون قد كان عضوًا في حزب سياسي",
+        "أن يوافق صاحب العمل على الطلب"
+      ]
+    },
     "correct": 1,
     "why": "Касса страхования по безработице (A-kassan) — экономическое объединение; выплаты финансируются государством и членскими взносами."
   },
@@ -150,6 +240,24 @@
         "Служба судебных приставов (Kronofogdemyndigheten)",
         "Ведомство социального страхования (Försäkringskassan)",
         "Ведомство по защите прав потребителей"
+      ]
+    },
+    "en": {
+      "q": "Which agency ensures debts are paid and can help with debt restructuring (skuldsanering)?",
+      "o": [
+        "The Tax Agency",
+        "The Enforcement Authority (Kronofogdemyndigheten)",
+        "The Social Insurance Agency",
+        "The Swedish Consumer Agency"
+      ]
+    },
+    "ar": {
+      "q": "أي هيئة تضمن سداد الديون ويمكنها المساعدة في إجراء إعادة هيكلة الديون (skuldsanering)؟",
+      "o": [
+        "مصلحة الضرائب",
+        "هيئة التنفيذ (Kronofogdemyndigheten)",
+        "هيئة التأمين الاجتماعي",
+        "هيئة حماية المستهلك"
       ]
     },
     "correct": 1,
@@ -178,6 +286,24 @@
         "Налог платят только люди старше 30 лет"
       ]
     },
+    "en": {
+      "q": "What applies to tax on work in Sweden?",
+      "o": [
+        "Everyone pays the same amount regardless of income",
+        "How much you pay depends on your income",
+        "You only pay tax if you work full-time",
+        "Tax is only paid by people over 30"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي ينطبق على ضريبة العمل في السويد؟",
+      "o": [
+        "يدفع الجميع المبلغ نفسه بغض النظر عن الدخل",
+        "يعتمد المبلغ المدفوع على الدخل",
+        "تُدفع الضريبة فقط لمن يعمل بدوام كامل",
+        "تُدفع الضريبة فقط لمن هم فوق 30 عامًا"
+      ]
+    },
     "correct": 1,
     "why": "Размер налога на труд зависит от дохода — чем выше зарплата, тем выше налог. Работать без уплаты налога при этом незаконно."
   },
@@ -202,6 +328,24 @@
         "Около 10 процентов",
         "Около 50 процентов",
         "Около 70 процентов"
+      ]
+    },
+    "en": {
+      "q": "Roughly what share of all people working in Sweden work in the public sector?",
+      "o": [
+        "About 30 percent",
+        "About 10 percent",
+        "About 50 percent",
+        "About 70 percent"
+      ]
+    },
+    "ar": {
+      "q": "ما هي تقريبًا نسبة العاملين في السويد الذين يعملون في القطاع العام؟",
+      "o": [
+        "حوالي 30 بالمئة",
+        "حوالي 10 بالمئة",
+        "حوالي 50 بالمئة",
+        "حوالي 70 بالمئة"
       ]
     },
     "correct": 0,
@@ -230,6 +374,24 @@
         "Одновременно и к частному, и к государственному сектору"
       ]
     },
+    "en": {
+      "q": "A person works as a hairdresser in a salon owned by a private individual. Which sector of the labor market does this occupation belong to?",
+      "o": [
+        "The public sector",
+        "The private sector",
+        "Neither sector, since hairdressers do not count as employees",
+        "Both the private and public sectors at the same time"
+      ]
+    },
+    "ar": {
+      "q": "يعمل شخص كحلّاق في صالون يملكه فرد خاص. إلى أي قطاع من سوق العمل تنتمي هذه المهنة؟",
+      "o": [
+        "إلى القطاع العام",
+        "إلى القطاع الخاص",
+        "لا تنتمي لأي من القطاعين، لأن الحلاقين لا يُعدّون موظفين",
+        "إلى القطاعين الخاص والعام في الوقت نفسه"
+      ]
+    },
     "correct": 1,
     "why": "Салон, принадлежащий частному лицу, относится к частному сектору — так же, как магазины, рестораны и другие частные компании. К государственному сектору относятся профессии, финансируемые за счёт налогов, например врачи, учителя и полицейские; парикмахеры при этом остаются полноценными наёмными работниками, и одна профессия не может относиться сразу к обоим секторам."
   },
@@ -254,6 +416,24 @@
         "Потому что промышленностью может заниматься только коммуна, а не частные компании",
         "Потому что такие производства часто расположены рядом с нужными им природными ресурсами",
         "Потому что все работники промышленности обязаны жить в сельской местности"
+      ]
+    },
+    "en": {
+      "q": "Why are large industries such as steel mills and paper mills often located in smaller towns and communities in Sweden, rather than in the big cities?",
+      "o": [
+        "Because big cities are legally not allowed to have industrial activity",
+        "Because industries may only be run by the municipality, not private companies",
+        "Because such industries are often located close to the natural resources they need",
+        "Because all employees in industry are required to live in rural areas"
+      ]
+    },
+    "ar": {
+      "q": "لماذا توجد الصناعات الكبيرة، مثل مصانع الصلب ومصانع الورق، غالبًا في المدن والبلدات الصغيرة في السويد، وليس في المدن الكبرى؟",
+      "o": [
+        "لأن القانون يمنع النشاط الصناعي في المدن الكبرى",
+        "لأن الصناعة يمكن أن تديرها البلدية فقط، وليس الشركات الخاصة",
+        "لأن هذه الصناعات غالبًا ما تقع قرب الموارد الطبيعية التي تحتاجها",
+        "لأن جميع العاملين في الصناعة ملزمون بالعيش في الريف"
       ]
     },
     "correct": 2,
@@ -282,6 +462,24 @@
         "Работодатель нанимает и платит зарплату, а работник выполняет работу за плату"
       ]
     },
+    "en": {
+      "q": "What is the difference between an employer (arbetsgivare) and an employee (arbetstagare) in the Swedish labor market?",
+      "o": [
+        "The employer does the work, while the employee pays the wages",
+        "Both words mean exactly the same thing",
+        "Only the state can be an employer in Sweden",
+        "The employer hires and pays wages, while the employee performs the work in exchange for pay"
+      ]
+    },
+    "ar": {
+      "q": "ما الفرق بين صاحب العمل (arbetsgivare) والموظف (arbetstagare) في سوق العمل السويدي؟",
+      "o": [
+        "يؤدي صاحب العمل العمل، بينما يدفع الموظف الراتب",
+        "تعني الكلمتان الشيء نفسه تمامًا",
+        "لا يمكن أن يكون صاحب العمل في السويد إلا الدولة",
+        "يوظّف صاحب العمل ويدفع الراتب، بينما يؤدي الموظف العمل مقابل الأجر"
+      ]
+    },
     "correct": 3,
     "why": "Работодатель нанимает работников и платит им зарплату, а работник выполняет работу за эту плату — это не одно и то же понятие, и роли не перепутаны местами. Работодателем в Швеции может быть не только государство, но и частная компания, коммуна или регион."
   },
@@ -306,6 +504,24 @@
         "Центральное объединение профсоюзов Швеции (LO)",
         "Государственное агентство работодателей (Arbetsgivarverket)",
         "Объединение коммун и регионов Швеции (SKR)"
+      ]
+    },
+    "en": {
+      "q": "Which organization represents employers in the private sector in Sweden?",
+      "o": [
+        "The Confederation of Swedish Enterprise (Svenskt näringsliv)",
+        "The Swedish Trade Union Confederation (LO)",
+        "The Swedish Agency for Government Employers (Arbetsgivarverket)",
+        "SKR (the Swedish Association of Local Authorities and Regions)"
+      ]
+    },
+    "ar": {
+      "q": "أي منظمة تمثل أصحاب العمل في القطاع الخاص في السويد؟",
+      "o": [
+        "اتحاد الأعمال السويدي (Svenskt näringsliv)",
+        "الاتحاد المركزي للنقابات العمالية (LO)",
+        "وكالة أرباب العمل الحكومية (Arbetsgivarverket)",
+        "اتحاد البلديات والأقاليم السويدية (SKR)"
       ]
     },
     "correct": 0,
@@ -334,6 +550,24 @@
         "Риксдаг, правительство и ведомства"
       ]
     },
+    "en": {
+      "q": "What are the three largest trade union confederations in Sweden?",
+      "o": [
+        "Svenskt näringsliv, Arbetsgivarverket, and SKR",
+        "LO, TCO, and SACO",
+        "The Social Insurance Agency, the Tax Agency, and the Employment Agency",
+        "The Riksdag, the government, and the agencies"
+      ]
+    },
+    "ar": {
+      "q": "ما الاتحادات النقابية المركزية الثلاثة الأكبر في السويد؟",
+      "o": [
+        "Svenskt näringsliv وArbetsgivarverket وSKR",
+        "LO وTCO وSACO",
+        "هيئة التأمين الاجتماعي ومصلحة الضرائب ودائرة التوظيف",
+        "البرلمان والحكومة والهيئات"
+      ]
+    },
     "correct": 1,
     "why": "Крупнейшие профцентры Швеции — LO (профсоюз рабочих), TCO (профсоюз служащих) и SACO (профсоюз лиц с высшим образованием). Svenskt näringsliv, Arbetsgivarverket и SKR — реальные организации, но представляют работодателей, а не работников; государственные ведомства и органы власти вообще не относятся к организациям сторон рынка труда."
   },
@@ -358,6 +592,24 @@
         "Решить, за какую партию должен голосовать сотрудник",
         "Вести переговоры о зарплате и помочь сотруднику с проблемами на работе",
         "Полностью взять на себя трудоустройство сотрудника"
+      ]
+    },
+    "en": {
+      "q": "An employee has problems with their employer and turns to their trade union for help. What can the trade union do?",
+      "o": [
+        "Decide on the member's taxes",
+        "Decide which party the member should vote for",
+        "Negotiate wages and help the member with problems at work",
+        "Take over the member's employment entirely"
+      ]
+    },
+    "ar": {
+      "q": "يواجه موظف مشكلات مع صاحب عمله ويلجأ إلى نقابته طلبًا للمساعدة. ماذا يمكن للنقابة أن تفعل؟",
+      "o": [
+        "تحديد ضريبة العضو",
+        "تقرير الحزب الذي يجب أن يصوّت له العضو",
+        "التفاوض على الأجور ومساعدة العضو في مشكلات العمل",
+        "تولي وظيفة العضو بالكامل"
       ]
     },
     "correct": 2,
@@ -386,6 +638,24 @@
         "Это соглашение о зарплатах и условиях труда, которое действует для всех сотрудников на рабочих местах, охваченных договором"
       ]
     },
+    "en": {
+      "q": "What does a collective agreement (kollektivavtal) signed by trade unions and employer organizations mean?",
+      "o": [
+        "It is a law the Riksdag decides on every year",
+        "It is an agreement that only applies to the person who personally signed it",
+        "It is an agreement between the state and an individual employee",
+        "It is an agreement on wages and working conditions that applies to all employees at the workplaces covered by the agreement"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تعني الاتفاقية الجماعية (kollektivavtal) التي تبرمها النقابات ومنظمات أصحاب العمل؟",
+      "o": [
+        "إنها قانون يقرّه البرلمان كل عام",
+        "إنها اتفاقية تسري فقط على من وقّعها شخصيًا",
+        "إنها اتفاقية بين الدولة وموظف بعينه",
+        "إنها اتفاق على الأجور وظروف العمل يسري على جميع الموظفين في أماكن العمل المشمولة بالاتفاقية"
+      ]
+    },
     "correct": 3,
     "why": "Коллективный договор — это соглашение о зарплатах и условиях труда, которое действует для всех сотрудников на рабочих местах, охваченных договором, а не только для того, кто лично его подписал. Это не закон риксдага и не договор между государством и отдельным работником — зарплаты в Швеции определяют именно стороны рынка труда через переговоры."
   },
@@ -410,6 +680,24 @@
         "Работодатель вправе решать это свободно, поскольку таких законов не существует",
         "Это разрешено, если взамен сотрудник получает более высокую зарплату",
         "Это запрещено только в государственном секторе"
+      ]
+    },
+    "en": {
+      "q": "An employer wants an employee to work an unreasonable number of hours with no vacation at all. What does Swedish law say about this?",
+      "o": [
+        "There are laws on working hours, the work environment, and vacation that protect the employee",
+        "The employer may decide freely, since there are no laws about this",
+        "It is allowed as long as the employee gets a higher salary instead",
+        "It is only forbidden in the public sector"
+      ]
+    },
+    "ar": {
+      "q": "يريد صاحب عمل أن يعمل موظف عددًا غير معقول من الساعات دون أي إجازة على الإطلاق. ماذا يقول القانون السويدي بشأن ذلك؟",
+      "o": [
+        "توجد قوانين لساعات العمل وبيئة العمل والإجازات تحمي الموظف",
+        "يحق لصاحب العمل أن يقرر بحرية لأنه لا توجد قوانين بشأن ذلك",
+        "ذلك مسموح ما دام الموظف يحصل على راتب أعلى بدلًا من ذلك",
+        "ذلك محظور فقط في القطاع العام"
       ]
     },
     "correct": 0,
@@ -438,6 +726,24 @@
         "Муниципальный налог за жильё сотрудника"
       ]
     },
+    "en": {
+      "q": "An employer in Sweden pays wages to their employees. What else must the employer pay to the state for the employees?",
+      "o": [
+        "The employee's trade union membership fee",
+        "Contributions for the employees' pension and health insurance",
+        "The employee's private bank loan",
+        "Municipal tax for the employee's housing"
+      ]
+    },
+    "ar": {
+      "q": "يدفع صاحب عمل في السويد رواتب لموظفيه. ما الذي يجب أن يدفعه صاحب العمل أيضًا للدولة عن الموظفين؟",
+      "o": [
+        "اشتراك عضوية الموظف في النقابة",
+        "اشتراكات معاش الموظفين وتأمينهم الصحي",
+        "القرض المصرفي الشخصي للموظف",
+        "الضريبة البلدية عن سكن الموظف"
+      ]
+    },
     "correct": 1,
     "why": "Работодатель обязан платить государству взносы на пенсию и медицинское страхование сотрудников. Членские взносы в профсоюз сотрудник платит сам, а личные банковские кредиты и муниципальный налог за жильё вообще не относятся к обязанностям работодателя."
   },
@@ -462,6 +768,24 @@
         "Да, если работодатель на это согласен",
         "Нет, работать без уплаты налога незаконно",
         "Да, но только в первый год работы"
+      ]
+    },
+    "en": {
+      "q": "A person works 'black', meaning without paying tax on their wages. Is this allowed in Sweden?",
+      "o": [
+        "Yes, if the person earns less than a certain amount per year",
+        "Yes, as long as the employer approves it",
+        "No, it is illegal to work without paying tax",
+        "Yes, but only during the first year of employment"
+      ]
+    },
+    "ar": {
+      "q": "يعمل شخص «بالأسود»، أي دون دفع ضريبة على راتبه. هل هذا مسموح في السويد؟",
+      "o": [
+        "نعم، إذا كان دخل الشخص أقل من مبلغ معين سنويًا",
+        "نعم، ما دام صاحب العمل موافقًا على ذلك",
+        "لا، العمل دون دفع الضريبة غير قانوني",
+        "نعم، لكن فقط خلال السنة الأولى من التوظيف"
       ]
     },
     "correct": 2,
@@ -490,6 +814,24 @@
         "За счёт государства и членских взносов участников"
       ]
     },
+    "en": {
+      "q": "How is compensation from the unemployment insurance fund (A-kassan) funded?",
+      "o": [
+        "Only by employers' profits",
+        "Only by municipal tax",
+        "Only by the EU's joint budget",
+        "By the state and by members' membership fees"
+      ]
+    },
+    "ar": {
+      "q": "كيف تُموَّل التعويضات من صندوق تأمين البطالة (A-kassan)؟",
+      "o": [
+        "من أرباح أصحاب العمل فقط",
+        "من الضريبة البلدية فقط",
+        "من ميزانية الاتحاد الأوروبي المشتركة فقط",
+        "من الدولة ومن اشتراكات أعضائه"
+      ]
+    },
     "correct": 3,
     "why": "Выплаты из A-kassan финансируются государством и членскими взносами участников. Прибыль работодателей, муниципальный налог и бюджет ЕС не связаны с финансированием A-kassan напрямую."
   },
@@ -514,6 +856,24 @@
         "Только деньги, которые есть у человека на банковском счёте",
         "Только доходы и расходы государства",
         "Только налоговые платежи человека"
+      ]
+    },
+    "en": {
+      "q": "What counts as a person's personal finances (privatekonomi) in Sweden?",
+      "o": [
+        "A person's private income, for example wages or benefits, and expenses for things like housing, food, and clothing",
+        "Only the money a person has in a bank account",
+        "Only the state's income and expenses",
+        "Only a person's tax payments"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يُحسب من المالية الشخصية (privatekonomi) للفرد في السويد؟",
+      "o": [
+        "الدخل الشخصي للفرد، مثل الراتب أو الإعانات، والنفقات على أمور مثل السكن والطعام والملابس",
+        "فقط الأموال التي يملكها الشخص في حساب مصرفي",
+        "فقط دخل الدولة ونفقاتها",
+        "فقط الضرائب التي يدفعها الشخص"
       ]
     },
     "correct": 0,
@@ -542,6 +902,24 @@
         "Что использовать кредитную карту в Швеции незаконно"
       ]
     },
+    "en": {
+      "q": "A person wants to buy an expensive item but currently lacks the money, and chooses to pay with a credit card instead of saving up. What should the person keep in mind?",
+      "o": [
+        "That credit cards are always completely free to use",
+        "That the interest rate on this type of credit is often high",
+        "That the state automatically repays the credit after one year",
+        "That it is illegal to use a credit card in Sweden"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص شراء سلعة غالية لكنه يفتقر حاليًا للمال، فيختار الدفع ببطاقة ائتمان بدلًا من ادخار المبلغ. بماذا يجب أن يهتم؟",
+      "o": [
+        "بأن استخدام بطاقة الائتمان مجاني تمامًا دائمًا",
+        "بأن سعر الفائدة على هذا النوع من الائتمان غالبًا مرتفع",
+        "بأن الدولة تسدد هذا الائتمان تلقائيًا بعد عام",
+        "بأن استخدام بطاقة الائتمان في السويد غير قانوني"
+      ]
+    },
     "correct": 1,
     "why": "Стоит помнить, что процентная ставка по такому виду кредита часто высокая. Кредитные карты не бесплатны, государство не погашает подобные долги автоматически, а сам по себе расчёт кредитной картой в Швеции полностью законен."
   },
@@ -566,6 +944,24 @@
         "Миграционное ведомство (Migrationsverket), выдав вид на жительство",
         "Служба судебных приставов (Kronofogdemyndigheten), через процедуру урегулирования долгов (skuldsanering)",
         "Кассы социального страхования (Försäkringskassan), выплатив пособие по болезни"
+      ]
+    },
+    "en": {
+      "q": "A family has a large housing loan after buying a home when prices were high, plus debts on several credit cards. The family struggles to pay for everything. Which agency can help them get their finances in order?",
+      "o": [
+        "The Tax Agency, by lowering their tax",
+        "The Migration Agency, by granting a residence permit",
+        "The Enforcement Authority (Kronofogdemyndigheten), through so-called debt restructuring (skuldsanering)",
+        "The Social Insurance Agency, by paying out sickness benefit"
+      ]
+    },
+    "ar": {
+      "q": "على عائلة قرض سكن كبير بعد شراء منزل حين كانت الأسعار مرتفعة، بالإضافة إلى ديون على عدة بطاقات ائتمان. تواجه العائلة صعوبة في سداد كل ذلك. أي هيئة يمكنها مساعدتها على تنظيم أوضاعها المالية؟",
+      "o": [
+        "مصلحة الضرائب، بتخفيض ضريبتهم",
+        "هيئة الهجرة، بمنحهم تصريح إقامة",
+        "هيئة التنفيذ (Kronofogdemyndigheten)، عبر ما يُعرف بإعادة هيكلة الديون (skuldsanering)",
+        "هيئة التأمين الاجتماعي، بدفع إعانة المرض"
       ]
     },
     "correct": 2,
@@ -594,6 +990,24 @@
         "Налог на недвижимость"
       ]
     },
+    "en": {
+      "q": "What is the tax called that you pay when buying goods and services?",
+      "o": [
+        "Income tax",
+        "Employer contribution",
+        "VAT (moms)",
+        "Property fee"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم الضريبة التي تُدفع عند شراء السلع والخدمات؟",
+      "o": [
+        "ضريبة الدخل",
+        "اشتراك صاحب العمل",
+        "ضريبة القيمة المضافة (moms)",
+        "رسم العقار"
+      ]
+    },
     "correct": 2,
     "why": "НДС (moms) — это налог на добавленную стоимость (mervärdesskatt). Взносы работодателя (arbetsgivaravgifter) выплачиваются сверх зарплаты сотрудника."
   },
@@ -618,6 +1032,24 @@
         "Детские сады и начальные школы",
         "Пенсии, детское пособие и учебные выплаты",
         "Уборку снега и уход за парками"
+      ]
+    },
+    "en": {
+      "q": "What does the state fund, unlike the regions and municipalities?",
+      "o": [
+        "Health centers and hospitals",
+        "Preschools and compulsory schools",
+        "Pensions, child allowance, and study support",
+        "Snow clearance and park maintenance"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي تموّله الدولة، بخلاف الأقاليم الإدارية والبلديات؟",
+      "o": [
+        "المراكز الصحية والمستشفيات",
+        "رياض الأطفال والمدارس الإلزامية",
+        "المعاشات وإعانة الطفل ودعم الطلاب",
+        "إزالة الثلوج وصيانة الحدائق"
       ]
     },
     "correct": 2,
@@ -646,6 +1078,24 @@
         "Работодатель"
       ]
     },
+    "en": {
+      "q": "An elderly person can no longer manage daily life on their own. Who is responsible for offering support and help?",
+      "o": [
+        "The state",
+        "The region",
+        "The municipality",
+        "The employer"
+      ]
+    },
+    "ar": {
+      "q": "لم يعد بإمكان شخص مسن التعامل مع شؤون حياته اليومية بمفرده. من المسؤول عن تقديم الدعم والمساعدة؟",
+      "o": [
+        "الدولة",
+        "الإقليم الإداري",
+        "البلدية",
+        "صاحب العمل"
+      ]
+    },
     "correct": 2,
     "why": "Уход за пожилыми (äldreomsorg) — обязанность коммуны по шведскому закону: помощь дома или переезд в специальное жильё."
   },
@@ -670,6 +1120,24 @@
         "В службу судебных приставов",
         "В совет региона (regionfullmäktige)",
         "В государственное агентство работодателей (Arbetsgivarverket)"
+      ]
+    },
+    "en": {
+      "q": "A family doesn't have enough money to cover its expenses. Where can they turn for financial assistance?",
+      "o": [
+        "To the social services in their municipality",
+        "To the Enforcement Authority",
+        "To the regional council",
+        "To the Swedish Agency for Government Employers"
+      ]
+    },
+    "ar": {
+      "q": "لا تملك عائلة ما يكفي من المال لتغطية نفقاتها. إلى أين يمكنها التوجه طلبًا للمساعدة المالية؟",
+      "o": [
+        "إلى الخدمات الاجتماعية في بلديتها",
+        "إلى هيئة التنفيذ (Kronofogdemyndigheten)",
+        "إلى المجلس الإقليمي (regionfullmäktige)",
+        "إلى وكالة أرباب العمل الحكومية (Arbetsgivarverket)"
       ]
     },
     "correct": 0,
@@ -698,6 +1166,24 @@
         "Дома престарелых"
       ]
     },
+    "en": {
+      "q": "What counts as primary care (primärvård)?",
+      "o": [
+        "Emergency hospitals and university hospitals",
+        "Health centers, child health centers, and maternity clinics",
+        "Psychiatric care and rehabilitation",
+        "Elderly care homes"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يُحسب ضمن الرعاية الصحية الأولية (primärvård)؟",
+      "o": [
+        "مستشفيات الطوارئ والمستشفيات الجامعية",
+        "المراكز الصحية ومراكز رعاية الطفل ومراكز رعاية الحوامل",
+        "الرعاية النفسية وإعادة التأهيل",
+        "دور رعاية المسنين"
+      ]
+    },
     "correct": 1,
     "why": "К первичной медицинской помощи относятся поликлиники, детские и женские консультации. Больницы — это стационарная помощь (sjukhusvård), а психиатрия, реабилитация и стоматология идут в категорию «прочее» (övrigt)."
   },
@@ -722,6 +1208,24 @@
         "От 6 до 16 лет",
         "От 7 до 18 лет",
         "От 6 до 19 лет"
+      ]
+    },
+    "en": {
+      "q": "For which ages does compulsory school (grundskola) exist in all of Sweden's municipalities?",
+      "o": [
+        "Between 3 and 15 years",
+        "Between 6 and 16 years",
+        "Between 7 and 18 years",
+        "Between 6 and 19 years"
+      ]
+    },
+    "ar": {
+      "q": "لأي فئة عمرية توجد المدرسة الإلزامية (grundskola) في جميع بلديات السويد؟",
+      "o": [
+        "بين 3 و15 عامًا",
+        "بين 6 و16 عامًا",
+        "بين 7 و18 عامًا",
+        "بين 6 و19 عامًا"
       ]
     },
     "correct": 1,
@@ -750,6 +1254,24 @@
         "О том, что право на поддержку общества есть только у граждан Швеции"
       ]
     },
+    "en": {
+      "q": "What is the Swedish welfare society (välfärdssamhälle) about?",
+      "o": [
+        "Giving all residents basic economic and social security, for example through healthcare and education",
+        "Only those who pay the most tax getting access to public services",
+        "The state guaranteeing all residents the same salary regardless of profession",
+        "Only Swedish citizens having the right to support from society"
+      ]
+    },
+    "ar": {
+      "q": "ما موضوع مجتمع الرفاه السويدي (välfärdssamhälle)؟",
+      "o": [
+        "منح جميع السكان أمانًا اقتصاديًا واجتماعيًا أساسيًا، مثلًا عبر الرعاية الصحية والتعليم",
+        "حصول من يدفعون أكبر قدر من الضرائب فقط على خدمات المجتمع",
+        "ضمان الدولة راتبًا متساويًا لجميع السكان بغض النظر عن المهنة",
+        "اقتصار الحق في دعم المجتمع على المواطنين السويديين فقط"
+      ]
+    },
     "correct": 0,
     "why": "Государство благосостояния означает предоставление всем жителям базовой экономической и социальной защищённости, например через доступ к здравоохранению и образованию. Уровень уплаченных налогов не определяет доступ к услугам, государство не гарантирует одинаковую зарплату для всех профессий, а право на поддержку не ограничено только гражданами — оно распространяется на всех жителей."
   },
@@ -774,6 +1296,24 @@
         "Из налогов",
         "Только из общего бюджета ЕС",
         "Только из сборов, которые платят компании, желающие начать деятельность"
+      ]
+    },
+    "en": {
+      "q": "Where does a large part of the money that funds the Swedish welfare system come from?",
+      "o": [
+        "Only from loans the state takes from other countries",
+        "From taxes",
+        "Only from the EU's joint budget",
+        "Only from fees paid by companies that want to start operating"
+      ]
+    },
+    "ar": {
+      "q": "من أين يأتي جزء كبير من الأموال التي تموّل نظام الرفاه السويدي؟",
+      "o": [
+        "من القروض التي تأخذها الدولة من دول أخرى فقط",
+        "من الضرائب",
+        "من ميزانية الاتحاد الأوروبي المشتركة فقط",
+        "من الرسوم التي تدفعها الشركات الراغبة في بدء نشاطها فقط"
       ]
     },
     "correct": 1,
@@ -802,6 +1342,24 @@
         "Да, но только если в компании больше 100 сотрудников"
       ]
     },
+    "en": {
+      "q": "A company in Sweden makes a profit. Must the company also contribute to welfare through tax, just as employees do on their wages?",
+      "o": [
+        "No, only private individuals pay tax in Sweden",
+        "No, companies only pay tax if they are state-owned",
+        "Yes, tax is paid not only by working individuals but also by companies",
+        "Yes, but only if the company has more than 100 employees"
+      ]
+    },
+    "ar": {
+      "q": "تحقق شركة في السويد أرباحًا. هل يجب على الشركة أيضًا المساهمة في الرفاه عبر الضريبة، تمامًا كما يفعل الموظفون على رواتبهم؟",
+      "o": [
+        "لا، يدفع الضريبة الأفراد فقط في السويد",
+        "لا، تدفع الشركات الضريبة فقط إذا كانت مملوكة للدولة",
+        "نعم، لا يدفع الضريبة العاملون فقط بل الشركات أيضًا",
+        "نعم، لكن فقط إذا كان لدى الشركة أكثر من 100 موظف"
+      ]
+    },
     "correct": 2,
     "why": "Да — налог в Швеции платят не только работающие люди, но и компании. Утверждение, что налог платят только частные лица или только государственные компании, неверно, и никакого порога в 100 сотрудников для уплаты налога не существует."
   },
@@ -826,6 +1384,24 @@
         "Церковный налог, налог на собак и налог на алкоголь",
         "Импортная, экспортная и туристическая пошлины",
         "Подоходный налог, НДС и взносы работодателя"
+      ]
+    },
+    "en": {
+      "q": "Which three taxes, among others, help fund the Swedish welfare system?",
+      "o": [
+        "Property tax, customs duties, and road tolls",
+        "Church tax, dog tax, and alcohol tax",
+        "Import tax, export tax, and tourist tax",
+        "Income tax, VAT, and employer contributions"
+      ]
+    },
+    "ar": {
+      "q": "ما الضرائب الثلاث التي تساهم، من بين ما تساهم به، في تمويل نظام الرفاه السويدي؟",
+      "o": [
+        "ضريبة العقار والرسوم الجمركية ورسوم الطرق",
+        "ضريبة الكنيسة وضريبة الكلاب وضريبة الكحول",
+        "ضريبة الاستيراد وضريبة التصدير وضريبة السياحة",
+        "ضريبة الدخل وضريبة القيمة المضافة واشتراكات صاحب العمل"
       ]
     },
     "correct": 3,
@@ -854,6 +1430,24 @@
         "Членский взнос в профсоюз"
       ]
     },
+    "en": {
+      "q": "An employer pays wages to their employees. What type of contribution does the employer also pay to the state, part of which goes toward, among other things, health insurance and pensions?",
+      "o": [
+        "Employer contributions (arbetsgivaravgifter)",
+        "VAT",
+        "Property fee",
+        "Trade union membership fee"
+      ]
+    },
+    "ar": {
+      "q": "يدفع صاحب عمل رواتب لموظفيه. ما نوع الاشتراك الذي يدفعه صاحب العمل أيضًا للدولة، والذي يذهب جزء منه إلى أمور منها التأمين الصحي والمعاشات؟",
+      "o": [
+        "اشتراكات صاحب العمل (arbetsgivaravgifter)",
+        "ضريبة القيمة المضافة",
+        "رسم العقار",
+        "اشتراك عضوية النقابة"
+      ]
+    },
     "correct": 0,
     "why": "Работодатель платит государству взносы работодателя (arbetsgivaravgifter), часть которых идёт на медицинское страхование и пенсии сотрудников. НДС платят при покупке товаров и услуг, налог на недвижимость не связан с зарплатой сотрудников, а членский взнос в профсоюз сотрудник платит сам, а не работодатель."
   },
@@ -878,6 +1472,24 @@
         "Государство, регионы и коммуны получают больше денег на благосостояние",
         "Денег на благосостояние автоматически становится меньше",
         "Это влияет только на бюджет коммун, а не государства или регионов"
+      ]
+    },
+    "en": {
+      "q": "What happens to the money for welfare if more people get jobs and more goods and services are bought and sold?",
+      "o": [
+        "Welfare is not affected at all by how many people work",
+        "The state, the regions, and the municipalities receive more money for welfare",
+        "The money for welfare automatically decreases",
+        "Only the municipalities' budget is affected, not the state's or the regions'"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يحدث لأموال الرفاه إذا حصل مزيد من الناس على عمل واشتُريت وبيعت مزيد من السلع والخدمات؟",
+      "o": [
+        "لا يتأثر الرفاه إطلاقًا بعدد العاملين",
+        "تحصل الدولة والأقاليم الإدارية والبلديات على مزيد من الأموال للرفاه",
+        "تنخفض أموال الرفاه تلقائيًا",
+        "يتأثر فقط ميزانية البلديات، وليس ميزانية الدولة أو الأقاليم"
       ]
     },
     "correct": 1,
@@ -906,6 +1518,24 @@
         "Нет, всё здравоохранение в Швеции обязан вести сам регион"
       ]
     },
+    "en": {
+      "q": "A private health center in Sweden receives patients and is funded with tax money, just like a health center run by the public sector. Is this possible given how Swedish welfare works?",
+      "o": [
+        "No, private companies may never be funded with tax money in Sweden",
+        "Yes, but only if the health center is located in Stockholm",
+        "Yes, some welfare services are run by private companies but are still funded with tax money",
+        "No, all healthcare in Sweden must be run by the region itself"
+      ]
+    },
+    "ar": {
+      "q": "يستقبل مركز صحي خاص في السويد المرضى ويُموَّل من أموال الضرائب، تمامًا كمركز صحي تديره الدولة. هل هذا ممكن وفق طريقة عمل الرفاه السويدي؟",
+      "o": [
+        "لا، لا يجوز أبدًا تمويل الشركات الخاصة من أموال الضرائب في السويد",
+        "نعم، لكن فقط إذا كان المركز الصحي في ستوكهولم",
+        "نعم، بعض خدمات الرفاه تديرها شركات خاصة لكنها تُموَّل مع ذلك من أموال الضرائب",
+        "لا، يجب أن يدير الإقليم الإداري نفسه كل الرعاية الصحية في السويد"
+      ]
+    },
     "correct": 2,
     "why": "Да — часть услуг социального обеспечения в Швеции оказывают частные компании, но финансируются они всё равно за счёт налогов. Утверждения, что частные компании никогда не финансируются налогами, что это разрешено только в Стокгольме, или что весь уход обязан вести сам регион, не соответствуют действительности."
   },
@@ -930,6 +1560,24 @@
         "Детские сады и группы продлённого дня",
         "Гимназии в каждой коммуне",
         "Высшее образование и научные исследования в вузах"
+      ]
+    },
+    "en": {
+      "q": "The state funds study support for students. What else within education does the state fund?",
+      "o": [
+        "Compulsory schools in every municipality",
+        "Preschools and after-school programs",
+        "Upper secondary schools in every municipality",
+        "Higher education and research at colleges and universities"
+      ]
+    },
+    "ar": {
+      "q": "تموّل الدولة دعم الطلاب (studiestöd) للطلبة. ما الذي تموّله الدولة أيضًا في مجال التعليم؟",
+      "o": [
+        "المدارس الإلزامية في كل بلدية",
+        "رياض الأطفال ومراكز الرعاية بعد الدوام",
+        "المدارس الثانوية العليا في كل بلدية",
+        "التعليم العالي والبحث العلمي في الكليات والجامعات"
       ]
     },
     "correct": 3,
@@ -958,6 +1606,24 @@
         "С помощью взносов от частных страховых компаний"
       ]
     },
+    "en": {
+      "q": "How do Sweden's 21 regions fund hospitals and health centers?",
+      "o": [
+        "The regions collect tax from their own residents",
+        "Through loans the regions take from other countries",
+        "Through fees only sick patients pay",
+        "Through contributions from private insurance companies"
+      ]
+    },
+    "ar": {
+      "q": "كيف تموّل الأقاليم الإدارية الـ21 في السويد المستشفيات والمراكز الصحية؟",
+      "o": [
+        "تجمع الأقاليم الإدارية الضريبة من سكانها بنفسها",
+        "عبر قروض تأخذها الأقاليم من دول أخرى",
+        "عبر رسوم يدفعها المرضى فقط",
+        "عبر مساهمات من شركات تأمين خاصة"
+      ]
+    },
     "correct": 0,
     "why": "Регионы сами собирают налог со своих жителей и используют эти деньги, среди прочего, на содержание больниц и поликлиник. Займы у других стран, сборы только с больных пациентов и взносы частных страховых компаний не являются основным способом финансирования регионального здравоохранения."
   },
@@ -982,6 +1648,24 @@
         "Стационарная помощь (sjukhusvård)",
         "Социальная служба",
         "Уход за детьми"
+      ]
+    },
+    "en": {
+      "q": "A person needs a major operation and is admitted to a hospital for advanced treatment. What type of healthcare is this?",
+      "o": [
+        "Primary care",
+        "Hospital care",
+        "Social services",
+        "Childcare"
+      ]
+    },
+    "ar": {
+      "q": "يحتاج شخص إلى عملية جراحية كبرى ويُدخَل مستشفى لتلقي علاج متقدم. أي نوع من الرعاية الصحية هذا؟",
+      "o": [
+        "الرعاية الصحية الأولية",
+        "الرعاية الاستشفائية",
+        "الخدمات الاجتماعية",
+        "رعاية الأطفال"
       ]
     },
     "correct": 1,
@@ -1010,6 +1694,24 @@
         "К уходу за детьми в ведении коммуны"
       ]
     },
+    "en": {
+      "q": "One person needs regular dental care and another needs psychiatric care. Which category of healthcare do both of these belong to?",
+      "o": [
+        "Primary care, such as health centers",
+        "Hospital care at emergency hospitals",
+        "Other, such as psychiatric care, rehabilitation, and dental care",
+        "Childcare run by the municipality"
+      ]
+    },
+    "ar": {
+      "q": "يحتاج شخص إلى رعاية أسنان منتظمة، ويحتاج شخص آخر إلى رعاية نفسية. إلى أي فئة من الرعاية الصحية ينتمي كلاهما؟",
+      "o": [
+        "الرعاية الصحية الأولية، مثل المراكز الصحية",
+        "الرعاية الاستشفائية في مستشفيات الطوارئ",
+        "فئة «أخرى»، مثل الرعاية النفسية وإعادة التأهيل ورعاية الأسنان",
+        "رعاية الأطفال التي تديرها البلدية"
+      ]
+    },
     "correct": 2,
     "why": "Стоматологическая и психиатрическая помощь относятся к категории «прочее» (övrigt), куда входит также реабилитация. Первичная и стационарная помощь — другие категории медицинской помощи, а уход за детьми вообще не относится к здравоохранению."
   },
@@ -1034,6 +1736,24 @@
         "Регион устанавливает уровень налога для своих коммун",
         "ЕС принимает решение об едином муниципальном налоге",
         "Коммуна решает это сама"
+      ]
+    },
+    "en": {
+      "q": "Who decides how high the municipal tax should be in a Swedish municipality?",
+      "o": [
+        "The state sets the same tax level for all municipalities",
+        "The region sets the tax level for its municipalities",
+        "The EU decides on a joint municipal tax",
+        "The municipality decides for itself"
+      ]
+    },
+    "ar": {
+      "q": "من يقرر مستوى الضريبة البلدية في بلدية سويدية معينة؟",
+      "o": [
+        "تحدد الدولة مستوى ضريبة موحدًا لجميع البلديات",
+        "يحدد الإقليم الإداري مستوى الضريبة لبلدياته",
+        "يقرر الاتحاد الأوروبي ضريبة بلدية موحدة",
+        "تقرر البلدية ذلك بنفسها"
       ]
     },
     "correct": 3,
@@ -1062,6 +1782,24 @@
         "Работодатель"
       ]
     },
+    "en": {
+      "q": "A family in Sweden with young children needs a preschool spot while the parents work. Who is responsible for providing childcare?",
+      "o": [
+        "The municipality",
+        "The region",
+        "The state",
+        "The employer"
+      ]
+    },
+    "ar": {
+      "q": "تحتاج عائلة في السويد لديها أطفال صغار إلى مكان في روضة أطفال بينما يعمل الوالدان. من المسؤول عن توفير رعاية الأطفال؟",
+      "o": [
+        "البلدية",
+        "الإقليم الإداري",
+        "الدولة",
+        "صاحب العمل"
+      ]
+    },
     "correct": 0,
     "why": "За предоставление мест в детских садах и группах продлённого дня отвечает коммуна. Регион отвечает за здравоохранение, государство финансирует другие виды социального обеспечения, а работодатель не обязан предоставлять место в детском саду."
   },
@@ -1086,6 +1824,24 @@
         "Коммуна",
         "Государство",
         "Частные компании, не связанные с государственным сектором"
+      ]
+    },
+    "en": {
+      "q": "Who is responsible for upper secondary schools and municipal adult education in Sweden?",
+      "o": [
+        "The region",
+        "The municipality",
+        "The state",
+        "Private companies with no connection to the public sector"
+      ]
+    },
+    "ar": {
+      "q": "من المسؤول عن المدارس الثانوية العليا والتعليم البلدي للكبار في السويد؟",
+      "o": [
+        "الإقليم الإداري",
+        "البلدية",
+        "الدولة",
+        "شركات خاصة لا صلة لها بالقطاع العام"
       ]
     },
     "correct": 1,
@@ -1114,6 +1870,24 @@
         "Человек обязан вернуть уже полученную помощь"
       ]
     },
+    "en": {
+      "q": "An elderly person in Sweden can no longer stay at home despite help from the municipality. What can happen then?",
+      "o": [
+        "The person must move to another municipality",
+        "The person loses the right to any further help",
+        "The person can move to housing adapted for elderly people",
+        "The person must pay back the help already given"
+      ]
+    },
+    "ar": {
+      "q": "لم يعد بإمكان شخص مسن في السويد البقاء في منزله رغم المساعدة من البلدية. ماذا يمكن أن يحدث حينئذ؟",
+      "o": [
+        "يجب على الشخص الانتقال إلى بلدية أخرى",
+        "يفقد الشخص الحق في أي مساعدة إضافية",
+        "يمكن للشخص الانتقال إلى سكن مُهيَّأ لكبار السن",
+        "يجب على الشخص إعادة المساعدة التي حصل عليها بالفعل"
+      ]
+    },
     "correct": 2,
     "why": "Если оставаться дома больше не получается, человек может переехать в жильё, приспособленное для пожилых людей. Переезд в другую коммуну не требуется, право на помощь не теряется, и возвращать уже полученную помощь не нужно."
   },
@@ -1138,6 +1912,24 @@
         "Около 300 000",
         "Более миллиона",
         "Более трёх миллионов"
+      ]
+    },
+    "en": {
+      "q": "Roughly how many Swedes emigrated to the USA between 1850 and 1920?",
+      "o": [
+        "About 100,000",
+        "About 300,000",
+        "Over a million",
+        "Over three million"
+      ]
+    },
+    "ar": {
+      "q": "كم عدد السويديين تقريبًا الذين هاجروا إلى الولايات المتحدة بين عامي 1850 و1920؟",
+      "o": [
+        "نحو 100,000",
+        "نحو 300,000",
+        "أكثر من مليون",
+        "أكثر من ثلاثة ملايين"
       ]
     },
     "correct": 2,
@@ -1166,6 +1958,24 @@
         "Потребительское движение"
       ]
     },
+    "en": {
+      "q": "Which of these was one of the four largest popular movements in Sweden?",
+      "o": [
+        "The temperance movement",
+        "The environmental movement",
+        "The peace movement",
+        "The consumer movement"
+      ]
+    },
+    "ar": {
+      "q": "أي مما يلي كانت إحدى الحركات الشعبية الأربع الأكبر في السويد؟",
+      "o": [
+        "حركة الاعتدال (مكافحة الكحول)",
+        "الحركة البيئية",
+        "حركة السلام",
+        "حركة المستهلكين"
+      ]
+    },
     "correct": 0,
     "why": "Четыре крупнейших: рабочее движение (arbetarrörelsen), движение свободных церквей (frikyrkorörelsen), женское движение (kvinnorörelsen) и движение трезвости (nykterhetsrörelsen)."
   },
@@ -1185,6 +1995,24 @@
     },
     "ru": {
       "q": "В каком году прошли первые выборы в риксдаг, где голосовали и мужчины, и женщины?",
+      "o": [
+        "1909",
+        "1918",
+        "1921",
+        "1938"
+      ]
+    },
+    "en": {
+      "q": "In what year was the first Riksdag election held in which both men and women could vote?",
+      "o": [
+        "1909",
+        "1918",
+        "1921",
+        "1938"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أُجريت أول انتخابات للبرلمان صوّت فيها الرجال والنساء معًا؟",
       "o": [
         "1909",
         "1918",
@@ -1218,6 +2046,24 @@
         "Miljonprogrammet"
       ]
     },
+    "en": {
+      "q": "What is the 1938 agreement called that laid the foundation for the Swedish model?",
+      "o": [
+        "Folkhemsavtalet",
+        "Saltsjöbadsavtalet",
+        "Ådalenavtalet",
+        "Miljonprogrammet"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم اتفاقية عام 1938 التي أرست أساس «النموذج السويدي»؟",
+      "o": [
+        "Folkhemsavtalet",
+        "Saltsjöbadsavtalet",
+        "Ådalenavtalet",
+        "Miljonprogrammet"
+      ]
+    },
     "correct": 1,
     "why": "Заключено в Сальтшёбадене под Стокгольмом между работодателями и профсоюзами."
   },
@@ -1242,6 +2088,24 @@
         "Пер Альбин Ханссон",
         "Густав Ваза",
         "Густав V"
+      ]
+    },
+    "en": {
+      "q": "Who formulated the idea of the People's Home (folkhemmet) in 1928?",
+      "o": [
+        "Raoul Wallenberg",
+        "Per Albin Hansson",
+        "Gustav Vasa",
+        "Gustav V"
+      ]
+    },
+    "ar": {
+      "q": "من صاغ فكرة «البيت الشعبي» (folkhemmet) عام 1928؟",
+      "o": [
+        "راؤول والنبرغ",
+        "بير ألبين هانشون",
+        "غوستاف فاسا",
+        "غوستاف الخامس"
       ]
     },
     "correct": 1,
@@ -1270,6 +2134,24 @@
         "Было введено всеобщее избирательное право"
       ]
     },
+    "en": {
+      "q": "What happened in Ådalen in 1931?",
+      "o": [
+        "A new fundamental law was adopted",
+        "The military fired on demonstrating workers and several people were killed",
+        "Sweden joined NATO",
+        "Universal suffrage was introduced"
+      ]
+    },
+    "ar": {
+      "q": "ماذا حدث في أودالن (Ådalen) عام 1931؟",
+      "o": [
+        "أُقر قانون أساسي جديد",
+        "أطلق الجيش النار على عمال متظاهرين وقُتل عدة أشخاص",
+        "انضمت السويد إلى الناتو",
+        "استُحدث حق الاقتراع العام"
+      ]
+    },
     "correct": 1,
     "why": "Событие потрясло Швецию и показало глубину конфликта между работодателями и рабочими."
   },
@@ -1294,6 +2176,24 @@
         "Рауль Валленберг",
         "Даг Хаммаршёльд",
         "Улоф Пальме"
+      ]
+    },
+    "en": {
+      "q": "Which Swedish diplomat issued protective passports to Jews during World War II?",
+      "o": [
+        "Per Albin Hansson",
+        "Raoul Wallenberg",
+        "Dag Hammarskjöld",
+        "Olof Palme"
+      ]
+    },
+    "ar": {
+      "q": "أي دبلوماسي سويدي أصدر جوازات حماية لليهود خلال الحرب العالمية الثانية؟",
+      "o": [
+        "بير ألبين هانشون",
+        "راؤول والنبرغ",
+        "داغ همرشولد",
+        "أولوف بالمه"
       ]
     },
     "correct": 1,
@@ -1322,6 +2222,24 @@
         "Период войны Швеции с Россией"
       ]
     },
+    "en": {
+      "q": "What is meant by the Swedish 'record years' (rekordåren)?",
+      "o": [
+        "The years Sweden won the most international sports competitions",
+        "The period after World War II with strong economic growth and major reforms",
+        "The years immigration to Sweden was at its lowest",
+        "The period Sweden was at war with Russia"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يُقصد بـ«السنوات القياسية» السويدية (rekordåren)؟",
+      "o": [
+        "السنوات التي فازت فيها السويد بأكبر عدد من البطولات الرياضية الدولية",
+        "الفترة بعد الحرب العالمية الثانية التي شهدت نموًا اقتصاديًا قويًا وإصلاحات كبرى",
+        "السنوات التي كانت فيها الهجرة إلى السويد في أدنى مستوياتها",
+        "فترة خاضت فيها السويد حربًا ضد روسيا"
+      ]
+    },
     "correct": 1,
     "why": "Социал-демократы чаще всего были у власти с 1945 по 1976 год; появились 40-часовая неделя и пять недель оплачиваемого отпуска."
   },
@@ -1346,6 +2264,24 @@
         "Создать миллион новых рабочих мест",
         "Дать высшее образование миллиону шведов",
         "Принять миллион иммигрантов"
+      ]
+    },
+    "en": {
+      "q": "What was the goal of the Million Programme (miljonprogrammet) in the 1960s?",
+      "o": [
+        "To build a million housing units in ten years",
+        "To create a million new jobs",
+        "For a million Swedes to receive higher education",
+        "To take in a million immigrants"
+      ]
+    },
+    "ar": {
+      "q": "ما هدف برنامج المليون (miljonprogrammet) في ستينيات القرن العشرين؟",
+      "o": [
+        "بناء مليون وحدة سكنية خلال عشر سنوات",
+        "خلق مليون فرصة عمل جديدة",
+        "حصول مليون سويدي على تعليم عالٍ",
+        "استقبال مليون مهاجر"
       ]
     },
     "correct": 0,
@@ -1374,6 +2310,24 @@
         "Что женщины получили право работать вне дома"
       ]
     },
+    "en": {
+      "q": "What did the 'du-reform' (du-reformen) in the 1960s involve?",
+      "o": [
+        "That everyone got the right to five weeks of vacation",
+        "That people started addressing each other as 'du' (informal 'you') instead of using titles or the formal 'ni'",
+        "That school became compulsory for all children",
+        "That women got the right to work outside the home"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تضمّنت «إصلاح du» (du-reformen) في ستينيات القرن العشرين؟",
+      "o": [
+        "حصول الجميع على حق إجازة مدتها خمسة أسابيع",
+        "بدء الناس بمخاطبة بعضهم بضمير «أنت» غير الرسمي بدلًا من الألقاب أو صيغة الاحترام الرسمية",
+        "أصبحت المدرسة إلزامية لجميع الأطفال",
+        "حصول النساء على حق العمل خارج المنزل"
+      ]
+    },
     "correct": 1,
     "why": "Реформа отражала переход к более равному обществу."
   },
@@ -1398,6 +2352,24 @@
         "Бедная аграрная страна",
         "Крупная колониальная империя",
         "Страна с высоким доходом и сильным экспортом"
+      ]
+    },
+    "en": {
+      "q": "How is Sweden described about 200 years ago, compared with other countries in Europe?",
+      "o": [
+        "A wealthy industrial country",
+        "A poor agricultural country",
+        "A large colonial empire",
+        "A high-income country with strong exports"
+      ]
+    },
+    "ar": {
+      "q": "كيف تُوصف السويد قبل نحو 200 عام، مقارنة بدول أخرى في أوروبا؟",
+      "o": [
+        "بلد صناعي غني",
+        "بلد زراعي فقير",
+        "إمبراطورية استعمارية كبرى",
+        "بلد ذو دخل مرتفع وصادرات قوية"
       ]
     },
     "correct": 1,
@@ -1426,6 +2398,24 @@
         "То, что женщины получили право голоса"
       ]
     },
+    "en": {
+      "q": "What was an important reason Sweden's population doubled during the first century of the 1800s?",
+      "o": [
+        "Large-scale immigration from other countries",
+        "Better farming methods and medical advances",
+        "Shorter working hours for everyone",
+        "Women gaining the right to vote"
+      ]
+    },
+    "ar": {
+      "q": "ما السبب المهم وراء تضاعف عدد سكان السويد خلال القرن الأول من القرن التاسع عشر؟",
+      "o": [
+        "هجرة واسعة من دول أخرى",
+        "تحسّن أساليب الزراعة وتقدّم الطب",
+        "تقليص ساعات العمل للجميع",
+        "حصول النساء على حق التصويت"
+      ]
+    },
     "correct": 1,
     "why": "Более эффективное сельское хозяйство давало больше еды, а успехи медицины снижали детскую смертность — вместе это удвоило население примерно за сто лет."
   },
@@ -1450,6 +2440,24 @@
         "Эмигрировать в США в надежде на лучшую жизнь",
         "Переехать в Норвегию, которая недавно стала независимой",
         "Искать работу в государственном секторе"
+      ]
+    },
+    "en": {
+      "q": "A farm laborer in Sweden at the end of the 1800s has great difficulty supporting themselves because the country is still poor. What did many in this situation choose to do?",
+      "o": [
+        "Join a trade union, which had just become legal",
+        "Emigrate to the USA hoping for a better life",
+        "Move to Norway, which had recently become independent",
+        "Seek work in the public sector"
+      ]
+    },
+    "ar": {
+      "q": "يواجه عامل زراعي في السويد في أواخر القرن التاسع عشر صعوبة كبيرة في إعالة نفسه لأن البلاد لا تزال فقيرة. ماذا اختار كثيرون في هذا الوضع فعله؟",
+      "o": [
+        "الانضمام إلى نقابة أصبحت للتو قانونية",
+        "الهجرة إلى الولايات المتحدة أملًا في حياة أفضل",
+        "الانتقال إلى النرويج التي استقلت مؤخرًا",
+        "البحث عن عمل في القطاع العام"
       ]
     },
     "correct": 1,
@@ -1478,6 +2486,24 @@
         "Пищевая промышленность на экспорт в Азию"
       ]
     },
+    "en": {
+      "q": "Which were among the first major industries to start in Sweden in the mid-1800s?",
+      "o": [
+        "The car industry and the aircraft industry",
+        "Sawmills and the steel industry",
+        "IT companies and the telecom industry",
+        "The food industry for export to Asia"
+      ]
+    },
+    "ar": {
+      "q": "ما الصناعات الكبرى الأولى التي نشأت في السويد في منتصف القرن التاسع عشر؟",
+      "o": [
+        "صناعة السيارات وصناعة الطائرات",
+        "مناشر الخشب وصناعة الصلب",
+        "شركات تقنية المعلومات وصناعة الاتصالات",
+        "الصناعات الغذائية للتصدير إلى آسيا"
+      ]
+    },
     "correct": 1,
     "why": "Индустриализация Швеции началась с лесопилок, производивших пиломатериалы, и сталелитейных заводов; автомобильная и IT-отрасли появились намного позже."
   },
@@ -1504,6 +2530,24 @@
         "Общий совет пяти северных стран"
       ]
     },
+    "en": {
+      "q": "Which groups had long held political power in Sweden before the country became democratic?",
+      "o": [
+        "Only the members of the Riksdag, elected by all adults",
+        "The King, the nobility, the church, merchants, and farmers",
+        "Only industrial workers through trade unions",
+        "The joint council of the five Nordic countries"
+      ]
+    },
+    "ar": {
+      "q": "ما الفئات التي احتفظت طويلًا بالسلطة السياسية في السويد قبل أن تصبح البلاد ديمقراطية؟",
+      "o": [
+        "أعضاء البرلمان فقط، الذين انتخبهم جميع البالغين",
+        "الملك والنبلاء والكنيسة والتجار والفلاحون",
+        "العمال الصناعيون فقط عبر النقابات",
+        "المجلس المشترك لدول الشمال الأوروبي الخمس"
+      ]
+    },
     "correct": 1,
     "why": "Это классическое сословное деление власти в дореформенной Швеции — король и представители старых сословий: дворянство, духовенство, купечество, крестьянство."
   },
@@ -1523,6 +2567,24 @@
     },
     "ru": {
       "q": "В каком году риксдаг принял новый основной закон, ограничивший власть короля?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "en": {
+      "q": "In what year did the Riksdag adopt a new fundamental law that limited the King's power?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أقرّ البرلمان قانونًا أساسيًا جديدًا حدّ من سلطة الملك؟",
       "o": [
         "1809",
         "1865",
@@ -1556,6 +2618,24 @@
         "1918"
       ]
     },
+    "en": {
+      "q": "In what year did the nobility and the clergy lose their old political influence through a constitutional amendment, while more people gained the right to vote in Riksdag elections?",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام فقد النبلاء ورجال الدين نفوذهم السياسي القديم من خلال تعديل دستوري، في حين حصل مزيد من الناس على حق التصويت في انتخابات البرلمان؟",
+      "o": [
+        "1809",
+        "1865",
+        "1909",
+        "1918"
+      ]
+    },
     "correct": 1,
     "why": "1865 — реформа представительства риксдага, когда старые сословные привилегии дворянства и духовенства были отменены. Это позже 1809 года (ограничение власти короля), но раньше 1909 и 1918 годов (расширение избирательного права) и 1921 года (первые выборы с участием женщин)."
   },
@@ -1580,6 +2660,24 @@
         "Риксдаг перестал существовать",
         "Все решения принимал лично король",
         "Швецией всё ещё управляла Дания"
+      ]
+    },
+    "en": {
+      "q": "Despite the reform of 1865, why was Sweden not yet a democracy?",
+      "o": [
+        "Women lacked the right to vote, and only men with a certain income or wealth could vote",
+        "The Riksdag had ceased to exist",
+        "All decisions were made solely by the King personally",
+        "Sweden was still ruled by Denmark"
+      ]
+    },
+    "ar": {
+      "q": "رغم إصلاح عام 1865، لماذا لم تكن السويد بعد ديمقراطية؟",
+      "o": [
+        "لم يكن للنساء حق التصويت، ولم يصوّت إلا الرجال ذوو دخل أو ثروة معينة",
+        "توقف البرلمان عن الوجود",
+        "كان الملك وحده يتخذ جميع القرارات شخصيًا",
+        "كانت الدنمارك لا تزال تحكم السويد"
       ]
     },
     "correct": 0,
@@ -1608,6 +2706,24 @@
         "Членства в ЕС"
       ]
     },
+    "en": {
+      "q": "Which rights were among those the popular movements demanded during the 1800s?",
+      "o": [
+        "An eight-hour workday, the right to vote, and religious freedom",
+        "A 40-hour work week and five weeks of paid vacation",
+        "Women's suffrage, implemented immediately in 1865",
+        "EU membership"
+      ]
+    },
+    "ar": {
+      "q": "ما الحقوق التي طالبت بها الحركات الشعبية، من بين ما طالبت به، خلال القرن التاسع عشر؟",
+      "o": [
+        "يوم عمل من ثماني ساعات وحق التصويت وحرية الدين",
+        "أسبوع عمل من 40 ساعة وإجازة مدفوعة الأجر مدتها خمسة أسابيع",
+        "حق التصويت للنساء، الذي طُبّق فورًا عام 1865",
+        "عضوية الاتحاد الأوروبي"
+      ]
+    },
     "correct": 0,
     "why": "Народные движения XIX века боролись за конкретные политические и трудовые права — восьмичасовой рабочий день, избирательное право, свободу вероисповедания."
   },
@@ -1634,6 +2750,24 @@
         "Тайные заговоры против королевского дома"
       ]
     },
+    "en": {
+      "q": "What methods did the popular movements use to spread their message during the 1800s?",
+      "o": [
+        "Armed uprising against the state",
+        "Lawful methods such as demonstrations, protest meetings, and newspaper articles",
+        "Boycotting all general elections",
+        "Secret conspiracies against the royal house"
+      ]
+    },
+    "ar": {
+      "q": "ما الأساليب التي استخدمتها الحركات الشعبية لنشر رسالتها خلال القرن التاسع عشر؟",
+      "o": [
+        "انتفاضة مسلحة ضد الدولة",
+        "أساليب قانونية مثل المظاهرات واجتماعات الاحتجاج ومقالات الصحف",
+        "مقاطعة جميع الانتخابات العامة",
+        "مؤامرات سرية ضد البيت الملكي"
+      ]
+    },
     "correct": 1,
     "why": "Несмотря на радикальные требования, движения действовали в рамках закона: демонстрации, протестные собрания, книги и статьи в прессе — а не насилие."
   },
@@ -1653,6 +2787,24 @@
     },
     "ru": {
       "q": "В каком году риксдаг провёл законодательную реформу, давшую право голоса почти всем мужчинам?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1921"
+      ]
+    },
+    "en": {
+      "q": "In what year did the Riksdag pass a legal change giving almost all men the right to vote?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1921"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أقرّ البرلمان تعديلًا قانونيًا منح حق التصويت لكل الرجال تقريبًا؟",
       "o": [
         "1865",
         "1909",
@@ -1686,6 +2838,24 @@
         "1931"
       ]
     },
+    "en": {
+      "q": "In what year was the decision on universal suffrage made in Sweden, after many years of protest and political unrest?",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1931"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام اتُّخذ قرار الاقتراع العام في السويد، بعد سنوات طويلة من الاحتجاجات والاضطراب السياسي؟",
+      "o": [
+        "1865",
+        "1909",
+        "1918",
+        "1931"
+      ]
+    },
     "correct": 2,
     "why": "1918 — решение о полном всеобщем избирательном праве (включая женщин), но реально женщины впервые проголосовали на выборах в риксдаг лишь в 1921 году. Не путать с 1909 годом, когда почти все мужчины получили право голоса."
   },
@@ -1710,6 +2880,24 @@
         "Прошли первые выборы в риксдаг, где голосовали и женщины",
         "Дворянство и духовенство утратили своё прежнее политическое влияние",
         "Военные стреляли по демонстрирующим рабочим в Одалене"
+      ]
+    },
+    "en": {
+      "q": "Which of the following events occurred FIRST in time?",
+      "o": [
+        "The Riksdag made the decision on universal suffrage",
+        "The first Riksdag election in which women also could vote was held",
+        "The nobility and the clergy lost their old political influence",
+        "The military fired on demonstrating workers in Ådalen"
+      ]
+    },
+    "ar": {
+      "q": "أي من الأحداث التالية وقع أولًا من حيث الزمن؟",
+      "o": [
+        "اتخذ البرلمان قرار حق الاقتراع العام",
+        "أُجريت أول انتخابات للبرلمان صوّتت فيها النساء أيضًا",
+        "فقد النبلاء ورجال الدين نفوذهم السياسي القديم",
+        "أطلق الجيش النار على عمال متظاهرين في أودالن"
       ]
     },
     "correct": 2,
@@ -1738,6 +2926,24 @@
         "Швеция вступила в Лигу Наций как воюющая сторона"
       ]
     },
+    "en": {
+      "q": "What was Sweden's stance during World War I (1914–1918)?",
+      "o": [
+        "Sweden declared itself neutral",
+        "Sweden joined the German side",
+        "Sweden joined the British side",
+        "Sweden joined the League of Nations as a belligerent"
+      ]
+    },
+    "ar": {
+      "q": "ما الموقف الذي اتخذته السويد خلال الحرب العالمية الأولى (1914–1918)؟",
+      "o": [
+        "أعلنت السويد حيادها",
+        "انضمت السويد إلى الجانب الألماني",
+        "انضمت السويد إلى الجانب البريطاني",
+        "انضمت السويد إلى عصبة الأمم كطرف محارب"
+      ]
+    },
     "correct": 0,
     "why": "Так же, как и во Второй мировой войне позже, Швеция объявила о нейтралитете в Первой мировой, хотя это не спасло страну от последствий войны."
   },
@@ -1762,6 +2968,24 @@
         "Нехватка еды и других важных товаров, что привело к демонстрациям",
         "Массовая безработица из-за цифровизации",
         "Референдум о вступлении в войну"
+      ]
+    },
+    "en": {
+      "q": "Even though Sweden stood outside the fighting in World War I, what still affected the country?",
+      "o": [
+        "Major earthquakes",
+        "A shortage of food and other essential goods, which led to demonstrations",
+        "Massive unemployment due to digitalization",
+        "A referendum on joining the war"
+      ]
+    },
+    "ar": {
+      "q": "رغم أن السويد لم تشارك في القتال خلال الحرب العالمية الأولى، ما الذي أصاب البلاد رغم ذلك؟",
+      "o": [
+        "زلازل كبرى",
+        "نقص في الغذاء وسلع أساسية أخرى، ما أدى إلى مظاهرات",
+        "بطالة واسعة بسبب الرقمنة",
+        "استفتاء حول الانضمام إلى الحرب"
       ]
     },
     "correct": 1,
@@ -1790,6 +3014,24 @@
         "Запрет всех профсоюзов"
       ]
     },
+    "en": {
+      "q": "What was an important reason for the major conflicts between employers and workers in the 1920s, despite democracy having recently been achieved?",
+      "o": [
+        "The fundamental laws had been abolished",
+        "High unemployment and continued large class differences",
+        "Sweden had just joined the EU",
+        "All trade unions had been banned"
+      ]
+    },
+    "ar": {
+      "q": "ما السبب المهم وراء النزاعات الكبرى بين أصحاب العمل والعمال في عشرينيات القرن العشرين، رغم إرساء الديمقراطية مؤخرًا؟",
+      "o": [
+        "إلغاء القوانين الأساسية",
+        "ارتفاع البطالة واستمرار الفوارق الطبقية الكبيرة",
+        "انضمام السويد إلى الاتحاد الأوروبي في تلك الفترة تحديدًا",
+        "حظر جميع النقابات"
+      ]
+    },
     "correct": 1,
     "why": "Демократический прорыв 1921 года не решил экономических проблем сразу — безработица и классовое неравенство оставались источником конфликтов и забастовок."
   },
@@ -1814,6 +3056,24 @@
         "Что работодатели и профсоюзы, а не политики, договариваются об условиях на рынке труда",
         "Что все работники должны быть государственными служащими",
         "Что зарплаты определяются на референдумах"
+      ]
+    },
+    "en": {
+      "q": "What does the so-called Swedish model mean, which got its foundation in the Saltsjöbaden Agreement of 1938?",
+      "o": [
+        "That the state sets all wages by law",
+        "That employers and trade unions, not politicians, agree on labor market conditions",
+        "That all employees must be employed by the state",
+        "That wages are decided through referendums"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني ما يُعرف بـ«النموذج السويدي»، الذي أُرسي أساسه في اتفاقية سالتشوباد عام 1938؟",
+      "o": [
+        "أن الدولة تحدد جميع الأجور بموجب القانون",
+        "أن أصحاب العمل والنقابات، وليس السياسيين، يتفقون على شروط سوق العمل",
+        "أن جميع الموظفين يجب أن يعملوا لدى الدولة",
+        "أن الأجور تُحدَّد عبر استفتاءات"
       ]
     },
     "correct": 1,
@@ -1842,6 +3102,24 @@
         "Католики и протестанты"
       ]
     },
+    "en": {
+      "q": "Which minority groups were particularly affected by the so-called race biology research of the 1930s?",
+      "o": [
+        "Sami, Tornedalians, Jews, and Roma",
+        "Sweden Finns and Norwegians",
+        "Danish and Icelandic immigrants",
+        "Catholics and Protestants"
+      ]
+    },
+    "ar": {
+      "q": "ما فئات الأقليات التي تضررت بشكل خاص مما يُعرف بأبحاث «البيولوجيا العرقية» في ثلاثينيات القرن العشرين؟",
+      "o": [
+        "الصاميون وسكان تورنيدالن واليهود والروما",
+        "فنلنديو السويد والنرويجيون",
+        "المهاجرون الدنماركيون والآيسلنديون",
+        "الكاثوليك والبروتستانت"
+      ]
+    },
     "correct": 0,
     "why": "Это те же группы, которые позже, в 2000 году, были официально признаны национальными меньшинствами Швеции — но в 1930-е они стали жертвами дискриминационной псевдонауки."
   },
@@ -1866,6 +3144,24 @@
         "Всех, у кого не было постоянной работы",
         "Людей, голосовавших за оппозицию",
         "Всех, кто эмигрировал и потом вернулся"
+      ]
+    },
+    "en": {
+      "q": "Which people were often placed in hospitals or other care institutions, sometimes for the rest of their lives, during this period of Swedish history?",
+      "o": [
+        "People with mental illnesses or disabilities",
+        "Everyone who lacked permanent employment",
+        "People who voted for the opposition",
+        "Everyone who had emigrated and then returned"
+      ]
+    },
+    "ar": {
+      "q": "أي أشخاص كانوا يُودَعون غالبًا في مستشفيات أو مؤسسات رعاية أخرى، أحيانًا لبقية حياتهم، في هذه الفترة من تاريخ السويد؟",
+      "o": [
+        "أشخاص مصابون بأمراض نفسية أو إعاقات",
+        "كل من لم يكن لديه عمل ثابت",
+        "أشخاص صوّتوا للمعارضة",
+        "كل من هاجر ثم عاد"
       ]
     },
     "correct": 0,
@@ -1894,6 +3190,24 @@
         "Швеция была вынуждена уступить остров Готланд Германии"
       ]
     },
+    "en": {
+      "q": "Sweden stood outside World War II, but the country still ended up in difficult situations. What is an example from the war?",
+      "o": [
+        "Sweden allowed German soldiers to travel through the country to occupied Norway and to Finland",
+        "Sweden sent troops to defend Denmark",
+        "Sweden was repeatedly bombed by the Soviet Union",
+        "Sweden was forced to give up Gotland to Germany"
+      ]
+    },
+    "ar": {
+      "q": "لم تشارك السويد في الحرب العالمية الثانية، لكن البلاد وجدت نفسها رغم ذلك في مواقف صعبة. ما مثال على ذلك من الحرب؟",
+      "o": [
+        "سمحت السويد للجنود الألمان بعبور البلاد إلى النرويج المحتلة وإلى فنلندا",
+        "أرسلت السويد قوات للدفاع عن الدنمارك",
+        "تعرضت السويد للقصف مرارًا من الاتحاد السوفيتي",
+        "اضطرت السويد للتنازل عن جوتلاند لألمانيا"
+      ]
+    },
     "correct": 0,
     "why": "Чтобы снизить риск быть втянутой в войну, шведское правительство разрешило германский транзит войск — компромисс нейтралитета, вызывающий споры до сих пор."
   },
@@ -1918,6 +3232,24 @@
         "ООН",
         "Шведская церковь",
         "НАТО"
+      ]
+    },
+    "en": {
+      "q": "Which organization saved thousands of Jews from German concentration camps at the end of World War II with the help of the so-called White Buses?",
+      "o": [
+        "The Red Cross",
+        "The UN",
+        "The Church of Sweden",
+        "NATO"
+      ]
+    },
+    "ar": {
+      "q": "أي منظمة أنقذت آلاف اليهود من معسكرات الاعتقال الألمانية في نهاية الحرب العالمية الثانية بمساعدة ما يُعرف بـ«الحافلات البيضاء»؟",
+      "o": [
+        "الصليب الأحمر",
+        "الأمم المتحدة",
+        "كنيسة السويد",
+        "الناتو"
       ]
     },
     "correct": 0,
@@ -1946,6 +3278,24 @@
         "Левая партия"
       ]
     },
+    "en": {
+      "q": "Which party most often held government power in Sweden during the record years, from 1945 to 1976?",
+      "o": [
+        "Socialdemokraterna",
+        "Moderaterna",
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ]
+    },
+    "ar": {
+      "q": "أي حزب تولّى السلطة الحكومية في السويد في أغلب الأحيان خلال «السنوات القياسية»، من 1945 إلى 1976؟",
+      "o": [
+        "Socialdemokraterna",
+        "Moderaterna",
+        "Centerpartiet",
+        "Vänsterpartiet"
+      ]
+    },
     "correct": 0,
     "why": "Социал-демократы пользовались сильной поддержкой избирателей и почти непрерывно правили самостоятельно все эти три десятилетия."
   },
@@ -1970,6 +3320,24 @@
         "20-часовая рабочая неделя и две недели отпуска",
         "60-часовая рабочая неделя без отпуска",
         "35-часовая рабочая неделя, но неоплачиваемый отпуск"
+      ]
+    },
+    "en": {
+      "q": "What working conditions were introduced for employees during the record years?",
+      "o": [
+        "A 40-hour work week and five weeks of paid vacation",
+        "A 20-hour work week and two weeks of vacation",
+        "A 60-hour work week with no vacation",
+        "A 35-hour work week but unpaid vacation"
+      ]
+    },
+    "ar": {
+      "q": "ما ظروف العمل التي استُحدثت للموظفين خلال «السنوات القياسية»؟",
+      "o": [
+        "أسبوع عمل من 40 ساعة وإجازة مدفوعة الأجر مدتها خمسة أسابيع",
+        "أسبوع عمل من 20 ساعة وإجازة أسبوعين",
+        "أسبوع عمل من 60 ساعة دون إجازة",
+        "أسبوع عمل من 35 ساعة لكن إجازة غير مدفوعة"
       ]
     },
     "correct": 0,
@@ -1998,6 +3366,24 @@
         "Из Японии, Китая и Южной Кореи"
       ]
     },
+    "en": {
+      "q": "From which countries did many people immigrate to Sweden to work during the record years?",
+      "o": [
+        "Finland, Greece, Yugoslavia, and Turkey",
+        "France, Germany, and the United Kingdom",
+        "The USA, Canada, and Australia",
+        "Japan, China, and South Korea"
+      ]
+    },
+    "ar": {
+      "q": "من أي دول هاجر كثير من الناس إلى السويد للعمل خلال «السنوات القياسية»؟",
+      "o": [
+        "فنلندا واليونان ويوغوسلافيا وتركيا",
+        "فرنسا وألمانيا والمملكة المتحدة",
+        "الولايات المتحدة وكندا وأستراليا",
+        "اليابان والصين وكوريا الجنوبية"
+      ]
+    },
     "correct": 0,
     "why": "В «рекордные годы» многие приезжали работать в Швецию именно из Финляндии, Греции, Югославии и Турции — это основные страны трудовой миграции того периода."
   },
@@ -2022,6 +3408,24 @@
         "Страной без рабочей силы",
         "Страной с сокращающимся населением",
         "Страной, полностью закрывшей границы"
+      ]
+    },
+    "en": {
+      "q": "During the 1800s Sweden had been a country many left. What did the country become instead during the record years, thanks to the strong economy?",
+      "o": [
+        "A country of immigration",
+        "A country with no labor force at all",
+        "A country with a shrinking population",
+        "A country that closed its borders completely"
+      ]
+    },
+    "ar": {
+      "q": "كانت السويد في القرن التاسع عشر بلدًا يهجره كثيرون. بماذا أصبحت البلاد بدلًا من ذلك خلال «السنوات القياسية» بفضل الاقتصاد القوي؟",
+      "o": [
+        "بلد هجرة وافدة",
+        "بلد بلا أي قوى عاملة",
+        "بلد يتقلص عدد سكانه",
+        "بلد أغلق حدوده تمامًا"
       ]
     },
     "correct": 0,
@@ -2050,6 +3454,24 @@
         "Радио"
       ]
     },
+    "en": {
+      "q": "What new technology arrived in the early 1960s and changed how people took in news and entertainment?",
+      "o": [
+        "The television set",
+        "The internet",
+        "The mobile phone",
+        "The radio"
+      ]
+    },
+    "ar": {
+      "q": "ما التقنية الجديدة التي ظهرت في أوائل ستينيات القرن العشرين وغيّرت طريقة متابعة الناس للأخبار والترفيه؟",
+      "o": [
+        "جهاز التلفزيون",
+        "الإنترنت",
+        "الهاتف المحمول",
+        "الراديو"
+      ]
+    },
     "correct": 0,
     "why": "Именно телевизор стал новинкой начала 1960-х годов. Радио уже существовало раньше, а интернет и мобильный телефон появились значительно позже."
   },
@@ -2076,6 +3498,24 @@
         "Потому что государство требовало диплом для права голоса"
       ]
     },
+    "en": {
+      "q": "Why did the need for lifelong learning and adult education increase as the information society emerged from the 1970s onward?",
+      "o": [
+        "Because knowledge quickly became outdated as technological development accelerated",
+        "Because all universities had closed",
+        "Because industrial society still dominated completely",
+        "Because the state required a degree in order to vote"
+      ]
+    },
+    "ar": {
+      "q": "لماذا ازدادت الحاجة إلى التعلّم مدى الحياة وتعليم الكبار مع نشوء مجتمع المعلومات ابتداءً من سبعينيات القرن العشرين؟",
+      "o": [
+        "لأن المعرفة كانت تصبح قديمة بسرعة مع تسارع التطور التقني",
+        "لأن جميع الجامعات أُغلقت",
+        "لأن المجتمع الصناعي كان لا يزال مهيمنًا تمامًا",
+        "لأن الدولة اشترطت شهادة جامعية لحق التصويت"
+      ]
+    },
     "correct": 0,
     "why": "Быстрое технологическое развитие означало, что полученные знания устаревали быстрее, чем раньше, — отсюда рост значения непрерывного и взрослого образования."
   },
@@ -2095,6 +3535,24 @@
     },
     "ru": {
       "q": "В каком году Швеция, отчасти как реакция на экономический кризис, впервые за несколько десятилетий получила несоциал-демократическое правительство?",
+      "o": [
+        "1965",
+        "1976",
+        "1990",
+        "2003"
+      ]
+    },
+    "en": {
+      "q": "In what year did Sweden, partly as a reaction to the economic crisis, get its first non-Social Democratic government in several decades?",
+      "o": [
+        "1965",
+        "1976",
+        "1990",
+        "2003"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام حصلت السويد، جزئيًا كرد فعل على الأزمة الاقتصادية، على أول حكومة غير اشتراكية ديمقراطية منذ عدة عقود؟",
       "o": [
         "1965",
         "1976",
@@ -2128,6 +3586,24 @@
         "То, что государство запретило частные альтернативы"
       ]
     },
+    "en": {
+      "q": "From the 1980s, more and more people in Sweden want to be able to choose for themselves, for example which school or health center to use. What social development does this reflect?",
+      "o": [
+        "Increased freedom of choice and the growing importance of individual rights",
+        "Reduced freedom of choice due to new laws",
+        "That the municipalities removed all options to choose",
+        "That the state banned private alternatives"
+      ]
+    },
+    "ar": {
+      "q": "منذ ثمانينيات القرن العشرين، يريد عدد متزايد من الناس في السويد اختيار، مثلًا، مدرستهم أو مركزهم الصحي بأنفسهم. أي تطور مجتمعي يعكس هذا؟",
+      "o": [
+        "تزايد حرية الاختيار وتنامي أهمية حقوق الفرد",
+        "تراجع حرية الاختيار بسبب قوانين جديدة",
+        "إلغاء البلديات لكل إمكانيات الاختيار",
+        "حظر الدولة للبدائل الخاصة"
+      ]
+    },
     "correct": 0,
     "why": "С 1980-х годов усилилось внимание к правам и выбору отдельного человека — это отразилось, в частности, в возможности выбирать школу и медицинское учреждение."
   },
@@ -2152,6 +3628,24 @@
         "Индустриализация",
         "Реформа народного дома",
         "Аграрная революция"
+      ]
+    },
+    "en": {
+      "q": "Which major change, still ongoing, began in Sweden from the 1990s onward and includes, among other things, computers, the internet, and smartphones?",
+      "o": [
+        "The digital revolution",
+        "Industrialization",
+        "The People's Home reform",
+        "The agrarian revolution"
+      ]
+    },
+    "ar": {
+      "q": "ما التغيّر الكبير المستمر حتى اليوم، الذي بدأ في السويد منذ تسعينيات القرن العشرين، ويشمل من بين ما يشمله الحواسيب والإنترنت والهواتف الذكية؟",
+      "o": [
+        "الثورة الرقمية",
+        "التصنيع",
+        "إصلاح البيت الشعبي (folkhemmet)",
+        "الثورة الزراعية"
       ]
     },
     "correct": 0,

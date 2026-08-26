@@ -22,6 +22,24 @@
         "Мальмбергет"
       ]
     },
+    "en": {
+      "q": "Which is Sweden's northernmost point?",
+      "o": [
+        "Smygehuk",
+        "Kebnekaise",
+        "Treriksröset",
+        "Malmberget"
+      ]
+    },
+    "ar": {
+      "q": "ما هي أقصى نقطة في شمال السويد؟",
+      "o": [
+        "سميوغهوك",
+        "كبنكايسه",
+        "تريريكسروسيت",
+        "مالمبرييت"
+      ]
+    },
     "correct": 2,
     "why": "Швеция вытянута примерно на 1600 км от Трериксрёсета на севере до Смюгехука на юге."
   },
@@ -46,6 +64,24 @@
         "Балтийское море",
         "Каттегат",
         "Атлантика"
+      ]
+    },
+    "en": {
+      "q": "What is the name of the sea off Sweden's east coast?",
+      "o": [
+        "Skagerrak",
+        "the Baltic Sea",
+        "Kattegat",
+        "the Atlantic"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم البحر الواقع قبالة الساحل الشرقي للسويد؟",
+      "o": [
+        "سكاغيراك",
+        "بحر البلطيق",
+        "كاتيغات",
+        "المحيط الأطلسي"
       ]
     },
     "correct": 1,
@@ -74,6 +110,24 @@
         "Потому что страна лежит севернее полярного круга"
       ]
     },
+    "en": {
+      "q": "Why does Sweden have a mild climate compared with other areas at the same latitude?",
+      "o": [
+        "Because the country has many lakes",
+        "Because the Gulf Stream and the North Atlantic Current carry warm water toward Europe",
+        "Because more than half the land is covered by forest",
+        "Because the country lies north of the Arctic Circle"
+      ]
+    },
+    "ar": {
+      "q": "لماذا يكون مناخ السويد معتدلًا مقارنة بمناطق أخرى تقع على خط العرض نفسه؟",
+      "o": [
+        "لأن البلاد بها الكثير من البحيرات",
+        "لأن تيار الخليج (Gulfströmmen) والتيار الأطلسي الشمالي ينقلان الماء الدافئ نحو أوروبا",
+        "لأن أكثر من نصف مساحة البلاد مغطاة بالغابات",
+        "لأن البلاد تقع شمال الدائرة القطبية الشمالية"
+      ]
+    },
     "correct": 1,
     "why": "Тёплая вода греет воздух, а ветры приносят более мягкий и влажный воздух на Швецию."
   },
@@ -100,6 +154,24 @@
         "Веттерн, Сильян и Стуршён"
       ]
     },
+    "en": {
+      "q": "What are Sweden's three largest lakes?",
+      "o": [
+        "Vänern, Vättern and Mälaren",
+        "Vänern, Öland and Gotland",
+        "Mälaren, Kattegat and Vättern",
+        "Vättern, Siljan and Storsjön"
+      ]
+    },
+    "ar": {
+      "q": "ما هي أكبر ثلاث بحيرات في السويد؟",
+      "o": [
+        "فنرن وفترن وملرن (Vänern, Vättern, Mälaren)",
+        "فنرن وأولاند وغوتلاند",
+        "ملرن وكاتيغات وفترن",
+        "فترن وسيلين وستورشون"
+      ]
+    },
     "correct": 0,
     "why": "Vänern, Vättern и Mälaren — три крупнейших озера Швеции. Эланд и Готланд — это острова, а Каттегат — море."
   },
@@ -119,6 +191,24 @@
     },
     "ru": {
       "q": "На сколько коммун разделена Швеция?",
+      "o": [
+        "21",
+        "25",
+        "290",
+        "349"
+      ]
+    },
+    "en": {
+      "q": "How many municipalities (kommuner) is Sweden divided into?",
+      "o": [
+        "21",
+        "25",
+        "290",
+        "349"
+      ]
+    },
+    "ar": {
+      "q": "إلى كم بلدية (kommun) تنقسم السويد؟",
       "o": [
         "21",
         "25",
@@ -152,6 +242,24 @@
         "Бухуслен"
       ]
     },
+    "en": {
+      "q": "Which part of the country covers more than half of Sweden's land area?",
+      "o": [
+        "Götaland",
+        "Svealand",
+        "Norrland",
+        "Bohuslän"
+      ]
+    },
+    "ar": {
+      "q": "أي جزء من البلاد يغطي أكثر من نصف مساحة السويد؟",
+      "o": [
+        "يوتالاند (Götaland)",
+        "سفيالاند (Svealand)",
+        "نورلاند (Norrland)",
+        "بوهوسلين (Bohuslän)"
+      ]
+    },
     "correct": 2,
     "why": "Норрланд — север; Свеаланд — центр; Гёталанд — юг. Бухуслен — это ландскап, а не одна из трёх частей."
   },
@@ -176,6 +284,24 @@
         "Около 65 процентов",
         "Около 85 процентов",
         "Почти 100 процентов"
+      ]
+    },
+    "en": {
+      "q": "Roughly what share of Sweden's population lives in cities?",
+      "o": [
+        "About 50 percent",
+        "About 65 percent",
+        "About 85 percent",
+        "Almost 100 percent"
+      ]
+    },
+    "ar": {
+      "q": "ما هي تقريبًا نسبة سكان السويد الذين يعيشون في المدن؟",
+      "o": [
+        "حوالي 50 بالمئة",
+        "حوالي 65 بالمئة",
+        "حوالي 85 بالمئة",
+        "ما يقارب 100 بالمئة"
       ]
     },
     "correct": 2,
@@ -204,6 +330,24 @@
         "В Бухуслене"
       ]
     },
+    "en": {
+      "q": "Where are Sweden's largest iron ore mines located?",
+      "o": [
+        "In Norrbotten county",
+        "In Skåne",
+        "On Gotland",
+        "In Bohuslän"
+      ]
+    },
+    "ar": {
+      "q": "أين تقع أكبر مناجم خام الحديد في السويد؟",
+      "o": [
+        "في مقاطعة نوربوتن (Norrbotten)",
+        "في سكونه (Skåne)",
+        "في جوتلاند",
+        "في بوهوسلين"
+      ]
+    },
     "correct": 0,
     "why": "Кируна и Мальмбергет — в Норрботтене; руду вывозят поездами."
   },
@@ -223,6 +367,24 @@
     },
     "ru": {
       "q": "К какому году, согласно цели климатического закона, выбросы парниковых газов в Швеции должны быть максимально близки к нулю?",
+      "o": [
+        "2030",
+        "2035",
+        "2045",
+        "2050"
+      ]
+    },
+    "en": {
+      "q": "By which year, according to the target in the Climate Act, should Sweden's greenhouse gas emissions be as close to zero as possible?",
+      "o": [
+        "2030",
+        "2035",
+        "2045",
+        "2050"
+      ]
+    },
+    "ar": {
+      "q": "بحلول أي عام، وفقًا لهدف قانون المناخ، يجب أن تكون انبعاثات غازات الاحتباس الحراري في السويد قريبة من الصفر قدر الإمكان؟",
       "o": [
         "2030",
         "2035",
@@ -256,6 +418,24 @@
         "Мальмбергет"
       ]
     },
+    "en": {
+      "q": "Which is Sweden's southernmost point?",
+      "o": [
+        "Treriksröset",
+        "Smygehuk",
+        "Kebnekaise",
+        "Malmberget"
+      ]
+    },
+    "ar": {
+      "q": "ما هي أقصى نقطة في جنوب السويد؟",
+      "o": [
+        "تريريكسروسيت",
+        "سميوغهوك",
+        "كبنكايسه",
+        "مالمبرييت"
+      ]
+    },
     "correct": 1,
     "why": "Смюгехук — самая южная точка Швеции, на противоположном конце страны от Трериксрёсета (самой северной точки). Кебнекайсе — самая высокая гора, а Мальмбергет — шахтёрский посёлок в Норрботтене; они не связаны с крайними точками страны."
   },
@@ -280,6 +460,24 @@
         "Финляндия, Латвия, Литва, Норвегия и Швеция",
         "Дания, Финляндия, Исландия, Норвегия и Швеция",
         "Дания, Финляндия, Норвегия, Польша и Швеция"
+      ]
+    },
+    "en": {
+      "q": "Which five countries make up the Nordic region (Norden)?",
+      "o": [
+        "Denmark, Estonia, Finland, Norway and Sweden",
+        "Finland, Latvia, Lithuania, Norway and Sweden",
+        "Denmark, Finland, Iceland, Norway and Sweden",
+        "Denmark, Finland, Norway, Poland and Sweden"
+      ]
+    },
+    "ar": {
+      "q": "ما هي الدول الخمس التي تتكون منها منطقة الشمال الأوروبي (Norden)؟",
+      "o": [
+        "الدنمارك وإستونيا وفنلندا والنرويج والسويد",
+        "فنلندا ولاتفيا وليتوانيا والنرويج والسويد",
+        "الدنمارك وفنلندا وآيسلندا والنرويج والسويد",
+        "الدنمارك وفنلندا والنرويج وبولندا والسويد"
       ]
     },
     "correct": 2,
@@ -308,6 +506,24 @@
         "Северо-Атлантическое течение"
       ]
     },
+    "en": {
+      "q": "Together with the Gulf Stream, which current carries warm water toward Europe and makes Sweden's climate milder?",
+      "o": [
+        "The California Current",
+        "The Labrador Current",
+        "The Canary Current",
+        "The North Atlantic Current"
+      ]
+    },
+    "ar": {
+      "q": "ما هو التيار الذي ينقل، إلى جانب تيار الخليج، الماء الدافئ نحو أوروبا ويجعل مناخ السويد أكثر اعتدالًا؟",
+      "o": [
+        "تيار كاليفورنيا",
+        "تيار لابرادور",
+        "تيار الكناري",
+        "التيار الأطلسي الشمالي"
+      ]
+    },
     "correct": 3,
     "why": "Северо-Атлантическое течение продолжает путь Гольфстрима через Атлантику к Европе. Остальные течения реальны, но действуют у берегов Северной и Южной Америки или Африки, а не у Скандинавии."
   },
@@ -332,6 +548,24 @@
         "Швеция получила мягкий климат по сравнению с другими странами на той же широте",
         "Швецию поделили на 21 лен",
         "Население переехало в города"
+      ]
+    },
+    "en": {
+      "q": "What was one result of Sweden being covered by ice about 10,000 years ago?",
+      "o": [
+        "The landscape was shaped, including many lakes and archipelagos",
+        "Sweden got its mild climate compared with other countries at the same latitude",
+        "Sweden was divided into 21 counties",
+        "The population moved to the cities"
+      ]
+    },
+    "ar": {
+      "q": "ما هي إحدى نتائج تغطية الجليد للسويد قبل نحو 10,000 سنة؟",
+      "o": [
+        "تشكّل المشهد الطبيعي، بما في ذلك الكثير من البحيرات والأرخبيلات",
+        "اكتسبت السويد مناخها المعتدل مقارنة بدول أخرى على خط العرض نفسه",
+        "قُسّمت السويد إلى 21 مقاطعة",
+        "انتقل السكان إلى المدن"
       ]
     },
     "correct": 0,
@@ -360,6 +594,24 @@
         "Около 500 метров"
       ]
     },
+    "en": {
+      "q": "Roughly how high is Sweden's highest mountain, Kebnekaise?",
+      "o": [
+        "About 1,000 meters",
+        "About 2,000 meters",
+        "About 3,000 meters",
+        "About 500 meters"
+      ]
+    },
+    "ar": {
+      "q": "ما هو الارتفاع التقريبي لأعلى جبل في السويد، كبنكايسه؟",
+      "o": [
+        "نحو 1000 متر",
+        "نحو 2000 متر",
+        "نحو 3000 متر",
+        "نحو 500 متر"
+      ]
+    },
     "correct": 1,
     "why": "Кебнекайсе достигает примерно 2000 метров. Это заметно ниже гор высотой 3000 метров и выше, встречающихся, например, в Альпах, но всё же значительно выше холмистой местности южной Швеции."
   },
@@ -384,6 +636,24 @@
         "Весь лес в горах вырубили для промышленности",
         "Климат там слишком холодный и ветреный для деревьев",
         "Горы расположены ниже уровня моря"
+      ]
+    },
+    "en": {
+      "q": "Why do no trees grow in the Swedish mountains (fjällen)?",
+      "o": [
+        "The ground is too protected by the right of public access (allemansrätten) to grow anything on",
+        "All the forest in the mountains has been cut down for industry",
+        "The climate is too cold and windy for trees",
+        "The mountains lie below sea level"
+      ]
+    },
+    "ar": {
+      "q": "لماذا لا تنمو أشجار في الجبال السويدية (fjällen)؟",
+      "o": [
+        "لأن الأرض محمية جدًا بموجب حق الوصول العام للطبيعة (allemansrätten) بحيث لا يمكن الزراعة عليها",
+        "لأن كل غابات الجبال قُطعت لصالح الصناعة",
+        "لأن المناخ بارد وعاصف جدًا بحيث لا تنمو فيه الأشجار",
+        "لأن الجبال تقع تحت مستوى سطح البحر"
       ]
     },
     "correct": 2,
@@ -412,6 +682,24 @@
         "Больше половины"
       ]
     },
+    "en": {
+      "q": "Roughly what share of Sweden's land area is covered by forest?",
+      "o": [
+        "About a quarter",
+        "Less than a tenth",
+        "Almost the entire area",
+        "More than half"
+      ]
+    },
+    "ar": {
+      "q": "ما هي تقريبًا نسبة مساحة السويد المغطاة بالغابات؟",
+      "o": [
+        "حوالي الربع",
+        "أقل من العُشر",
+        "تقريبًا كل المساحة",
+        "أكثر من النصف"
+      ]
+    },
     "correct": 3,
     "why": "Лес покрывает больше половины территории Швеции. Это заметно больше четверти или десятой части, но не «почти всю площадь» — часть земли занята озёрами, горами, сельхозугодьями и городами."
   },
@@ -436,6 +724,24 @@
         "На севере растут в основном лиственные деревья, а хвойные преобладают на юге",
         "По всей стране растут только хвойные деревья",
         "Лес абсолютно одинаковый по всей Швеции независимо от климата"
+      ]
+    },
+    "en": {
+      "q": "How does the forest differ between northern and southern Sweden?",
+      "o": [
+        "In the north, where the climate is colder, conifers such as spruce and pine are most common, while broadleaf trees are more common further south",
+        "In the north mostly broadleaf trees grow, while conifers dominate in the south",
+        "Only conifers grow throughout the whole country",
+        "The forest is exactly the same across all of Sweden regardless of climate"
+      ]
+    },
+    "ar": {
+      "q": "كيف تختلف الغابات بين شمال السويد وجنوبها؟",
+      "o": [
+        "في الشمال، حيث المناخ أبرد، تسود الأشجار الصنوبرية مثل التنوب والصنوبر، بينما تنتشر الأشجار المتساقطة الأوراق أكثر في الجنوب",
+        "في الشمال تنمو غالبًا أشجار متساقطة الأوراق، بينما تسود الأشجار الصنوبرية في الجنوب",
+        "تنمو الأشجار الصنوبرية فقط في جميع أنحاء البلاد",
+        "الغابات متطابقة تمامًا في جميع أنحاء السويد بغض النظر عن المناخ"
       ]
     },
     "correct": 0,
@@ -464,6 +770,24 @@
         "Коммуна"
       ]
     },
+    "en": {
+      "q": "A boat tourist sails along Sweden's east coast and passes a sea area with thousands of small islands close to shore. What is such an area called?",
+      "o": [
+        "Fjäll (mountains)",
+        "Skärgård (archipelago)",
+        "Landskap (province)",
+        "Kommun (municipality)"
+      ]
+    },
+    "ar": {
+      "q": "يبحر سائح بقارب على طول الساحل الشرقي للسويد ويمر بمنطقة بحرية بها آلاف الجزر الصغيرة القريبة من الشاطئ. ما اسم هذه المنطقة؟",
+      "o": [
+        "الجبال (fjäll)",
+        "الأرخبيل (skärgård)",
+        "الإقليم التاريخي (landskap)",
+        "البلدية (kommun)"
+      ]
+    },
     "correct": 1,
     "why": "Такой прибрежный район с множеством близко расположенных островов называется шхеры (skärgård). Горы (fjäll) — это горная местность, ландскап — историческая область, а коммуна — административная единица; ни то, ни другое, ни третье не описывает скопление морских островов."
   },
@@ -490,6 +814,24 @@
         "Нет, это верно только для побережья Балтийского моря, а не для всей страны"
       ]
     },
+    "en": {
+      "q": "Someone claims that no other country in the world has more islands than Sweden. Is that true?",
+      "o": [
+        "No, Norway has more islands than Sweden",
+        "No, Finland has more islands than Sweden",
+        "Yes, Sweden has around 250,000 islands, more than any other country",
+        "No, that's only true for the Baltic coast, not the whole country"
+      ]
+    },
+    "ar": {
+      "q": "يدّعي شخص ما أنه لا توجد دولة أخرى في العالم بها جزر أكثر من السويد. هل هذا صحيح؟",
+      "o": [
+        "لا، النرويج بها جزر أكثر من السويد",
+        "لا، فنلندا بها جزر أكثر من السويد",
+        "نعم، يوجد في السويد نحو 250,000 جزيرة، أكثر من أي دولة أخرى",
+        "لا، هذا صحيح فقط بالنسبة لساحل بحر البلطيق، وليس للبلاد كلها"
+      ]
+    },
     "correct": 2,
     "why": "В Швеции насчитывается около 250 000 островов — больше, чем в любой другой стране мира. Норвегия и Финляндия тоже богаты островами и шхерами, но не превосходят по их числу Швецию."
   },
@@ -509,6 +851,24 @@
     },
     "ru": {
       "q": "На сколько ландскапов (исторических областей) разделена Швеция?",
+      "o": [
+        "21",
+        "290",
+        "349",
+        "25"
+      ]
+    },
+    "en": {
+      "q": "How many provinces (landskap) is Sweden divided into?",
+      "o": [
+        "21",
+        "290",
+        "349",
+        "25"
+      ]
+    },
+    "ar": {
+      "q": "إلى كم إقليم تاريخي (landskap) تنقسم السويد؟",
       "o": [
         "21",
         "290",
@@ -542,6 +902,24 @@
         "Ландскапы определяют уровень налогов в своих коммунах"
       ]
     },
+    "en": {
+      "q": "What role do the 25 provinces (landskap) play in how Sweden is governed today?",
+      "o": [
+        "None — the provinces have no role in governance today, but many people feel a connection to their province",
+        "The provinces run healthcare in their areas",
+        "Each province has its own government",
+        "The provinces decide the tax level in their municipalities"
+      ]
+    },
+    "ar": {
+      "q": "ما هو دور الأقاليم التاريخية الخمسة والعشرين (landskap) في طريقة حكم السويد اليوم؟",
+      "o": [
+        "لا دور لها رسميًا — لا تؤثر الأقاليم اليوم على الحكم، لكن كثيرًا من السويديين يشعرون بارتباط بإقليمهم",
+        "تدير الأقاليم الرعاية الصحية في مناطقها",
+        "لكل إقليم حكومته الخاصة",
+        "تحدد الأقاليم مستوى الضرائب في بلدياتها"
+      ]
+    },
     "correct": 0,
     "why": "Ландскапы раньше имели собственные законы, но сегодня не играют административной роли — хотя многие шведы по-прежнему чувствуют связь со своим ландскапом, где родились или живут. Здравоохранением занимаются регионы, налоги устанавливают коммуны и регионы, а собственных правительств у ландскапов нет."
   },
@@ -566,6 +944,24 @@
         "Стокгольм, Гётеборг и Мальмё",
         "Гётеборг, Мальмё и Лунд",
         "Стокгольм, Гётеборг и Норрчёпинг"
+      ]
+    },
+    "en": {
+      "q": "What are Sweden's three largest cities?",
+      "o": [
+        "Stockholm, Uppsala and Malmö",
+        "Stockholm, Gothenburg and Malmö",
+        "Gothenburg, Malmö and Lund",
+        "Stockholm, Gothenburg and Norrköping"
+      ]
+    },
+    "ar": {
+      "q": "ما هي أكبر ثلاث مدن في السويد؟",
+      "o": [
+        "ستوكهولم وأوبسالا ومالمو",
+        "ستوكهولم وغوتنبرغ ومالمو",
+        "غوتنبرغ ومالمو ولوند",
+        "ستوكهولم وغوتنبرغ ونورشوبينغ"
       ]
     },
     "correct": 1,
@@ -594,6 +990,24 @@
         "Сконе на юге"
       ]
     },
+    "en": {
+      "q": "A person plans to move to a sparsely populated part of Sweden with long distances between neighbors. Which part of the country is most likely?",
+      "o": [
+        "The Stockholm region",
+        "The west coast around Gothenburg",
+        "Northern Sweden",
+        "Skåne in the south"
+      ]
+    },
+    "ar": {
+      "q": "يخطط شخص للانتقال إلى منطقة قليلة السكان في السويد حيث تفصل مسافات طويلة بين الجيران. أي جزء من البلاد هو الأكثر ترجيحًا؟",
+      "o": [
+        "منطقة ستوكهولم",
+        "الساحل الغربي حول غوتنبرغ",
+        "شمال السويد",
+        "سكونه في الجنوب"
+      ]
+    },
     "correct": 2,
     "why": "Население Швеции распределено неравномерно — большинство живёт на юге страны и вдоль побережий, поэтому именно север страны наименее заселён. Стокгольм, Гётеборг и Сконе, наоборот, относятся к самым густонаселённым регионам."
   },
@@ -618,6 +1032,24 @@
         "Алмазы и платину",
         "Соль и известняк",
         "Медь, цинк, свинец и золото"
+      ]
+    },
+    "en": {
+      "q": "Swedish mines extract iron ore. Which other minerals are also mined there?",
+      "o": [
+        "Coal, oil and natural gas",
+        "Diamonds and platinum",
+        "Salt and limestone",
+        "Copper, zinc, lead and gold"
+      ]
+    },
+    "ar": {
+      "q": "تستخرج المناجم السويدية خام الحديد. ما هي المعادن الأخرى التي تُستخرج فيها أيضًا؟",
+      "o": [
+        "الفحم والنفط والغاز الطبيعي",
+        "الألماس والبلاتين",
+        "الملح والحجر الجيري",
+        "النحاس والزنك والرصاص والذهب"
       ]
     },
     "correct": 3,
@@ -646,6 +1078,24 @@
         "Они важны только для экспорта в Норвегию"
       ]
     },
+    "en": {
+      "q": "What role have iron and steel played for Sweden's economy?",
+      "o": [
+        "They have long been important for the economy",
+        "They only became important in the 21st century",
+        "They have never had any major importance",
+        "They are important only for exports to Norway"
+      ]
+    },
+    "ar": {
+      "q": "ما هي الأهمية التي شكّلها الحديد والصلب لاقتصاد السويد؟",
+      "o": [
+        "ظلّا مهمّين للاقتصاد منذ زمن طويل",
+        "أصبحا مهمّين فقط في القرن الحادي والعشرين",
+        "لم يكن لهما أي أهمية كبيرة على الإطلاق",
+        "مهمّان فقط للتصدير إلى النرويج"
+      ]
+    },
     "correct": 0,
     "why": "Железо и сталь долгое время были важной частью шведской экономики, а не недавним явлением XXI века и не второстепенным продуктом для одной страны-соседа — продукция экспортируется во многие страны."
   },
@@ -670,6 +1120,24 @@
         "Для сельского хозяйства, промышленности и как источник энергии для гидроэлектростанций",
         "Только для рыболовства и туризма",
         "Больше ни для чего не используется"
+      ]
+    },
+    "en": {
+      "q": "Sweden's water is used as drinking water. What else is it used for?",
+      "o": [
+        "Only as a shipping route for vessels",
+        "Agriculture, industry and as an energy source for hydropower",
+        "Only for fishing and tourism",
+        "It is not used for anything else"
+      ]
+    },
+    "ar": {
+      "q": "تُستخدم مياه السويد كمياه شرب. فيم تُستخدم أيضًا؟",
+      "o": [
+        "فقط كممر ملاحي للسفن",
+        "الزراعة والصناعة، وكمصدر طاقة لتوليد الكهرباء المائية",
+        "فقط للصيد والسياحة",
+        "لا تُستخدم لأي غرض آخر"
       ]
     },
     "correct": 1,
@@ -698,6 +1166,24 @@
         "Регулирует численность рыбы в реке"
       ]
     },
+    "en": {
+      "q": "What does a hydropower plant on a river do?",
+      "o": [
+        "Purifies drinking water for nearby cities",
+        "Automatically irrigates farmland",
+        "Uses flowing water to produce electricity",
+        "Regulates the fish population in the river"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تفعل محطة الطاقة الكهرومائية على أحد الأنهار؟",
+      "o": [
+        "تنقّي مياه الشرب للمدن القريبة",
+        "تروي الأراضي الزراعية تلقائيًا",
+        "تستخدم المياه الجارية لتوليد الكهرباء",
+        "تنظّم أعداد الأسماك في النهر"
+      ]
+    },
     "correct": 2,
     "why": "Гидроэлектростанция использует энергию течения воды для производства электричества — это значительная часть электрогенерации Швеции. Очистка питьевой воды, орошение полей и регулирование рыбных запасов не входят в её функции."
   },
@@ -722,6 +1208,24 @@
         "На самом севере страны",
         "На самой высокой точке Швеции",
         "В южной Швеции"
+      ]
+    },
+    "en": {
+      "q": "A farmer wants to start a large grain farm in Sweden and is looking for the best location given the climate. Where should they most likely settle?",
+      "o": [
+        "Up in the mountains",
+        "In the far north of the country",
+        "At Sweden's highest point",
+        "In southern Sweden"
+      ]
+    },
+    "ar": {
+      "q": "يريد مزارع أن يبدأ مزرعة حبوب كبيرة في السويد ويبحث عن أفضل موقع من حيث المناخ. أين يُرجَّح أن يستقر؟",
+      "o": [
+        "أعلى الجبال",
+        "في أقصى شمال البلاد",
+        "عند أعلى نقطة في السويد",
+        "في جنوب السويد"
       ]
     },
     "correct": 3,
@@ -750,6 +1254,24 @@
         "Только мебель для шведского рынка"
       ]
     },
+    "en": {
+      "q": "What products come from the Swedish forest industry?",
+      "o": [
+        "Pulp, paper and timber for the construction industry",
+        "Only Christmas trees for export",
+        "Only fuel for cars",
+        "Only furniture for the Swedish market"
+      ]
+    },
+    "ar": {
+      "q": "ما هي المنتجات التي تقدمها صناعة الغابات السويدية؟",
+      "o": [
+        "لُب الورق والورق والأخشاب لصناعة البناء",
+        "أشجار عيد الميلاد فقط للتصدير",
+        "الوقود فقط للسيارات",
+        "الأثاث فقط للسوق السويدي"
+      ]
+    },
     "correct": 0,
     "why": "Лесная промышленность Швеции производит целлюлозу, бумагу, картон и древесину для строительства — эта продукция экспортируется во многие страны. Ёлки на экспорт, автомобильное топливо и мебель только для внутреннего рынка не отражают реального масштаба отрасли."
   },
@@ -774,6 +1296,24 @@
         "Выбросы парниковых газов человеком — от транспорта, промышленности и сельского хозяйства",
         "Извержения вулканов по всему миру",
         "Похолодание океанов"
+      ]
+    },
+    "en": {
+      "q": "According to research, what is the main reason global warming is happening faster today than before?",
+      "o": [
+        "Natural variations in solar radiation",
+        "Human emissions of greenhouse gases from transport, industry and agriculture",
+        "Volcanic eruptions around the world",
+        "The oceans getting colder"
+      ]
+    },
+    "ar": {
+      "q": "وفقًا للأبحاث، ما هو السبب الرئيسي لتسارع الاحترار العالمي اليوم مقارنة بالماضي؟",
+      "o": [
+        "التغيرات الطبيعية في الإشعاع الشمسي",
+        "انبعاثات غازات الاحتباس الحراري الناتجة عن الإنسان من النقل والصناعة والزراعة",
+        "الثورات البركانية حول العالم",
+        "برودة المحيطات"
       ]
     },
     "correct": 1,
@@ -802,6 +1342,24 @@
         "Обычное погодное явление, не связанное с климатом"
       ]
     },
+    "en": {
+      "q": "A municipality in Sweden is experiencing increasingly frequent heavy downpours that cause flooding. Which climate-related change does this describe?",
+      "o": [
+        "A result of Sweden abandoning the Climate Act's target",
+        "A sign that sea levels are falling",
+        "A consequence of climate change that is becoming more common in Sweden",
+        "A normal weather phenomenon unrelated to climate"
+      ]
+    },
+    "ar": {
+      "q": "تشهد إحدى البلديات في السويد هطول أمطار غزيرة بشكل متزايد تسبب الفيضانات. أي تغيّر مناخي يصف هذا؟",
+      "o": [
+        "نتيجة تخلي السويد عن هدف قانون المناخ",
+        "علامة على انخفاض مستوى سطح البحر",
+        "نتيجة لتغير المناخ أصبحت أكثر شيوعًا في السويد",
+        "ظاهرة جوية عادية لا علاقة لها بالمناخ"
+      ]
+    },
     "correct": 2,
     "why": "Учащение сильных ливней и связанных с ними наводнений — прямое последствие изменения климата, которое ожидается всё чаще в Швеции. Швеция не отказывалась от целей климатического закона, уровень моря из-за потепления повышается, а не понижается, и это явление напрямую связано с климатом."
   },
@@ -826,6 +1384,24 @@
         "Что Швеция полностью откажется от использования электричества с 2045 года",
         "Что эта цель обязательна для всех стран ЕС, а не только для Швеции",
         "Что Швеция не должна выбрасывать больше парниковых газов, чем природа способна поглотить"
+      ]
+    },
+    "en": {
+      "q": "What does the target of Sweden's greenhouse gas emissions being near zero by 2045 mean?",
+      "o": [
+        "That all cars in Sweden will be banned from 2045",
+        "That Sweden will stop using electricity entirely from 2045",
+        "That the target is binding for all EU countries, not only Sweden",
+        "That Sweden should not emit more greenhouse gases than nature can absorb"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني هدف اقتراب انبعاثات غازات الاحتباس الحراري في السويد من الصفر بحلول عام 2045؟",
+      "o": [
+        "أن جميع السيارات في السويد ستُحظر اعتبارًا من عام 2045",
+        "أن السويد ستتوقف تمامًا عن استخدام الكهرباء اعتبارًا من عام 2045",
+        "أن الهدف ملزم لجميع دول الاتحاد الأوروبي، وليس السويد فقط",
+        "ألا تُطلق السويد من غازات الاحتباس الحراري أكثر مما يمكن للطبيعة امتصاصه"
       ]
     },
     "correct": 3,
@@ -854,6 +1430,24 @@
         "О том, что заботиться об экологии должны только богатые страны"
       ]
     },
+    "en": {
+      "q": "What is sustainable development about?",
+      "o": [
+        "Using natural resources so that future generations can also live well",
+        "Only the state being responsible for the environment, not companies or individuals",
+        "Completely stopping the use of natural resources",
+        "Only rich countries needing to think about the environment"
+      ]
+    },
+    "ar": {
+      "q": "ما هو موضوع «التنمية المستدامة»؟",
+      "o": [
+        "استخدام الموارد الطبيعية بحيث يتمكن الأجيال القادمة أيضًا من العيش بشكل جيد",
+        "أن تكون الدولة وحدها مسؤولة عن البيئة، وليس الشركات أو الأفراد",
+        "التوقف الكامل عن استخدام الموارد الطبيعية",
+        "أن الدول الغنية فقط هي التي يجب أن تهتم بالبيئة"
+      ]
+    },
     "correct": 0,
     "why": "Устойчивое развитие означает использование природных ресурсов так, чтобы будущие поколения тоже могли жить хорошо, и в этом участвуют государства, компании и отдельные люди вместе — а не только государство и не только богатые страны. Речь не о полном отказе от ресурсов, а об их ответственном использовании."
   },
@@ -878,6 +1472,24 @@
         "Ездить общественным транспортом, экономить электричество и сортировать мусор для переработки",
         "Не заниматься переработкой мусора, чтобы экономить время",
         "Сжигать мусор дома вместо того, чтобы его сортировать"
+      ]
+    },
+    "en": {
+      "q": "A person in Sweden wants to reduce their climate impact in everyday life. Which of the following is a good way to do that?",
+      "o": [
+        "Drive as much as possible to support the car industry",
+        "Take public transport, save electricity and sort waste for recycling",
+        "Avoid recycling to save time",
+        "Burn trash at home instead of sorting it"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص في السويد تقليل أثره المناخي في حياته اليومية. أي مما يلي طريقة جيدة للقيام بذلك؟",
+      "o": [
+        "القيادة قدر الإمكان لدعم صناعة السيارات",
+        "استخدام وسائل النقل العام، وتوفير الكهرباء، وفرز النفايات لإعادة التدوير",
+        "تجنّب إعادة التدوير لتوفير الوقت",
+        "حرق النفايات في المنزل بدلًا من فرزها"
       ]
     },
     "correct": 1,
@@ -906,6 +1518,24 @@
         "Решение большинства"
       ]
     },
+    "en": {
+      "q": "What does the word 'democracy' mean?",
+      "o": [
+        "The rule of law",
+        "Rule by the people",
+        "Freedom of expression",
+        "Majority decision"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تعني كلمة «ديمقراطية»؟",
+      "o": [
+        "سيادة القانون",
+        "حكم الشعب",
+        "حرية التعبير",
+        "قرار الأغلبية"
+      ]
+    },
     "correct": 1,
     "why": "Слово греческого происхождения и означает народовластие."
   },
@@ -930,6 +1560,24 @@
         "Что никто не обязан раскрывать, как он проголосовал",
         "Что на сданном бюллетене написано имя избирателя, но его видят только члены избирательной комиссии",
         "Что нужно заранее заявить, за какую партию собираешься голосовать"
+      ]
+    },
+    "en": {
+      "q": "What does it mean that elections in Sweden are secret?",
+      "o": [
+        "That the result isn't published until a month later",
+        "That no one has to reveal how they voted",
+        "That the ballot you hand in has your name written on it, but only the election officials get to see it",
+        "That you must declare in advance which party you intend to vote for"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني أن الانتخابات في السويد سرية؟",
+      "o": [
+        "أن النتيجة لا تُعلن إلا بعد شهر",
+        "أنه لا يتوجب على أحد الكشف عن كيفية تصويته",
+        "أن ورقة الاقتراع التي يسلمها الشخص مكتوب عليها اسمه، لكن فقط أعضاء لجنة الانتخابات يرونه",
+        "أنه يجب التصريح مسبقًا عن الحزب الذي ينوي الشخص التصويت له"
       ]
     },
     "correct": 1,
@@ -958,6 +1606,24 @@
         "Народный суверенитет"
       ]
     },
+    "en": {
+      "q": "What is the principle called that says no one may be convicted without a fair trial?",
+      "o": [
+        "The principle of public access",
+        "The rule of law (rättssäkerhet)",
+        "The right of public access (allemansrätten)",
+        "Popular sovereignty"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم المبدأ القائل بأنه لا يجوز إدانة أحد دون محاكمة عادلة؟",
+      "o": [
+        "مبدأ العلنية",
+        "سيادة القانون (rättssäkerhet)",
+        "حق الوصول العام للطبيعة (allemansrätten)",
+        "سيادة الشعب"
+      ]
+    },
     "correct": 1,
     "why": "Правовая защищённость (rättssäkerhet) также означает, что законы действуют одинаково для всех в Швеции."
   },
@@ -982,6 +1648,24 @@
         "Направить в коммуну своё мнение и предложение",
         "Проголосовать несколько раз на выборах в коммуну",
         "Отказаться платить коммунальный налог"
+      ]
+    },
+    "en": {
+      "q": "A person wants to influence a decision about a new playground in their municipality. Which option is a lawful way to influence it?",
+      "o": [
+        "Threaten the politician in charge",
+        "Submit views and suggestions to the municipality",
+        "Vote several times in the municipal election",
+        "Refuse to pay municipal tax"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص التأثير على قرار بشأن ملعب أطفال جديد في بلديته. أي خيار هو طريقة قانونية للتأثير؟",
+      "o": [
+        "تهديد السياسي المسؤول",
+        "تقديم آراء ومقترحات إلى البلدية",
+        "التصويت عدة مرات في انتخابات البلدية",
+        "رفض دفع الضريبة البلدية"
       ]
     },
     "correct": 1,
@@ -1010,6 +1694,24 @@
         "Потому что правительство тогда автоматически уходит в отставку"
       ]
     },
+    "en": {
+      "q": "Why is low voter turnout a problem for democracy?",
+      "o": [
+        "Because it increases the risk that false information spreads during the election campaign",
+        "Because people get fewer opportunities to influence political decisions in their everyday lives",
+        "Because it automatically increases segregation in society",
+        "Because the government must then automatically resign"
+      ]
+    },
+    "ar": {
+      "q": "لماذا تُعد نسبة المشاركة المنخفضة في الانتخابات مشكلة للديمقراطية؟",
+      "o": [
+        "لأنها تزيد من خطر انتشار معلومات كاذبة خلال الحملة الانتخابية",
+        "لأن الناس يحصلون على فرص أقل للتأثير على القرارات السياسية في حياتهم اليومية",
+        "لأنها تؤدي تلقائيًا إلى زيادة التمييز الاجتماعي (segregation) في المجتمع",
+        "لأن الحكومة تستقيل تلقائيًا في هذه الحالة"
+      ]
+    },
     "correct": 1,
     "why": "Низкая явка может увеличивать разрыв между группами в обществе."
   },
@@ -1034,6 +1736,24 @@
         "Что люди с разным происхождением живут ближе друг к другу и чувствуют себя частью общества",
         "Что доверие к органам власти автоматически растёт во всех группах",
         "Что политики строят больше однотипного жилья в каждом районе"
+      ]
+    },
+    "en": {
+      "q": "What does integration mean?",
+      "o": [
+        "That people live separately depending on income or ethnic background",
+        "That people with different backgrounds live closer to each other and feel part of society",
+        "That trust in public authorities automatically increases in all groups",
+        "That politicians build more of the same type of housing in every area"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني الاندماج (integration)؟",
+      "o": [
+        "أن يعيش الناس منفصلين حسب الدخل أو الخلفية العرقية",
+        "أن يعيش الأشخاص من خلفيات مختلفة أقرب إلى بعضهم البعض ويشعروا بأنهم جزء من المجتمع",
+        "أن تزداد الثقة بالسلطات تلقائيًا في جميع الفئات",
+        "أن يبني السياسيون مزيدًا من المساكن من النوع نفسه في كل منطقة"
       ]
     },
     "correct": 1,
@@ -1062,6 +1782,24 @@
         "Власть автоматически передаётся по наследству внутри одной семьи"
       ]
     },
+    "en": {
+      "q": "What should apply to those who hold power in a democracy such as Sweden?",
+      "o": [
+        "Those who hold power should be replaceable",
+        "Those who hold power stay in place forever",
+        "Only one person can hold power at a time",
+        "Power is automatically passed down within the same family"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يجب أن ينطبق على من يتولى السلطة في ديمقراطية مثل السويد؟",
+      "o": [
+        "يجب أن يكون من يتولى السلطة قابلًا للاستبدال",
+        "يبقى من يتولى السلطة في منصبه إلى الأبد",
+        "يمكن لشخص واحد فقط أن يتولى السلطة في وقت واحد",
+        "تنتقل السلطة تلقائيًا بالوراثة داخل العائلة نفسها"
+      ]
+    },
     "correct": 0,
     "why": "В демократии тех, кто получил власть, должно быть можно сменить — например, на очередных выборах. Пожизненное удержание власти, концентрация власти в руках одного человека или наследственная передача власти в одной семье противоречат самой сути демократии."
   },
@@ -1086,6 +1824,24 @@
         "Да, у человека есть право не участвовать в выборах",
         "Да, но только если человек заранее письменно уведомит об этом",
         "Нет, все, кто имеет право голоса, обязаны проголосовать хоть за какую-то партию"
+      ]
+    },
+    "en": {
+      "q": "A person chooses not to vote at all in a Swedish election, because they don't want to. Is this allowed?",
+      "o": [
+        "No, voting is mandatory in Sweden and you can be fined",
+        "Yes, you have the right not to take part in the election",
+        "Yes, but only if the person notifies this in writing in advance",
+        "No, everyone entitled to vote must vote for some party"
+      ]
+    },
+    "ar": {
+      "q": "يختار شخص عدم التصويت إطلاقًا في انتخابات سويدية، لأنه لا يرغب في ذلك. هل هذا مسموح؟",
+      "o": [
+        "لا، التصويت إلزامي في السويد ويمكن فرض غرامة على من لا يصوّت",
+        "نعم، للشخص الحق في عدم المشاركة في الانتخابات",
+        "نعم، لكن فقط إذا أبلغ الشخص عن ذلك كتابيًا مسبقًا",
+        "لا، يجب على كل من يحق له التصويت أن يصوّت لحزب ما"
       ]
     },
     "correct": 1,
@@ -1114,6 +1870,24 @@
         "Что голосовать могут только члены политических партий"
       ]
     },
+    "en": {
+      "q": "What does it mean that elections in Sweden are free?",
+      "o": [
+        "That only people who are already elected representatives may vote",
+        "That you may vote as many times as you want",
+        "That there must be several parties to choose between and everyone can vote without threats or coercion",
+        "That only members of political parties may vote"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني أن الانتخابات في السويد حرة؟",
+      "o": [
+        "أن التصويت مقتصر على من هم بالفعل نواب منتخبون",
+        "أن بإمكان الشخص التصويت بقدر ما يشاء من المرات",
+        "أنه يجب أن يكون هناك عدة أحزاب للاختيار من بينها وأن يتمكن الجميع من التصويت دون تهديد أو إكراه",
+        "أن التصويت مقتصر على أعضاء الأحزاب السياسية"
+      ]
+    },
     "correct": 2,
     "why": "Свободные выборы означают, что должно быть несколько партий на выбор, а каждый может голосовать, не подвергаясь угрозам или принуждению, и у каждого есть один голос. Голосование не ограничено уже избранными депутатами или членами партий, и голосовать несколько раз нельзя."
   },
@@ -1138,6 +1912,24 @@
         "Право формировать правительство без выборов",
         "Обязанность всегда соглашаться с большинством",
         "Право писать и говорить то, что думаешь"
+      ]
+    },
+    "en": {
+      "q": "What does freedom of expression mean in Sweden?",
+      "o": [
+        "The right to vote in every election regardless of age",
+        "The right to form a government without an election",
+        "The obligation to always agree with the majority",
+        "The right to write and say what you think"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تعني حرية التعبير (yttrandefrihet) في السويد؟",
+      "o": [
+        "الحق في التصويت في جميع الانتخابات بغض النظر عن العمر",
+        "الحق في تشكيل حكومة دون انتخابات",
+        "واجب الموافقة على رأي الأغلبية دائمًا",
+        "الحق في كتابة وقول ما يعتقده الشخص"
       ]
     },
     "correct": 3,
@@ -1166,6 +1958,24 @@
         "Потому что это обязательное условие для перехода в гимназию"
       ]
     },
+    "en": {
+      "q": "A teacher in Swedish compulsory school teaches students about their rights and why it is important to vote. Why is this part of education?",
+      "o": [
+        "Because education in Sweden is built on democratic values",
+        "Because the students must vote already in compulsory school",
+        "Because the teacher personally chose to do so, with no connection to the curriculum",
+        "Because it is a requirement for moving on to upper secondary school"
+      ]
+    },
+    "ar": {
+      "q": "يعلّم معلم في المدرسة الإلزامية السويدية طلابه عن حقوقهم وأهمية التصويت. لماذا هذا جزء من التعليم؟",
+      "o": [
+        "لأن التعليم في السويد يقوم على القيم الديمقراطية",
+        "لأن الطلاب ملزمون بالتصويت بالفعل في المدرسة الإلزامية",
+        "لأن المعلم اختار ذلك شخصيًا، دون أي صلة بالمنهج الدراسي",
+        "لأنه شرط للانتقال إلى المدرسة الثانوية العليا (gymnasiet)"
+      ]
+    },
     "correct": 0,
     "why": "Это часть образования, потому что образование в Швеции строится на демократических ценностях. Ученики не голосуют на настоящих выборах уже в школе, это не личная инициатива отдельного учителя вне программы, и это не формальное условие перехода в гимназию."
   },
@@ -1190,6 +2000,24 @@
         "Да, сбор подписей и написание статей-мнений — законные способы влиять на ситуацию",
         "Да, но только если человек состоит в политической партии",
         "Нет, сбор подписей в Швеции запрещён"
+      ]
+    },
+    "en": {
+      "q": "A person wants to influence a political issue by collecting signatures and writing an opinion piece in a newspaper. Are these lawful ways to get involved in Sweden?",
+      "o": [
+        "No, only politicians may express opinions in newspapers",
+        "Yes, starting a petition and writing opinion pieces are lawful ways to influence things",
+        "Yes, but only if the person is a member of a political party",
+        "No, petitions are banned in Sweden"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص التأثير في قضية سياسية من خلال جمع التوقيعات وكتابة مقال رأي في صحيفة. هل هذه طرق قانونية للمشاركة في السويد؟",
+      "o": [
+        "لا، لا يجوز التعبير عن الرأي في الصحف إلا للسياسيين",
+        "نعم، بدء عريضة توقيع وكتابة مقالات رأي طرق قانونية للتأثير",
+        "نعم، لكن فقط إذا كان الشخص عضوًا في حزب سياسي",
+        "لا، عرائض التوقيع محظورة في السويد"
       ]
     },
     "correct": 1,
@@ -1218,6 +2046,24 @@
         "Нет, совмещать профсоюзную деятельность с политикой запрещено"
       ]
     },
+    "en": {
+      "q": "An employee wants to influence their workplace through their trade union. Is this an example of how one can take part in society?",
+      "o": [
+        "No, trade unions have nothing to do with civic engagement",
+        "Yes, but only if the person is also a politician",
+        "Yes, influencing your workplace through, for example, a trade union is one way to take part in society",
+        "No, it is forbidden to mix union work with politics"
+      ]
+    },
+    "ar": {
+      "q": "يريد موظف التأثير على مكان عمله من خلال نقابته. هل هذا مثال على كيفية المشاركة في المجتمع؟",
+      "o": [
+        "لا، لا علاقة للنقابات بالمشاركة المجتمعية",
+        "نعم، لكن فقط إذا كان الشخص سياسيًا أيضًا",
+        "نعم، التأثير في مكان العمل من خلال، على سبيل المثال، النقابات هو أحد أساليب المشاركة في المجتمع",
+        "لا، يُمنع الجمع بين العمل النقابي والسياسة"
+      ]
+    },
     "correct": 2,
     "why": "Да — влияние на свою работу через профсоюзы, например, является одним из способов участия в жизни общества. Профсоюзная активность доступна не только политикам, и никакого запрета совмещать её с политическими темами не существует."
   },
@@ -1242,6 +2088,24 @@
         "То, что для выбора существует слишком много политических партий",
         "То, что государство контролирует всё содержимое социальных сетей",
         "То, что распространяются ложная информация и ненависть, создающие конфликты в обществе"
+      ]
+    },
+    "en": {
+      "q": "What is an example of a threat to democracy mentioned in connection with social media?",
+      "o": [
+        "That too many people vote in elections",
+        "That there are too many political parties to choose between",
+        "That the state controls all content on social media",
+        "That false information and hatred are spread to create conflict in society"
+      ]
+    },
+    "ar": {
+      "q": "ما مثال على تهديد للديمقراطية يُذكر في سياق وسائل التواصل الاجتماعي؟",
+      "o": [
+        "أن عددًا كبيرًا جدًا من الناس يصوّتون في الانتخابات",
+        "أن هناك عددًا كبيرًا جدًا من الأحزاب السياسية للاختيار من بينها",
+        "أن الدولة تتحكم في كل محتوى وسائل التواصل الاجتماعي",
+        "أن معلومات كاذبة وخطاب كراهية ينتشران لخلق نزاعات في المجتمع"
       ]
     },
     "correct": 3,
@@ -1270,6 +2134,24 @@
         "То, что писать об общественных вопросах в шведских СМИ запрещено"
       ]
     },
+    "en": {
+      "q": "A journalist who writes about social issues is threatened and therefore chooses to stop writing about that topic. What problem for democracy does this describe?",
+      "o": [
+        "That threats against people who take part in public debate can scare them away from participating",
+        "That journalists may never criticize politicians in Sweden",
+        "That all journalists must be members of a political party",
+        "That it is forbidden to write about social issues in Swedish media"
+      ]
+    },
+    "ar": {
+      "q": "يتلقى صحفي يكتب عن قضايا مجتمعية تهديدات فيقرر التوقف عن الكتابة في هذا الموضوع. أي مشكلة للديمقراطية يصف هذا؟",
+      "o": [
+        "أن التهديدات ضد المشاركين في النقاش العام يمكن أن تخيفهم فتمنعهم من المشاركة",
+        "أنه يُمنع على الصحفيين انتقاد السياسيين في السويد إطلاقًا",
+        "أن جميع الصحفيين ملزمون بالانتماء لحزب سياسي",
+        "أنه يُمنع الكتابة عن القضايا المجتمعية في وسائل الإعلام السويدية"
+      ]
+    },
     "correct": 0,
     "why": "Это описывает проблему, что угрозы в адрес участников общественной дискуссии могут отпугнуть их от участия. Критика политиков журналистами разрешена и является частью свободы прессы, журналисты не обязаны состоять в партиях, а писать об общественных вопросах в СМИ Швеции никогда не запрещалось."
   },
@@ -1294,6 +2176,24 @@
         "Чтобы многие могли участвовать и влиять, чтобы информация была правдивой и чтобы общество защищало тех, кто участвует в дискуссии",
         "Чтобы все граждане состояли в одной и той же политической партии",
         "Чтобы выборы проводились как можно реже"
+      ]
+    },
+    "en": {
+      "q": "What is needed for democracy in Sweden to work well?",
+      "o": [
+        "That only experts may express opinions on politics",
+        "That many people can take part and have influence, that information is truthful, and that society protects those who take part in debate",
+        "That all citizens belong to the same political party",
+        "That elections are held as rarely as possible"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يلزم لكي تعمل الديمقراطية في السويد بشكل جيد؟",
+      "o": [
+        "أن يكون التعبير عن الرأي في السياسة مقتصرًا على الخبراء",
+        "أن يتمكن كثيرون من المشاركة والتأثير، وأن تكون المعلومات صادقة، وأن يحمي المجتمع من يشارك في النقاش",
+        "أن ينتمي جميع المواطنين إلى الحزب السياسي نفسه",
+        "أن تُجرى الانتخابات بأقل قدر ممكن من التكرار"
       ]
     },
     "correct": 1,
@@ -1322,6 +2222,24 @@
         "Свобода слова"
       ]
     },
+    "en": {
+      "q": "In one residential area almost only people with low incomes live, while another area has almost only high-income earners, and the two groups have very little contact with each other. What is this phenomenon called?",
+      "o": [
+        "Integration",
+        "The rule of law",
+        "Segregation",
+        "Freedom of expression"
+      ]
+    },
+    "ar": {
+      "q": "يسكن حي واحد أشخاصًا ذوي دخل منخفض تقريبًا فقط، بينما يسكن حيٌ آخر أشخاصًا ذوي دخل مرتفع تقريبًا فقط، وتكاد المجموعتان لا تتواصلان مع بعضهما. ما اسم هذه الظاهرة؟",
+      "o": [
+        "الاندماج (integration)",
+        "سيادة القانون",
+        "التمييز الاجتماعي (segregation)",
+        "حرية التعبير"
+      ]
+    },
     "correct": 2,
     "why": "Это явление называется сегрегацией — раздельным проживанием людей в зависимости от дохода или этнического происхождения. Интеграция описывает противоположную ситуацию, а правовая защищённость и свобода слова — совсем другие понятия, не связанные с проживанием людей."
   },
@@ -1346,6 +2264,24 @@
         "Сегрегация всегда снижает уровень преступности по всей стране",
         "Все партии автоматически получают одинаковое число мест в риксдаге",
         "У людей может оказаться разный доступ к общественным услугам и культуре, а некоторые районы могут восприниматься как менее безопасные"
+      ]
+    },
+    "en": {
+      "q": "What can be a consequence of a society being segregated?",
+      "o": [
+        "All residents automatically get exactly the same income",
+        "Segregation always reduces crime across the whole country",
+        "All parties automatically get an equal number of seats in the Riksdag",
+        "People can end up with unequal access to public services and culture, and some areas may be perceived as less safe"
+      ]
+    },
+    "ar": {
+      "q": "ما النتيجة المحتملة لتمييز المجتمع اجتماعيًا (segregation)؟",
+      "o": [
+        "يحصل جميع السكان تلقائيًا على الدخل نفسه بالضبط",
+        "يؤدي التمييز الاجتماعي دائمًا إلى خفض الجريمة في كل أنحاء البلاد",
+        "تحصل جميع الأحزاب تلقائيًا على عدد متساوٍ من المقاعد في البرلمان",
+        "قد يحصل الناس على فرص متفاوتة للوصول إلى الخدمات العامة والثقافة، وقد يُنظر إلى بعض المناطق على أنها أقل أمانًا"
       ]
     },
     "correct": 3,
@@ -1374,6 +2310,24 @@
         "Сегрегация автоматически заставляет больше людей голосовать на каждых выборах"
       ]
     },
+    "en": {
+      "q": "How can segregation affect democracy in a society?",
+      "o": [
+        "Segregation can reduce trust in public authorities and political engagement, which can weaken democracy",
+        "Segregation always strengthens democracy by creating more political parties",
+        "Segregation has no connection whatsoever to democracy",
+        "Segregation automatically makes more people vote in every election"
+      ]
+    },
+    "ar": {
+      "q": "كيف يمكن أن يؤثر التمييز الاجتماعي على الديمقراطية في المجتمع؟",
+      "o": [
+        "يمكن أن يقلل التمييز الاجتماعي من الثقة بالسلطات ومن المشاركة السياسية، ما قد يُضعف الديمقراطية",
+        "يعزز التمييز الاجتماعي الديمقراطية دائمًا من خلال خلق مزيد من الأحزاب السياسية",
+        "لا علاقة للتمييز الاجتماعي بالديمقراطية إطلاقًا",
+        "يجعل التمييز الاجتماعي تلقائيًا المزيد من الناس يصوّتون في كل انتخابات"
+      ]
+    },
     "correct": 0,
     "why": "Сегрегация может снижать доверие к органам власти и политическую вовлечённость, что, в свою очередь, может ослаблять демократию. Она не создаёт новые партии, напрямую связана с демократией (а не наоборот), и не увеличивает явку на выборах — скорее снижает вовлечённость."
   },
@@ -1398,6 +2352,24 @@
         "Языковое обучение и разные типы жилья в одном районе",
         "Отменить обязательное школьное образование в коммунах",
         "Запретить объединения и организации"
+      ]
+    },
+    "en": {
+      "q": "What measures do politicians often propose to counteract segregation and facilitate integration?",
+      "o": [
+        "Building more areas with only one type of housing",
+        "Language education and different types of housing within one area",
+        "Abolishing compulsory municipal schooling",
+        "Banning associations and organizations"
+      ]
+    },
+    "ar": {
+      "q": "ما التدابير التي يقترحها السياسيون غالبًا لمواجهة التمييز الاجتماعي وتسهيل الاندماج؟",
+      "o": [
+        "بناء مزيد من الأحياء التي تحوي نوعًا واحدًا فقط من المساكن",
+        "التعليم اللغوي وتنويع أنواع المساكن داخل الحي الواحد",
+        "إلغاء التعليم الإلزامي في البلديات",
+        "حظر الجمعيات والمنظمات"
       ]
     },
     "correct": 1,
@@ -1426,6 +2398,24 @@
         "Нет, но только если оба состоят в одной политической партии"
       ]
     },
+    "en": {
+      "q": "A person with a lot of money and a person without money commit the same crime in Sweden. Should the law treat them differently?",
+      "o": [
+        "Yes, the person with more money gets a lighter penalty",
+        "Yes, the person with less money is always sentenced more harshly",
+        "No, the laws apply to everyone in Sweden in the same way",
+        "No, but only if both belong to the same political party"
+      ]
+    },
+    "ar": {
+      "q": "يرتكب شخص غني وشخص بلا مال الجريمة نفسها في السويد. هل يجب أن يعاملهما القانون بشكل مختلف؟",
+      "o": [
+        "نعم، يحصل من لديه مال أكثر على عقوبة أخف",
+        "نعم، يُحكم دائمًا على من لديه مال أقل بعقوبة أشد",
+        "لا، تُطبَّق القوانين على الجميع في السويد بالطريقة نفسها",
+        "لا، لكن فقط إذا كان كلاهما ينتميان للحزب السياسي نفسه"
+      ]
+    },
     "correct": 2,
     "why": "Нет — законы в Швеции действуют одинаково для всех, независимо от материального положения. Ни более мягкое наказание для богатых, ни более суровое для бедных, ни какая-либо зависимость от партийной принадлежности не соответствуют принципу правовой защищённости."
   },
@@ -1445,6 +2435,24 @@
     },
     "ru": {
       "q": "Сколько депутатов в риксдаге?",
+      "o": [
+        "290",
+        "310",
+        "349",
+        "400"
+      ]
+    },
+    "en": {
+      "q": "How many members does the Riksdag have?",
+      "o": [
+        "290",
+        "310",
+        "349",
+        "400"
+      ]
+    },
+    "ar": {
+      "q": "كم عدد أعضاء البرلمان (Riksdag)؟",
       "o": [
         "290",
         "310",
@@ -1478,6 +2486,24 @@
         "Избиратели на всеобщих выборах"
       ]
     },
+    "en": {
+      "q": "Who appoints the ministers in the government?",
+      "o": [
+        "The King",
+        "The Speaker of the Riksdag",
+        "The Prime Minister",
+        "The voters in a general election"
+      ]
+    },
+    "ar": {
+      "q": "من يُعيّن الوزراء في الحكومة؟",
+      "o": [
+        "الملك",
+        "رئيس البرلمان (talman)",
+        "رئيس الوزراء",
+        "الناخبون في الانتخابات العامة"
+      ]
+    },
     "correct": 2,
     "why": "Риксдаг выбирает премьер-министра, а тот уже сам подбирает министров."
   },
@@ -1502,6 +2528,24 @@
         "Бюджетное предложение (budgetproposition)",
         "Коллективный договор",
         "Предварительное расследование"
+      ]
+    },
+    "en": {
+      "q": "What is the government's annual proposal to the Riksdag about the state's income and expenses called?",
+      "o": [
+        "The Instrument of Government (regeringsformen)",
+        "The Budget Bill (budgetpropositionen)",
+        "The collective agreement",
+        "The preliminary investigation"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم اقتراح الحكومة السنوي إلى البرلمان بشأن إيرادات الدولة ونفقاتها؟",
+      "o": [
+        "وثيقة الحكم (regeringsformen)",
+        "مشروع الميزانية (budgetpropositionen)",
+        "الاتفاقية الجماعية",
+        "التحقيق الأولي"
       ]
     },
     "correct": 1,
@@ -1530,6 +2574,24 @@
         "Миграционное управление"
       ]
     },
+    "en": {
+      "q": "A person applies for parental benefit. Which agency decides on the application?",
+      "o": [
+        "The Tax Agency (Skatteverket)",
+        "The Social Insurance Agency (Försäkringskassan)",
+        "The Employment Agency (Arbetsförmedlingen)",
+        "The Migration Agency (Migrationsverket)"
+      ]
+    },
+    "ar": {
+      "q": "يقدّم شخص طلبًا للحصول على إعانة الوالدين (föräldrapenning). أي هيئة تبتّ في الطلب؟",
+      "o": [
+        "مصلحة الضرائب (Skatteverket)",
+        "هيئة التأمين الاجتماعي (Försäkringskassan)",
+        "دائرة التوظيف (Arbetsförmedlingen)",
+        "هيئة الهجرة (Migrationsverket)"
+      ]
+    },
     "correct": 1,
     "why": "Ведомство социального страхования (Försäkringskassan) отвечает за социальное страхование, включая родительское пособие."
   },
@@ -1554,6 +2616,24 @@
         "Полиция и служба исполнения наказаний",
         "Налоговое управление и служба судебных приставов",
         "Риксдаг и правительство"
+      ]
+    },
+    "en": {
+      "q": "Which agencies check that other agencies act correctly?",
+      "o": [
+        "The Parliamentary Ombudsman (JO) and the Chancellor of Justice (JK)",
+        "The Police Authority and the Prison and Probation Service",
+        "The Tax Agency and the Enforcement Authority",
+        "The Riksdag and the government"
+      ]
+    },
+    "ar": {
+      "q": "ما الهيئتان اللتان تراقبان أن تتصرف الهيئات الأخرى بشكل صحيح؟",
+      "o": [
+        "أمين المظالم البرلماني (JO) والمستشار العدلي (JK)",
+        "جهاز الشرطة (Polismyndigheten) ومصلحة السجون ومراقبة السلوك (Kriminalvården)",
+        "مصلحة الضرائب (Skatteverket) وهيئة التنفيذ (Kronofogdemyndigheten)",
+        "البرلمان والحكومة"
       ]
     },
     "correct": 0,
@@ -1582,6 +2662,24 @@
         "Отвечать за уход за пожилыми"
       ]
     },
+    "en": {
+      "q": "What is the regions' main responsibility?",
+      "o": [
+        "Being responsible for compulsory school",
+        "Being responsible for healthcare",
+        "Being responsible for the police",
+        "Being responsible for elderly care"
+      ]
+    },
+    "ar": {
+      "q": "ما المهمة الرئيسية للأقاليم الإدارية (regioner)؟",
+      "o": [
+        "المسؤولية عن المدرسة الإلزامية",
+        "المسؤولية عن الرعاية الصحية",
+        "المسؤولية عن الشرطة",
+        "المسؤولية عن رعاية المسنين"
+      ]
+    },
     "correct": 1,
     "why": "Регионы также отвечают за общественный транспорт и лены-музеи. Школа и уход за пожилыми — задача коммуны."
   },
@@ -1606,6 +2704,24 @@
         "Городской совет (kommunfullmäktige)",
         "Риксдаг",
         "Комитет по культуре"
+      ]
+    },
+    "en": {
+      "q": "What is the assembly called where a municipality's elected politicians make decisions?",
+      "o": [
+        "The regional council (regionfullmäktige)",
+        "The municipal council (kommunfullmäktige)",
+        "The Riksdag",
+        "The culture committee"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم المجلس الذي يتخذ فيه سياسيو البلدية المنتخبون قراراتهم؟",
+      "o": [
+        "المجلس الإقليمي (regionfullmäktige)",
+        "المجلس البلدي (kommunfullmäktige)",
+        "البرلمان",
+        "لجنة الثقافة"
       ]
     },
     "correct": 1,
@@ -1634,6 +2750,24 @@
         "Что премьер-министра назначает король"
       ]
     },
+    "en": {
+      "q": "What does it mean that Sweden is a constitutional monarchy?",
+      "o": [
+        "That the King governs the country together with the government",
+        "That the head of state is a king or queen without political power",
+        "That the King can block laws decided by the Riksdag",
+        "That the Prime Minister is appointed by the King"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني أن السويد ملكية دستورية؟",
+      "o": [
+        "أن الملك يحكم البلاد إلى جانب الحكومة",
+        "أن رئيس الدولة ملك أو ملكة دون سلطة سياسية",
+        "أن بإمكان الملك منع قوانين أقرّها البرلمان",
+        "أن الملك هو من يُعيّن رئيس الوزراء"
+      ]
+    },
     "correct": 1,
     "why": "Король — символ страны, наносит государственные визиты и принимает глав других государств."
   },
@@ -1658,6 +2792,24 @@
         "Принцесса Мадлен",
         "Принцесса Эстель",
         "Принц Оскар"
+      ]
+    },
+    "en": {
+      "q": "Who is next in line to become monarch after Crown Princess Victoria?",
+      "o": [
+        "Prince Carl Philip",
+        "Princess Madeleine",
+        "Princess Estelle",
+        "Prince Oscar"
+      ]
+    },
+    "ar": {
+      "q": "من التالي في ترتيب وراثة العرش بعد الأميرة الوريثة فيكتوريا؟",
+      "o": [
+        "الأمير كارل فيليب",
+        "الأميرة مادلين",
+        "الأميرة إستل",
+        "الأمير أوسكار"
       ]
     },
     "correct": 2,
@@ -1686,6 +2838,24 @@
         "От Совета Европы"
       ]
     },
+    "en": {
+      "q": "A municipality in Sweden must follow new rules, for example on environmental protection, decided jointly by several countries and applying in all member states. Where do such rules most likely come from?",
+      "o": [
+        "From the Nordic Council",
+        "From the European Union (EU)",
+        "From the UN Security Council",
+        "From the Council of Europe"
+      ]
+    },
+    "ar": {
+      "q": "يجب على بلدية في السويد اتباع قواعد جديدة، مثلًا في مجال حماية البيئة، تقررها عدة دول معًا وتُطبَّق في جميع الدول الأعضاء. من أين تأتي هذه القواعد على الأرجح؟",
+      "o": [
+        "من المجلس الشمالي (Nordiska rådet)",
+        "من الاتحاد الأوروبي",
+        "من مجلس الأمن التابع للأمم المتحدة",
+        "من مجلس أوروبا"
+      ]
+    },
     "correct": 1,
     "why": "Правила, обязательные для всех стран-участниц, — это решения Европейского союза (ЕС): страны ЕС сотрудничают и принимают общие законы, действующие во всех государствах-членах. Северный совет, Совет Безопасности ООН и Совет Европы — тоже реальные международные организации, в которых состоит Швеция, но их решения не действуют напрямую как обязательное законодательство во всех странах-членах."
   },
@@ -1710,6 +2880,24 @@
         "Коммуны, регионы и риксдаг",
         "Риксдаг, правительство, ведомства и суды",
         "Только королевский двор и правительство"
+      ]
+    },
+    "en": {
+      "q": "What is usually included in what is called 'the state' (staten) in Sweden?",
+      "o": [
+        "Only the Riksdag and the government",
+        "Municipalities, regions and the Riksdag",
+        "The Riksdag, the government, agencies and courts",
+        "Only the royal house and the government"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يُحسب عادة ضمن ما يُسمى في السويد «الدولة» (staten)؟",
+      "o": [
+        "البرلمان والحكومة فقط",
+        "البلديات والأقاليم الإدارية والبرلمان",
+        "البرلمان والحكومة والهيئات والمحاكم",
+        "البيت الملكي والحكومة فقط"
       ]
     },
     "correct": 2,
@@ -1738,6 +2926,24 @@
         "Что голосовать в риксдаге могут только лидеры партий"
       ]
     },
+    "en": {
+      "q": "What does it mean that Sweden is a parliamentary representative democracy?",
+      "o": [
+        "That citizens vote in general elections and elect members to the Riksdag, who then make decisions on their behalf",
+        "That all citizens vote directly on every single law",
+        "That the King appoints the members of the Riksdag",
+        "That only party leaders may vote in the Riksdag"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني أن السويد ديمقراطية نيابية برلمانية؟",
+      "o": [
+        "أن المواطنين يصوّتون في انتخابات عامة وينتخبون أعضاء البرلمان، الذين يتخذون بعد ذلك القرارات نيابة عنهم",
+        "أن جميع المواطنين يصوّتون مباشرة على كل قانون على حدة",
+        "أن الملك هو من يُعيّن أعضاء البرلمان",
+        "أن التصويت في البرلمان مقتصر على قادة الأحزاب"
+      ]
+    },
     "correct": 0,
     "why": "Парламентская представительная демократия означает, что граждане голосуют на выборах и выбирают депутатов, которые затем принимают решения от их имени, — а не то, что каждый закон выносится на прямое голосование всех граждан, что депутатов назначает король или что право голоса в риксдаге есть только у партийных лидеров."
   },
@@ -1762,6 +2968,24 @@
         "Избранные депутаты принимают решения от имени избирателей между выборами",
         "Каждый отдельный закон должен утверждаться всеми гражданами на отдельном референдуме",
         "Решение действует только для тех, кто голосовал за победившую партию"
+      ]
+    },
+    "en": {
+      "q": "A person doesn't like a decision the Riksdag has made about taxes, and did not personally vote on that particular law. How does this work in a representative democracy?",
+      "o": [
+        "The person can refuse to pay tax if they disagreed",
+        "The elected representatives make decisions on behalf of the voters between elections",
+        "Every single law must be approved by all citizens in a separate referendum",
+        "The decision only applies to those who voted for the winning party"
+      ]
+    },
+    "ar": {
+      "q": "لا يعجب قرار اتخذه البرلمان بشأن الضرائب أحد الأشخاص، ولم يصوّت هو شخصيًا على ذلك القانون تحديدًا. كيف يعمل هذا في الديمقراطية النيابية؟",
+      "o": [
+        "يمكن للشخص رفض دفع الضريبة إذا لم يوافق عليها",
+        "يتخذ النواب المنتخبون القرارات نيابة عن الناخبين بين الانتخابات",
+        "يجب أن يوافق جميع المواطنين على كل قانون على حدة في استفتاء منفصل",
+        "لا يسري القرار إلا على من صوّتوا للحزب الفائز"
       ]
     },
     "correct": 1,
@@ -1790,6 +3014,24 @@
         "Партии правительства и оппозиция обсуждают и дебатируют законопроект"
       ]
     },
+    "en": {
+      "q": "Before the members of the Riksdag vote on a bill, what usually happens in the Riksdag?",
+      "o": [
+        "The King alone decides whether the proposal should be adopted",
+        "Only the governing parties may express their views on the proposal",
+        "The proposal is sent directly to court for approval",
+        "The governing parties and the opposition discuss and debate the proposal"
+      ]
+    },
+    "ar": {
+      "q": "قبل أن يصوّت أعضاء البرلمان على مشروع قانون، ماذا يحدث عادة في البرلمان؟",
+      "o": [
+        "يقرر الملك وحده ما إذا كان سيُعتمد المقترح",
+        "يجوز فقط لأحزاب الحكومة إبداء رأيها في المقترح",
+        "يُرسَل المقترح مباشرة إلى المحكمة للموافقة عليه",
+        "تناقش أحزاب الحكومة والمعارضة المقترح وتتجادل بشأنه"
+      ]
+    },
     "correct": 3,
     "why": "Перед голосованием партии правительства и оппозиция обсуждают и дебатируют законопроект в риксдаге. Король не имеет политической власти решать судьбу законов, оппозиция тоже имеет право высказываться, а суды не утверждают законопроекты — это задача самого риксдага."
   },
@@ -1814,6 +3056,24 @@
         "Король",
         "Народ напрямую на отдельных выборах премьер-министра",
         "Министры правительства между собой"
+      ]
+    },
+    "en": {
+      "q": "Who elects Sweden's Prime Minister?",
+      "o": [
+        "The Riksdag",
+        "The King",
+        "The people directly in a separate vote for Prime Minister",
+        "The government's ministers among themselves"
+      ]
+    },
+    "ar": {
+      "q": "من ينتخب رئيس وزراء السويد؟",
+      "o": [
+        "البرلمان",
+        "الملك",
+        "الشعب مباشرة في تصويت منفصل لرئيس الوزراء",
+        "وزراء الحكومة فيما بينهم"
       ]
     },
     "correct": 0,
@@ -1842,6 +3102,24 @@
         "В каких коммунах самый высокий муниципальный налог"
       ]
     },
+    "en": {
+      "q": "What does the government's Budget Bill, submitted to the Riksdag every autumn, show?",
+      "o": [
+        "Which new laws the Supreme Court has decided on",
+        "How many votes each party got in the last election",
+        "Which policies the government wants to pursue and what the state should prioritize",
+        "Which municipalities have the highest municipal tax"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يوضح مشروع الميزانية (budgetpropositionen) الذي تقدّمه الحكومة إلى البرلمان كل خريف؟",
+      "o": [
+        "القوانين الجديدة التي أقرّتها المحكمة العليا",
+        "عدد الأصوات التي حصل عليها كل حزب في آخر انتخابات",
+        "السياسات التي تريد الحكومة اتباعها وما يجب أن تُعطيه الدولة الأولوية",
+        "البلديات التي لديها أعلى ضريبة بلدية"
+      ]
+    },
     "correct": 2,
     "why": "Бюджетное предложение показывает, какую политику намерено проводить правительство и что государство должно приоритизировать — оно касается доходов и расходов государства, а не решений Верховного суда, результатов выборов или уровня муниципальных налогов, которые коммуны устанавливают сами."
   },
@@ -1866,6 +3144,24 @@
         "Партии, входящие в правительство",
         "Партии, которые не набрали достаточно голосов, чтобы попасть в риксдаг",
         "Партии, которые не поддерживают правительство"
+      ]
+    },
+    "en": {
+      "q": "Which parties count as the opposition in the Riksdag?",
+      "o": [
+        "The parties with the most seats in the Riksdag",
+        "The parties that are in government",
+        "The parties that did not get enough votes to enter the Riksdag",
+        "The parties that do not support the government"
+      ]
+    },
+    "ar": {
+      "q": "ما الأحزاب التي تُعتبر معارضة في البرلمان؟",
+      "o": [
+        "الأحزاب التي لديها أكبر عدد من المقاعد في البرلمان",
+        "الأحزاب المشاركة في الحكومة",
+        "الأحزاب التي لم تحصل على أصوات كافية لدخول البرلمان",
+        "الأحزاب التي لا تدعم الحكومة"
       ]
     },
     "correct": 3,
@@ -1894,6 +3190,24 @@
         "Решать, какие ведомства должны существовать"
       ]
     },
+    "en": {
+      "q": "What is the opposition's main task in the Riksdag?",
+      "o": [
+        "To scrutinize the government's work and propose alternative policies",
+        "To carry out the government's decisions in practice",
+        "To appoint judges to the Supreme Court",
+        "To decide which agencies should exist"
+      ]
+    },
+    "ar": {
+      "q": "ما المهمة الرئيسية للمعارضة في البرلمان؟",
+      "o": [
+        "مراقبة عمل الحكومة واقتراح سياسة بديلة",
+        "تنفيذ قرارات الحكومة عمليًا",
+        "تعيين قضاة المحكمة العليا",
+        "تحديد الهيئات التي يجب أن توجد"
+      ]
+    },
     "correct": 0,
     "why": "Задача оппозиции — проверять работу правительства и предлагать альтернативную политику. Реализация решений правительства — задача самого правительства и ведомств, а назначение судей и создание новых ведомств не относятся к работе оппозиции."
   },
@@ -1918,6 +3232,24 @@
         "Служба занятости (Arbetsförmedlingen)",
         "Миграционное ведомство (Migrationsverket)",
         "Полицейское управление"
+      ]
+    },
+    "en": {
+      "q": "A person has become unemployed and wants help finding a new job. Which agency can help with this?",
+      "o": [
+        "The Tax Agency (Skatteverket)",
+        "The Employment Agency (Arbetsförmedlingen)",
+        "The Migration Agency (Migrationsverket)",
+        "The Police Authority"
+      ]
+    },
+    "ar": {
+      "q": "أصبح شخص عاطلًا عن العمل ويريد مساعدة في إيجاد وظيفة جديدة. أي هيئة يمكنها المساعدة في ذلك؟",
+      "o": [
+        "مصلحة الضرائب (Skatteverket)",
+        "دائرة التوظيف (Arbetsförmedlingen)",
+        "هيئة الهجرة (Migrationsverket)",
+        "جهاز الشرطة"
       ]
     },
     "correct": 1,
@@ -1946,6 +3278,24 @@
         "Советоваться с королём перед каждым решением"
       ]
     },
+    "en": {
+      "q": "What must Swedish agencies do in their work?",
+      "o": [
+        "Make their own decisions completely independent of the law",
+        "Follow direct orders from the municipal council in every municipality",
+        "Follow the law and the instructions they have received from the government",
+        "Consult the King before every decision"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يجب أن تلتزم به الهيئات السويدية في عملها؟",
+      "o": [
+        "اتخاذ قراراتها الخاصة بمعزل كامل عن القانون",
+        "اتباع أوامر مباشرة من المجلس البلدي في كل بلدية",
+        "اتباع القانون والتعليمات التي تلقتها من الحكومة",
+        "استشارة الملك قبل كل قرار"
+      ]
+    },
     "correct": 2,
     "why": "Ведомства обязаны следовать закону и инструкциям, полученным от правительства, — они не действуют независимо от закона, не подчиняются напрямую городским советам коммун и не консультируются с королём, у которого нет политической власти."
   },
@@ -1970,6 +3320,24 @@
         "Только правительство",
         "Только городской совет (kommunfullmäktige)",
         "Парламентский омбудсмен (JO) или канцлер юстиции (JK)"
+      ]
+    },
+    "en": {
+      "q": "A person believes they have been treated incorrectly by an agency, but it is not a crime to be tried in court. Who can then review the agency's actions?",
+      "o": [
+        "Only a general court such as the district court (tingsrätten)",
+        "Only the government",
+        "Only the municipal council",
+        "The Parliamentary Ombudsman (JO) or the Chancellor of Justice (JK)"
+      ]
+    },
+    "ar": {
+      "q": "يرى شخص أن هيئة ما تعاملت معه بشكل غير صحيح، لكن الأمر لا يتعلق بجريمة تنظر فيها المحكمة. من يمكنه عندئذ مراجعة تصرف الهيئة؟",
+      "o": [
+        "محكمة عامة فقط مثل المحكمة الابتدائية (tingsrätten)",
+        "الحكومة فقط",
+        "المجلس البلدي فقط",
+        "أمين المظالم البرلماني (JO) أو المستشار العدلي (JK)"
       ]
     },
     "correct": 3,
@@ -1998,6 +3366,24 @@
         "Само правительство напрямую"
       ]
     },
+    "en": {
+      "q": "Who makes decisions in a region's regional council (regionfullmäktige)?",
+      "o": [
+        "Politicians elected by the region's residents in the regional election",
+        "State officials appointed by the government",
+        "The municipal councils of the region's municipalities jointly",
+        "The government directly"
+      ]
+    },
+    "ar": {
+      "q": "من يتخذ القرارات في المجلس الإقليمي (regionfullmäktige) للإقليم الإداري؟",
+      "o": [
+        "سياسيون انتخبهم سكان الإقليم في الانتخابات الإقليمية",
+        "موظفون حكوميون عيّنتهم الحكومة",
+        "المجالس البلدية لبلديات الإقليم مجتمعة",
+        "الحكومة مباشرة"
+      ]
+    },
     "correct": 0,
     "why": "В региональном собрании (regionfullmäktige) решения принимают политики, которых сами жители региона избрали на региональных выборах, — а не назначенные правительством чиновники, не городские советы коммун региона и не правительство напрямую."
   },
@@ -2022,6 +3408,24 @@
         "Обеспечивать работу общественного транспорта и заботиться о лен-музеях",
         "Строить новое жильё в городах",
         "Назначать депутатов риксдага Швеции"
+      ]
+    },
+    "en": {
+      "q": "The regions are responsible for healthcare. What other responsibility do they also have?",
+      "o": [
+        "Deciding the level of municipal tax in each municipality",
+        "Providing public transport and running the county museums",
+        "Building new housing in the cities",
+        "Appointing members to Sweden's Riksdag"
+      ]
+    },
+    "ar": {
+      "q": "تتولى الأقاليم الإدارية مسؤولية الرعاية الصحية. ما المهمة الأخرى التي تتولاها أيضًا؟",
+      "o": [
+        "تحديد مستوى الضريبة البلدية في كل بلدية",
+        "توفير النقل العام وإدارة متاحف المقاطعات (länsmuseer)",
+        "بناء مساكن جديدة في المدن",
+        "تعيين أعضاء البرلمان السويدي"
       ]
     },
     "correct": 1,
@@ -2050,6 +3454,24 @@
         "Комитет по экологии"
       ]
     },
+    "en": {
+      "q": "Which committee in a municipality is usually responsible for libraries?",
+      "o": [
+        "The education committee",
+        "The social affairs committee",
+        "The culture committee",
+        "The environment committee"
+      ]
+    },
+    "ar": {
+      "q": "أي لجنة في البلدية تتولى عادة مسؤولية المكتبات؟",
+      "o": [
+        "لجنة التعليم",
+        "لجنة الشؤون الاجتماعية",
+        "لجنة الثقافة",
+        "لجنة البيئة"
+      ]
+    },
     "correct": 2,
     "why": "За библиотеки обычно отвечает комитет по культуре (kulturnämnden). Комитет по образованию отвечает за школы, комитет по социальным вопросам — за помощь и защиту жителей, а комитет по экологии не упоминается в связи с библиотеками."
   },
@@ -2074,6 +3496,24 @@
         "Региональное собрание (regionfullmäktige)",
         "Жители напрямую на отдельных выборах",
         "Городской совет (kommunfullmäktige)"
+      ]
+    },
+    "en": {
+      "q": "Who elects the members of a municipality's committees?",
+      "o": [
+        "The government",
+        "The regional council",
+        "The residents directly in a separate election",
+        "The municipal council"
+      ]
+    },
+    "ar": {
+      "q": "من ينتخب أعضاء لجان البلدية؟",
+      "o": [
+        "الحكومة",
+        "المجلس الإقليمي",
+        "السكان مباشرة في انتخابات منفصلة",
+        "المجلس البلدي"
       ]
     },
     "correct": 3,
@@ -2102,6 +3542,24 @@
         "Разработка основных законов"
       ]
     },
+    "en": {
+      "q": "Which of the following belongs to the municipality's responsibility for residents' everyday lives?",
+      "o": [
+        "Water and sewage, and snow clearance",
+        "Healthcare at hospitals",
+        "Foreign policy and defense",
+        "Drafting the fundamental laws"
+      ]
+    },
+    "ar": {
+      "q": "أي مما يلي يندرج ضمن مسؤولية البلدية عن الحياة اليومية للسكان؟",
+      "o": [
+        "المياه والصرف الصحي وإزالة الثلوج",
+        "الرعاية الصحية في المستشفيات",
+        "السياسة الخارجية والدفاع",
+        "صياغة القوانين الأساسية"
+      ]
+    },
     "correct": 0,
     "why": "Коммуна отвечает за такие повседневные услуги, как водоснабжение, канализация и уборка снега. Здравоохранение в больницах — задача регионов, внешняя политика и оборона — государства, а разработка основных законов — задача риксдага."
   },
@@ -2126,6 +3584,24 @@
         "Мальмё",
         "Стокгольм",
         "Дорутеа"
+      ]
+    },
+    "en": {
+      "q": "A person compares Sweden's municipalities and wonders which has the most residents. Which municipality is the largest?",
+      "o": [
+        "Gothenburg",
+        "Malmö",
+        "Stockholm",
+        "Dorotea"
+      ]
+    },
+    "ar": {
+      "q": "يقارن شخص بلديات السويد ويتساءل عن الأكبر من حيث عدد السكان. ما أكبر بلدية؟",
+      "o": [
+        "غوتنبرغ",
+        "مالمو",
+        "ستوكهولم",
+        "دوروتيا"
       ]
     },
     "correct": 2,
@@ -2154,6 +3630,24 @@
         "Служит символом Швеции, совершает государственные визиты и принимает глав других государств"
       ]
     },
+    "en": {
+      "q": "What does the Swedish King do in his role as head of state?",
+      "o": [
+        "Appoints the ministers in the government",
+        "Enacts Sweden's laws",
+        "Passes judgment in Sweden's courts",
+        "Acts as a symbol for Sweden, makes state visits, and receives other countries' heads of state"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يفعل الملك السويدي في دوره كرئيس للدولة؟",
+      "o": [
+        "يُعيّن وزراء الحكومة",
+        "يسنّ قوانين السويد",
+        "يصدر أحكامًا في محاكم السويد",
+        "يُمثّل رمزًا للسويد، ويقوم بزيارات دولة، ويستقبل رؤساء دول أخرى"
+      ]
+    },
     "correct": 3,
     "why": "Король служит символом Швеции, совершает государственные визиты и принимает глав других государств, — но не назначает министров (это делает премьер-министр), не принимает законы (это делает риксдаг) и не выносит судебные приговоры (это делают суды), поскольку у него нет политической власти."
   },
@@ -2178,6 +3672,24 @@
         "Нет, у короля нет политической власти останавливать законы",
         "Да, но только если правительство попросит его об этом",
         "Да, но только в течение ограниченного времени раз в год"
+      ]
+    },
+    "en": {
+      "q": "The Riksdag has decided on a new law. Can the King stop the law from taking effect?",
+      "o": [
+        "Yes, the King can always stop a law the Riksdag has decided on",
+        "No, the King has no political power to stop laws",
+        "Yes, but only if the government asks him to",
+        "Yes, but only for a limited time each year"
+      ]
+    },
+    "ar": {
+      "q": "أقرّ البرلمان قانونًا جديدًا. هل يمكن للملك منع دخول القانون حيز التنفيذ؟",
+      "o": [
+        "نعم، يمكن للملك دائمًا منع قانون أقرّه البرلمان",
+        "لا، لا سلطة سياسية للملك لمنع القوانين",
+        "نعم، لكن فقط إذا طلبت منه الحكومة ذلك",
+        "نعم، لكن فقط لفترة محدودة كل عام"
       ]
     },
     "correct": 1,
@@ -2206,6 +3718,24 @@
         "Каждые шесть лет"
       ]
     },
+    "en": {
+      "q": "How often are elections to the European Parliament held?",
+      "o": [
+        "Every third year",
+        "Every fourth year",
+        "Every fifth year",
+        "Every sixth year"
+      ]
+    },
+    "ar": {
+      "q": "كم مرة تُجرى انتخابات البرلمان الأوروبي؟",
+      "o": [
+        "كل ثلاث سنوات",
+        "كل أربع سنوات",
+        "كل خمس سنوات",
+        "كل ست سنوات"
+      ]
+    },
     "correct": 2,
     "why": "Выборы в Европарламент проходят каждые пять лет — в отличие от выборов в риксдаг, регион и коммуну, которые проходят каждые четыре года."
   },
@@ -2230,6 +3760,24 @@
         "Достичь 18 лет и быть прописанным в Швеции",
         "Прожить в Швеции три года",
         "Быть членом политической партии"
+      ]
+    },
+    "en": {
+      "q": "What is required to be allowed to vote in the Riksdag election?",
+      "o": [
+        "Being at least 18 years old and a Swedish citizen",
+        "Being at least 18 years old and registered as living in Sweden (folkbokförd)",
+        "Having lived in Sweden for three years",
+        "Being a member of a political party"
+      ]
+    },
+    "ar": {
+      "q": "ما المطلوب لحق التصويت في انتخابات البرلمان؟",
+      "o": [
+        "بلوغ 18 عامًا وحمل الجنسية السويدية",
+        "بلوغ 18 عامًا والتسجيل السكاني في السويد (folkbokförd)",
+        "الإقامة في السويد لمدة ثلاث سنوات",
+        "العضوية في حزب سياسي"
       ]
     },
     "correct": 0,
@@ -2258,6 +3806,24 @@
         "На всех выборах в Швеции"
       ]
     },
+    "en": {
+      "q": "A person who is not a Swedish citizen has lived and been registered as living in Sweden (folkbokförd) for four years. Which elections may this person vote in?",
+      "o": [
+        "No elections",
+        "Only the Riksdag election",
+        "The municipal and regional elections",
+        "All elections in Sweden"
+      ]
+    },
+    "ar": {
+      "q": "شخص لا يحمل الجنسية السويدية أقام وسُجّل سكنيًا (folkbokförd) في السويد لمدة أربع سنوات. في أي انتخابات يحق له التصويت؟",
+      "o": [
+        "لا يحق له التصويت في أي انتخابات",
+        "انتخابات البرلمان فقط",
+        "انتخابات البلدية والإقليم",
+        "جميع الانتخابات في السويد"
+      ]
+    },
     "correct": 2,
     "why": "Требуется в сумме три года проживания и прописки. Для граждан ЕС и Северных стран достаточно только прописки."
   },
@@ -2282,6 +3848,24 @@
         "Референдум носит рекомендательный характер, и политики не обязаны следовать результату",
         "Результат действует, только если референдум проведён на общенациональном уровне, а не в коммуне или регионе",
         "Референдумы можно проводить только по таким вопросам, как членство в ЕС или смена валюты"
+      ]
+    },
+    "en": {
+      "q": "What applies to the result of a referendum in Sweden?",
+      "o": [
+        "Politicians must always follow the result",
+        "The referendum is advisory and politicians do not have to follow the result",
+        "The result only applies if the referendum is held at national level, not in a municipality or region",
+        "Referendums may only be about things like EU membership or a change of currency"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي ينطبق على نتيجة الاستفتاء في السويد؟",
+      "o": [
+        "يجب على السياسيين اتباع النتيجة دائمًا",
+        "الاستفتاء استشاري، ولا يتوجب على السياسيين اتباع النتيجة",
+        "تسري النتيجة فقط إذا أُجري الاستفتاء على المستوى الوطني، وليس في بلدية أو إقليم",
+        "لا يجوز إجراء استفتاءات إلا في مواضيع مثل عضوية الاتحاد الأوروبي أو تغيير العملة"
       ]
     },
     "correct": 1,
@@ -2310,6 +3894,24 @@
         "Десять процентов"
       ]
     },
+    "en": {
+      "q": "What is the minimum percentage of votes a party must get to enter the Riksdag?",
+      "o": [
+        "Two percent",
+        "Four percent",
+        "Five percent",
+        "Ten percent"
+      ]
+    },
+    "ar": {
+      "q": "ما أدنى نسبة مئوية من الأصوات يجب أن يحصل عليها حزب لدخول البرلمان؟",
+      "o": [
+        "اثنان بالمئة",
+        "أربعة بالمئة",
+        "خمسة بالمئة",
+        "عشرة بالمئة"
+      ]
+    },
     "correct": 1,
     "why": "Барьер в 4 % существует, чтобы в риксдаг не попадало слишком много партий и было легче создавать устойчивое большинство."
   },
@@ -2336,6 +3938,24 @@
         "Что избиратели голосуют за людей, а не за партии"
       ]
     },
+    "en": {
+      "q": "What do proportional elections mean?",
+      "o": [
+        "That the party with the most votes gets all the seats",
+        "That parties get seats based on the share of votes they received",
+        "That every municipality gets an equal number of seats",
+        "That voters vote for individuals instead of parties"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تعني الانتخابات النسبية؟",
+      "o": [
+        "أن الحزب الذي يحصل على أكبر عدد من الأصوات يفوز بجميع المقاعد",
+        "أن تحصل الأحزاب على مقاعد بحسب نسبة الأصوات التي حصلت عليها",
+        "أن تحصل كل بلدية على عدد متساوٍ من المقاعد",
+        "أن يصوّت الناخبون لأفراد بدلًا من الأحزاب"
+      ]
+    },
     "correct": 1,
     "why": "Двадцать процентов голосов дают примерно двадцать процентов мест. Поэтому партиям часто приходится договариваться о большинстве."
   },
@@ -2355,6 +3975,24 @@
     },
     "ru": {
       "q": "Что из перечисленного не является партией, представленной в риксдаге до выборов 2026 года?",
+      "o": [
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Folkpartiet",
+        "Vänsterpartiet"
+      ]
+    },
+    "en": {
+      "q": "Which of these is not a party that sat in the Riksdag up until the 2026 election?",
+      "o": [
+        "Centerpartiet",
+        "Miljöpartiet",
+        "Folkpartiet",
+        "Vänsterpartiet"
+      ]
+    },
+    "ar": {
+      "q": "أي مما يلي ليس حزبًا كان ممثلًا في البرلمان حتى انتخابات 2026؟",
       "o": [
         "Centerpartiet",
         "Miljöpartiet",
@@ -2388,6 +4026,24 @@
         "Каждые шесть лет"
       ]
     },
+    "en": {
+      "q": "How often are elections to the Riksdag, the regional council and the municipal council held in Sweden?",
+      "o": [
+        "Every other year",
+        "Every fourth year",
+        "Every fifth year",
+        "Every sixth year"
+      ]
+    },
+    "ar": {
+      "q": "كم مرة تُجرى في السويد انتخابات البرلمان والمجلس الإقليمي والمجلس البلدي؟",
+      "o": [
+        "كل سنتين",
+        "كل أربع سنوات",
+        "كل خمس سنوات",
+        "كل ست سنوات"
+      ]
+    },
     "correct": 1,
     "why": "Выборы в риксдаг, региональные собрания и городские советы проходят каждые четыре года — все три одновременно. Каждые пять лет проходят выборы в Европарламент, а двухлетнего и шестилетнего циклов в шведской системе выборов не существует."
   },
@@ -2412,6 +4068,24 @@
         "Да, если человек прописан в Швеции",
         "Да, но только на выборах в коммуну",
         "Нет, чтобы голосовать, нужно уже достичь 18 лет"
+      ]
+    },
+    "en": {
+      "q": "A person turns 18 three months after election day. May this person vote in that election?",
+      "o": [
+        "Yes, if the person is a Swedish citizen",
+        "Yes, if the person is registered as living in Sweden",
+        "Yes, but only in the municipal election",
+        "No, you must have already turned 18 to be allowed to vote"
+      ]
+    },
+    "ar": {
+      "q": "يبلغ شخص 18 عامًا بعد ثلاثة أشهر من يوم الانتخابات. هل يحق له التصويت في تلك الانتخابات؟",
+      "o": [
+        "نعم، إذا كان الشخص مواطنًا سويديًا",
+        "نعم، إذا كان الشخص مسجلًا سكنيًا في السويد",
+        "نعم، لكن فقط في انتخابات البلدية",
+        "لا، يجب أن يكون الشخص قد بلغ 18 عامًا بالفعل ليحق له التصويت"
       ]
     },
     "correct": 3,
@@ -2440,6 +4114,24 @@
         "Достичь 21 года"
       ]
     },
+    "en": {
+      "q": "A person from Germany is an EU citizen and has recently registered as living in Sweden. What is required for this person to be allowed to vote in the municipal and regional elections?",
+      "o": [
+        "That the person has lived and been registered in Sweden for a total of three years",
+        "That the person first becomes a Swedish citizen",
+        "Only that the person is registered as living in the country",
+        "That the person has turned 21"
+      ]
+    },
+    "ar": {
+      "q": "شخص من ألمانيا مواطن في الاتحاد الأوروبي وسُجّل سكنيًا في السويد مؤخرًا. ما المطلوب لكي يحق له التصويت في انتخابات البلدية والإقليم؟",
+      "o": [
+        "أن يكون قد أقام وسُجّل سكنيًا في السويد لمدة ثلاث سنوات مجتمعة",
+        "أن يحصل أولًا على الجنسية السويدية",
+        "فقط أن يكون مسجلًا سكنيًا في البلاد",
+        "أن يكون قد بلغ 21 عامًا"
+      ]
+    },
     "correct": 2,
     "why": "Гражданам ЕС и стран Северной Европы достаточно быть прописанными в Швеции — трёхлетний срок проживания требуется от граждан других стран. Шведское гражданство для участия в коммунальных и региональных выборах не нужно, а возрастной ценз везде составляет 18 лет, а не 21."
   },
@@ -2464,6 +4156,24 @@
         "Всегда в стране, где человек родился",
         "В любой стране ЕС по своему выбору",
         "Только в стране, выдавшей человеку паспорт"
+      ]
+    },
+    "en": {
+      "q": "In which country does an EU citizen vote in the European Parliament election?",
+      "o": [
+        "In the country where the person is registered as living",
+        "Always in the country where the person was born",
+        "In any EU country the person chooses",
+        "Only in the country that issued the person's passport"
+      ]
+    },
+    "ar": {
+      "q": "في أي دولة يصوّت مواطن الاتحاد الأوروبي في انتخابات البرلمان الأوروبي؟",
+      "o": [
+        "في الدولة التي يكون فيها مسجلًا سكنيًا",
+        "دائمًا في الدولة التي وُلد فيها",
+        "في أي دولة من دول الاتحاد الأوروبي يختارها",
+        "فقط في الدولة التي أصدرت جواز سفره"
       ]
     },
     "correct": 0,
@@ -2492,6 +4202,24 @@
         "Только в рамках сотрудничества ЕС"
       ]
     },
+    "en": {
+      "q": "At which levels can referendums be held in Sweden?",
+      "o": [
+        "Only nationally",
+        "Nationally, in a region, or in a municipality",
+        "Only in a municipality",
+        "Only within EU cooperation"
+      ]
+    },
+    "ar": {
+      "q": "على أي مستويات يمكن إجراء الاستفتاءات في السويد؟",
+      "o": [
+        "على المستوى الوطني فقط",
+        "على المستوى الوطني أو في إقليم أو في بلدية",
+        "في بلدية فقط",
+        "في إطار التعاون الأوروبي فقط"
+      ]
+    },
     "correct": 1,
     "why": "Референдумы в Швеции могут проводиться как на общенациональном уровне, так и в отдельном регионе или коммуне. Ограничение только общенациональным или только коммунальным уровнем не соответствует действительности, и это внутришведский инструмент, а не часть сотрудничества ЕС."
   },
@@ -2516,6 +4244,24 @@
         "Референдум отменили до его проведения",
         "Голоса разделились поровну, и вопрос решил риксдаг",
         "Народ проголосовал против, и Швеция сохранила шведскую крону"
+      ]
+    },
+    "en": {
+      "q": "In 2003, Sweden held a referendum on replacing the Swedish krona with the euro. What was the result?",
+      "o": [
+        "The people voted yes, and Sweden adopted the euro",
+        "The vote was cancelled before it took place",
+        "The result was exactly tied and the issue was decided by the Riksdag",
+        "The people voted no, and Sweden kept the Swedish krona"
+      ]
+    },
+    "ar": {
+      "q": "في عام 2003، أجرت السويد استفتاءً حول استبدال الكرونا السويدية باليورو. ما كانت النتيجة؟",
+      "o": [
+        "صوّت الشعب بالموافقة، واعتمدت السويد اليورو",
+        "أُلغي الاستفتاء قبل إجرائه",
+        "تعادلت النتيجة تمامًا وحسم البرلمان الأمر",
+        "صوّت الشعب بالرفض، واحتفظت السويد بالكرونا السويدية"
       ]
     },
     "correct": 3,
@@ -2544,6 +4290,24 @@
         "Человек может проголосовать только после дня выборов"
       ]
     },
+    "en": {
+      "q": "A person receives a voter card in the mail before the election, but cannot get to their polling station on election day. What option is available?",
+      "o": [
+        "The person can vote in advance at designated locations",
+        "The person loses their right to vote in that election",
+        "The person must ask someone else to vote in their place",
+        "The person can only vote after election day"
+      ]
+    },
+    "ar": {
+      "q": "يتلقى شخص بطاقة ناخب بالبريد قبل الانتخابات، لكنه لا يستطيع الوصول إلى مركز اقتراعه في يوم الانتخابات. ما الخيار المتاح؟",
+      "o": [
+        "يمكن للشخص التصويت مسبقًا في أماكن مخصصة لذلك",
+        "يفقد الشخص حقه في التصويت في تلك الانتخابات",
+        "يجب على الشخص أن يطلب من شخص آخر التصويت بدلًا منه",
+        "لا يمكن للشخص التصويت إلا بعد يوم الانتخابات"
+      ]
+    },
     "correct": 0,
     "why": "Можно проголосовать досрочно в специально отведённых для этого местах. Право голоса при этом не теряется, голосовать за другого человека нельзя, а после дня выборов голосование уже не проводится."
   },
@@ -2568,6 +4332,24 @@
         "Чтобы члены комиссии успевали быстрее подсчитывать голоса",
         "Потому что в помещении участка помещается только один человек за раз",
         "Чтобы партии могли проверить, как голосуют их члены"
+      ]
+    },
+    "en": {
+      "q": "Why does everyone vote behind a screen at a Swedish polling station?",
+      "o": [
+        "Because elections are secret and no one else should be able to see what choice you make",
+        "So that the election officials can count the votes faster",
+        "Because only one person at a time fits in the polling station",
+        "So that parties can check how their members vote"
+      ]
+    },
+    "ar": {
+      "q": "لماذا يصوّت الجميع خلف ستارة في مركز الاقتراع السويدي؟",
+      "o": [
+        "لأن الانتخابات سرية ولا يجب أن يرى أحد آخر الاختيار الذي يقوم به الشخص",
+        "لكي يتمكن أعضاء لجنة الانتخابات من عدّ الأصوات بسرعة أكبر",
+        "لأن مركز الاقتراع يتسع لشخص واحد فقط في كل مرة",
+        "لكي تتمكن الأحزاب من التحقق من كيفية تصويت أعضائها"
       ]
     },
     "correct": 0,
@@ -2596,6 +4378,24 @@
         "Им сначала нужно получить разрешение риксдага"
       ]
     },
+    "en": {
+      "q": "A group of people share the same ideas about how society should be governed, but feel that no existing party champions their issues. What can they do in Sweden?",
+      "o": [
+        "They must choose one of the existing parties",
+        "They can start a new party together",
+        "They can only have an influence by casting a blank vote",
+        "They must first get permission from the Riksdag"
+      ]
+    },
+    "ar": {
+      "q": "تتشارك مجموعة من الناس الأفكار نفسها حول كيفية إدارة المجتمع، لكنها ترى أن ما من حزب قائم يتبنى قضاياها. ماذا يمكنهم أن يفعلوا في السويد؟",
+      "o": [
+        "يجب عليهم اختيار أحد الأحزاب القائمة",
+        "يمكنهم تأسيس حزب جديد معًا",
+        "لا يمكنهم التأثير إلا عبر التصويت بورقة فارغة",
+        "يجب عليهم أولًا الحصول على إذن من البرلمان"
+      ]
+    },
     "correct": 1,
     "why": "В Швеции можно вместе с другими создать новую партию — это открытая возможность для всех желающих. Обязанности выбирать из существующих партий нет, пустой бюллетень не единственный способ выразить позицию, и разрешение риксдага для создания партии не требуется."
   },
@@ -2620,6 +4420,24 @@
         "Они могут участвовать, только если представлены минимум в десяти коммунах",
         "Они ведут политику только для своего региона или коммуны, а не на общенациональном уровне",
         "Их назначает правительство, а не избирают"
+      ]
+    },
+    "en": {
+      "q": "What characterizes special parties that run in regional and municipal elections in Sweden?",
+      "o": [
+        "They always have seats in the Riksdag as well",
+        "They may only run if they are present in at least ten municipalities",
+        "They pursue policy only for their own region or municipality, not at the national level",
+        "They are appointed by the government instead of being elected"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يميز الأحزاب الخاصة التي تترشح في الانتخابات الإقليمية والبلدية في السويد؟",
+      "o": [
+        "لديها دائمًا مقاعد في البرلمان أيضًا",
+        "لا يحق لها الترشح إلا إذا كانت موجودة في عشر بلديات على الأقل",
+        "تتبنى سياسة تخص إقليمها أو بلديتها فقط، وليس على المستوى الوطني",
+        "تُعيّنها الحكومة بدلًا من أن تُنتخب"
       ]
     },
     "correct": 2,

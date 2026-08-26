@@ -11,6 +11,19 @@ const chapterKey = ch => `medborgarprov:kapitel:${ch}`
 const BANK_KEY = 'medborgarprov:bank'
 const LETTER = ['A', 'B', 'C', 'D']
 
+// Vilket språk frågorna kan visas översatta till, utöver svenskan som
+// alltid är huvudspråket. Tomt värde ('') betyder ingen översättning.
+const LANG_KEY = 'medborgarprov:sprak'
+const LANGS = ['ru', 'en', 'ar']
+const LANG_NAME = { ru: 'Ryska', en: 'Engelska', ar: 'Arabiska' }
+const WHY_FIELD = { ru: 'why', en: 'whyEn', ar: 'whyAr' }
+const WHY_LABEL = { ru: 'Почему:', en: 'Why:', ar: 'لماذا:' }
+
+function loadLang() {
+  const v = localStorage.getItem(LANG_KEY)
+  return LANGS.includes(v) ? v : ''
+}
+
 function mmss(s) {
   const m = Math.floor(Math.max(0, s) / 60)
   return `${String(m).padStart(2, '0')}:${String(Math.max(0, s) % 60).padStart(2, '0')}`
@@ -28,7 +41,8 @@ export default function App() {
   const [answers, setAnswers] = useState([])
   const [at, setAt] = useState(0)
   const [left, setLeft] = useState(EXAM_MINUTES * 60)
-  const [showRu, setShowRu] = useState(true)
+  const [lang, setLang] = useState(() => loadLang())
+  const [showTranslation, setShowTranslation] = useState(true)
   const [timed, setTimed] = useState(true)
   const [pass, setPass] = useState(DEFAULT_PASS)
   const [saved, setSaved] = useState(() => loadSaved())
@@ -47,6 +61,10 @@ export default function App() {
   }, [mode, pSeed, pCh])
 
   useEffect(() => {
+    localStorage.setItem(LANG_KEY, lang)
+  }, [lang])
+
+  useEffect(() => {
     if (screen !== 'exam' || !timed) return
     const t = setInterval(() => setLeft(v => {
       if (v <= 1) { clearInterval(t); setScreen('result'); return 0 }
@@ -57,9 +75,9 @@ export default function App() {
 
   useEffect(() => {
     if (screen === 'exam') {
-      localStorage.setItem(KEY, JSON.stringify({ code, answers, at, left, showRu, timed, pass }))
+      localStorage.setItem(KEY, JSON.stringify({ code, answers, at, left, timed, pass }))
     }
-  }, [screen, code, answers, at, left, showRu, timed, pass])
+  }, [screen, code, answers, at, left, timed, pass])
 
   useEffect(() => {
     if (screen !== 'practice') return
@@ -108,7 +126,6 @@ export default function App() {
     setAnswers(saved.answers)
     setAt(saved.at)
     setLeft(saved.left)
-    setShowRu(saved.showRu)
     setTimed(saved.timed)
     setPass(saved.pass)
     setScreen('exam')
@@ -126,7 +143,7 @@ export default function App() {
     setScreen('start')
   }
 
-  const common = { showRu, setShowRu }
+  const common = { lang, setLang, showTranslation, setShowTranslation }
 
   return (
     <div className="sheet-frame">
@@ -176,7 +193,7 @@ export default function App() {
 /* ------------------------------------------------------------------ */
 
 function Start({
-  saved, onResume, onStart, showRu, setShowRu, timed, setTimed, pass, setPass,
+  saved, onResume, onStart, lang, setLang, timed, setTimed, pass, setPass,
   onStartChapter, onStartBank
 }) {
   const [manual, setManual] = useState('')
@@ -187,7 +204,7 @@ function Start({
       <p className="lead">
         Tre sätt att öva: ett provliknande test på {EXAM_SIZE} frågor med tid, fri träning på
         ett enskilt kapitel, eller hela frågebanken på {bankSize} frågor. Allt är byggt på UHR:s
-        utbildningsmaterial <i>Sverige i fokus</i> och visas på svenska, med rysk översättning som stöd.
+        utbildningsmaterial <i>Sverige i fokus</i> och visas på svenska, med valfri översättning som stöd.
       </p>
 
       <div className="notice">
@@ -216,8 +233,13 @@ function Start({
       <h2>Inställningar</h2>
       <div className="toggle-row">
         <label className="field">
-          <input type="checkbox" checked={showRu} onChange={e => setShowRu(e.target.checked)} />
-          Visa rysk översättning
+          Översättning
+          <select value={lang} onChange={e => setLang(e.target.value)}>
+            <option value="">Ingen översättning</option>
+            {LANGS.map(l => (
+              <option key={l} value={l}>{LANG_NAME[l]}</option>
+            ))}
+          </select>
         </label>
         <label className="field">
           <input type="checkbox" checked={timed} onChange={e => setTimed(e.target.checked)} />
@@ -328,7 +350,7 @@ function BankBlock({ onStart }) {
 
 /* ------------------------------------------------------------------ */
 
-function Exam({ exam, code, answers, setAnswers, at, setAt, left, timed, onFinish, showRu, setShowRu }) {
+function Exam({ exam, code, answers, setAnswers, at, setAt, left, timed, onFinish, lang, showTranslation, setShowTranslation }) {
   const q = exam[at]
   const answered = answers.filter(a => a !== null).length
   const topRef = useRef(null)
@@ -360,13 +382,17 @@ function Exam({ exam, code, answers, setAnswers, at, setAt, left, timed, onFinis
       <div className="qcard" style={{ marginTop: 20 }}>
         <div className="qhead">
           <span className="eyebrow" style={{ margin: 0 }}>Fråga {at + 1}</span>
-          <button className="btn btn-ghost btn-small" onClick={() => setShowRu(v => !v)}>
-            {showRu ? 'Dölj översättning' : 'Visa översättning'}
-          </button>
+          {lang && (
+            <button className="btn btn-ghost btn-small" onClick={() => setShowTranslation(v => !v)}>
+              {showTranslation ? 'Dölj översättning' : 'Visa översättning'}
+            </button>
+          )}
         </div>
 
         <p className="qtext">{q.sv.q}</p>
-        {showRu && <p className="qtext-ru">{q.ru.q}</p>}
+        {lang && showTranslation && (
+          <p className="qtext-ru" lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].q}</p>
+        )}
 
         <ul className="opts">
           {q.sv.o.map((text, i) => (
@@ -378,7 +404,9 @@ function Exam({ exam, code, answers, setAnswers, at, setAt, left, timed, onFinis
                 <span className="opt-key">{LETTER[i]}</span>
                 <span className="opt-body">
                   {text}
-                  {showRu && q.ru.o[i] !== text && <span className="opt-ru">{q.ru.o[i]}</span>}
+                  {lang && showTranslation && q[lang].o[i] !== text && (
+                    <span className="opt-ru" lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].o[i]}</span>
+                  )}
                 </span>
               </button>
             </li>
@@ -431,7 +459,7 @@ function Sheet({ count, answers, current, onJump, verdicts }) {
 
 /* ------------------------------------------------------------------ */
 
-function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
+function Result({ exam, answers, code, pass, onRestart, onAgain, lang, showTranslation }) {
   const [onlyWrong, setOnlyWrong] = useState(true)
   const { correct, total, perChapter } = useMemo(() => scoreExam(exam, answers), [exam, answers])
   const passed = correct >= pass
@@ -484,7 +512,9 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
         <div className="review-item" key={q.id}>
           <p className="eyebrow" style={{ marginBottom: 6 }}>Fråga {i + 1} · {q.ref}</p>
           <p style={{ fontWeight: 700, margin: '0 0 4px' }}>{q.sv.q}</p>
-          {showRu && <p className="small muted" style={{ margin: '0 0 12px' }}>{q.ru.q}</p>}
+          {lang && showTranslation && (
+            <p className="small muted" style={{ margin: '0 0 12px' }} lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].q}</p>
+          )}
           <ul className="opts">
             {q.sv.o.map((text, k) => {
               const verdict = k === q.correct ? 'right' : (answers[i] === k ? 'wrong' : undefined)
@@ -494,7 +524,9 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
                     <span className="opt-key">{LETTER[k]}</span>
                     <span className="opt-body">
                       {text}
-                      {showRu && q.ru.o[k] !== text && <span className="opt-ru">{q.ru.o[k]}</span>}
+                      {lang && showTranslation && q[lang].o[k] !== text && (
+                        <span className="opt-ru" lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].o[k]}</span>
+                      )}
                     </span>
                   </div>
                 </li>
@@ -503,7 +535,11 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
           </ul>
           <div className="why">
             <p style={{ margin: 0 }}><b>Varför:</b> {q.whySv}</p>
-            {showRu && <p style={{ margin: '6px 0 0' }}><b>Почему:</b> {q.why}</p>}
+            {lang && showTranslation && (
+              <p style={{ margin: '6px 0 0' }} dir={lang === 'ar' ? 'rtl' : undefined}>
+                <b>{WHY_LABEL[lang]}</b> <span lang={lang}>{q[WHY_FIELD[lang]]}</span>
+              </p>
+            )}
           </div>
         </div>
       ))}
@@ -520,7 +556,7 @@ function Result({ exam, answers, code, pass, onRestart, onAgain, showRu }) {
 
 /* ------------------------------------------------------------------ */
 
-function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinish, onExit, showRu, setShowRu }) {
+function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinish, onExit, lang, showTranslation, setShowTranslation }) {
   const q = questions[at]
   const topRef = useRef(null)
   const barRef = useRef(null)
@@ -570,13 +606,17 @@ function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinis
       <div className="qcard" style={{ marginTop: 20 }}>
         <div className="qhead">
           <span className="eyebrow" style={{ margin: 0 }}>Fråga {at + 1}</span>
-          <button className="btn btn-ghost btn-small" onClick={() => setShowRu(v => !v)}>
-            {showRu ? 'Dölj översättning' : 'Visa översättning'}
-          </button>
+          {lang && (
+            <button className="btn btn-ghost btn-small" onClick={() => setShowTranslation(v => !v)}>
+              {showTranslation ? 'Dölj översättning' : 'Visa översättning'}
+            </button>
+          )}
         </div>
 
         <p className="qtext">{q.sv.q}</p>
-        {showRu && <p className="qtext-ru">{q.ru.q}</p>}
+        {lang && showTranslation && (
+          <p className="qtext-ru" lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].q}</p>
+        )}
 
         <ul className="opts">
           {q.sv.o.map((text, i) => {
@@ -590,7 +630,9 @@ function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinis
                   <span className="opt-key">{LETTER[i]}</span>
                   <span className="opt-body">
                     {text}
-                    {showRu && q.ru.o[i] !== text && <span className="opt-ru">{q.ru.o[i]}</span>}
+                    {lang && showTranslation && q[lang].o[i] !== text && (
+                      <span className="opt-ru" lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].o[i]}</span>
+                    )}
                   </span>
                 </button>
               </li>
@@ -602,7 +644,11 @@ function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinis
           <div className="why" style={{ marginTop: 18 }}>
             <p className="small muted" style={{ margin: '0 0 6px' }}>{q.ref}</p>
             <p style={{ margin: 0 }}><b>Varför:</b> {q.whySv}</p>
-            {showRu && <p style={{ margin: '6px 0 0' }}><b>Почему:</b> {q.why}</p>}
+            {lang && showTranslation && (
+              <p style={{ margin: '6px 0 0' }} dir={lang === 'ar' ? 'rtl' : undefined}>
+                <b>{WHY_LABEL[lang]}</b> <span lang={lang}>{q[WHY_FIELD[lang]]}</span>
+              </p>
+            )}
           </div>
         )}
       </div>
@@ -616,7 +662,7 @@ function Practice({ mode, ch, questions, at, setAt, answers, setAnswers, onFinis
   )
 }
 
-function PracticeResult({ mode, ch, questions, answers, onAgain, onRestart, showRu }) {
+function PracticeResult({ mode, ch, questions, answers, onAgain, onRestart, lang, showTranslation }) {
   const [onlyWrong, setOnlyWrong] = useState(true)
   const total = questions.length
   const correct = questions.reduce((s, q, i) => s + (answers[i] === q.correct ? 1 : 0), 0)
@@ -672,7 +718,9 @@ function PracticeResult({ mode, ch, questions, answers, onAgain, onRestart, show
         <div className="review-item" key={q.id}>
           <p className="eyebrow" style={{ marginBottom: 6 }}>Fråga {i + 1} · {q.ref}</p>
           <p style={{ fontWeight: 700, margin: '0 0 4px' }}>{q.sv.q}</p>
-          {showRu && <p className="small muted" style={{ margin: '0 0 12px' }}>{q.ru.q}</p>}
+          {lang && showTranslation && (
+            <p className="small muted" style={{ margin: '0 0 12px' }} lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].q}</p>
+          )}
           <ul className="opts">
             {q.sv.o.map((text, k) => {
               const verdict = k === q.correct ? 'right' : (answers[i] === k ? 'wrong' : undefined)
@@ -682,7 +730,9 @@ function PracticeResult({ mode, ch, questions, answers, onAgain, onRestart, show
                     <span className="opt-key">{LETTER[k]}</span>
                     <span className="opt-body">
                       {text}
-                      {showRu && q.ru.o[k] !== text && <span className="opt-ru">{q.ru.o[k]}</span>}
+                      {lang && showTranslation && q[lang].o[k] !== text && (
+                        <span className="opt-ru" lang={lang} dir={lang === 'ar' ? 'rtl' : undefined}>{q[lang].o[k]}</span>
+                      )}
                     </span>
                   </div>
                 </li>
@@ -691,7 +741,11 @@ function PracticeResult({ mode, ch, questions, answers, onAgain, onRestart, show
           </ul>
           <div className="why">
             <p style={{ margin: 0 }}><b>Varför:</b> {q.whySv}</p>
-            {showRu && <p style={{ margin: '6px 0 0' }}><b>Почему:</b> {q.why}</p>}
+            {lang && showTranslation && (
+              <p style={{ margin: '6px 0 0' }} dir={lang === 'ar' ? 'rtl' : undefined}>
+                <b>{WHY_LABEL[lang]}</b> <span lang={lang}>{q[WHY_FIELD[lang]]}</span>
+              </p>
+            )}
           </div>
         </div>
       ))}
