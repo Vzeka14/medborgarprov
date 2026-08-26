@@ -22,6 +22,24 @@
         "2003"
       ]
     },
+    "en": {
+      "q": "In what year did Sweden become a member of the EU?",
+      "o": [
+        "1949",
+        "1991",
+        "1995",
+        "2003"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أصبحت السويد عضوًا في الاتحاد الأوروبي؟",
+      "o": [
+        "1949",
+        "1991",
+        "1995",
+        "2003"
+      ]
+    },
     "correct": 2,
     "why": "Швеция вступила в ЕС в 1995 году. Не путать с 1949 (основание Совета Европы), 1991 (распад СССР, изменивший ситуацию в Европе) и 2003 (референдум о евро) — эти даты относятся к другим событиям из той же главы. 2022 и 2024 — это годы заявки на членство в НАТО и вступления в НАТО, ещё более поздние события."
   },
@@ -46,6 +64,24 @@
         "Что люди могут учиться, переезжать, работать и свободно продавать товары между странами",
         "Что все граждане ЕС имеют право голоса во всех странах-членах",
         "Что у стран ЕС общая армия"
+      ]
+    },
+    "en": {
+      "q": "What do the EU's four freedoms mean?",
+      "o": [
+        "That all EU countries have the same currency",
+        "That people can study, move, work, and sell goods freely between countries",
+        "That all EU citizens have the right to vote in all member states",
+        "That the EU countries have a joint army"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تعني «الحريات الأربع» للاتحاد الأوروبي؟",
+      "o": [
+        "أن جميع دول الاتحاد الأوروبي تستخدم العملة نفسها",
+        "أن الناس يمكنهم الدراسة والانتقال والعمل وبيع السلع بحرية بين الدول",
+        "أن جميع مواطني الاتحاد الأوروبي لهم حق التصويت في جميع الدول الأعضاء",
+        "أن دول الاتحاد الأوروبي لديها جيش مشترك"
       ]
     },
     "correct": 1,
@@ -74,6 +110,24 @@
         "Верховный суд"
       ]
     },
+    "en": {
+      "q": "Which court exists within the Council of Europe?",
+      "o": [
+        "The Court of Justice of the EU",
+        "The European Court of Human Rights",
+        "The International Criminal Court",
+        "The Supreme Court"
+      ]
+    },
+    "ar": {
+      "q": "أي محكمة تعمل ضمن مجلس أوروبا؟",
+      "o": [
+        "محكمة العدل الأوروبية",
+        "المحكمة الأوروبية لحقوق الإنسان",
+        "المحكمة الجنائية الدولية",
+        "المحكمة العليا"
+      ]
+    },
     "correct": 1,
     "why": "Европейский суд по правам человека действует в рамках Совета Европы, который создан в 1949 году и занимается правами человека, демократией и верховенством права."
   },
@@ -98,6 +152,24 @@
         "Миграционное управление",
         "Ведомство по вопросам гендерного равенства",
         "Управление образования"
+      ]
+    },
+    "en": {
+      "q": "Which Swedish agency works to reduce poverty and oppression in the world?",
+      "o": [
+        "Sida",
+        "The Migration Agency",
+        "The Gender Equality Agency",
+        "The National Agency for Education"
+      ]
+    },
+    "ar": {
+      "q": "أي هيئة سويدية تعمل على الحد من الفقر والقمع في العالم؟",
+      "o": [
+        "الوكالة السويدية للتعاون الإنمائي الدولي (Sida)",
+        "هيئة الهجرة",
+        "هيئة المساواة بين الجنسين",
+        "هيئة التعليم"
       ]
     },
     "correct": 0,
@@ -126,6 +198,24 @@
         "Эстонию"
       ]
     },
+    "en": {
+      "q": "Which territory did Sweden lose in the war against Russia in 1808–1809, after almost 700 years?",
+      "o": [
+        "Norway",
+        "Denmark",
+        "Finland",
+        "Estonia"
+      ]
+    },
+    "ar": {
+      "q": "أي أرض خسرتها السويد في الحرب ضد روسيا 1808–1809، بعد نحو 700 عام؟",
+      "o": [
+        "النرويج",
+        "الدنمارك",
+        "فنلندا",
+        "إستونيا"
+      ]
+    },
     "correct": 2,
     "why": "Швеция потеряла Финляндию, которая была частью страны почти 700 лет. Норвегия — другая история: она была втянута в унию со Швецией позже и мирно стала независимой лишь в 1905 году."
   },
@@ -145,6 +235,24 @@
     },
     "ru": {
       "q": "В каком году Швеция стала членом НАТО?",
+      "o": [
+        "2014",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "en": {
+      "q": "In what year did Sweden become a member of NATO?",
+      "o": [
+        "2014",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أصبحت السويد عضوًا في الناتو؟",
       "o": [
         "2014",
         "2022",
@@ -178,6 +286,24 @@
         "Только на сотрудников вооружённых сил"
       ]
     },
+    "en": {
+      "q": "Who is covered by total defense duty (totalförsvarsplikt) in Sweden?",
+      "o": [
+        "Everyone living in Sweden aged between 16 and 70",
+        "Only Swedish citizens aged between 18 and 45",
+        "Only men aged between 18 and 30",
+        "Only employees of the Swedish Armed Forces"
+      ]
+    },
+    "ar": {
+      "q": "من يشمله واجب الدفاع الشامل (totalförsvarsplikt) في السويد؟",
+      "o": [
+        "كل من يعيش في السويد ويتراوح عمره بين 16 و70 عامًا",
+        "مواطنو السويد فقط بين 18 و45 عامًا",
+        "الرجال فقط بين 18 و30 عامًا",
+        "موظفو القوات المسلحة فقط"
+      ]
+    },
     "correct": 0,
     "why": "Всеобщая воинская обязанность (värnplikt) — это другое: она касается мужчин и женщин, достигших 18 лет."
   },
@@ -202,6 +328,24 @@
         "Европейский союз и Совет Европы",
         "Генеральная Ассамблея и Совет Безопасности ООН",
         "Вооружённые силы (Försvarsmakten) и агентство по развитию (Sida)"
+      ]
+    },
+    "en": {
+      "q": "Through which bodies does Sweden mainly cooperate with the other Nordic countries?",
+      "o": [
+        "The Nordic Council and the Nordic Council of Ministers",
+        "The European Union and the Council of Europe",
+        "The UN General Assembly and Security Council",
+        "The Swedish Armed Forces and Sida"
+      ]
+    },
+    "ar": {
+      "q": "من خلال أي هيئات تتعاون السويد بشكل رئيسي مع دول الشمال الأوروبي الأخرى؟",
+      "o": [
+        "المجلس الشمالي (Nordiska rådet) ومجلس وزراء الشمال (Nordiska ministerrådet)",
+        "الاتحاد الأوروبي ومجلس أوروبا",
+        "الجمعية العامة ومجلس الأمن التابعان للأمم المتحدة",
+        "القوات المسلحة السويدية (Försvarsmakten) ووكالة التنمية (Sida)"
       ]
     },
     "correct": 0,
@@ -230,6 +374,24 @@
         "Только в сотрудничестве по развитию через агентство (Sida)"
       ]
     },
+    "en": {
+      "q": "In which areas do the EU countries cooperate?",
+      "o": [
+        "Only a joint currency for all member states",
+        "Agriculture, the economy, the environment, trade, and migration",
+        "Only military defense through NATO",
+        "Only development cooperation through Sida"
+      ]
+    },
+    "ar": {
+      "q": "في أي مجالات تتعاون دول الاتحاد الأوروبي؟",
+      "o": [
+        "عملة مشتركة لجميع الدول الأعضاء فقط",
+        "الزراعة والاقتصاد والبيئة والتجارة والهجرة",
+        "الدفاع العسكري عبر الناتو فقط",
+        "التعاون الإنمائي عبر وكالة Sida فقط"
+      ]
+    },
     "correct": 1,
     "why": "Страны ЕС сотрудничают во многих областях — сельском хозяйстве, экономике, экологии, торговле и миграции. Единая валюта касается не всех стран ЕС (Швеция, например, сохранила крону), военная оборона — задача НАТО, а агентство по развитию (Sida) — отдельное шведское ведомство, не связанное напрямую с сотрудничеством внутри ЕС."
   },
@@ -254,6 +416,24 @@
         "НАТО",
         "Четыре свободы",
         "Северный совет (Nordiska rådet)"
+      ]
+    },
+    "en": {
+      "q": "A person with Spanish citizenship wants to move to Sweden to work, without having to apply for a special work permit. Which cooperation makes this possible?",
+      "o": [
+        "The Council of Europe",
+        "NATO",
+        "The four freedoms",
+        "The Nordic Council"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص يحمل الجنسية الإسبانية الانتقال إلى السويد للعمل، دون الحاجة إلى التقدم بطلب تصريح عمل خاص. أي تعاون يجعل ذلك ممكنًا؟",
+      "o": [
+        "مجلس أوروبا",
+        "الناتو",
+        "الحريات الأربع",
+        "المجلس الشمالي (Nordiska rådet)"
       ]
     },
     "correct": 2,
@@ -282,6 +462,24 @@
         "В 1949 году, для защиты прав человека, демократии и принципов правового государства"
       ]
     },
+    "en": {
+      "q": "In what year was the Council of Europe founded, and what does the organization work for?",
+      "o": [
+        "1995, for a joint currency in Europe",
+        "1945, to preserve peace and security in the world",
+        "2024, to militarily protect member states",
+        "1949, for human rights, democracy, and the rule of law"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام تأسس مجلس أوروبا، وما الذي تعمل من أجله هذه المنظمة؟",
+      "o": [
+        "عام 1995، من أجل عملة مشتركة في أوروبا",
+        "عام 1945، للحفاظ على السلام والأمن في العالم",
+        "عام 2024، لحماية الدول الأعضاء عسكريًا",
+        "عام 1949، من أجل حقوق الإنسان والديمقراطية وسيادة القانون"
+      ]
+    },
     "correct": 3,
     "why": "Совет Европы основан в 1949 году и занимается правами человека, демократией и принципами правового государства. 1995 год — это год вступления Швеции в ЕС, 1945 — год основания ООН, а 2024 — год вступления Швеции в НАТО; эти даты и организации легко перепутать."
   },
@@ -306,6 +504,24 @@
         "В 1949 году, только европейские страны",
         "В 1995 году, только страны ЕС",
         "В 2024 году, только страны НАТО"
+      ]
+    },
+    "en": {
+      "q": "In what year was the United Nations (UN) founded, and how many of the world's countries are members?",
+      "o": [
+        "1945, almost all the world's countries",
+        "1949, only European countries",
+        "1995, only EU countries",
+        "2024, only NATO countries"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام تأسست الأمم المتحدة، وكم دولة من دول العالم منضمة إليها؟",
+      "o": [
+        "عام 1945، تقريبًا جميع دول العالم",
+        "عام 1949، الدول الأوروبية فقط",
+        "عام 1995، دول الاتحاد الأوروبي فقط",
+        "عام 2024، دول الناتو فقط"
       ]
     },
     "correct": 0,
@@ -334,6 +550,24 @@
         "Распределять сельскохозяйственную помощь ЕС"
       ]
     },
+    "en": {
+      "q": "What is one of the UN's main purposes?",
+      "o": [
+        "To oversee the economies and currencies of member states",
+        "To preserve peace and security in the world and work for human rights",
+        "To coordinate member states' military defense under a joint commander",
+        "To distribute the EU's agricultural aid"
+      ]
+    },
+    "ar": {
+      "q": "ما أحد الأهداف الرئيسية للأمم المتحدة؟",
+      "o": [
+        "مراقبة اقتصادات وعملات الدول الأعضاء",
+        "الحفاظ على السلام والأمن في العالم والعمل من أجل حقوق الإنسان",
+        "تنسيق الدفاع العسكري للدول الأعضاء تحت قيادة مشتركة",
+        "توزيع الدعم الزراعي للاتحاد الأوروبي"
+      ]
+    },
     "correct": 1,
     "why": "Одна из главных целей ООН — сохранять мир и безопасность в мире и работать за права человека. Контроль над экономикой и валютами — не задача ООН, координация военной обороны под единым командованием больше напоминает функцию военного блока вроде НАТО, а сельхозпомощь ЕС — задача самого Евросоюза, а не ООН."
   },
@@ -358,6 +592,24 @@
         "Помогает наращивать военные силы других стран",
         "Помогает развивать демократию, равноправие, экономику и устойчивое общество",
         "Требует, чтобы другие страны ввели шведское законодательство"
+      ]
+    },
+    "en": {
+      "q": "What does Sweden support other countries with, through the agency Sida?",
+      "o": [
+        "Granting EU membership to other countries",
+        "Building up other countries' military forces",
+        "Developing democracy, equality, the economy, and a sustainable society",
+        "Requiring other countries to adopt Swedish legislation"
+      ]
+    },
+    "ar": {
+      "q": "بماذا تدعم السويد دولًا أخرى، من خلال هيئة Sida؟",
+      "o": [
+        "منح عضوية الاتحاد الأوروبي لدول أخرى",
+        "بناء القوات العسكرية لدول أخرى",
+        "تطوير الديمقراطية والمساواة والاقتصاد ومجتمع مستدام",
+        "مطالبة دول أخرى باعتماد التشريعات السويدية"
       ]
     },
     "correct": 2,
@@ -386,6 +638,24 @@
         "Швеция сохраняет мир на протяжении очень долгого непрерывного периода, с начала XIX века"
       ]
     },
+    "en": {
+      "q": "What is special about Sweden's history of peace compared with many other countries?",
+      "o": [
+        "Sweden has never been involved in any war at all, ever in its history",
+        "Sweden has always been a member of NATO since World War II",
+        "Sweden has gone to war more often than most other countries in Europe",
+        "Sweden has had peace for a very long, unbroken period, since the early 1800s"
+      ]
+    },
+    "ar": {
+      "q": "ما المميز في تاريخ السلام السويدي مقارنة بدول أخرى كثيرة؟",
+      "o": [
+        "لم تشارك السويد في أي حرب على الإطلاق في تاريخها كله",
+        "كانت السويد دائمًا عضوًا في الناتو منذ الحرب العالمية الثانية",
+        "خاضت السويد حروبًا أكثر من معظم الدول الأوروبية الأخرى",
+        "حافظت السويد على السلام لفترة طويلة جدًا ومتواصلة، منذ أوائل القرن التاسع عشر"
+      ]
+    },
     "correct": 3,
     "why": "Особенность Швеции в том, что она сохраняет мир на протяжении очень долгого непрерывного периода — с начала XIX века, — это одна из немногих стран мира с таким долгим периодом без войн. Утверждение, что Швеция вообще никогда не воевала, неверно (последняя война была как раз в начале 1800-х), в НАТО Швеция вступила только в 2024 году, а не сразу после Второй мировой, и воевала она реже, а не чаще большинства европейских стран."
   },
@@ -410,6 +680,24 @@
         "Норвегия завоевала часть северной Швеции",
         "Норвегия вступила в НАТО вместе со Швецией",
         "Норвегия снова стала частью Дании"
+      ]
+    },
+    "en": {
+      "q": "What happened to Norway a few years after Sweden lost Finland in the war of 1808–1809?",
+      "o": [
+        "Norway was forced into a union with Sweden, as a result of the Napoleonic Wars",
+        "Norway conquered parts of northern Sweden",
+        "Norway joined NATO together with Sweden",
+        "Norway became part of Denmark again"
+      ]
+    },
+    "ar": {
+      "q": "ماذا حدث للنرويج بعد بضع سنوات من خسارة السويد لفنلندا في حرب 1808–1809؟",
+      "o": [
+        "أُجبرت النرويج على دخول اتحاد مع السويد، نتيجة الحروب النابليونية",
+        "احتلت النرويج أجزاءً من شمال السويد",
+        "انضمت النرويج إلى الناتو مع السويد",
+        "أصبحت النرويج جزءًا من الدنمارك مرة أخرى"
       ]
     },
     "correct": 0,
@@ -438,6 +726,24 @@
         "Уния существует до сих пор"
       ]
     },
+    "en": {
+      "q": "A person interested in history wonders how the union between Sweden and Norway was eventually dissolved. What is correct?",
+      "o": [
+        "Norway became independent after a war with Sweden in 1905",
+        "Norway became independent peacefully in 1905",
+        "The union was dissolved after World War I in 1918",
+        "The union still exists today"
+      ]
+    },
+    "ar": {
+      "q": "يتساءل شخص مهتم بالتاريخ عن كيفية انحلال الاتحاد بين السويد والنرويج في نهاية المطاف. ما الصحيح؟",
+      "o": [
+        "أصبحت النرويج مستقلة بعد حرب مع السويد عام 1905",
+        "أصبحت النرويج مستقلة سلميًا عام 1905",
+        "انحل الاتحاد بعد الحرب العالمية الأولى عام 1918",
+        "لا يزال الاتحاد قائمًا حتى اليوم"
+      ]
+    },
     "correct": 1,
     "why": "Норвегия стала независимой мирным путём в 1905 году, без войны. Войны между Швецией и Норвегией по этому поводу не было, распад унии не связан с Первой мировой войной 1918 года, а сама уния давно не существует — Норвегия независима уже больше века."
   },
@@ -462,6 +768,24 @@
         "Сотрудничество всех европейских стран в рамках ЕС",
         "Противостояние западного блока во главе с США и восточного блока во главе с Советским Союзом",
         "Союз между Северной Европой и Советским Союзом"
+      ]
+    },
+    "en": {
+      "q": "What characterized the Cold War after World War II?",
+      "o": [
+        "An open war between Sweden and the Soviet Union",
+        "Cooperation between all European countries within the EU",
+        "A conflict between a Western bloc with the USA and an Eastern bloc with the Soviet Union",
+        "An alliance between Norden and the Soviet Union"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي ميّز الحرب الباردة بعد الحرب العالمية الثانية؟",
+      "o": [
+        "حرب مفتوحة بين السويد والاتحاد السوفيتي",
+        "تعاون بين جميع الدول الأوروبية ضمن الاتحاد الأوروبي",
+        "صراع بين كتلة غربية بقيادة الولايات المتحدة وكتلة شرقية بقيادة الاتحاد السوفيتي",
+        "تحالف بين الشمال الأوروبي والاتحاد السوفيتي"
       ]
     },
     "correct": 2,
@@ -490,6 +814,24 @@
         "Швеция продолжала оставаться нейтральной и не входила в НАТО"
       ]
     },
+    "en": {
+      "q": "During the Cold War, Denmark and Norway joined NATO. What did Sweden choose to do?",
+      "o": [
+        "Sweden also joined NATO at the same time",
+        "Sweden instead joined the Soviet Union's alliance",
+        "Sweden formed its own defense alliance together with Finland",
+        "Sweden remained neutral and stayed outside NATO"
+      ]
+    },
+    "ar": {
+      "q": "خلال الحرب الباردة، انضمت الدنمارك والنرويج إلى الناتو. ماذا قررت السويد أن تفعل؟",
+      "o": [
+        "انضمت السويد إلى الناتو أيضًا في الوقت نفسه",
+        "انضمت السويد بدلًا من ذلك إلى تحالف الاتحاد السوفيتي",
+        "شكّلت السويد تحالفًا دفاعيًا خاصًا بها مع فنلندا",
+        "ظلت السويد محايدة وبقيت خارج الناتو"
+      ]
+    },
     "correct": 3,
     "why": "Швеция продолжала оставаться нейтральной и не входила в НАТО во время холодной войны — в отличие от Дании и Норвегии. Она не вступала ни в НАТО, ни в союз СССР, и отдельного оборонного союза с Финляндией в тот период тоже не создавала — совместную заявку в НАТО обе страны подали значительно позже, в 2022 году."
   },
@@ -514,6 +856,24 @@
         "Швеция хотела заменить шведскую крону на евро",
         "ЕС потребовал от Швеции вступить в НАТО",
         "Холодная война между Востоком и Западом только что началась"
+      ]
+    },
+    "en": {
+      "q": "Why did Sweden apply for NATO membership in 2022, together with Finland?",
+      "o": [
+        "Concern about security in Norden increased after Russia's attack on Ukraine in 2022",
+        "Sweden wanted to replace the Swedish krona with the euro",
+        "The EU required Sweden to join NATO",
+        "The Cold War between East and West had just broken out"
+      ]
+    },
+    "ar": {
+      "q": "لماذا تقدّمت السويد بطلب عضوية الناتو عام 2022، مع فنلندا؟",
+      "o": [
+        "ازداد القلق بشأن الأمن في الشمال الأوروبي بعد هجوم روسيا على أوكرانيا عام 2022",
+        "أرادت السويد استبدال الكرونا السويدية باليورو",
+        "طالب الاتحاد الأوروبي السويد بالانضمام إلى الناتو",
+        "كانت الحرب الباردة بين الشرق والغرب قد اندلعت للتو"
       ]
     },
     "correct": 0,
@@ -542,6 +902,24 @@
         "Нет, ею охвачены только люди с военной подготовкой"
       ]
     },
+    "en": {
+      "q": "A person is 65 years old and lives in Sweden, but is not a Swedish citizen. Is this person covered by total defense duty?",
+      "o": [
+        "No, only Swedish citizens are covered",
+        "Yes, everyone living in Sweden aged between 16 and 70 can be covered",
+        "No, the person is too old since the duty only applies up to age 65",
+        "No, only people with military training are covered"
+      ]
+    },
+    "ar": {
+      "q": "يبلغ شخص 65 عامًا ويعيش في السويد، لكنه ليس مواطنًا سويديًا. هل يشمله واجب الدفاع الشامل (totalförsvarsplikt)؟",
+      "o": [
+        "لا، يشمل ذلك مواطني السويد فقط",
+        "نعم، يمكن أن يشمل كل من يعيش في السويد ويتراوح عمره بين 16 و70 عامًا",
+        "لا، الشخص كبير جدًا في السن لأن الواجب ينطبق حتى سن 65 فقط",
+        "لا، يشمل ذلك فقط من لديهم تدريب عسكري"
+      ]
+    },
     "correct": 1,
     "why": "Обязанность участвовать в обороне страны (totalförsvarsplikt) может распространяться на любого, кто живёт в Швеции и кому от 16 до 70 лет, — гражданство не требуется, и 65-летний человек всё ещё попадает в этот диапазон. Наличие военной подготовки тоже не является условием."
   },
@@ -566,6 +944,24 @@
         "Только людей, уже работающих в Вооружённых силах (Försvarsmakten)",
         "Всех мужчин и женщин, достигших 18 лет",
         "Только людей от 16 до 20 лет"
+      ]
+    },
+    "en": {
+      "q": "Who is covered by Sweden's general military conscription (allmän värnplikt)?",
+      "o": [
+        "Only men who have turned 18",
+        "Only people who already work in the Swedish Armed Forces",
+        "All men and women who have turned 18",
+        "Only people between 16 and 20"
+      ]
+    },
+    "ar": {
+      "q": "من يشمله التجنيد العسكري العام (allmän värnplikt) في السويد؟",
+      "o": [
+        "الرجال الذين بلغوا 18 عامًا فقط",
+        "فقط من يعملون بالفعل في القوات المسلحة",
+        "جميع الرجال والنساء الذين بلغوا 18 عامًا",
+        "فقط من هم بين 16 و20 عامًا"
       ]
     },
     "correct": 2,
@@ -594,6 +990,24 @@
         "Решается, кто подходит для базовой военной подготовки, но проходят её дальше не все"
       ]
     },
+    "en": {
+      "q": "What happens after a person subject to conscription has answered questions and taken tests?",
+      "o": [
+        "Everyone who answered the questions must immediately do military service for at least one year",
+        "The person is automatically exempted from conscription for the rest of their life",
+        "The person is automatically assigned to the navy with no further selection",
+        "It is decided who becomes eligible for basic military training, but only some go on to do it"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يحدث بعد أن يجيب شخص خاضع للتجنيد على الأسئلة ويخضع للاختبارات؟",
+      "o": [
+        "يجب على جميع من أجابوا على الأسئلة أداء الخدمة العسكرية فورًا لمدة عام على الأقل",
+        "يُعفى الشخص تلقائيًا من التجنيد لبقية حياته",
+        "يُوجَّه الشخص تلقائيًا إلى البحرية دون مزيد من الاختيار",
+        "يُقرَّر من يصبح مؤهلًا للتدريب العسكري الأساسي، لكن جزءًا فقط منهم يتابع التدريب فعليًا"
+      ]
+    },
     "correct": 3,
     "why": "После тестов решается, кто подходит для базовой военной подготовки, но фактически проходят её дальше не все. Немедленной обязательной службы для всех, автоматического пожизненного освобождения или автоматического распределения на флот без отбора не происходит."
   },
@@ -618,6 +1032,24 @@
         "Полиция, береговая охрана и таможня",
         "Только объединённые силы НАТО",
         "Правительство и комитет риксдага по обороне"
+      ]
+    },
+    "en": {
+      "q": "What branches does the Swedish Armed Forces (Försvarsmakten) consist of?",
+      "o": [
+        "The army, the navy, and the air force",
+        "The police, the Coast Guard, and Swedish Customs",
+        "Only a joint NATO force",
+        "The government and the Riksdag's defense committee"
+      ]
+    },
+    "ar": {
+      "q": "من أي فروع تتكون القوات المسلحة السويدية (Försvarsmakten)؟",
+      "o": [
+        "الجيش والبحرية والقوات الجوية",
+        "الشرطة وخفر السواحل والجمارك",
+        "قوة الناتو المشتركة فقط",
+        "الحكومة ولجنة الدفاع في البرلمان"
       ]
     },
     "correct": 0,
@@ -646,6 +1078,24 @@
         "Только полицейское управление"
       ]
     },
+    "en": {
+      "q": "Sweden participates with troops in an international peacekeeping operation abroad. Which part of Swedish defense makes this possible?",
+      "o": [
+        "Only civil defense",
+        "The Armed Forces, which can also take part in international operations",
+        "Only the Nordic Council",
+        "Only the Police Authority"
+      ]
+    },
+    "ar": {
+      "q": "تشارك السويد بقوات في عملية حفظ سلام دولية في الخارج. أي جزء من الدفاع السويدي يجعل ذلك ممكنًا؟",
+      "o": [
+        "الدفاع المدني فقط",
+        "القوات المسلحة (Försvarsmakten)، التي يمكنها أيضًا المشاركة في عمليات دولية",
+        "المجلس الشمالي فقط",
+        "جهاز الشرطة فقط"
+      ]
+    },
     "correct": 1,
     "why": "Именно Вооружённые силы (Försvarsmakten) могут участвовать в международных операциях, помимо защиты территории Швеции. Гражданская оборона занимается функционированием общества внутри страны, Северный совет — это орган сотрудничества, а не военная структура, а полиция отвечает за правопорядок, а не за международные военные операции."
   },
@@ -670,6 +1120,24 @@
         "Что при кризисе гражданское население эвакуируют в другие страны",
         "Что такие сферы, как школа, работа и здравоохранение, должны продолжать функционировать при войне или кризисе",
         "Что все гражданские ведомства закрываются при войне"
+      ]
+    },
+    "en": {
+      "q": "What does civil defense in Sweden involve?",
+      "o": [
+        "That only the Armed Forces are responsible for the country's security",
+        "That the civilian population is evacuated to other countries in a crisis",
+        "That activities such as school, work, and healthcare should be able to keep functioning during war or crisis",
+        "That all civilian agencies are shut down during war"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني الدفاع المدني (civila försvaret) في السويد؟",
+      "o": [
+        "أن القوات المسلحة وحدها مسؤولة عن أمن البلاد",
+        "أن السكان المدنيين يُخلَون إلى دول أخرى عند الأزمات",
+        "أن أنشطة مثل المدرسة والعمل والرعاية الصحية يجب أن تستمر في العمل أثناء الحرب أو الأزمة",
+        "أن جميع الهيئات المدنية تُغلَق أثناء الحرب"
       ]
     },
     "correct": 2,
@@ -698,6 +1166,24 @@
         "О гражданской обороне"
       ]
     },
+    "en": {
+      "q": "A municipality practices how schools and healthcare can keep functioning even if Sweden were to be hit by a crisis or war. Which part of total defense does this concern?",
+      "o": [
+        "Only the Armed Forces",
+        "Only NATO's joint forces",
+        "Only the Nordic Council of Ministers",
+        "Civil defense"
+      ]
+    },
+    "ar": {
+      "q": "تتدرب بلدية على كيفية استمرار عمل المدارس والرعاية الصحية حتى لو تعرضت السويد لأزمة أو حرب. أي جزء من الدفاع الشامل يخص هذا؟",
+      "o": [
+        "القوات المسلحة فقط",
+        "قوات الناتو المشتركة فقط",
+        "مجلس وزراء الشمال فقط",
+        "الدفاع المدني"
+      ]
+    },
     "correct": 3,
     "why": "Речь идёт о гражданской обороне — именно она отвечает за то, чтобы школы, работа и здравоохранение продолжали функционировать при кризисе или войне. Это не задача Вооружённых сил, объединённых сил НАТО или Северного совета министров, которые занимаются другими вопросами."
   },
@@ -724,6 +1210,24 @@
         "Что все обязаны принадлежать к религиозной общине"
       ]
     },
+    "en": {
+      "q": "What does it mean that Sweden is a secular state?",
+      "o": [
+        "That religion is forbidden in Sweden",
+        "That the state is religiously neutral and does not take sides for or discriminate against any religion",
+        "That only the Church of Sweden is allowed",
+        "That everyone must belong to a faith community"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني أن السويد دولة علمانية؟",
+      "o": [
+        "أن الدين ممنوع في السويد",
+        "أن الدولة محايدة دينيًا ولا تنحاز لأي دين ولا تميّز ضده",
+        "أنه لا يُسمح إلا بكنيسة السويد",
+        "أن الجميع ملزمون بالانتماء إلى طائفة دينية"
+      ]
+    },
     "correct": 1,
     "why": "Государство гарантирует всем право самим решать, принадлежать ли к конкретной религии."
   },
@@ -743,6 +1247,24 @@
     },
     "ru": {
       "q": "В каком году был принят закон о свободе вероисповедания, позволивший полностью свободно выбирать религию или не принадлежать ни к какой?",
+      "o": [
+        "1860",
+        "1951",
+        "1979",
+        "2000"
+      ]
+    },
+    "en": {
+      "q": "In what year did the Freedom of Religion Act (religionsfrihetslagen) come into force, making it possible to freely choose any religion or none at all?",
+      "o": [
+        "1860",
+        "1951",
+        "1979",
+        "2000"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام صدر قانون حرية الدين (religionsfrihetslagen) الذي أتاح حرية اختيار أي دين أو عدم اعتناق أي دين على الإطلاق؟",
       "o": [
         "1860",
         "1951",
@@ -776,6 +1298,24 @@
         "2020"
       ]
     },
+    "en": {
+      "q": "In what year were the state and the Church of Sweden separated?",
+      "o": [
+        "1951",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام انفصلت الدولة عن كنيسة السويد؟",
+      "o": [
+        "1951",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
     "correct": 2,
     "why": "Государство и Шведская церковь были отделены друг от друга в 2000 году. После этого церковь стала одной из многих религиозных общин, хотя остаётся крупнейшей христианской общиной страны. 1860 год — это более ранняя дата, когда впервые разрешили выходить из Шведской церкви при вступлении в другую христианскую общину, а 1951 год — дата принятия закона о полной свободе вероисповедания; эти даты легко перепутать с отделением церкви от государства в 2000 году."
   },
@@ -800,6 +1340,24 @@
         "Три миллиона",
         "Пять миллионов",
         "Девять миллионов"
+      ]
+    },
+    "en": {
+      "q": "Roughly how many members does the Church of Sweden have?",
+      "o": [
+        "One million",
+        "Three million",
+        "Five million",
+        "Nine million"
+      ]
+    },
+    "ar": {
+      "q": "كم عدد أعضاء كنيسة السويد تقريبًا؟",
+      "o": [
+        "مليون",
+        "ثلاثة ملايين",
+        "خمسة ملايين",
+        "تسعة ملايين"
       ]
     },
     "correct": 2,
@@ -828,6 +1386,24 @@
         "Буддизм"
       ]
     },
+    "en": {
+      "q": "What is the second-largest religion in Sweden today?",
+      "o": [
+        "Judaism",
+        "Islam",
+        "Hinduism",
+        "Buddhism"
+      ]
+    },
+    "ar": {
+      "q": "ما ثاني أكبر دين في السويد اليوم؟",
+      "o": [
+        "اليهودية",
+        "الإسلام",
+        "الهندوسية",
+        "البوذية"
+      ]
+    },
     "correct": 1,
     "why": "Число мусульман выросло за счёт иммиграции после Второй мировой войны; первые мечети построены в 1970-е годы."
   },
@@ -852,6 +1428,24 @@
         "XVIII век",
         "XIX век",
         "XX век"
+      ]
+    },
+    "en": {
+      "q": "From which century can the history of Judaism in Sweden be traced?",
+      "o": [
+        "The 1500s",
+        "The 1700s",
+        "The 1800s",
+        "The 1900s"
+      ]
+    },
+    "ar": {
+      "q": "منذ أي قرن يمكن تتبّع تاريخ اليهودية في السويد؟",
+      "o": [
+        "القرن السادس عشر",
+        "القرن الثامن عشر",
+        "القرن التاسع عشر",
+        "القرن العشرون"
       ]
     },
     "correct": 1,
@@ -880,6 +1474,24 @@
         "Нет, это разрешено только членам Шведской церкви"
       ]
     },
+    "en": {
+      "q": "A person in Sweden chooses to leave their religion entirely and belong to no religion at all. Is this allowed under Swedish law?",
+      "o": [
+        "Yes, everyone has the right to freely choose their faith or to have no faith at all",
+        "No, everyone in Sweden must belong to some faith community",
+        "Yes, but only if the person reports it to the Tax Agency every year",
+        "No, this is only allowed for members of the Church of Sweden"
+      ]
+    },
+    "ar": {
+      "q": "يقرر شخص في السويد ترك دينه كليًا وعدم الانتماء إلى أي دين على الإطلاق. هل هذا مسموح وفق القانون السويدي؟",
+      "o": [
+        "نعم، لكل شخص الحق في اختيار معتقده بحرية أو عدم الاعتقاد إطلاقًا",
+        "لا، يجب على كل شخص في السويد الانتماء إلى طائفة دينية ما",
+        "نعم، لكن فقط إذا أبلغ الشخص مصلحة الضرائب بذلك سنويًا",
+        "لا، هذا مسموح فقط لأعضاء كنيسة السويد"
+      ]
+    },
     "correct": 0,
     "why": "Да — каждый в Швеции имеет право свободно выбирать свою веру или не верить вообще, это прямо закреплено свободой вероисповедания. Никакой обязанности состоять в религиозной общине, ежегодно отчитываться перед налоговым ведомством или ограничения этого права только членами Шведской церкви не существует."
   },
@@ -904,6 +1516,24 @@
         "В 1860 году",
         "В 1951 году",
         "В 2000 году"
+      ]
+    },
+    "en": {
+      "q": "In what year did it first become allowed for Swedes to leave the Church of Sweden, if they joined another Christian community?",
+      "o": [
+        "The 1700s",
+        "1860",
+        "1951",
+        "2000"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام سُمح للسويديين لأول مرة بترك كنيسة السويد، بشرط الانضمام إلى طائفة مسيحية أخرى؟",
+      "o": [
+        "القرن الثامن عشر",
+        "1860",
+        "1951",
+        "2000"
       ]
     },
     "correct": 1,
@@ -932,6 +1562,24 @@
         "Что религиозным общинам запрещено принимать новых членов"
       ]
     },
+    "en": {
+      "q": "What does the Instrument of Government say about religion?",
+      "o": [
+        "That all Swedish citizens must belong to a Christian community",
+        "That only members of the Church of Sweden have the right to vote",
+        "That everyone has the right to practice their religion and no one may be discriminated against because of their faith",
+        "That religious communities may not accept new members"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تقول وثيقة الحكم (regeringsformen) عن الدين؟",
+      "o": [
+        "إن جميع مواطني السويد ملزمون بالانتماء إلى طائفة مسيحية",
+        "إن حق التصويت مقتصر على أعضاء كنيسة السويد",
+        "إن لكل شخص الحق في ممارسة دينه ولا يجوز التمييز ضد أحد بسبب معتقده",
+        "إنه يُمنع على الطوائف الدينية قبول أعضاء جدد"
+      ]
+    },
     "correct": 2,
     "why": "Закон о форме правления (regeringsformen) гарантирует, что каждый имеет право исповедовать свою религию, и никто не может подвергаться дискриминации из-за веры. Никакой обязанности состоять в христианской общине, ограничения права голоса по религии или запрета на приём новых членов в религиозные общины закон не устанавливает."
   },
@@ -956,6 +1604,24 @@
         "Подготовить учеников к обряду крещения в Шведской церкви",
         "Убедить учеников не верить ни в одну религию",
         "Дать широкое понимание разных религий и мировоззрений и содействовать терпимости и уважению"
+      ]
+    },
+    "en": {
+      "q": "A student in a Swedish school studies the subject of religious studies (religionskunskap). What is the goal of that teaching?",
+      "o": [
+        "To teach students that only Christianity is the correct religion",
+        "To prepare students for baptism in the Church of Sweden",
+        "To convince students not to believe in any religion at all",
+        "To provide a broad understanding of different religions and worldviews and promote tolerance and respect"
+      ]
+    },
+    "ar": {
+      "q": "يدرس تلميذ في مدرسة سويدية مادة «التربية الدينية» (religionskunskap). ما هدف هذا التدريس؟",
+      "o": [
+        "تعليم التلاميذ أن المسيحية هي الدين الصحيح الوحيد",
+        "إعداد التلاميذ لطقس المعمودية في كنيسة السويد",
+        "إقناع التلاميذ بعدم الاعتقاد بأي دين إطلاقًا",
+        "تقديم فهم واسع لمختلف الأديان ووجهات النظر وتعزيز التسامح والاحترام"
       ]
     },
     "correct": 3,
@@ -984,6 +1650,24 @@
         "Да, но только если человек прошёл обряд крещения"
       ]
     },
+    "en": {
+      "q": "A person in Sweden celebrates Christmas and Easter with their family, but describes themselves as a non-believer. Is this common in Sweden?",
+      "o": [
+        "Yes, many people celebrate Christian holidays as part of their cultural heritage even though they are not religious believers",
+        "No, only members of the Church of Sweden may celebrate these holidays",
+        "No, it is forbidden to celebrate religious holidays without being a believer",
+        "Yes, but only if the person has been baptized first"
+      ]
+    },
+    "ar": {
+      "q": "يحتفل شخص في السويد بعيد الميلاد وعيد الفصح مع عائلته، لكنه يصف نفسه بأنه غير مؤمن. هل هذا شائع في السويد؟",
+      "o": [
+        "نعم، كثيرون يحتفلون بالأعياد المسيحية كجزء من التراث الثقافي رغم أنهم غير مؤمنين دينيًا",
+        "لا، لا يحق الاحتفال بهذه الأعياد إلا لأعضاء كنيسة السويد",
+        "لا، يُمنع الاحتفال بالأعياد الدينية دون أن يكون الشخص مؤمنًا",
+        "نعم، لكن فقط إذا كان الشخص قد عُمِّد أولًا"
+      ]
+    },
     "correct": 0,
     "why": "Да — многие в Швеции отмечают христианские праздники как часть культурного наследия, даже не будучи религиозно верующими. Никакого ограничения по членству в Шведской церкви, запрета на празднование без веры или обязательного крещения для этого не существует."
   },
@@ -1008,6 +1692,24 @@
         "Крещение, венчание в церкви и христианские похороны",
         "Только пост во время месяца Рамадан",
         "Только паломничества к святым местам"
+      ]
+    },
+    "en": {
+      "q": "Which religious rituals are still common in Sweden, even among members of the Church of Sweden who do not describe themselves as believers?",
+      "o": [
+        "Only daily prayers five times a day",
+        "Baptism, church weddings, and Christian funerals",
+        "Only fasting during the month of Ramadan",
+        "Only pilgrimages to holy sites"
+      ]
+    },
+    "ar": {
+      "q": "ما الطقوس الدينية التي لا تزال شائعة في السويد، حتى بين أعضاء كنيسة السويد الذين لا يصفون أنفسهم بالمؤمنين؟",
+      "o": [
+        "الصلوات اليومية خمس مرات في اليوم فقط",
+        "المعمودية والزفاف الكنسي والجنازة المسيحية",
+        "الصيام في شهر رمضان فقط",
+        "الحج إلى الأماكن المقدسة فقط"
       ]
     },
     "correct": 1,
@@ -1036,6 +1738,24 @@
         "Потому что население Швеции сильно сократилось"
       ]
     },
+    "en": {
+      "q": "Why are more different religions represented in Sweden today than before?",
+      "o": [
+        "Because the state now requires everyone to choose a new religion",
+        "Because the Church of Sweden has split into several new communities",
+        "Because immigration has increased, and with it the range of religions practiced in the country",
+        "Because the population of Sweden has declined sharply"
+      ]
+    },
+    "ar": {
+      "q": "لماذا يُمثَّل عدد أكبر من الأديان المختلفة في السويد اليوم مقارنة بالماضي؟",
+      "o": [
+        "لأن الدولة تشترط الآن على الجميع اختيار دين جديد",
+        "لأن كنيسة السويد انقسمت إلى عدة طوائف جديدة",
+        "لأن الهجرة ازدادت، وازداد معها تنوع الأديان الممارَسة في البلاد",
+        "لأن عدد سكان السويد تراجع بشدة"
+      ]
+    },
     "correct": 2,
     "why": "Разнообразие религий выросло, потому что увеличилась иммиграция, а вместе с ней и количество религий, исповедуемых в стране. Государство не требует выбирать новую религию, Шведская церковь не разделялась на новые общины, а население Швеции не сокращалось — оно, наоборот, растёт."
   },
@@ -1060,6 +1780,24 @@
         "Индуизм, буддизм и иудаизм",
         "Лютеранство, ислам и иудаизм",
         "Православные церкви, католическая церковь и протестантские церкви"
+      ]
+    },
+    "en": {
+      "q": "What are the three main branches of Christianity represented among the Christian communities in Sweden today?",
+      "o": [
+        "Sunni, Shia, and Sufism",
+        "Hinduism, Buddhism, and Judaism",
+        "Lutheranism, Islam, and Judaism",
+        "Orthodox churches, the Catholic Church, and Protestant churches"
+      ]
+    },
+    "ar": {
+      "q": "ما الفروع الرئيسية الثلاثة للمسيحية الممثَّلة بين الطوائف المسيحية في السويد اليوم؟",
+      "o": [
+        "السنة والشيعة والصوفية",
+        "الهندوسية والبوذية واليهودية",
+        "اللوثرية والإسلام واليهودية",
+        "الكنائس الأرثوذكسية والكنيسة الكاثوليكية والكنائس البروتستانتية"
       ]
     },
     "correct": 3,
@@ -1088,6 +1826,24 @@
         "К исламу"
       ]
     },
+    "en": {
+      "q": "Which religious tradition are the Church of Sweden's historical roots in?",
+      "o": [
+        "The Lutheran, Protestant tradition",
+        "The Orthodox tradition",
+        "The Catholic tradition, which still applies in Sweden today",
+        "Islam"
+      ]
+    },
+    "ar": {
+      "q": "إلى أي تقليد ديني ترجع الجذور التاريخية لكنيسة السويد؟",
+      "o": [
+        "التقليد اللوثري البروتستانتي",
+        "التقليد الأرثوذكسي",
+        "التقليد الكاثوليكي، الذي لا يزال ساريًا في السويد اليوم",
+        "الإسلام"
+      ]
+    },
     "correct": 0,
     "why": "Исторические корни Шведской церкви — в лютеранской протестантской традиции, сложившейся в XVI веке. Православная традиция не связана со Шведской церковью, католической Швеция была лишь до этого перехода в XVI веке, а не сегодня, а ислам — совсем другая религия."
   },
@@ -1112,6 +1868,24 @@
         "Швеция была католической страной",
         "Швеция была буддийской страной",
         "В Средние века в Швеции вообще не было религии"
+      ]
+    },
+    "en": {
+      "q": "A tourist visits an old medieval church in the Swedish countryside. What religion did Sweden as a country belong to during the Middle Ages, before the Lutheran tradition was established in the 1500s?",
+      "o": [
+        "Sweden was a Muslim country",
+        "Sweden was a Catholic country",
+        "Sweden was a Buddhist country",
+        "Sweden had no religion at all during the Middle Ages"
+      ]
+    },
+    "ar": {
+      "q": "يزور سائح كنيسة قديمة من العصور الوسطى في أحد الأقاليم السويدية. إلى أي دين انتمت السويد كبلد في العصور الوسطى، قبل أن يتأسس التقليد اللوثري في القرن السادس عشر؟",
+      "o": [
+        "كانت السويد بلدًا مسلمًا",
+        "كانت السويد بلدًا كاثوليكيًا",
+        "كانت السويد بلدًا بوذيًا",
+        "لم يكن للسويد أي دين إطلاقًا في العصور الوسطى"
       ]
     },
     "correct": 1,
@@ -1140,6 +1914,24 @@
         "В 2000 году"
       ]
     },
+    "en": {
+      "q": "In what year did Jews gain full civil rights in Sweden?",
+      "o": [
+        "1860",
+        "1951",
+        "1870",
+        "2000"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام حصل اليهود على حقوق مدنية كاملة في السويد؟",
+      "o": [
+        "1860",
+        "1951",
+        "1870",
+        "2000"
+      ]
+    },
     "correct": 2,
     "why": "Полные гражданские права евреи получили в 1870 году. 1860 год — год, когда шведам впервые разрешили выходить из Шведской церкви, 1951 — год принятия закона о полной свободе вероисповедания, а 2000 — год отделения Шведской церкви от государства; эти даты легко перепутать."
   },
@@ -1164,6 +1956,24 @@
         "В XVI веке",
         "В XXI веке",
         "В XX веке"
+      ]
+    },
+    "en": {
+      "q": "During which century did contacts between Sweden and Hinduism and Buddhism, respectively, begin, partly through travel to Asia?",
+      "o": [
+        "The 1700s",
+        "The 1500s",
+        "The 2000s",
+        "The 1900s"
+      ]
+    },
+    "ar": {
+      "q": "في أي قرن بدأت اتصالات السويد بالهندوسية والبوذية، جزئيًا عبر السفر إلى آسيا؟",
+      "o": [
+        "القرن الثامن عشر",
+        "القرن السادس عشر",
+        "القرن الحادي والعشرون",
+        "القرن العشرون"
       ]
     },
     "correct": 3,
@@ -1192,6 +2002,24 @@
         "Ислам стал одной из четырёх религий, защищённых основными законами Швеции, в 1970-е годы"
       ]
     },
+    "en": {
+      "q": "A person wonders why there are more mosques in Sweden today than in the early 1900s. What is the main explanation?",
+      "o": [
+        "The number of Muslims grew through immigration after World War II, and the first mosques were built in the 1970s",
+        "The number of Muslims in Sweden was at its highest already in the 1800s, long before the mosques were built",
+        "The mosques replaced old medieval churches that were demolished in the 1970s",
+        "Islam became one of Sweden's four constitutionally protected religions in the 1970s"
+      ]
+    },
+    "ar": {
+      "q": "يتساءل شخص لماذا يوجد في السويد اليوم مساجد أكثر من أوائل القرن العشرين. ما التفسير الرئيسي؟",
+      "o": [
+        "ازداد عدد المسلمين بفضل الهجرة بعد الحرب العالمية الثانية، وبُنيت أولى المساجد في سبعينيات القرن العشرين",
+        "كان عدد المسلمين في السويد في أعلى مستوياته بالفعل في القرن التاسع عشر، قبل بناء المساجد بوقت طويل",
+        "حلت المساجد محل كنائس قديمة من العصور الوسطى هُدمت في سبعينيات القرن العشرين",
+        "أصبح الإسلام أحد أديان السويد الأربعة المحمية دستوريًا في سبعينيات القرن العشرين"
+      ]
+    },
     "correct": 0,
     "why": "Число мусульман в Швеции выросло за счёт иммиграции после Второй мировой войны, а первые мечети были построены в 1970-е годы. В XIX веке мусульман в Швеции почти не было, средневековые церкви не сносили ради мечетей, а среди четырёх основных законов Швеции никакой отдельной «защищённой религии» не существует."
   },
@@ -1216,6 +2044,24 @@
         "Суннизм и шиизм",
         "Лютеранство и реформатство",
         "Индуизм и буддизм"
+      ]
+    },
+    "en": {
+      "q": "Which different branches of Islam are represented among the Muslim congregations in Sweden?",
+      "o": [
+        "Orthodox and Catholic",
+        "Sunni and Shia",
+        "Lutheran and Reformed",
+        "Hinduism and Buddhism"
+      ]
+    },
+    "ar": {
+      "q": "ما الفروع المختلفة داخل الإسلام الممثَّلة بين الجماعات المسلمة في السويد؟",
+      "o": [
+        "الأرثوذكسية والكاثوليكية",
+        "السنة والشيعة",
+        "اللوثرية والإصلاحية",
+        "الهندوسية والبوذية"
       ]
     },
     "correct": 1,
@@ -1244,6 +2090,24 @@
         "Они заменяют собой социальную службу коммуны для своих членов"
       ]
     },
+    "en": {
+      "q": "What role do religious congregations, for example Jewish, Muslim, Buddhist, and Hindu ones, play in Sweden today?",
+      "o": [
+        "They decide which laws apply to their members instead of Swedish law",
+        "They are responsible for collecting tax from their members on behalf of the state",
+        "They offer a sense of community and help preserve and promote their religion's tradition and culture",
+        "They replace the municipality's social services for their members"
+      ]
+    },
+    "ar": {
+      "q": "ما الدور الذي تؤديه الجماعات الدينية اليوم في السويد — مثل اليهودية والمسلمة والبوذية والهندوسية؟",
+      "o": [
+        "تحدد القوانين التي تسري على أعضائها بدلًا من القانون السويدي",
+        "تتولى تحصيل الضريبة من أعضائها لصالح الدولة",
+        "تمنح شعورًا بالانتماء وتساعد على الحفاظ على تقاليد وثقافة دينها وتعزيزها",
+        "تحل محل الخدمات الاجتماعية للبلدية بالنسبة لأعضائها"
+      ]
+    },
     "correct": 2,
     "why": "Религиозные общины дают чувство общности и помогают сохранять и развивать традицию и культуру своей религии. Они не устанавливают собственные законы вместо шведских (Швеция — светское государство с единым законом для всех), не собирают налоги для государства и не заменяют собой социальную службу коммуны."
   },
@@ -1268,6 +2132,24 @@
         "1 мая",
         "6 июня",
         "13 декабря"
+      ]
+    },
+    "en": {
+      "q": "On what date is Walpurgis Night (valborgsmässoafton) celebrated?",
+      "o": [
+        "April 30",
+        "May 1",
+        "June 6",
+        "December 13"
+      ]
+    },
+    "ar": {
+      "q": "في أي تاريخ تُحتفل ليلة فالبورغ (valborgsmässoafton)؟",
+      "o": [
+        "30 أبريل",
+        "1 مايو",
+        "6 يونيو",
+        "13 ديسمبر"
       ]
     },
     "correct": 0,
@@ -1296,6 +2178,24 @@
         "День всех святых"
       ]
     },
+    "en": {
+      "q": "What is celebrated on May 1 in Sweden?",
+      "o": [
+        "Sweden's National Day",
+        "Labor Day",
+        "Midsummer",
+        "All Saints' Day"
+      ]
+    },
+    "ar": {
+      "q": "بماذا يُحتفل في 1 مايو في السويد؟",
+      "o": [
+        "اليوم الوطني للسويد",
+        "عيد العمال",
+        "مدسومر (Midsommar)",
+        "عيد جميع القديسين"
+      ]
+    },
     "correct": 1,
     "why": "Это выходной день; рабочее движение проводит демонстрации по всей стране."
   },
@@ -1315,6 +2215,24 @@
     },
     "ru": {
       "q": "В каком году 6 июня стало выходным днём по решению риксдага?",
+      "o": [
+        "1523",
+        "1809",
+        "1983",
+        "2005"
+      ]
+    },
+    "en": {
+      "q": "In what year did June 6 become a public holiday by decision of the Riksdag?",
+      "o": [
+        "1523",
+        "1809",
+        "1983",
+        "2005"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أصبح يوم 6 يونيو عطلة رسمية بقرار من البرلمان؟",
       "o": [
         "1523",
         "1809",
@@ -1348,6 +2266,24 @@
         "Всегда в последний день июня"
       ]
     },
+    "en": {
+      "q": "When is Midsummer Eve (midsommarafton) celebrated?",
+      "o": [
+        "Always on June 21",
+        "Always on a Saturday in June",
+        "Always on a Friday between June 19 and 25",
+        "Always on the last day of June"
+      ]
+    },
+    "ar": {
+      "q": "متى يُحتفل بعشية مدسومر (midsommarafton)؟",
+      "o": [
+        "دائمًا في 21 يونيو",
+        "دائمًا يوم سبت في يونيو",
+        "دائمًا يوم جمعة بين 19 و25 يونيو",
+        "دائمًا في آخر يوم من يونيو"
+      ]
+    },
     "correct": 2,
     "why": "Традиция дохристианская. Типичная еда — сельдь, молодой картофель и клубника."
   },
@@ -1372,6 +2308,24 @@
         "13 декабря",
         "24 декабря",
         "25 декабря"
+      ]
+    },
+    "en": {
+      "q": "On what date is Saint Lucia's Day celebrated?",
+      "o": [
+        "December 6",
+        "December 13",
+        "December 24",
+        "December 25"
+      ]
+    },
+    "ar": {
+      "q": "في أي تاريخ يُحتفل بيوم القديسة لوسيا؟",
+      "o": [
+        "6 ديسمبر",
+        "13 ديسمبر",
+        "24 ديسمبر",
+        "25 ديسمبر"
       ]
     },
     "correct": 1,
@@ -1400,6 +2354,24 @@
         "День всех святых"
       ]
     },
+    "en": {
+      "q": "What is the church service early in the morning on December 25 called?",
+      "o": [
+        "Advent",
+        "Julotta",
+        "Lucia",
+        "All Saints' Day"
+      ]
+    },
+    "ar": {
+      "q": "ما اسم القداس الكنسي الذي يُقام في الصباح الباكر من يوم 25 ديسمبر؟",
+      "o": [
+        "الأدفنت (Advent)",
+        "Julotta",
+        "لوسيا",
+        "عيد جميع القديسين"
+      ]
+    },
     "correct": 1,
     "why": "Основное семейное празднование проходит в сочельник (julafton), 24 декабря."
   },
@@ -1424,6 +2396,24 @@
         "Курдский Навруз (Newroz)",
         "Ид аль-фитр",
         "День всех святых"
+      ]
+    },
+    "en": {
+      "q": "Which holiday marks the end of the fasting month of Ramadan?",
+      "o": [
+        "Nowruz",
+        "Newroz",
+        "Eid al-Fitr",
+        "All Saints' Day"
+      ]
+    },
+    "ar": {
+      "q": "ما العيد الذي يُختتم به شهر الصيام رمضان؟",
+      "o": [
+        "نوروز (الفارسي)",
+        "نوروز الكردي (Newroz)",
+        "عيد الفطر",
+        "عيد جميع القديسين"
       ]
     },
     "correct": 2,
@@ -1452,6 +2442,24 @@
         "Потому что религиозно эти праздники теперь отмечают только иммигранты в Швеции"
       ]
     },
+    "en": {
+      "q": "Why do many people in Sweden today celebrate Christian holidays such as Christmas and Easter in new ways, without any connection to the Christian faith?",
+      "o": [
+        "Because traditions change as society develops",
+        "Because the holidays have changed names and are no longer considered Christian at all",
+        "Because the Church of Sweden banned religious celebrations after 2000",
+        "Because only immigrants in Sweden still celebrate the holidays religiously"
+      ]
+    },
+    "ar": {
+      "q": "لماذا يحتفل كثيرون في السويد اليوم بالأعياد المسيحية، مثل عيد الميلاد وعيد الفصح، بطرق جديدة، دون صلة بالإيمان المسيحي؟",
+      "o": [
+        "لأن التقاليد تتغير مع تطور المجتمع",
+        "لأن الأعياد غيّرت اسمها ولم تعد تُعد مسيحية على الإطلاق",
+        "لأن كنيسة السويد حظرت الاحتفالات الدينية بعد عام 2000",
+        "لأن المهاجرين في السويد فقط لا يزالون يحتفلون بهذه الأعياد دينيًا"
+      ]
+    },
     "correct": 0,
     "why": "Традиции меняются вместе с развитием общества — праздники не меняли названия и не переставали быть христианскими по сути, Шведская церковь ничего подобного не запрещала (в 2000 году произошло лишь отделение церкви от государства), и религиозное празднование не ограничено какой-то одной группой населения."
   },
@@ -1476,6 +2484,24 @@
         "Устраивают вечеринки, ужины и фейерверки в полночь",
         "Плетут венки из цветов и танцуют вокруг шеста",
         "Посещают церковную службу рано утром, которая называется юлотта"
+      ]
+    },
+    "en": {
+      "q": "How is New Year's Eve, December 31, celebrated in Sweden, just as in many other places in the world?",
+      "o": [
+        "By eating eggs, lamb, and herring",
+        "With parties, dinners, and fireworks at midnight",
+        "By weaving flower wreaths and dancing around a pole",
+        "With an early-morning church service called julotta"
+      ]
+    },
+    "ar": {
+      "q": "كيف تُحتفل ليلة رأس السنة، 31 ديسمبر، في السويد، كما في أماكن كثيرة أخرى من العالم؟",
+      "o": [
+        "بأكل البيض ولحم الحمل والرنكة",
+        "بالحفلات والعشاءات والألعاب النارية عند منتصف الليل",
+        "بضفر أكاليل الزهور والرقص حول عمود",
+        "بقداس صباحي باكر يُسمى julotta"
       ]
     },
     "correct": 1,
@@ -1504,6 +2530,24 @@
         "Память об умерших родственниках и друзьях"
       ]
     },
+    "en": {
+      "q": "What is Easter meant to commemorate, according to Christian tradition?",
+      "o": [
+        "The birth of Jesus",
+        "Saint Lucia and the light amid the winter darkness",
+        "The death of Jesus on Good Friday and his resurrection on Easter Sunday",
+        "The memory of relatives and friends who have died"
+      ]
+    },
+    "ar": {
+      "q": "بماذا يُفترض أن يُذكِّر عيد الفصح، وفقًا للتقليد المسيحي؟",
+      "o": [
+        "ولادة يسوع",
+        "القديسة لوسيا والنور وسط عتمة الشتاء",
+        "موت يسوع يوم الجمعة العظيمة وقيامته يوم أحد الفصح",
+        "ذكرى الأقارب والأصدقاء المتوفين"
+      ]
+    },
     "correct": 2,
     "why": "Пасха напоминает о смерти Иисуса в Страстную пятницу и его воскресении в пасхальное воскресенье. Рождение Иисуса отмечают на Рождество, святую Люсию и свет посреди зимней тьмы — во время дня Люсии, а память об умерших родственниках — в День всех святых; всё это другие праздники года."
   },
@@ -1528,6 +2572,24 @@
         "Шафранные булочки (lussebullar)",
         "Традиционная рождественская еда, которую едят в сочельник",
         "Яйца, ягнятина, лосось и сельдь"
+      ]
+    },
+    "en": {
+      "q": "A family in Sweden sets the table on Easter Saturday with traditional food. Which dishes are typical for Easter Saturday?",
+      "o": [
+        "Herring, new potatoes, and strawberries",
+        "Saffron buns (lussebullar)",
+        "Traditional Christmas food, eaten on Christmas Eve",
+        "Eggs, lamb, salmon, and herring"
+      ]
+    },
+    "ar": {
+      "q": "تُعِدّ عائلة في السويد مائدة يوم سبت الفصح بأطعمة تقليدية. ما الأطباق النموذجية لهذا اليوم؟",
+      "o": [
+        "الرنكة والبطاطس الجديدة والفراولة",
+        "كعكات الزعفران (lussebullar)",
+        "الطعام التقليدي لعيد الميلاد، الذي يُؤكل ليلة عيد الميلاد",
+        "البيض ولحم الحمل والسلمون والرنكة"
       ]
     },
     "correct": 3,
@@ -1556,6 +2618,24 @@
         "Открывают окошко в календаре"
       ]
     },
+    "en": {
+      "q": "What do people traditionally do on Walpurgis Night to welcome spring?",
+      "o": [
+        "Light large bonfires and sing spring songs",
+        "Weave flower wreaths and dance around a pole",
+        "Light candles on relatives' graves",
+        "Open a window on a calendar"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يفعل الناس تقليديًا في ليلة فالبورغ للترحيب بالربيع؟",
+      "o": [
+        "يشعلون نيرانًا كبيرة ويغنون أغاني الربيع",
+        "يضفرون أكاليل الزهور ويرقصون حول عمود",
+        "يشعلون شموعًا على قبور الأقارب",
+        "يفتحون نافذة صغيرة في تقويم"
+      ]
+    },
     "correct": 0,
     "why": "В Вальпургиеву ночь традиционно зажигают большие костры и поют весенние песни, приветствуя весну. Венки и танцы вокруг шеста — часть Мидсоммара, свечи на могилах — традиция Дня всех святых, а открывание окошка в календаре — часть Адвента; всё это другие праздники."
   },
@@ -1580,6 +2660,24 @@
         "Представители профсоюзов, политических партий и других групп",
         "Только члены королевской семьи",
         "Только сотрудники Вооружённых сил (Försvarsmakten)"
+      ]
+    },
+    "en": {
+      "q": "On May 1, many people gather for demonstrations across Sweden. Who often gives speeches there about social and political issues?",
+      "o": [
+        "Only representatives of the Church of Sweden",
+        "People from trade unions, political parties, and other groups",
+        "Only members of the royal family",
+        "Only employees of the Swedish Armed Forces"
+      ]
+    },
+    "ar": {
+      "q": "في 1 مايو، يجتمع كثير من الناس للمشاركة في مظاهرات في أنحاء السويد. من الذي كثيرًا ما يلقي خطبًا هناك عن قضايا اجتماعية وسياسية؟",
+      "o": [
+        "ممثلو كنيسة السويد فقط",
+        "أشخاص من النقابات والأحزاب السياسية ومجموعات أخرى",
+        "أفراد العائلة المالكة فقط",
+        "موظفو القوات المسلحة فقط"
       ]
     },
     "correct": 1,
@@ -1608,6 +2706,24 @@
         "Первое мая"
       ]
     },
+    "en": {
+      "q": "A municipality in Sweden holds a special ceremony on June 6 to welcome people who have just received Swedish citizenship. Which day is this?",
+      "o": [
+        "Walpurgis Night",
+        "Midsummer Eve",
+        "Sweden's National Day",
+        "May 1"
+      ]
+    },
+    "ar": {
+      "q": "تنظّم بلدية في السويد حفلًا خاصًا في 6 يونيو للترحيب بأشخاص حصلوا للتو على الجنسية السويدية. أي يوم هذا؟",
+      "o": [
+        "ليلة فالبورغ",
+        "عشية مدسومر",
+        "اليوم الوطني للسويد",
+        "1 مايو"
+      ]
+    },
     "correct": 2,
     "why": "6 июня — Национальный день Швеции, и именно в этот день многие коммуны устраивают церемонии для новых граждан страны. Вальпургиева ночь, канун Мидсоммара и Первое мая — другие праздники года, отмечаемые в другие даты."
   },
@@ -1632,6 +2748,24 @@
         "Это традиция, пришедшая в Швецию вместе с иммигрантами в последние десятилетия",
         "Это христианский праздник, напоминающий о воскресении Иисуса",
         "Это древняя традиция, зародившаяся ещё до прихода христианства"
+      ]
+    },
+    "en": {
+      "q": "What is special about the origin of the Midsummer celebration, compared with, for example, Christmas and Easter?",
+      "o": [
+        "It was introduced by the state through a Riksdag decision in 2005",
+        "It is a tradition that came to Sweden with immigrants in recent decades",
+        "It is a Christian holiday commemorating Jesus's resurrection",
+        "It is an old tradition that predates Christianity"
+      ]
+    },
+    "ar": {
+      "q": "ما المميز في أصل احتفال مدسومر، مقارنة مثلًا بعيد الميلاد وعيد الفصح؟",
+      "o": [
+        "أدخلته الدولة بقرار من البرلمان عام 2005",
+        "إنه تقليد وصل إلى السويد مع المهاجرين في العقود الأخيرة",
+        "إنه عيد مسيحي يحيي ذكرى قيامة يسوع",
+        "إنه تقليد قديم يعود إلى ما قبل المسيحية"
       ]
     },
     "correct": 3,
@@ -1660,6 +2794,24 @@
         "Идут на кладбище зажечь свечи на могилах"
       ]
     },
+    "en": {
+      "q": "What do people often do on Midsummer Eve in Sweden?",
+      "o": [
+        "Weave flower wreaths and dance around a maypole",
+        "Light large bonfires and give speeches about spring",
+        "Open a window on an Advent calendar",
+        "Go to the cemetery to light candles on graves"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يفعل الناس غالبًا في عشية مدسومر في السويد؟",
+      "o": [
+        "يضفرون أكاليل الزهور ويرقصون حول عمود مايو",
+        "يشعلون نيرانًا كبيرة ويلقون خطبًا عن الربيع",
+        "يفتحون نافذة صغيرة في تقويم الأدفنت",
+        "يذهبون إلى المقبرة لإشعال شموع على القبور"
+      ]
+    },
     "correct": 0,
     "why": "В канун Мидсоммара часто плетут венки из цветов и танцуют вокруг майского шеста. Костры и речи о весне — традиция Вальпургиевой ночи, окошко в календаре — часть Адвента, а свечи на могилах зажигают в День всех святых; всё это другие праздники."
   },
@@ -1684,6 +2836,24 @@
         "День всех святых",
         "Первое мая",
         "Канун Нового года"
+      ]
+    },
+    "en": {
+      "q": "A person visits a cemetery on a Saturday in late October to light a candle on a deceased relative's grave. Which holiday is this most likely about?",
+      "o": [
+        "Midsummer Eve",
+        "All Saints' Day",
+        "May 1",
+        "New Year's Eve"
+      ]
+    },
+    "ar": {
+      "q": "يزور شخص مقبرة يوم سبت في أواخر أكتوبر لإشعال شمعة على قبر قريب متوفى. أي عيد يخص هذا على الأرجح؟",
+      "o": [
+        "عشية مدسومر",
+        "عيد جميع القديسين",
+        "1 مايو",
+        "ليلة رأس السنة"
       ]
     },
     "correct": 1,
@@ -1712,6 +2882,24 @@
         "Адвент означает свободу и отмечается в память о независимости Швеции"
       ]
     },
+    "en": {
+      "q": "What does the word 'Advent' mean, and what is celebrated during the Advent season?",
+      "o": [
+        "Advent means light, celebrated in memory of Saint Lucia",
+        "Advent means resurrection, celebrated in connection with Easter",
+        "Advent means arrival and is a period of preparation before Christmas",
+        "Advent means freedom, celebrated in memory of Sweden's independence"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تعني كلمة «الأدفنت» (Advent)، وبماذا يُحتفل خلال هذه الفترة؟",
+      "o": [
+        "الأدفنت تعني النور، ويُحتفل بها إحياءً لذكرى القديسة لوسيا",
+        "الأدفنت تعني القيامة، ويُحتفل بها بمناسبة عيد الفصح",
+        "الأدفنت تعني المجيء وهي فترة تحضير لعيد الميلاد",
+        "الأدفنت تعني الحرية، ويُحتفل بها إحياءً لذكرى استقلال السويد"
+      ]
+    },
     "correct": 2,
     "why": "Адвент означает пришествие и является периодом подготовки к Рождеству — четыре воскресенья перед Рождеством. Со светом и святой Люсией связан день Люсии, с воскресением — Пасха, а с независимостью Швеции — Национальный день; всё это другие понятия и праздники."
   },
@@ -1736,6 +2924,24 @@
         "Празднование Адвента",
         "Празднование Вальпургиевой ночи",
         "Празднование дня Люсии"
+      ]
+    },
+    "en": {
+      "q": "A school arranges a Lucia procession where one student wears a crown of candles on their head and the others carry candles in their hands, while they sing special songs. Which tradition is this?",
+      "o": [
+        "Julotta",
+        "The Advent celebration",
+        "The Walpurgis Night celebration",
+        "The Lucia celebration"
+      ]
+    },
+    "ar": {
+      "q": "تنظّم مدرسة موكب لوسيا (luciatåg) حيث تحمل تلميذة إكليلًا من الشموع على رأسها ويحمل الباقون شموعًا بأيديهم، بينما يغنون أغاني خاصة. أي تقليد يخص هذا؟",
+      "o": [
+        "Julotta",
+        "احتفال الأدفنت",
+        "احتفال ليلة فالبورغ",
+        "احتفال لوسيا"
       ]
     },
     "correct": 3,
@@ -1764,6 +2970,24 @@
         "Участвуют в школьном шествии дня Люсии"
       ]
     },
+    "en": {
+      "q": "What do many families in Sweden do on Christmas Eve, December 24?",
+      "o": [
+        "Gather to spend time together, eat Christmas food, and give each other Christmas presents",
+        "Light large bonfires and give speeches about spring",
+        "Light candles on graves at the cemetery",
+        "Take part in a Lucia procession at school"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تفعل عائلات كثيرة في السويد ليلة عيد الميلاد، 24 ديسمبر؟",
+      "o": [
+        "يجتمعون للتواصل وتناول طعام عيد الميلاد وتبادل الهدايا",
+        "يشعلون نيرانًا كبيرة ويلقون خطبًا عن الربيع",
+        "يشعلون شموعًا على القبور في المقبرة",
+        "يشاركون في موكب لوسيا في المدرسة"
+      ]
+    },
     "correct": 0,
     "why": "В сочельник многие семьи в Швеции собираются вместе, едят праздничную еду и дарят друг другу подарки. Костры и речи о весне — традиция Вальпургиевой ночи, свечи на могилах — День всех святых, а шествие дня Люсии проходит 13 декабря; всё это другие даты и праздники."
   },
@@ -1790,6 +3014,24 @@
         "Потому что Рождество сменило название и больше не является христианским праздником"
       ]
     },
+    "en": {
+      "q": "Why do many Swedes celebrate Christmas as a family holiday, even though they are not religious believers?",
+      "o": [
+        "Because the Church of Sweden requires everyone in Sweden to celebrate Christmas",
+        "Because Christmas has today become, for many, a tradition without religious meaning",
+        "Because everyone in Sweden must belong to the Church of Sweden",
+        "Because Christmas has changed its name and is no longer a Christian holiday at all"
+      ]
+    },
+    "ar": {
+      "q": "لماذا يحتفل كثير من السويديين بعيد الميلاد كعيد عائلي، رغم أنهم غير مؤمنين دينيًا؟",
+      "o": [
+        "لأن كنيسة السويد تفرض على الجميع في السويد الاحتفال بعيد الميلاد",
+        "لأن عيد الميلاد أصبح اليوم بالنسبة لكثيرين تقليدًا بلا معنى ديني",
+        "لأن الجميع في السويد ملزمون بالانتماء إلى كنيسة السويد",
+        "لأن عيد الميلاد غيّر اسمه ولم يعد عيدًا مسيحيًا على الإطلاق"
+      ]
+    },
     "correct": 1,
     "why": "Сегодня Рождество для многих шведов стало семейной традицией без религиозного значения. Шведская церковь никого не обязывает праздновать Рождество и не требует членства (с 2000 года церковь отделена от государства), а название и суть праздника не менялись."
   },
@@ -1814,6 +3056,24 @@
         "Рождество и Пасха",
         "Персидский Новый год Навруз и курдский Навруз (Newroz)",
         "День всех святых и Первое мая"
+      ]
+    },
+    "en": {
+      "q": "Eid al-Fitr is a holiday that came to Sweden with immigrants. Which other holidays are mentioned as examples of this?",
+      "o": [
+        "Midsummer and Walpurgis Night",
+        "Christmas and Easter",
+        "The Persian New Year Nowruz and the Kurdish New Year Newroz",
+        "All Saints' Day and May 1"
+      ]
+    },
+    "ar": {
+      "q": "عيد الفطر عيد وصل إلى السويد مع المهاجرين. ما الأعياد الأخرى التي تُذكر كأمثلة على ذلك؟",
+      "o": [
+        "مدسومر وليلة فالبورغ",
+        "عيد الميلاد وعيد الفصح",
+        "رأس السنة الفارسية نوروز ورأس السنة الكردية (Newroz)",
+        "عيد جميع القديسين و1 مايو"
       ]
     },
     "correct": 2,

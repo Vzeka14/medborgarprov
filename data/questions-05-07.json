@@ -22,6 +22,24 @@
         "Пять"
       ]
     },
+    "en": {
+      "q": "How many fundamental laws does Sweden have?",
+      "o": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ]
+    },
+    "ar": {
+      "q": "كم عدد القوانين الأساسية في السويد؟",
+      "o": [
+        "اثنان",
+        "ثلاثة",
+        "أربعة",
+        "خمسة"
+      ]
+    },
     "correct": 2,
     "why": "Закон о форме правления (regeringsformen), закон о свободе печати (tryckfrihetsförordningen), закон о свободе слова (yttrandefrihetsgrundlagen) и закон о престолонаследии (successionsordningen)."
   },
@@ -46,6 +64,24 @@
         "Закон о свободе печати (Tryckfrihetsförordningen)",
         "Закон о свободе слова (Yttrandefrihetsgrundlagen)",
         "Закон о престолонаследии (Successionsordningen)"
+      ]
+    },
+    "en": {
+      "q": "Which fundamental law determines who becomes king or queen after the current monarch?",
+      "o": [
+        "The Instrument of Government",
+        "The Freedom of the Press Act",
+        "The Fundamental Law on Freedom of Expression",
+        "The Act of Succession"
+      ]
+    },
+    "ar": {
+      "q": "أي قانون أساسي يحدد من سيصبح ملكًا أو ملكة بعد الملك الحالي؟",
+      "o": [
+        "وثيقة الحكم (Regeringsformen)",
+        "قانون حرية الصحافة (Tryckfrihetsförordningen)",
+        "القانون الأساسي لحرية التعبير (Yttrandefrihetsgrundlagen)",
+        "قانون التوارث الملكي (Successionsordningen)"
       ]
     },
     "correct": 3,
@@ -74,6 +110,24 @@
         "Закон о запрете дискриминации"
       ]
     },
+    "en": {
+      "q": "Which fundamental law protects free speech in printed form, for example books and newspapers?",
+      "o": [
+        "The Freedom of the Press Act",
+        "The Fundamental Law on Freedom of Expression",
+        "The Instrument of Government",
+        "The Discrimination Act"
+      ]
+    },
+    "ar": {
+      "q": "أي قانون أساسي يحمي حرية التعبير في الشكل المطبوع، مثل الكتب والصحف؟",
+      "o": [
+        "قانون حرية الصحافة (Tryckfrihetsförordningen)",
+        "القانون الأساسي لحرية التعبير (Yttrandefrihetsgrundlagen)",
+        "وثيقة الحكم (Regeringsformen)",
+        "قانون مكافحة التمييز"
+      ]
+    },
     "correct": 0,
     "why": "Tryckfrihetsförordningen (закон о свободе печати) защищает именно печатную форму — книги и газеты. Yttrandefrihetsgrundlagen (закон о свободе слова) касается радио, ТВ и других форм высказывания, а diskrimineringslagen (закон о недискриминации) вообще не входит в число основных законов."
   },
@@ -98,6 +152,24 @@
         "Это может быть преступлением, например разжиганием ненависти к группе (hets mot folkgrupp)",
         "Это разрешено, если человек никого не называет по имени",
         "Это решает то издание, где опубликован текст"
+      ]
+    },
+    "en": {
+      "q": "A person spreads statements online that insult and defame an ethnic group. What applies under Swedish law?",
+      "o": [
+        "It is allowed because freedom of expression applies",
+        "It can be a crime, for example incitement against an ethnic or national group (hets mot folkgrupp)",
+        "It is allowed if the person does not name anyone",
+        "It is decided by the medium where the text was published"
+      ]
+    },
+    "ar": {
+      "q": "ينشر شخص عبر الإنترنت تصريحات تهين وتشهّر بفئة عرقية. ما الذي ينطبق وفق القانون السويدي؟",
+      "o": [
+        "هذا مسموح لأن حرية التعبير تنطبق",
+        "قد يكون هذا جريمة، مثل التحريض ضد فئة عرقية (hets mot folkgrupp)",
+        "هذا مسموح إذا لم يذكر الشخص أي اسم",
+        "يقرر ذلك الوسيط الذي نُشر فيه النص"
       ]
     },
     "correct": 1,
@@ -126,6 +198,24 @@
         "Это разрешено только гражданам Швеции"
       ]
     },
+    "en": {
+      "q": "A person wants to camp for one night in a forest on land owned by someone else. What applies under the right of public access (allemansrätten)?",
+      "o": [
+        "It is forbidden without the landowner's permission",
+        "It is allowed, but you may not damage nature or disturb the landowner",
+        "It is allowed only in national parks",
+        "It is allowed only for Swedish citizens"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص التخييم ليلة واحدة في غابة على أرض يملكها شخص آخر. ما الذي ينطبق وفق حق الوصول العام للطبيعة (allemansrätten)؟",
+      "o": [
+        "ذلك ممنوع دون إذن مالك الأرض",
+        "ذلك مسموح، لكن لا يجوز الإضرار بالطبيعة أو إزعاج مالك الأرض",
+        "ذلك مسموح فقط في المتنزهات الوطنية",
+        "ذلك مسموح فقط لمواطني السويد"
+      ]
+    },
     "correct": 1,
     "why": "Право общего доступа к природе (allemansrätten) защищено в законе о форме правления (regeringsformen). Нельзя ходить по полям крестьянина, заходить в чужой сад и мусорить."
   },
@@ -150,6 +240,24 @@
         "Прокуратура (Åklagarmyndigheten)",
         "Служба исполнения наказаний",
         "Ведомство по делам потерпевших"
+      ]
+    },
+    "en": {
+      "q": "Which agency decides whether a person suspected of a crime should be brought before a court?",
+      "o": [
+        "The police",
+        "The Prosecution Authority (Åklagarmyndigheten)",
+        "The Prison and Probation Service",
+        "The Crime Victim Authority"
+      ]
+    },
+    "ar": {
+      "q": "أي هيئة تقرر ما إذا كان الشخص المشتبه به في جريمة سيُقدَّم للمحاكمة؟",
+      "o": [
+        "الشرطة",
+        "هيئة الادعاء العام (Åklagarmyndigheten)",
+        "مصلحة السجون ومراقبة السلوك",
+        "هيئة ضحايا الجريمة"
       ]
     },
     "correct": 1,
@@ -178,6 +286,24 @@
         "Европейский суд"
       ]
     },
+    "en": {
+      "q": "Which court is the first instance where criminal and civil cases begin?",
+      "o": [
+        "The court of appeal (hovrätten)",
+        "The district court (tingsrätten)",
+        "The Supreme Court",
+        "The European Court [of Human Rights]"
+      ]
+    },
+    "ar": {
+      "q": "أي محكمة هي أول درجة تبدأ فيها القضايا الجنائية والمدنية؟",
+      "o": [
+        "محكمة الاستئناف (hovrätten)",
+        "المحكمة الابتدائية (tingsrätten)",
+        "المحكمة العليا",
+        "المحكمة الأوروبية لحقوق الإنسان"
+      ]
+    },
     "correct": 1,
     "why": "Порядок инстанций: суд первой инстанции (tingsrätt) → апелляционный суд (hovrätt) → Верховный суд (Högsta domstolen)."
   },
@@ -202,6 +328,24 @@
         "48 часов",
         "72 часа",
         "Неделю"
+      ]
+    },
+    "en": {
+      "q": "For how long, at most, can a detained (anhållen) person be held before remand detention (häktning)?",
+      "o": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "One week"
+      ]
+    },
+    "ar": {
+      "q": "كم أقصى مدة يمكن أن يُحتجَز فيها الموقوف (anhållen) قبل قرار الحبس الاحتياطي (häktning)؟",
+      "o": [
+        "24 ساعة",
+        "48 ساعة",
+        "72 ساعة",
+        "أسبوع"
       ]
     },
     "correct": 2,
@@ -230,6 +374,24 @@
         "Они составляют материалы предварительного расследования"
       ]
     },
+    "en": {
+      "q": "What role do lay judges (nämndemän) have in the district court?",
+      "o": [
+        "They argue the state's case against the defendant",
+        "They defend the defendant",
+        "They pass judgment together with the judge and are meant to represent the public",
+        "They write the preliminary investigation report"
+      ]
+    },
+    "ar": {
+      "q": "ما دور القضاة الشعبيين (nämndemän) في المحكمة الابتدائية؟",
+      "o": [
+        "يمثلون الادعاء العام ضد المتهم",
+        "يدافعون عن المتهم",
+        "يصدرون الحكم مع القاضي ويُفترض أن يمثلوا الرأي العام",
+        "يكتبون تقرير التحقيق الأولي"
+      ]
+    },
     "correct": 2,
     "why": "Народные заседатели (nämndemän) назначаются политическими партиями и обеспечивают гласность процесса."
   },
@@ -254,6 +416,24 @@
         "15 лет",
         "16 лет",
         "18 лет"
+      ]
+    },
+    "en": {
+      "q": "From what age is a person of the age of criminal responsibility (straffmyndig) in Sweden?",
+      "o": [
+        "13 years",
+        "15 years",
+        "16 years",
+        "18 years"
+      ]
+    },
+    "ar": {
+      "q": "من أي عمر يبلغ الشخص سن المسؤولية الجنائية (straffmyndig) في السويد؟",
+      "o": [
+        "13 عامًا",
+        "15 عامًا",
+        "16 عامًا",
+        "18 عامًا"
       ]
     },
     "correct": 1,
@@ -282,6 +462,24 @@
         "От Верховного суда"
       ]
     },
+    "en": {
+      "q": "What does the Instrument of Government say about where public power in Sweden originates?",
+      "o": [
+        "From the King",
+        "From the people",
+        "From the Speaker of the Riksdag",
+        "From the Supreme Court"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تقول وثيقة الحكم (regeringsformen) عن مصدر السلطة العامة في السويد؟",
+      "o": [
+        "من الملك",
+        "من الشعب",
+        "من رئيس البرلمان",
+        "من المحكمة العليا"
+      ]
+    },
     "correct": 1,
     "why": "Закон о форме правления (regeringsformen) устанавливает, что вся публичная власть в Швеции исходит от народа — базовый принцип демократии, а не от монарха или отдельного органа."
   },
@@ -306,6 +504,24 @@
         "К программам политических партий",
         "К равной ценности всех людей и свободе и достоинству отдельного человека",
         "Только к правам граждан Швеции"
+      ]
+    },
+    "en": {
+      "q": "According to the Instrument of Government, public power should be exercised with respect for what?",
+      "o": [
+        "Primarily the state's economic interests",
+        "The programs of the political parties",
+        "The equal worth of all people and the freedom and dignity of the individual",
+        "Only the rights of Swedish citizens"
+      ]
+    },
+    "ar": {
+      "q": "وفقًا لوثيقة الحكم (regeringsformen)، يجب أن تُمارَس السلطة العامة باحترام ماذا؟",
+      "o": [
+        "المصالح الاقتصادية للدولة في المقام الأول",
+        "برامج الأحزاب السياسية",
+        "القيمة المتساوية لجميع البشر وحرية الفرد وكرامته",
+        "حقوق مواطني السويد فقط"
       ]
     },
     "correct": 2,
@@ -334,6 +550,24 @@
         "Закон о свободе слова (Yttrandefrihetsgrundlagen)"
       ]
     },
+    "en": {
+      "q": "Which fundamental law gives everyone the right to freely express their opinions, for example on radio and TV?",
+      "o": [
+        "The Freedom of the Press Act",
+        "The Act of Succession",
+        "The Discrimination Act",
+        "The Fundamental Law on Freedom of Expression"
+      ]
+    },
+    "ar": {
+      "q": "أي قانون أساسي يمنح الجميع الحق في التعبير عن آرائهم بحرية، مثلًا على الراديو والتلفزيون؟",
+      "o": [
+        "قانون حرية الصحافة (Tryckfrihetsförordningen)",
+        "قانون التوارث الملكي (Successionsordningen)",
+        "قانون مكافحة التمييز",
+        "القانون الأساسي لحرية التعبير (Yttrandefrihetsgrundlagen)"
+      ]
+    },
     "correct": 3,
     "why": "Закон о свободе печати (tryckfrihetsförordningen) отвечает за печатную форму (книги, газеты), а закон о свободе слова (yttrandefrihetsgrundlagen) — за устные и электронные формы: радио, ТВ."
   },
@@ -358,6 +592,24 @@
         "Право создавать объединения и демонстрировать",
         "Право голосовать на выборах в риксдаг",
         "Право на государственное жильё"
+      ]
+    },
+    "en": {
+      "q": "The Fundamental Law on Freedom of Expression gives everyone living in Sweden the right to express opinions. What additional right does the fundamental law provide?",
+      "o": [
+        "The right to free healthcare",
+        "The right to form associations and to demonstrate",
+        "The right to vote in Riksdag elections",
+        "The right to state-provided housing"
+      ]
+    },
+    "ar": {
+      "q": "يمنح القانون الأساسي لحرية التعبير (Yttrandefrihetsgrundlagen) كل من يعيش في السويد الحق في التعبير عن الآراء. ما الحق الإضافي الذي يمنحه هذا القانون؟",
+      "o": [
+        "الحق في الرعاية الصحية المجانية",
+        "الحق في تأسيس جمعيات والتظاهر",
+        "الحق في التصويت في انتخابات البرلمان",
+        "الحق في سكن حكومي"
       ]
     },
     "correct": 1,
@@ -386,6 +638,24 @@
         "Это разрешено только в государственных лесах"
       ]
     },
+    "en": {
+      "q": "A person walks through a forest owned by someone else and picks blueberries and chanterelles along the way. What applies under the right of public access (allemansrätten)?",
+      "o": [
+        "It is forbidden without the landowner's permission",
+        "It is only allowed if the person is a Swedish citizen",
+        "It is allowed as long as the person does not damage nature or disturb the landowner",
+        "It is only allowed in state-owned forest"
+      ]
+    },
+    "ar": {
+      "q": "يمشي شخص عبر غابة يملكها شخص آخر ويجمع في طريقه توت العليق وفطر الشانتيريل. ما الذي ينطبق وفق حق الوصول العام للطبيعة (allemansrätten)؟",
+      "o": [
+        "ذلك ممنوع دون إذن مالك الأرض",
+        "ذلك مسموح فقط لمواطني السويد",
+        "ذلك مسموح ما دام الشخص لا يضر بالطبيعة أو يزعج مالك الأرض",
+        "ذلك مسموح فقط في الغابات المملوكة للدولة"
+      ]
+    },
     "correct": 2,
     "why": "Право общего доступа к природе (allemansrätten) разрешает собирать ягоды, грибы и цветы на чужой земле независимо от того, кто владелец, если не наносить вред."
   },
@@ -410,6 +680,24 @@
         "Да, право общего доступа к природе (allemansrätten) разрешает это на любой земле",
         "Да, но только осенью",
         "Да, если турист идёт тихо"
+      ]
+    },
+    "en": {
+      "q": "A hiker takes a shortcut straight across a farmer's newly sown field to get there faster. Is this allowed under the right of public access (allemansrätten)?",
+      "o": [
+        "No, it is not allowed to walk on a farmer's fields",
+        "Yes, the right of public access allows it on any land",
+        "Yes, but only in autumn",
+        "Yes, if the hiker walks quietly"
+      ]
+    },
+    "ar": {
+      "q": "يقطع أحد المتنزهين طريقًا مختصرًا عبر حقل مزارع مزروع حديثًا للوصول أسرع. هل هذا مسموح وفق حق الوصول العام للطبيعة (allemansrätten)؟",
+      "o": [
+        "لا، لا يُسمح بالسير عبر حقول المزارع",
+        "نعم، يسمح حق الوصول العام للطبيعة بذلك على أي أرض",
+        "نعم، لكن في الخريف فقط",
+        "نعم، إذا سار المتنزه بهدوء"
       ]
     },
     "correct": 0,
@@ -438,6 +726,24 @@
         "Они охраняются законом, и их нельзя собирать"
       ]
     },
+    "en": {
+      "q": "What applies under the right of public access (allemansrätten) to certain rare plants in nature?",
+      "o": [
+        "Anyone may pick them freely",
+        "Only the landowner may pick them",
+        "They may be picked if you are careful and do not damage nature",
+        "They are protected by law and may not be picked"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي ينطبق وفق حق الوصول العام للطبيعة (allemansrätten) على بعض النباتات النادرة في الطبيعة؟",
+      "o": [
+        "يمكن لأي شخص جمعها بحرية",
+        "لا يجوز جمعها إلا لمالك الأرض",
+        "يمكن جمعها إذا كان الشخص حذرًا ولم يضر بالطبيعة",
+        "إنها محمية بموجب القانون ولا يجوز جمعها"
+      ]
+    },
     "correct": 3,
     "why": "Некоторые редкие растения защищены отдельно — общее право собирать цветы (allemansrätten) на них не распространяется."
   },
@@ -462,6 +768,24 @@
         "Информацию, которая может навредить безопасности Швеции, например тайны обороны",
         "Письма читателей с политическим мнением",
         "Отзывы о работе ведомств"
+      ]
+    },
+    "en": {
+      "q": "What type of information is forbidden to spread, despite freedom of the press and expression?",
+      "o": [
+        "Criticism of the government's policies",
+        "Information that could harm Sweden's security, for example defense secrets",
+        "Letters to the editor with political opinions",
+        "Reviews of agencies' work"
+      ]
+    },
+    "ar": {
+      "q": "ما نوع المعلومات الممنوع نشرها، رغم حرية الصحافة والتعبير؟",
+      "o": [
+        "انتقاد سياسات الحكومة",
+        "معلومات قد تضر بأمن السويد، مثل أسرار الدفاع",
+        "رسائل القراء التي تحمل آراءً سياسية",
+        "تقييمات لعمل الهيئات الحكومية"
       ]
     },
     "correct": 1,
@@ -490,6 +814,24 @@
         "Омбудсмен по вопросам дискриминации"
       ]
     },
+    "en": {
+      "q": "Which agency takes care of people who have been victims of crime?",
+      "o": [
+        "The Prison and Probation Service",
+        "The Prosecution Authority",
+        "The Crime Victim Authority (Brottsoffermyndigheten)",
+        "The Equality Ombudsman"
+      ]
+    },
+    "ar": {
+      "q": "أي هيئة تُعنى بالأشخاص الذين تعرضوا لجرائم؟",
+      "o": [
+        "مصلحة السجون ومراقبة السلوك (Kriminalvården)",
+        "هيئة الادعاء العام",
+        "هيئة ضحايا الجريمة (Brottsoffermyndigheten)",
+        "أمين المظالم لمكافحة التمييز"
+      ]
+    },
     "correct": 2,
     "why": "Служба исполнения наказаний (Kriminalvården) отвечает за осуждённых и тюрьмы, а ведомство по делам жертв преступлений (Brottsoffermyndigheten) — именно за пострадавших от преступлений."
   },
@@ -514,6 +856,24 @@
         "За решение о предъявлении обвинения",
         "За поддержку пострадавших от преступлений",
         "За тюрьмы и отбывание наказания осуждёнными"
+      ]
+    },
+    "en": {
+      "q": "What is the Prison and Probation Service (Kriminalvården) responsible for?",
+      "o": [
+        "Investigating crimes at the crime scene",
+        "Deciding whether to press charges",
+        "Supporting people who have been victims of crime",
+        "Prisons and ensuring convicted persons serve their sentences"
+      ]
+    },
+    "ar": {
+      "q": "عمَّ تُسؤول مصلحة السجون ومراقبة السلوك (Kriminalvården)؟",
+      "o": [
+        "التحقيق في الجرائم في مسرح الجريمة",
+        "قرار توجيه الاتهام",
+        "دعم الأشخاص الذين تعرضوا لجرائم",
+        "السجون وضمان قضاء المحكوم عليهم لعقوباتهم"
       ]
     },
     "correct": 3,
@@ -542,6 +902,24 @@
         "Суды полностью финансируются частными компаниями"
       ]
     },
+    "en": {
+      "q": "What does it mean that Swedish courts are independent?",
+      "o": [
+        "Courts do not have to follow the law",
+        "The government or the Riksdag cannot decide how a court should rule in an individual case",
+        "Judges are freely chosen by the public in each case",
+        "Courts are entirely funded by private companies"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني استقلال المحاكم السويدية؟",
+      "o": [
+        "لا يتوجب على المحاكم اتباع القانون",
+        "لا يمكن للحكومة أو البرلمان تحديد كيفية حكم محكمة في قضية بعينها",
+        "يختار الجمهور القضاة بحرية في كل قضية",
+        "تُموَّل المحاكم بالكامل من شركات خاصة"
+      ]
+    },
     "correct": 1,
     "why": "Независимость судов — ключевая часть правовой защищённости (rättssäkerhet): политическая власть не может влиять на конкретный приговор, хотя суды, конечно, обязаны следовать закону."
   },
@@ -566,6 +944,24 @@
         "Право избежать суда и право на компенсацию",
         "Право на защиту адвоката и право обжаловать приговор",
         "Право быть судимым народными заседателями вместо судьи и право избежать обвинения, если передумал"
+      ]
+    },
+    "en": {
+      "q": "Which two rights are part of the rule of law (rättssäkerhet) in Sweden?",
+      "o": [
+        "The right to choose which court hears the case, and the right to free legal aid for everyone",
+        "The right to avoid trial, and the right to compensation",
+        "The right to defend yourself with a lawyer, and the right to appeal a verdict",
+        "The right to be judged by lay judges instead of a judge, and the right to avoid charges if you change your mind"
+      ]
+    },
+    "ar": {
+      "q": "ما الحقان اللذان يدخلان ضمن سيادة القانون (rättssäkerhet) في السويد؟",
+      "o": [
+        "الحق في اختيار المحكمة التي تنظر في القضية والحق في مساعدة قانونية مجانية للجميع",
+        "الحق في تجنّب المحاكمة والحق في التعويض",
+        "الحق في الدفاع عن النفس بمساعدة محامٍ والحق في استئناف الحكم",
+        "الحق في أن يحاكمه قضاة شعبيون بدلًا من قاضٍ والحق في تجنّب الاتهام إذا غيّر رأيه"
       ]
     },
     "correct": 2,
@@ -594,6 +990,24 @@
         "Решает, предъявлять ли обвинение"
       ]
     },
+    "en": {
+      "q": "What does the court of appeal (hovrätten) do?",
+      "o": [
+        "It is the court where criminal cases always begin",
+        "It reviews cases that have been appealed from the district court",
+        "It only reviews cases concerning the fundamental laws",
+        "It decides whether charges should be pressed"
+      ]
+    },
+    "ar": {
+      "q": "ماذا تفعل محكمة الاستئناف (hovrätten)؟",
+      "o": [
+        "هي المحكمة التي تبدأ فيها القضايا الجنائية دائمًا",
+        "تراجع القضايا المستأنفة من المحكمة الابتدائية",
+        "تنظر فقط في القضايا المتعلقة بالقوانين الأساسية",
+        "تقرر ما إذا كان سيُوجَّه الاتهام"
+      ]
+    },
     "correct": 1,
     "why": "Дела начинаются в суде первой инстанции (tingsrätten), а апелляционный суд (hovrätten) — вторая инстанция, куда обращаются при обжаловании."
   },
@@ -618,6 +1032,24 @@
         "Только дела, касающиеся иностранных граждан",
         "Только дела о праве общего доступа к природе (allemansrätten)",
         "Только некоторые важные дела, которые уже прошли суд первой инстанции (tingsrätt) и апелляционный суд (hovrätt)"
+      ]
+    },
+    "en": {
+      "q": "Which cases does the Supreme Court (Högsta domstolen, HD) review?",
+      "o": [
+        "All cases anyone wants to appeal",
+        "Only cases involving foreign citizens",
+        "Only cases concerning the right of public access (allemansrätten)",
+        "Only certain important cases that have already gone through the district court and the court of appeal"
+      ]
+    },
+    "ar": {
+      "q": "ما القضايا التي تنظر فيها المحكمة العليا (Högsta domstolen, HD)؟",
+      "o": [
+        "جميع القضايا التي يريد أحد استئنافها",
+        "القضايا المتعلقة بالمواطنين الأجانب فقط",
+        "القضايا المتعلقة بحق الوصول العام للطبيعة (allemansrätten) فقط",
+        "بعض القضايا المهمة فقط التي مرت بالفعل بالمحكمة الابتدائية ومحكمة الاستئناف"
       ]
     },
     "correct": 3,
@@ -646,6 +1078,24 @@
         "Дела о нарушении основных законов"
       ]
     },
+    "en": {
+      "q": "The district court handles criminal cases. What other type of case can the district court also handle, for example when parents disagree about where a child should live?",
+      "o": [
+        "Civil cases (tvistemål)",
+        "Administrative tax cases",
+        "EU cases",
+        "Fundamental law cases"
+      ]
+    },
+    "ar": {
+      "q": "تنظر المحكمة الابتدائية في القضايا الجنائية. ما نوع القضايا الآخر الذي يمكن أن تنظر فيه أيضًا، مثلًا عندما يختلف الوالدان حول مكان إقامة الطفل؟",
+      "o": [
+        "القضايا المدنية (tvistemål)",
+        "القضايا الإدارية المتعلقة بالضرائب",
+        "قضايا الاتحاد الأوروبي",
+        "قضايا القوانين الأساسية"
+      ]
+    },
     "correct": 0,
     "why": "Споры об опеке (vårdnadstvister) между родителями относятся к гражданским спорам (tvistemål), которые тоже рассматривает суд первой инстанции (tingsrätten), а не только уголовные дела."
   },
@@ -670,6 +1120,24 @@
         "Как виновный, если прокурор предъявил обвинение",
         "Как невиновный",
         "Это зависит от тяжести преступления"
+      ]
+    },
+    "en": {
+      "q": "How should a person suspected of a crime be regarded before a verdict has been reached?",
+      "o": [
+        "As guilty until proven otherwise",
+        "As guilty if the prosecutor has pressed charges",
+        "As innocent",
+        "It depends on the severity of the crime"
+      ]
+    },
+    "ar": {
+      "q": "كيف يجب أن يُنظر إلى الشخص المشتبه به في جريمة قبل صدور الحكم؟",
+      "o": [
+        "على أنه مذنب حتى يثبت العكس",
+        "على أنه مذنب إذا وجّه المدعي العام الاتهام",
+        "على أنه بريء",
+        "يعتمد ذلك على خطورة الجريمة"
       ]
     },
     "correct": 2,
@@ -698,6 +1166,24 @@
         "Представлять обвиняемого в суде"
       ]
     },
+    "en": {
+      "q": "What is the police's main task in Sweden?",
+      "o": [
+        "To pass judgment in criminal cases",
+        "To uphold law and order and to prevent and investigate crime",
+        "To decide on penalties such as imprisonment",
+        "To represent the defendant in court"
+      ]
+    },
+    "ar": {
+      "q": "ما المهمة الرئيسية للشرطة في السويد؟",
+      "o": [
+        "إصدار الأحكام في القضايا الجنائية",
+        "الحفاظ على القانون والنظام ومنع الجرائم والتحقيق فيها",
+        "تحديد العقوبات مثل السجن",
+        "تمثيل المتهم في المحكمة"
+      ]
+    },
     "correct": 1,
     "why": "Полиция отвечает за порядок, профилактику и расследование преступлений. Выносят приговор и назначают наказание суды, а не полиция."
   },
@@ -722,6 +1208,24 @@
         "Налоговое ведомство (Skatteverket)",
         "Миграционное ведомство (Migrationsverket)",
         "Ведомство судов"
+      ]
+    },
+    "en": {
+      "q": "Which agency issues passports and national ID cards to Swedish citizens?",
+      "o": [
+        "The police",
+        "The Tax Agency",
+        "The Migration Agency",
+        "The National Courts Administration"
+      ]
+    },
+    "ar": {
+      "q": "أي هيئة تصدر جوازات السفر وبطاقات الهوية الوطنية لمواطني السويد؟",
+      "o": [
+        "الشرطة",
+        "مصلحة الضرائب (Skatteverket)",
+        "هيئة الهجرة (Migrationsverket)",
+        "الهيئة الوطنية لإدارة المحاكم"
       ]
     },
     "correct": 0,
@@ -750,6 +1254,24 @@
         "Полиция"
       ]
     },
+    "en": {
+      "q": "A group wants to hold a demonstration in a public square. Who decides on permission for that?",
+      "o": [
+        "The municipal council",
+        "The Prosecution Authority",
+        "The district court",
+        "The police"
+      ]
+    },
+    "ar": {
+      "q": "تريد مجموعة تنظيم مظاهرة في ساحة عامة. من يقرر منح الإذن لذلك؟",
+      "o": [
+        "المجلس البلدي",
+        "هيئة الادعاء العام",
+        "المحكمة الابتدائية",
+        "الشرطة"
+      ]
+    },
     "correct": 3,
     "why": "Полиция не только расследует преступления, но и выдаёт разрешения, например на демонстрации."
   },
@@ -774,6 +1296,24 @@
         "Заявление в полицию",
         "Судебное заседание",
         "Предварительное следствие"
+      ]
+    },
+    "en": {
+      "q": "What is the first step in a criminal investigation in Sweden?",
+      "o": [
+        "Remand detention (häktning)",
+        "Reporting to the police (polisanmälan)",
+        "The trial",
+        "The preliminary investigation"
+      ]
+    },
+    "ar": {
+      "q": "ما الخطوة الأولى في التحقيق الجنائي في السويد؟",
+      "o": [
+        "الحبس الاحتياطي (häktning)",
+        "الإبلاغ للشرطة (polisanmälan)",
+        "المحاكمة",
+        "التحقيق الأولي"
       ]
     },
     "correct": 1,
@@ -802,6 +1342,24 @@
         "Допрос (förhör) проводит судья, а предварительное следствие (förundersökning) — прокурор"
       ]
     },
+    "en": {
+      "q": "What is the difference between questioning (förhör) and the preliminary investigation (förundersökning) in a criminal investigation?",
+      "o": [
+        "Questioning is about finding out more about what happened, while the preliminary investigation gathers evidence and talks to witnesses more extensively",
+        "Questioning and the preliminary investigation are the same thing with different names",
+        "The preliminary investigation only happens in court, questioning only at the police",
+        "Questioning is done by the judge, the preliminary investigation by the prosecutor"
+      ]
+    },
+    "ar": {
+      "q": "ما الفرق بين الاستجواب (förhör) والتحقيق الأولي (förundersökning) في التحقيق الجنائي؟",
+      "o": [
+        "الاستجواب هو معرفة المزيد عمّا حدث، بينما يجمع التحقيق الأولي الأدلة ويستجوب الشهود بشكل أوسع",
+        "الاستجواب والتحقيق الأولي هما الشيء نفسه بأسماء مختلفة",
+        "يتم التحقيق الأولي في المحكمة فقط، والاستجواب في الشرطة فقط",
+        "يجري الاستجواب القاضي، ويجري التحقيق الأولي المدعي العام"
+      ]
+    },
     "correct": 0,
     "why": "Это два последовательных этапа: сначала полиция выясняет обстоятельства (förhör), затем идёт более широкое следствие со сбором улик и опросом свидетелей (förundersökning)."
   },
@@ -826,6 +1384,24 @@
         "Городской совет",
         "Прокурор",
         "Парламентский омбудсмен (JO)"
+      ]
+    },
+    "en": {
+      "q": "The police have strong suspicions against a person and arrest them. Who can then decide that the person should be detained (anhållen)?",
+      "o": [
+        "A lay judge",
+        "The municipal council",
+        "A prosecutor",
+        "The Parliamentary Ombudsman"
+      ]
+    },
+    "ar": {
+      "q": "لدى الشرطة شبهات قوية ضد شخص فتقبض عليه. من يمكنه بعد ذلك أن يقرر توقيف (anhållan) الشخص؟",
+      "o": [
+        "قاضٍ شعبي",
+        "المجلس البلدي",
+        "مدعٍ عام",
+        "أمين المظالم البرلماني (JO)"
       ]
     },
     "correct": 2,
@@ -854,6 +1430,24 @@
         "Служба исполнения наказаний"
       ]
     },
+    "en": {
+      "q": "Who decides whether a suspect should be remanded, i.e. held in custody for a longer period (häktning)?",
+      "o": [
+        "A prosecutor",
+        "A court",
+        "The police",
+        "The Prison and Probation Service"
+      ]
+    },
+    "ar": {
+      "q": "من يقرر حبس المشتبه به احتياطيًا، أي احتجازه لفترة أطول (häktning)؟",
+      "o": [
+        "مدعٍ عام",
+        "محكمة",
+        "الشرطة",
+        "مصلحة السجون ومراقبة السلوك"
+      ]
+    },
     "correct": 1,
     "why": "Задержание (anhållan, до 72 часов) решает прокурор, а заключение под стражу (häktning) на более долгий срок требует именно решения суда."
   },
@@ -878,6 +1472,24 @@
         "Защищать обвиняемого от обвинений",
         "Определить, какое наказание назначить",
         "Представлять интересы жертвы в гражданском деле"
+      ]
+    },
+    "en": {
+      "q": "What does the prosecutor try to do during a trial?",
+      "o": [
+        "Prove that the defendant is guilty of the crime",
+        "Defend the defendant against the accusations",
+        "Decide which penalty should be given",
+        "Represent the victim in a civil case"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يحاول المدعي العام فعله أثناء المحاكمة؟",
+      "o": [
+        "إثبات أن المتهم مذنب بالجريمة",
+        "الدفاع عن المتهم ضد الاتهامات",
+        "تحديد العقوبة التي ستُفرض",
+        "تمثيل الضحية في قضية مدنية"
       ]
     },
     "correct": 0,
@@ -906,6 +1518,24 @@
         "Оспаривать доказательства прокурора и представлять собственные"
       ]
     },
+    "en": {
+      "q": "What is a defendant entitled to do with the help of their defense lawyer?",
+      "o": [
+        "Choose which judge will hear the case",
+        "Decide what penalty is reasonable",
+        "Interrupt the trial without reason",
+        "Challenge the prosecutor's evidence and present their own evidence"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي يحق للمتهم فعله بمساعدة محامي دفاعه؟",
+      "o": [
+        "اختيار القاضي الذي سينظر في القضية",
+        "تحديد العقوبة المناسبة",
+        "مقاطعة المحاكمة دون سبب",
+        "الطعن في أدلة المدعي العام وتقديم أدلة خاصة به"
+      ]
+    },
     "correct": 3,
     "why": "Право на защиту включает возможность оспаривать доказательства обвинения и представлять свои — это часть правовой защищённости (rättssäkerhet)."
   },
@@ -930,6 +1560,24 @@
         "Человека оправдывают",
         "Дело сразу направляется в Верховный суд",
         "Человека всё равно вносят в реестр судимостей"
+      ]
+    },
+    "en": {
+      "q": "The court concludes that it cannot be proven that the defendant committed the crime. What happens then?",
+      "o": [
+        "The person is automatically fined",
+        "The person is acquitted",
+        "The case is sent directly to the Supreme Court",
+        "The person is still registered in the criminal record"
+      ]
+    },
+    "ar": {
+      "q": "تخلص المحكمة إلى أنه لا يمكن إثبات أن المتهم ارتكب الجريمة. ماذا يحدث حينئذ؟",
+      "o": [
+        "يُحكَم على الشخص تلقائيًا بغرامة",
+        "تتم تبرئة الشخص",
+        "تُرسَل القضية مباشرة إلى المحكمة العليا",
+        "يُسجَّل الشخص في السجل الجنائي رغم ذلك"
       ]
     },
     "correct": 1,
@@ -958,6 +1606,24 @@
         "Служба исполнения наказаний"
       ]
     },
+    "en": {
+      "q": "A 12-year-old child does something criminal. Who decides what happens to the child?",
+      "o": [
+        "The Prosecution Authority",
+        "The district court",
+        "Social services (Socialtjänsten)",
+        "The Prison and Probation Service"
+      ]
+    },
+    "ar": {
+      "q": "يرتكب طفل يبلغ 12 عامًا فعلًا مخالفًا للقانون. من يقرر ما سيحدث للطفل؟",
+      "o": [
+        "هيئة الادعاء العام",
+        "المحكمة الابتدائية",
+        "الخدمات الاجتماعية (Socialtjänsten)",
+        "مصلحة السجون ومراقبة السلوك"
+      ]
+    },
     "correct": 2,
     "why": "Ребёнок младше 15 лет не подлежит уголовной ответственности (straffmyndig), поэтому его делом занимается не суд или прокуратура, а социальная служба."
   },
@@ -982,6 +1648,24 @@
         "Повысить его до 18 лет",
         "Полностью отменить уголовную ответственность несовершеннолетних",
         "Снизить его до 10 лет для всех преступлений"
+      ]
+    },
+    "en": {
+      "q": "What proposal did the Swedish government submit in 2026 concerning the age of criminal responsibility?",
+      "o": [
+        "To lower it to 13 for serious crimes",
+        "To raise it to 18",
+        "To abolish criminal responsibility entirely",
+        "To lower it to 10 for all crimes"
+      ]
+    },
+    "ar": {
+      "q": "بشأن ماذا قدّمت الحكومة السويدية اقتراحًا في عام 2026 يتعلق بسن المسؤولية الجنائية؟",
+      "o": [
+        "خفضه إلى 13 عامًا في الجرائم الخطيرة",
+        "رفعه إلى 18 عامًا",
+        "إلغاء المسؤولية الجنائية كليًا",
+        "خفضه إلى 10 أعوام لجميع الجرائم"
       ]
     },
     "correct": 0,
@@ -1010,6 +1694,24 @@
         "Вступление в профсоюз"
       ]
     },
+    "en": {
+      "q": "What can an entry in the criminal record (belastningsregistret) make more difficult for a person?",
+      "o": [
+        "Voting in municipal elections",
+        "Getting a job, a driving license, or citizenship",
+        "Signing a rental contract",
+        "Joining a trade union"
+      ]
+    },
+    "ar": {
+      "q": "ماذا قد يصعّب التسجيل في السجل الجنائي (belastningsregister) على الشخص؟",
+      "o": [
+        "التصويت في الانتخابات البلدية",
+        "الحصول على عمل أو رخصة قيادة أو الجنسية",
+        "توقيع عقد إيجار",
+        "الانضمام إلى نقابة"
+      ]
+    },
     "correct": 1,
     "why": "Реестр судимостей (belastningsregister) напрямую влияет именно на такие решения, как трудоустройство, получение прав и гражданства."
   },
@@ -1034,6 +1736,24 @@
         "Только адвокат защиты",
         "Судья вместе с народными заседателями (nämndemän)",
         "Полиция, которая расследовала дело"
+      ]
+    },
+    "en": {
+      "q": "After the prosecutor and the defense lawyer have presented their arguments in the district court, who decides whether the defendant is guilty and what penalty should be given?",
+      "o": [
+        "The prosecutor alone",
+        "The defense lawyer alone",
+        "The judge, together with the lay judges",
+        "The police who investigated the crime"
+      ]
+    },
+    "ar": {
+      "q": "بعد أن يقدّم المدعي العام ومحامي الدفاع حججهما في المحكمة الابتدائية، من يقرر ما إذا كان المتهم مذنبًا وما العقوبة التي ستُفرض؟",
+      "o": [
+        "المدعي العام وحده",
+        "محامي الدفاع وحده",
+        "القاضي مع القضاة الشعبيين (nämndemän)",
+        "الشرطة التي حققت في القضية"
       ]
     },
     "correct": 2,
@@ -1062,6 +1782,24 @@
         "Что журналисты обязаны раскрывать свои источники"
       ]
     },
+    "en": {
+      "q": "What does the principle of public access to official documents (offentlighetsprincipen) mean?",
+      "o": [
+        "That the state decides what the media may publish",
+        "That official documents from public agencies are public unless they are classified",
+        "That all newspapers receive state funding",
+        "That journalists must disclose their sources"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني مبدأ العلنية (offentlighetsprincipen)؟",
+      "o": [
+        "أن الدولة تقرر ما يجوز لوسائل الإعلام نشره",
+        "أن الوثائق الرسمية للهيئات الحكومية علنية ما لم تكن سرية",
+        "أن جميع الصحف تحصل على دعم حكومي",
+        "أن الصحفيين ملزمون بالكشف عن مصادرهم"
+      ]
+    },
     "correct": 1,
     "why": "Благодаря этому журналисты могут запрашивать письма и документы ведомств, чтобы проверить, как принимались решения."
   },
@@ -1086,6 +1824,24 @@
         "Человек имеет право передать сведения без наказания и имеет право остаться анонимным",
         "Человек должен сначала получить разрешение работодателя",
         "Человек обязан указать своё имя в статье"
+      ]
+    },
+    "en": {
+      "q": "An employee leaks information about wrongdoing to a newspaper. What applies?",
+      "o": [
+        "The person can be punished for leaking the information",
+        "The person has the right to leak the information without punishment and has the right to remain anonymous",
+        "The person must first get permission from their employer",
+        "The person must give their name in the article"
+      ]
+    },
+    "ar": {
+      "q": "يسرّب موظف معلومات عن مخالفات إلى صحيفة. ما الذي ينطبق؟",
+      "o": [
+        "يمكن معاقبة الشخص على تسريب المعلومات",
+        "للشخص الحق في تسريب المعلومات دون عقاب وله الحق في البقاء مجهول الهوية",
+        "يجب على الشخص أولًا الحصول على إذن من صاحب العمل",
+        "يجب على الشخص ذكر اسمه في المقال"
       ]
     },
     "correct": 1,
@@ -1114,6 +1870,24 @@
         "SR, TV4 и UR"
       ]
     },
+    "en": {
+      "q": "Which three media companies make up public service in Sweden?",
+      "o": [
+        "SVT, TV4 and SR",
+        "SR, SVT and UR",
+        "SVT, UR and Bonnier",
+        "SR, TV4 and UR"
+      ]
+    },
+    "ar": {
+      "q": "ما شركات الإعلام الثلاث التي تشكّل البث العام (public service) في السويد؟",
+      "o": [
+        "SVT وTV4 وSR",
+        "SR وSVT وUR",
+        "SVT وUR وBonnier",
+        "SR وTV4 وUR"
+      ]
+    },
     "correct": 1,
     "why": "Sveriges Radio, Sveriges Television и Utbildningsradion. TV4 — коммерческий канал."
   },
@@ -1138,6 +1912,24 @@
         "За счёт сбора, который взимается через налог",
         "За счёт подписки зрителей",
         "За счёт взносов политических партий"
+      ]
+    },
+    "en": {
+      "q": "How are the public service companies in Sweden funded?",
+      "o": [
+        "Through advertising",
+        "Through a fee collected via taxes",
+        "Through viewer subscriptions",
+        "Through contributions from political parties"
+      ]
+    },
+    "ar": {
+      "q": "كيف تُموَّل شركات البث العام (public service) في السويد؟",
+      "o": [
+        "عبر الإعلانات",
+        "عبر رسم يُحصَّل من خلال الضرائب",
+        "عبر اشتراكات المشاهدين",
+        "عبر تبرعات الأحزاب السياسية"
       ]
     },
     "correct": 1,
@@ -1166,6 +1958,24 @@
         "Правительство"
       ]
     },
+    "en": {
+      "q": "Who is legally responsible for what is published in a newspaper or on TV?",
+      "o": [
+        "The journalist who wrote the text",
+        "The legally responsible publisher (ansvarig utgivare)",
+        "The reader who shares the text further",
+        "The government"
+      ]
+    },
+    "ar": {
+      "q": "من يتحمل المسؤولية القانونية عمّا يُنشر في صحيفة أو على التلفزيون؟",
+      "o": [
+        "الصحفي الذي كتب النص",
+        "الناشر المسؤول قانونيًا (ansvarig utgivare)",
+        "القارئ الذي يعيد نشر النص",
+        "الحكومة"
+      ]
+    },
     "correct": 1,
     "why": "Ответственный издатель обязан соблюдать законы, защищающие от клеветы и оскорблений."
   },
@@ -1190,6 +2000,24 @@
         "Подвергать сомнению и проверять, верно ли то, что читаешь",
         "Читать новости только из зарубежных СМИ",
         "Полностью избегать чтения новостей"
+      ]
+    },
+    "en": {
+      "q": "A person reads a sensational news item on social media. What does it mean to be critical of sources (källkritisk)?",
+      "o": [
+        "To always believe what most people share",
+        "To question and check whether what you read is correct",
+        "To only read news from foreign media",
+        "To avoid reading news entirely"
+      ]
+    },
+    "ar": {
+      "q": "يقرأ شخص خبرًا مثيرًا على وسائل التواصل الاجتماعي. ماذا يعني أن يكون الشخص ناقدًا للمصادر (källkritisk)؟",
+      "o": [
+        "تصديق ما يشاركه معظم الناس دائمًا",
+        "التشكيك والتحقق مما إذا كان ما يقرأه الشخص صحيحًا",
+        "قراءة الأخبار فقط من وسائل إعلام أجنبية",
+        "تجنّب قراءة الأخبار كليًا"
       ]
     },
     "correct": 1,
@@ -1218,6 +2046,24 @@
         "Государство решает, на какие темы журналистам разрешено писать"
       ]
     },
+    "en": {
+      "q": "What applies to the state's ability to decide what is said in Swedish media?",
+      "o": [
+        "The state cannot decide or influence what is said in the media",
+        "The state approves all news before it is published",
+        "The state decides the content of public service but not of private media",
+        "The state decides which topics journalists are allowed to write about"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي ينطبق على قدرة الدولة على تحديد ما يُقال في وسائل الإعلام السويدية؟",
+      "o": [
+        "لا يمكن للدولة تحديد ما يُقال في وسائل الإعلام أو التأثير فيه",
+        "توافق الدولة على جميع الأخبار قبل نشرها",
+        "تحدد الدولة محتوى البث العام لكن ليس وسائل الإعلام الخاصة",
+        "تحدد الدولة المواضيع التي يُسمح للصحفيين الكتابة عنها"
+      ]
+    },
     "correct": 0,
     "why": "Государство не может решать или влиять на то, что говорится в шведских СМИ — это гарантируют основные законы о свободе печати и свободе слова. Предварительного одобрения новостей не существует, компании общественного вещания должны быть независимы от политических интересов, и список разрешённых тем государство не устанавливает."
   },
@@ -1242,6 +2088,24 @@
         "Только продавать рекламные места компаниям",
         "Только контролировать, что граждане пишут в интернете",
         "Они информируют о новостях, служат площадкой для обсуждения и обеспечивают развлечение"
+      ]
+    },
+    "en": {
+      "q": "What functions do the media serve in Swedish society?",
+      "o": [
+        "Only spreading the state's official information",
+        "Only selling advertising space to companies",
+        "Only monitoring what citizens write online",
+        "They inform about news, serve as a forum for discussion, and provide entertainment"
+      ]
+    },
+    "ar": {
+      "q": "ما الوظائف التي تؤديها وسائل الإعلام في المجتمع السويدي؟",
+      "o": [
+        "نشر المعلومات الرسمية للدولة فقط",
+        "بيع مساحات إعلانية للشركات فقط",
+        "مراقبة ما يكتبه المواطنون على الإنترنت فقط",
+        "إعلام الناس بالأخبار، والعمل كمنصة للنقاش، وتوفير الترفيه"
       ]
     },
     "correct": 3,
@@ -1270,6 +2134,24 @@
         "Государственная поддержка новостных изданий"
       ]
     },
+    "en": {
+      "q": "A journalist wants to investigate how an agency made a controversial decision and requests the agency's emails and documents. What gives the journalist this option?",
+      "o": [
+        "Source protection",
+        "The principle of public access to official documents",
+        "That the journalist has a legally responsible publisher",
+        "State support for news media"
+      ]
+    },
+    "ar": {
+      "q": "يريد صحفي التحقيق في كيفية اتخاذ هيئة ما قرارًا مثيرًا للجدل، فيطلب رسائل البريد الإلكتروني والوثائق الخاصة بالهيئة. ما الذي يمنح الصحفي هذه الإمكانية؟",
+      "o": [
+        "حماية المصادر (meddelarskydd)",
+        "مبدأ العلنية (offentlighetsprincipen)",
+        "وجود ناشر مسؤول قانونيًا لدى الصحفي",
+        "الدعم الحكومي لوسائل الإعلام الإخبارية"
+      ]
+    },
     "correct": 1,
     "why": "Такую возможность даёт принцип публичности (offentlighetsprincipen): официальные документы ведомств открыты, и любой может их запросить, если они не засекречены. Защита информатора касается того, кто передаёт сведения в СМИ, ответственный издатель отвечает за публикуемое, а государственная поддержка изданий — вопрос финансирования, а не доступа к документам."
   },
@@ -1294,6 +2176,24 @@
         "Что документ обязаны опубликовать в газете в течение недели",
         "Что доступ к нему имеют только иностранные журналисты",
         "Что документ автоматически становится открытым через три дня"
+      ]
+    },
+    "en": {
+      "q": "What does it mean that a document held by an agency is classified (under sekretess)?",
+      "o": [
+        "That the document may not be released, unlike public documents which are open",
+        "That the document must be published in a daily newspaper within a week",
+        "That only foreign journalists may access it",
+        "That the document automatically becomes public after three days"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني أن وثيقة لدى هيئة ما سرية (تخضع لـ sekretess)؟",
+      "o": [
+        "أنه لا يجوز الإفصاح عن الوثيقة، بخلاف الوثائق الرسمية العلنية",
+        "أنه يجب نشر الوثيقة في صحيفة يومية خلال أسبوع",
+        "أنه لا يحق الاطلاع عليها إلا للصحفيين الأجانب",
+        "أن الوثيقة تصبح علنية تلقائيًا بعد ثلاثة أيام"
       ]
     },
     "correct": 0,
@@ -1322,6 +2222,24 @@
         "Чтобы заменить собой компании общественного вещания"
       ]
     },
+    "en": {
+      "q": "Why does the state provide financial support to news media and daily newspapers in Sweden?",
+      "o": [
+        "So that the state can control the content of newspapers",
+        "Because it is important that there are many different media outlets providing us with news",
+        "So that newspapers won't need a legally responsible publisher",
+        "To replace the public service companies"
+      ]
+    },
+    "ar": {
+      "q": "لماذا تقدّم الدولة دعمًا ماليًا لوسائل الإعلام الإخبارية والصحف اليومية في السويد؟",
+      "o": [
+        "لكي تتمكن الدولة من التحكم في محتوى الصحف",
+        "لأنه من المهم وجود وسائل إعلام متعددة ومختلفة تزودنا بالأخبار",
+        "لكي لا تحتاج الصحف إلى ناشر مسؤول قانونيًا",
+        "لتحل محل شركات البث العام"
+      ]
+    },
     "correct": 1,
     "why": "Государство поддерживает СМИ потому, что важно наличие многих разных источников новостей. Поддержка не даёт государству права управлять содержанием, не отменяет обязанность иметь ответственного издателя и не заменяет собой общественное вещание, которое финансируется иначе."
   },
@@ -1346,6 +2264,24 @@
         "Проверить сведения по нескольким независимым источникам и убедиться, что источники надёжны",
         "Отправить сведения в ведомство на утверждение",
         "Подождать, пока минимум одна другая газета опубликует то же самое"
+      ]
+    },
+    "en": {
+      "q": "A journalist receives a tip about a sensational event from a single source. What should the journalist do before publishing the information?",
+      "o": [
+        "Publish it right away, since the tip came from someone who was there",
+        "Verify the information with several independent sources and make sure the sources are reliable",
+        "Send the information to an agency for approval",
+        "Wait until at least one other newspaper has published the same thing"
+      ]
+    },
+    "ar": {
+      "q": "يتلقى صحفي معلومة عن حدث مثير من مصدر واحد فقط. ماذا يجب أن يفعل الصحفي قبل نشر المعلومات؟",
+      "o": [
+        "النشر مباشرة، بما أن المعلومة جاءت من شخص كان في مكان الحدث",
+        "التحقق من المعلومات من عدة مصادر مستقلة والتأكد من موثوقية المصادر",
+        "إرسال المعلومات إلى هيئة حكومية للموافقة عليها",
+        "الانتظار حتى تنشر صحيفة أخرى على الأقل الشيء نفسه"
       ]
     },
     "correct": 1,
@@ -1374,6 +2310,24 @@
         "Из членских взносов в политических партиях"
       ]
     },
+    "en": {
+      "q": "Where do commercial radio and TV channels in Sweden get their income from?",
+      "o": [
+        "From a fee collected via taxes",
+        "From grants paid out by the Riksdag",
+        "From selling advertising space or from people paying to watch a particular channel",
+        "From membership fees in political parties"
+      ]
+    },
+    "ar": {
+      "q": "من أين تحصل القنوات الإذاعية والتلفزيونية التجارية في السويد على دخلها؟",
+      "o": [
+        "من رسم يُحصَّل عبر الضرائب",
+        "من منح يدفعها البرلمان",
+        "من بيع مساحات إعلانية أو من دفع الناس مقابل مشاهدة قناة معينة",
+        "من اشتراكات عضوية في الأحزاب السياسية"
+      ]
+    },
     "correct": 2,
     "why": "Коммерческие каналы зарабатывают на продаже рекламных мест или на том, что люди платят за доступ к определённому каналу. Сбор через налог финансирует общественное вещание, а не коммерческие каналы, дотаций от риксдага они не получают, и с членскими взносами партий их доходы никак не связаны."
   },
@@ -1398,6 +2352,24 @@
         "Нет, новости газет обновляются лишь раз в неделю",
         "Да, но только если человек оформит подписку на бумажную газету",
         "Да, большинство газет есть в интернете и обновляются несколько раз в день"
+      ]
+    },
+    "en": {
+      "q": "A person wants to read today's news from a Swedish daily newspaper several times during the day, without buying the print edition. Is that possible?",
+      "o": [
+        "No, daily newspapers only exist as printed copies",
+        "No, newspaper news is only updated once a week",
+        "Yes, but only if the person subscribes to the print edition",
+        "Yes, most newspapers are available online and are updated several times a day"
+      ]
+    },
+    "ar": {
+      "q": "يريد شخص قراءة أخبار اليوم من صحيفة سويدية يومية عدة مرات في اليوم، دون شراء النسخة الورقية. هل هذا ممكن؟",
+      "o": [
+        "لا، الصحف اليومية موجودة فقط كنسخ مطبوعة",
+        "لا، تُحدَّث أخبار الصحف مرة واحدة فقط في الأسبوع",
+        "نعم، لكن فقط إذا اشترك الشخص في النسخة الورقية",
+        "نعم، معظم الصحف متوفرة على الإنترنت وتُحدَّث عدة مرات في اليوم"
       ]
     },
     "correct": 3,
@@ -1426,6 +2398,24 @@
         "Занимать чью-то сторону в политических конфликтах, чтобы зрителям было понятнее"
       ]
     },
+    "en": {
+      "q": "What requirements are placed on the public service companies when they report on society?",
+      "o": [
+        "They must be independent of political and other interests and let different opinions be heard without taking sides",
+        "They must follow the government's line on political issues",
+        "They must only report positive news from Sweden",
+        "They must take sides in political conflicts to make things clearer for viewers"
+      ]
+    },
+    "ar": {
+      "q": "ما المتطلبات المفروضة على شركات البث العام عند تغطيتها لشؤون المجتمع؟",
+      "o": [
+        "يجب أن تكون مستقلة عن المصالح السياسية وغيرها وأن تتيح لمختلف الآراء التعبير عن نفسها دون الانحياز لطرف",
+        "يجب أن تتبع خط الحكومة في القضايا السياسية",
+        "يجب أن تغطي فقط الأخبار الإيجابية من السويد",
+        "يجب أن تنحاز لطرف في النزاعات السياسية لتوضيح الأمر للمشاهدين"
+      ]
+    },
     "correct": 0,
     "why": "Компании общественного вещания должны быть независимы от политических и других интересов и давать высказаться разным мнениям, не принимая ничью сторону. Следование линии правительства, отбор только положительных новостей или занятие чьей-либо стороны прямо противоречат требованию независимости."
   },
@@ -1452,6 +2442,24 @@
         "Содержание в соцсетях должно сначала утвердить ответственный издатель"
       ]
     },
+    "en": {
+      "q": "A person publishes a video clip with claims about a social issue on a social medium. How does this content differ from content in traditional media?",
+      "o": [
+        "Content on social media is always reviewed more strictly than content in newspapers",
+        "Content on social media may only be published by journalists",
+        "Anyone can create content there, and it is not verified in the same way as in other media",
+        "Content on social media must first be approved by a legally responsible publisher"
+      ]
+    },
+    "ar": {
+      "q": "ينشر شخص مقطع فيديو يحتوي على تصريحات بشأن قضية مجتمعية على وسيلة تواصل اجتماعي. بمَ يختلف هذا المحتوى عن محتوى وسائل الإعلام التقليدية؟",
+      "o": [
+        "يخضع محتوى وسائل التواصل الاجتماعي دائمًا لتدقيق أشد من محتوى الصحف",
+        "لا يجوز نشر محتوى على وسائل التواصل الاجتماعي إلا للصحفيين",
+        "يمكن لأي شخص إنشاء محتوى هناك، ولا يخضع للتحقق بنفس الطريقة المتبعة في وسائل الإعلام الأخرى",
+        "يجب أن يوافق ناشر مسؤول قانونيًا على محتوى وسائل التواصل الاجتماعي أولًا"
+      ]
+    },
     "correct": 2,
     "why": "В социальных сетях содержание может создавать кто угодно, и оно не контролируется так, как в традиционных СМИ. Проверка там не строже, а слабее, публикация не ограничена журналистами, и требования об утверждении ответственным издателем к соцсетям не применяются — в отличие от газет, радио и телевидения."
   },
@@ -1471,6 +2479,24 @@
     },
     "ru": {
       "q": "В каком году ООН представила Всеобщую декларацию прав человека?",
+      "o": [
+        "1945",
+        "1948",
+        "1951",
+        "1979"
+      ]
+    },
+    "en": {
+      "q": "In what year did the UN present the Universal Declaration of Human Rights?",
+      "o": [
+        "1945",
+        "1948",
+        "1951",
+        "1979"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام قدمت الأمم المتحدة الإعلان العالمي لحقوق الإنسان؟",
       "o": [
         "1945",
         "1948",
@@ -1504,6 +2530,24 @@
         "Работать без коллективного договора"
       ]
     },
+    "en": {
+      "q": "What does the Discrimination Act prohibit in Sweden?",
+      "o": [
+        "Criticizing the government",
+        "Treating people worse because of, among other things, sex, age, ethnicity, religion, sexual orientation, or disability",
+        "Forming political parties",
+        "Working without a collective agreement"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يحظر قانون مكافحة التمييز في السويد؟",
+      "o": [
+        "انتقاد الحكومة",
+        "معاملة الناس بشكل أسوأ بسبب أمور منها الجنس أو العمر أو الأصل العرقي أو الدين أو التوجه الجنسي أو الإعاقة",
+        "تأسيس أحزاب سياسية",
+        "العمل دون اتفاقية جماعية"
+      ]
+    },
     "correct": 1,
     "why": "За соблюдением следит омбудсмен по вопросам дискриминации (Diskrimineringsombudsmannen, DO)."
   },
@@ -1528,6 +2572,24 @@
         "Что тот, кто хочет вступить в половую связь, обязан убедиться, что другой участвует добровольно",
         "Что оба человека должны быть старше 18 лет",
         "Что интимные отношения нужно регистрировать"
+      ]
+    },
+    "en": {
+      "q": "What does the Swedish consent law (samtyckeslagen) mean?",
+      "o": [
+        "That sex outside marriage is forbidden",
+        "That anyone who wants to have sex must make sure the other person is participating voluntarily",
+        "That both people must be over 18",
+        "That sexual relationships must be registered"
+      ]
+    },
+    "ar": {
+      "q": "ماذا يعني قانون الموافقة السويدي (samtyckeslagen)؟",
+      "o": [
+        "أن الجنس خارج الزواج ممنوع",
+        "أن على من يريد ممارسة الجنس التأكد من أن الطرف الآخر يشارك طواعية",
+        "أن يجب أن يكون كلا الشخصين فوق 18 عامًا",
+        "أن العلاقات الجنسية يجب تسجيلها"
       ]
     },
     "correct": 1,
@@ -1556,6 +2618,24 @@
         "Не наказывают никого"
       ]
     },
+    "en": {
+      "q": "What applies under the Swedish sex purchase law (sexköpslagen)?",
+      "o": [
+        "Both the buyer and the seller are punished",
+        "The buyer can be punished but not the seller",
+        "The seller can be punished but not the buyer",
+        "Neither of them is punished"
+      ]
+    },
+    "ar": {
+      "q": "ما الذي ينطبق وفق قانون شراء الجنس السويدي (sexköpslagen)؟",
+      "o": [
+        "يُعاقَب كل من المشتري والبائع",
+        "يمكن معاقبة المشتري وليس البائع",
+        "يمكن معاقبة البائع وليس المشتري",
+        "لا يُعاقَب أي منهما"
+      ]
+    },
     "correct": 1,
     "why": "Наказание направлено на покупателя, чтобы обозначить: использовать человека сексуально за плату неприемлемо."
   },
@@ -1575,6 +2655,24 @@
     },
     "ru": {
       "q": "С какого года Конвенция ООН о правах ребёнка является законом в Швеции?",
+      "o": [
+        "1979",
+        "2000",
+        "2009",
+        "2020"
+      ]
+    },
+    "en": {
+      "q": "Since what year has the UN Convention on the Rights of the Child (barnkonventionen) been law in Sweden?",
+      "o": [
+        "1979",
+        "2000",
+        "2009",
+        "2020"
+      ]
+    },
+    "ar": {
+      "q": "منذ أي عام أصبحت اتفاقية حقوق الطفل التابعة للأمم المتحدة (barnkonventionen) قانونًا في السويد؟",
       "o": [
         "1979",
         "2000",
@@ -1608,6 +2706,24 @@
         "2020"
       ]
     },
+    "en": {
+      "q": "In what year did Sweden recognize its national minorities?",
+      "o": [
+        "1951",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام اعترفت السويد بأقلياتها القومية؟",
+      "o": [
+        "1951",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
     "correct": 2,
     "why": "В 2000 году в Швеции признаны официальные национальные меньшинства — евреи, ромы, саамы, шведские финны и торнедальцы. Это отдельная дата от 1979 года, когда запретили телесные наказания детей, и от 2020 года, когда barnkonventionen стала законом Швеции — эти даты легко перепутать."
   },
@@ -1632,6 +2748,24 @@
         "Идиш",
         "Романи чиб",
         "Эстонский"
+      ]
+    },
+    "en": {
+      "q": "Which of these is not a national minority language in Sweden?",
+      "o": [
+        "Meänkieli",
+        "Yiddish",
+        "Romani Chib",
+        "Estonian"
+      ]
+    },
+    "ar": {
+      "q": "أي من هذه اللغات ليست لغة أقلية قومية في السويد؟",
+      "o": [
+        "الميانكييلي (Meänkieli)",
+        "اليديشية",
+        "الروماني (Romani Chib)",
+        "الإستونية"
       ]
     },
     "correct": 3,
@@ -1660,6 +2794,24 @@
         "Объединение оленеводов в Норрботтене"
       ]
     },
+    "en": {
+      "q": "What is the Sami Parliament (Sametinget)?",
+      "o": [
+        "A court for land and reindeer-herding issues",
+        "An elected parliament representing the Sami population",
+        "A department within the Migration Agency",
+        "An association for reindeer herders in Norrbotten"
+      ]
+    },
+    "ar": {
+      "q": "ما هو البرلمان الصامي (Sametinget)؟",
+      "o": [
+        "محكمة لقضايا الأراضي ورعي الرنة",
+        "برلمان منتخب يمثل الشعب الصامي",
+        "قسم داخل هيئة الهجرة",
+        "جمعية لرعاة الرنة في نوربوتن"
+      ]
+    },
     "correct": 1,
     "why": "Совещательный орган по вопросам языка, культуры и идентичности, у которого есть и некоторые административные функции."
   },
@@ -1679,6 +2831,24 @@
     },
     "ru": {
       "q": "В каком году в Швеции гомосексуальность перестала быть незаконной?",
+      "o": [
+        "1944",
+        "1979",
+        "2003",
+        "2009"
+      ]
+    },
+    "en": {
+      "q": "In what year did it become legal to be homosexual in Sweden?",
+      "o": [
+        "1944",
+        "1979",
+        "2003",
+        "2009"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أصبحت المثلية الجنسية قانونية في السويد؟",
       "o": [
         "1944",
         "1979",
@@ -1712,6 +2882,24 @@
         "Разжигание ненависти к группе, и назначается только штраф"
       ]
     },
+    "en": {
+      "q": "A person is assaulted because of their religious affiliation. What is this called, and what does it mean for the sentence?",
+      "o": [
+        "Defamation, and the sentence becomes lighter",
+        "A hate crime (hatbrott), and the perpetrator receives a harsher sentence",
+        "Discrimination, and the matter is decided by DO instead of a court",
+        "Incitement against an ethnic group, and only a fine can be imposed"
+      ]
+    },
+    "ar": {
+      "q": "يتعرض شخص للاعتداء بسبب انتمائه الديني. ما اسم هذا وما تأثيره على العقوبة؟",
+      "o": [
+        "تشهير، وتكون العقوبة أخف",
+        "جريمة كراهية (hatbrott)، ويحصل الجاني على عقوبة أشد",
+        "تمييز، وتحسم الأمر هيئة DO بدلًا من المحكمة",
+        "تحريض ضد فئة عرقية، ولا يُفرض سوى غرامة"
+      ]
+    },
     "correct": 1,
     "why": "Мотив ненависти является отягчающим обстоятельством."
   },
@@ -1736,6 +2924,24 @@
         "25 стран",
         "100 стран",
         "193 страны"
+      ]
+    },
+    "en": {
+      "q": "How many countries joined together to found the UN in 1945?",
+      "o": [
+        "51 countries",
+        "25 countries",
+        "100 countries",
+        "193 countries"
+      ]
+    },
+    "ar": {
+      "q": "كم دولة اتحدت لتأسيس الأمم المتحدة عام 1945؟",
+      "o": [
+        "51 دولة",
+        "25 دولة",
+        "100 دولة",
+        "193 دولة"
       ]
     },
     "correct": 0,
@@ -1764,6 +2970,24 @@
         "Право создать собственное государство"
       ]
     },
+    "en": {
+      "q": "A person is forced to leave their home country because of war and comes to another country to seek protection. Which right does this concern, according to the UN's Universal Declaration of Human Rights?",
+      "o": [
+        "The right to freely choose one's place of residence within one's own country",
+        "The right to paid vacation",
+        "The right to flee, seek asylum, and receive protection in another country if one's life is in danger",
+        "The right to found one's own state"
+      ]
+    },
+    "ar": {
+      "q": "يُجبَر شخص على مغادرة بلده بسبب الحرب ويصل إلى بلد آخر طلبًا للحماية. أي حق يتعلق بهذا وفق الإعلان العالمي لحقوق الإنسان الصادر عن الأمم المتحدة؟",
+      "o": [
+        "الحق في اختيار محل الإقامة بحرية داخل بلده",
+        "الحق في إجازة مدفوعة الأجر",
+        "الحق في الفرار وطلب اللجوء والحصول على الحماية في بلد آخر إذا كانت حياته في خطر",
+        "الحق في تأسيس دولة خاصة به"
+      ]
+    },
     "correct": 2,
     "why": "Право бежать, искать убежище и получить защиту прямо перечислено среди прав из декларации ООН — его не стоит путать с правом на отпуск или свободой передвижения внутри страны, которые тоже входят в декларацию, но касаются другого."
   },
@@ -1788,6 +3012,24 @@
         "Да, но только если человек живёт за границей",
         "Нет, но только если человек саам или относится к национальному меньшинству",
         "Нет, никого нельзя лишить гражданства без обоснованной и законной причины"
+      ]
+    },
+    "en": {
+      "q": "A state wants to revoke a person's citizenship solely because the person has publicly criticized the government. Is that allowed under human rights?",
+      "o": [
+        "Yes, the state may always decide freely about citizenship",
+        "Yes, but only if the person lives abroad",
+        "No, but only if the person is Sami or belongs to a national minority",
+        "No, no one may be deprived of their citizenship without an approved and legitimate reason under the law"
+      ]
+    },
+    "ar": {
+      "q": "تريد دولة سحب جنسية شخص لمجرد أنه انتقد الحكومة علنًا. هل هذا مسموح وفق حقوق الإنسان؟",
+      "o": [
+        "نعم، يحق للدولة دائمًا أن تقرر بحرية في شؤون الجنسية",
+        "نعم، لكن فقط إذا كان الشخص يعيش في الخارج",
+        "لا، لكن فقط إذا كان الشخص صاميًا أو ينتمي إلى أقلية قومية",
+        "لا، لا يجوز حرمان أي شخص من جنسيته دون سبب قانوني معتمد وموضوعي"
       ]
     },
     "correct": 3,
@@ -1816,6 +3058,24 @@
         "Чтобы женщины и мужчины жили полностью раздельными жизнями"
       ]
     },
+    "en": {
+      "q": "What is the overarching goal of Sweden's policy for gender equality?",
+      "o": [
+        "That women should have more power than men in society",
+        "That women and men should have the same rights, obligations, and equal power to influence society and their own lives",
+        "That every profession should have exactly equal numbers of women and men employed",
+        "That women and men should live entirely separate lives"
+      ]
+    },
+    "ar": {
+      "q": "ما الهدف العام لسياسة المساواة بين الجنسين في السويد؟",
+      "o": [
+        "أن يكون للنساء سلطة أكبر من الرجال في المجتمع",
+        "أن يتمتع النساء والرجال بالحقوق والواجبات نفسها وبقدر متساوٍ من السلطة للتأثير في المجتمع وحياتهم الخاصة",
+        "أن يكون في كل مهنة عدد متساوٍ تمامًا من النساء والرجال",
+        "أن يعيش النساء والرجال حياة منفصلة تمامًا"
+      ]
+    },
     "correct": 1,
     "why": "Цель — равные права, обязанности и равное влияние на общество и собственную жизнь для женщин и мужчин, а не превосходство одного пола или механическое равенство в каждой профессии, которое в главе не упоминается."
   },
@@ -1840,6 +3100,24 @@
         "Государство устанавливает фиксированную зарплату для каждой профессии",
         "Только женщины имеют право договариваться о своей зарплате",
         "Зарплаты держат в тайне от всех сотрудников"
+      ]
+    },
+    "en": {
+      "q": "How does Sweden work concretely to ensure women and men get equal pay for equal work?",
+      "o": [
+        "By auditing workplaces, and trade unions and agencies working for fair pay",
+        "By the state setting a fixed wage for every profession",
+        "By only women being allowed to negotiate their pay",
+        "By keeping salaries secret from all employees"
+      ]
+    },
+    "ar": {
+      "q": "كيف تعمل السويد عمليًا على ضمان حصول النساء والرجال على أجر متساوٍ لعمل متساوٍ؟",
+      "o": [
+        "عبر تدقيق أماكن العمل، وعمل النقابات والهيئات من أجل أجور عادلة",
+        "عبر تحديد الدولة أجرًا ثابتًا لكل مهنة",
+        "بأن يكون التفاوض على الأجر متاحًا للنساء فقط",
+        "بإبقاء الأجور سرية عن جميع الموظفين"
       ]
     },
     "correct": 0,
@@ -1868,6 +3146,24 @@
         "Детское пособие (barnbidrag)"
       ]
     },
+    "en": {
+      "q": "An expecting couple is having their first child and both want to be able to stay home for a period when the child is small, not just the mother. Which system in Sweden makes this possible?",
+      "o": [
+        "Sickness insurance",
+        "Unemployment insurance (A-kassan)",
+        "Parental benefit (föräldrapenning)",
+        "Child allowance (barnbidrag)"
+      ]
+    },
+    "ar": {
+      "q": "ينتظر زوجان مولودهما الأول ويريدان أن يتمكن كلاهما من البقاء في المنزل لفترة عندما يكون الطفل صغيرًا، وليس الأم فقط. أي نظام في السويد يجعل ذلك ممكنًا؟",
+      "o": [
+        "التأمين ضد المرض",
+        "تأمين البطالة (A-kassan)",
+        "إعانة الوالدين (föräldrapenning)",
+        "إعانة الطفل (barnbidrag)"
+      ]
+    },
     "correct": 2,
     "why": "Именно родительское пособие (föräldrapenning) позволяет обоим родителям оставаться дома с ребёнком, и государство прямо поощряет делить это время — в отличие от детского пособия (barnbidrag) или пособия по безработице (A-kassan), которые решают другие задачи."
   },
@@ -1892,6 +3188,24 @@
         "Дискриминация по признаку пола",
         "Преступление на почве ненависти",
         "Насилие или притеснение по мотивам чести (hedersrelaterat våld)"
+      ]
+    },
+    "en": {
+      "q": "A young woman is forced by her family to marry a man she has not chosen herself, as a way for the family to control her. What is this called in Sweden?",
+      "o": [
+        "Intimate partner violence in general",
+        "Discrimination based on sex",
+        "A hate crime",
+        "Honor-based violence or oppression"
+      ]
+    },
+    "ar": {
+      "q": "تُجبَر امرأة شابة من قبل عائلتها على الزواج من رجل لم تختره بنفسها، كوسيلة تتحكم بها العائلة فيها. ما اسم هذا في السويد؟",
+      "o": [
+        "العنف في العلاقات الحميمة بشكل عام",
+        "التمييز على أساس الجنس",
+        "جريمة كراهية",
+        "العنف أو القمع القائم على الشرف (hedersrelaterat våld)"
       ]
     },
     "correct": 3,
@@ -1920,6 +3234,24 @@
         "Только работники здравоохранения"
       ]
     },
+    "en": {
+      "q": "Honor-based violence and oppression often affects women and girls. Which other groups can also be subjected to it in Sweden?",
+      "o": [
+        "Only elderly people",
+        "Boys, men, and LGBTQI people",
+        "Only people who are not Swedish citizens",
+        "Only people who work in healthcare"
+      ]
+    },
+    "ar": {
+      "q": "غالبًا ما يطال العنف والقمع القائمان على الشرف النساء والفتيات. ما الفئات الأخرى التي قد تتعرض لذلك في السويد؟",
+      "o": [
+        "كبار السن فقط",
+        "الأولاد والرجال ومجتمع الميم (LGBTQI)",
+        "الأشخاص غير الحاملين للجنسية السويدية فقط",
+        "العاملون في الرعاية الصحية فقط"
+      ]
+    },
     "correct": 1,
     "why": "Насилие по мотивам чести (hedersrelaterat våld) затрагивает не только женщин и девочек — в главе прямо указано, что жертвами могут быть и мальчики, мужчины и ЛГБТКИ-люди, а не только определённые по возрасту, гражданству или профессии группы."
   },
@@ -1944,6 +3276,24 @@
         "16 лет",
         "18 лет",
         "20 лет"
+      ]
+    },
+    "en": {
+      "q": "From what age is it, under Swedish law, allowed to marry?",
+      "o": [
+        "15 years",
+        "16 years",
+        "18 years",
+        "20 years"
+      ]
+    },
+    "ar": {
+      "q": "من أي عمر يُسمح بالزواج وفق القانون السويدي؟",
+      "o": [
+        "15 عامًا",
+        "16 عامًا",
+        "18 عامًا",
+        "20 عامًا"
       ]
     },
     "correct": 2,
@@ -1972,6 +3322,24 @@
         "Национальное управление здравоохранения и социального обеспечения"
       ]
     },
+    "en": {
+      "q": "Which agency is responsible for the national effort against honor-based violence and oppression in Sweden?",
+      "o": [
+        "The Gender Equality Agency (Jämställdhetsmyndigheten)",
+        "The Equality Ombudsman (DO)",
+        "The Migration Agency",
+        "The National Board of Health and Welfare"
+      ]
+    },
+    "ar": {
+      "q": "أي هيئة مسؤولة عن الجهود الوطنية لمكافحة العنف والقمع القائمين على الشرف في السويد؟",
+      "o": [
+        "هيئة المساواة بين الجنسين (Jämställdhetsmyndigheten)",
+        "أمين المظالم لمكافحة التمييز (DO)",
+        "هيئة الهجرة",
+        "المجلس الوطني للصحة والرعاية (Socialstyrelsen)"
+      ]
+    },
     "correct": 0,
     "why": "Именно ведомство по вопросам гендерного равенства (Jämställdhetsmyndigheten) отвечает за эту конкретную задачу и финансирует убежища и организации поддержки — в отличие от DO, который занимается дискриминацией в целом, а не именно этой темой."
   },
@@ -1996,6 +3364,24 @@
         "Потому что вину покупателя легче доказать в суде",
         "Чтобы подчеркнуть, что недопустимо сексуально использовать человека за деньги",
         "Потому что закон касается только иностранных граждан, покупающих секс"
+      ]
+    },
+    "en": {
+      "q": "Why does the Swedish sex purchase law direct the penalty at the person who buys sex and not the person who sells it?",
+      "o": [
+        "Because the seller is always forced into it by the buyer",
+        "Because it is easier to prove the buyer's guilt in court",
+        "To signal that it is not acceptable to sexually exploit someone in exchange for payment",
+        "Because the law only applies to foreign citizens who buy sex"
+      ]
+    },
+    "ar": {
+      "q": "لماذا يوجه قانون شراء الجنس السويدي العقوبة نحو من يشتري الجنس وليس من يبيعه؟",
+      "o": [
+        "لأن البائع يُجبَر دائمًا على ذلك من قبل المشتري",
+        "لأنه من الأسهل إثبات ذنب المشتري في المحكمة",
+        "للتأكيد على أنه من غير المقبول استغلال شخص جنسيًا مقابل المال",
+        "لأن القانون يخص فقط المواطنين الأجانب الذين يشترون الجنس"
       ]
     },
     "correct": 2,
@@ -2024,6 +3410,24 @@
         "Спросить ребёнка, чего он хочет"
       ]
     },
+    "en": {
+      "q": "A child's parents are getting divorced and cannot agree on where the child should live. What should the court do according to the Convention on the Rights of the Child?",
+      "o": [
+        "Make the decision without asking the child, since the child is too young to understand",
+        "Always let the child live with the parent who earns the most money",
+        "Send the question to the National Board of Health and Welfare for a final decision",
+        "Ask the child what they want"
+      ]
+    },
+    "ar": {
+      "q": "يتطلق والدا طفل ولا يستطيعان الاتفاق على مكان إقامته. ماذا يجب أن تفعل المحكمة وفقًا لاتفاقية حقوق الطفل؟",
+      "o": [
+        "اتخاذ القرار دون سؤال الطفل، لأنه صغير جدًا على الفهم",
+        "ترك الطفل دائمًا مع الوالد الذي يكسب أكثر",
+        "إحالة المسألة إلى المجلس الوطني للصحة والرعاية للبت النهائي فيها",
+        "سؤال الطفل عمّا يريده"
+      ]
+    },
     "correct": 3,
     "why": "Конвенция о правах ребёнка (Barnkonventionen) требует, чтобы суд спросил мнение самого ребёнка при таком споре, а не автоматически решал по доходу родителя или передавал вопрос в другое ведомство."
   },
@@ -2050,6 +3454,24 @@
         "Только о количестве парковочных мест"
       ]
     },
+    "en": {
+      "q": "A municipality is planning to build a new residential area with playgrounds and a new school. What should the municipality, according to the Convention on the Rights of the Child, especially consider in its planning?",
+      "o": [
+        "Only what is cheapest to build",
+        "The best interests of the child",
+        "Only what the adult residents prefer",
+        "Only how many parking spaces are needed"
+      ]
+    },
+    "ar": {
+      "q": "تخطط بلدية لبناء حي سكني جديد يضم ملاعب ومدرسة جديدة. بماذا يجب أن تهتم البلدية بشكل خاص عند التخطيط وفقًا لاتفاقية حقوق الطفل؟",
+      "o": [
+        "فقط بما هو أرخص للبناء",
+        "بمصلحة الطفل الفضلى",
+        "فقط بما يفضله السكان البالغون",
+        "فقط بعدد أماكن وقوف السيارات اللازمة"
+      ]
+    },
     "correct": 1,
     "why": "Конвенция о правах ребёнка (Barnkonventionen) прямо требует от коммун учитывать интересы детей при строительстве жилья, площадок и школ — а не только стоимость, предпочтения взрослых или парковку."
   },
@@ -2069,6 +3491,24 @@
     },
     "ru": {
       "q": "В каком году Швеция стала первой страной в мире, принявшей решение о запрете физических наказаний детей?",
+      "o": [
+        "1948",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "en": {
+      "q": "In what year did Sweden become the first country in the world to decide that hitting children is forbidden?",
+      "o": [
+        "1948",
+        "1979",
+        "2000",
+        "2020"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام أصبحت السويد أول دولة في العالم تقرر حظر ضرب الأطفال؟",
       "o": [
         "1948",
         "1979",
@@ -2102,6 +3542,24 @@
         "Сам ребёнок отвечает за своё воспитание с семи лет"
       ]
     },
+    "en": {
+      "q": "According to the Convention on the Rights of the Child, who has the primary responsibility for a child's upbringing and development, and what is that person entitled to from society?",
+      "o": [
+        "The parents or another legal guardian have the responsibility, and are entitled to support from, for example, the municipality or healthcare",
+        "The school has the entire responsibility, and the parents have no role",
+        "The state has the entire responsibility through a special agency",
+        "The child themself is responsible for their own upbringing from age seven"
+      ]
+    },
+    "ar": {
+      "q": "من يتحمل، وفقًا لاتفاقية حقوق الطفل، المسؤولية الأساسية عن تربية الطفل ونموه، وما الذي يحق لهذا الشخص من المجتمع؟",
+      "o": [
+        "يتحمل الوالدان أو ولي أمر آخر المسؤولية، ويحق لهما الحصول على دعم من مثلًا البلدية أو الرعاية الصحية",
+        "تتحمل المدرسة كامل المسؤولية، ولا دور للوالدين",
+        "تتحمل الدولة كامل المسؤولية عبر هيئة خاصة",
+        "يتحمل الطفل نفسه مسؤولية تربيته منذ سن السابعة"
+      ]
+    },
     "correct": 0,
     "why": "Ответственность лежит именно на родителях или опекунах, а не на школе, государстве напрямую или самом ребёнке, при этом у варднадсхавере есть право на поддержку общества, например от коммуны или здравоохранения."
   },
@@ -2126,6 +3584,24 @@
         "Только травля в школе",
         "Психологическое насилие, сексуальное насилие и калечащие операции на женских половых органах",
         "Только насилие в интернете"
+      ]
+    },
+    "en": {
+      "q": "Physical abuse of children is forbidden in Sweden. What other forms of violence against children are also forbidden?",
+      "o": [
+        "Only economic abuse",
+        "Only bullying at school",
+        "Psychological violence, sexual abuse, and female genital mutilation",
+        "Only violence that happens online"
+      ]
+    },
+    "ar": {
+      "q": "الإيذاء الجسدي للأطفال محظور في السويد. ما أشكال العنف الأخرى ضد الأطفال المحظورة أيضًا؟",
+      "o": [
+        "العنف الاقتصادي فقط",
+        "التنمر في المدرسة فقط",
+        "العنف النفسي، والاعتداء الجنسي، وختان الإناث",
+        "العنف عبر الإنترنت فقط"
       ]
     },
     "correct": 2,
@@ -2154,6 +3630,24 @@
         "Швеции, Норвегии, Финляндии и России"
       ]
     },
+    "en": {
+      "q": "Which countries does the Sami land area of Sápmi stretch across?",
+      "o": [
+        "Only Sweden and Norway",
+        "Sweden, Denmark, and Iceland",
+        "Only northern Sweden",
+        "Sweden, Norway, Finland, and Russia"
+      ]
+    },
+    "ar": {
+      "q": "على أراضي أي دول تمتد أرض سابمي (Sápmi) الصامية؟",
+      "o": [
+        "السويد والنرويج فقط",
+        "السويد والدنمارك وآيسلندا",
+        "شمال السويد فقط",
+        "السويد والنرويج وفنلندا وروسيا"
+      ]
+    },
     "correct": 3,
     "why": "Сапми (Sápmi) охватывает территории четырёх стран — Швеции, Норвегии, Финляндии и России, а не только Швецию и Норвегию или только север Швеции."
   },
@@ -2178,6 +3672,24 @@
         "На особых правах саамов как признанного коренного народа, связанных с землёй и природными ресурсами в шведской части Сапми",
         "На праве, которое ЕС предоставляет всем гражданам северной Европы",
         "На временном разрешении, которое коммуна продлевает ежегодно"
+      ]
+    },
+    "en": {
+      "q": "Members of a Sami reindeer-herding community (sameby) practice reindeer husbandry within a special grazing area in northern Sweden. What kind of right is this based on?",
+      "o": [
+        "An ordinary business right that anyone in Sweden can apply for",
+        "The Sami people's special rights as a recognized indigenous people, linked to land and natural resources in Swedish Sápmi",
+        "A right the EU grants to all citizens of northern Europe",
+        "A temporary permit renewed annually by the municipality"
+      ]
+    },
+    "ar": {
+      "q": "يمارس أعضاء مجتمع صامي لرعي الرنة (sameby) رعي الرنة داخل منطقة رعي خاصة في شمال السويد. على أي نوع من الحقوق يستند هذا؟",
+      "o": [
+        "حق تجاري عادي يمكن لأي شخص في السويد التقدم بطلب للحصول عليه",
+        "حقوق الصاميين الخاصة كشعب أصلي معترف به، المرتبطة بالأراضي والموارد الطبيعية في سابمي السويدية",
+        "حق يمنحه الاتحاد الأوروبي لجميع مواطني شمال أوروبا",
+        "تصريح مؤقت تجدده البلدية سنويًا"
       ]
     },
     "correct": 1,
@@ -2206,6 +3718,24 @@
         "Только в дебатах риксдага"
       ]
     },
+    "en": {
+      "q": "Where in Sweden do national minorities have the right to use their minority languages?",
+      "o": [
+        "In contacts with public agencies, in preschool, and in elderly care",
+        "Only at home",
+        "Only in court",
+        "Only in Riksdag debates"
+      ]
+    },
+    "ar": {
+      "q": "أين في السويد يحق للأقليات القومية استخدام لغات أقلياتها؟",
+      "o": [
+        "في التعامل مع الهيئات الحكومية، وفي رياض الأطفال، وفي رعاية المسنين",
+        "في المنزل فقط",
+        "في المحكمة فقط",
+        "في مناقشات البرلمان فقط"
+      ]
+    },
     "correct": 0,
     "why": "Право использовать язык меньшинства касается конкретно контактов с органами власти, детского сада и ухода за пожилыми — а не только домашнего общения или узкоспециализированных сфер вроде суда или риксдага."
   },
@@ -2230,6 +3760,24 @@
         "Они отказывались учить шведский язык",
         "У них часто не было тех же прав, что у большинства населения, и они подвергались дискриминации, несмотря на долгую историю проживания в Швеции",
         "У них не было собственных языков и культур"
+      ]
+    },
+    "en": {
+      "q": "What did Sweden's national minorities have in common before their rights were recognized in 2000?",
+      "o": [
+        "They had recently immigrated to Sweden",
+        "They refused to learn Swedish",
+        "They often did not have the same rights as the majority population and were discriminated against, despite having lived in Sweden for a long time",
+        "They had no languages or cultures of their own"
+      ]
+    },
+    "ar": {
+      "q": "ما القاسم المشترك بين الأقليات القومية في السويد قبل الاعتراف بحقوقها عام 2000؟",
+      "o": [
+        "هاجروا إلى السويد مؤخرًا",
+        "رفضوا تعلم اللغة السويدية",
+        "لم يكن لديهم غالبًا نفس حقوق غالبية السكان وتعرضوا للتمييز، رغم إقامتهم الطويلة في السويد",
+        "لم يكن لديهم لغات أو ثقافات خاصة بهم"
       ]
     },
     "correct": 2,
@@ -2258,6 +3806,24 @@
         "Они единственный признанный коренной народ (urfolk) Швеции"
       ]
     },
+    "en": {
+      "q": "What special status do the Sami have, beyond being one of Sweden's national minorities?",
+      "o": [
+        "They are the only group with their own written language",
+        "They are the only group allowed to vote in Riksdag elections",
+        "They are the only group with an automatic right to Swedish citizenship",
+        "They are the only recognized indigenous people in Sweden"
+      ]
+    },
+    "ar": {
+      "q": "ما الوضع الخاص الذي يتمتع به الصاميون بالإضافة إلى كونهم إحدى الأقليات القومية في السويد؟",
+      "o": [
+        "هم المجموعة الوحيدة التي لديها لغة كتابية خاصة بها",
+        "هم المجموعة الوحيدة التي يحق لها التصويت في انتخابات البرلمان",
+        "هم المجموعة الوحيدة التي تتمتع بحق تلقائي في الجنسية السويدية",
+        "هم الشعب الأصلي الوحيد المعترف به في السويد"
+      ]
+    },
     "correct": 3,
     "why": "Саамы — единственный официально признанный коренной народ (urfolk) Швеции, что даёт им дополнительные права помимо статуса национального меньшинства, которым обладают также евреи, ромы, шведские финны и торнедальцы."
   },
@@ -2277,6 +3843,24 @@
     },
     "ru": {
       "q": "В каком году однополые пары в Швеции получили право усыновлять детей?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "en": {
+      "q": "In what year did same-sex couples in Sweden gain the right to adopt children?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام حصل الأزواج من نفس الجنس في السويد على حق تبني الأطفال؟",
       "o": [
         "1944",
         "2003",
@@ -2310,6 +3894,24 @@
         "2020"
       ]
     },
+    "en": {
+      "q": "In what year did the Church of Sweden allow homosexuals to marry in church?",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
+    "ar": {
+      "q": "في أي عام سمحت كنيسة السويد للمثليين بالزواج في الكنيسة؟",
+      "o": [
+        "1944",
+        "2003",
+        "2009",
+        "2020"
+      ]
+    },
     "correct": 2,
     "why": "2009 — год, когда Шведская церковь разрешила венчание однополых пар в церкви; это отдельный и более поздний шаг по сравнению с легализацией гомосексуальности (1944) и правом на усыновление (2003)."
   },
@@ -2334,6 +3936,24 @@
         "Это разрешено, право вступать в брак с человеком того же пола защищено законом",
         "Это разрешено, но только в виде светской церемонии, никогда в церкви",
         "Это разрешено с 2003 года, но только если пара уже усыновила ребёнка вместе"
+      ]
+    },
+    "en": {
+      "q": "Two women in Sweden want to marry each other. What applies under Swedish law?",
+      "o": [
+        "It is forbidden under Swedish law",
+        "It is allowed; the right to marry a person of the same sex is protected by law",
+        "It is allowed, but only as a civil ceremony, never in church",
+        "It has been allowed since 2003, but only if the couple has already adopted a child together"
+      ]
+    },
+    "ar": {
+      "q": "تريد امرأتان في السويد الزواج من بعضهما البعض. ما الذي ينطبق وفق القانون السويدي؟",
+      "o": [
+        "ذلك محظور بموجب القانون السويدي",
+        "ذلك مسموح، وحق الزواج من شخص من نفس الجنس محمي بموجب القانون",
+        "ذلك مسموح لكن فقط كمراسم مدنية، ولا يجوز في الكنيسة أبدًا",
+        "ذلك مسموح منذ عام 2003، لكن فقط إذا كان الزوجان قد تبنيا طفلًا معًا بالفعل"
       ]
     },
     "correct": 1,
@@ -2362,6 +3982,24 @@
         "Законы о правилах дорожного движения и законы о защите животных"
       ]
     },
+    "en": {
+      "q": "What two types of laws exist in Sweden concerning people with disabilities?",
+      "o": [
+        "Laws that protect against discrimination and laws that provide the opportunity to take part in society on equal terms",
+        "Laws that provide financial benefits and laws on housing allowances",
+        "Laws that regulate working hours and laws on vacation",
+        "Laws on traffic rules and laws on animal protection"
+      ]
+    },
+    "ar": {
+      "q": "ما نوعا القوانين الموجودان في السويد فيما يخص الأشخاص ذوي الإعاقة؟",
+      "o": [
+        "قوانين تحمي من التمييز وقوانين تتيح المشاركة في المجتمع على قدم المساواة",
+        "قوانين الإعانات المالية وقوانين إعانات السكن",
+        "قوانين ساعات العمل وقوانين الإجازات",
+        "قوانين قواعد المرور وقوانين حماية الحيوان"
+      ]
+    },
     "correct": 0,
     "why": "Речь идёт именно о законах против дискриминации и законах, обеспечивающих равное участие в жизни общества, а не о пособиях, рабочем времени или других темах, не связанных напрямую с этим разделом главы."
   },
@@ -2386,6 +4024,24 @@
         "Это разрешено, если работодатель — небольшая компания",
         "Это запрещено законом о недискриминации",
         "Это запрещено только в государственном секторе"
+      ]
+    },
+    "en": {
+      "q": "A person with a disability is denied a job solely because of their disability, even though the person is qualified for the position. What applies under Swedish law?",
+      "o": [
+        "The employer may freely refuse, since employment is always voluntary",
+        "It is allowed if the employer is a small company",
+        "It is forbidden under the Discrimination Act",
+        "It is only forbidden in the public sector"
+      ]
+    },
+    "ar": {
+      "q": "يُرفض توظيف شخص ذي إعاقة بسبب إعاقته فقط، رغم أنه مؤهل للوظيفة. ما الذي ينطبق وفق القانون السويدي؟",
+      "o": [
+        "يحق لصاحب العمل الرفض بحرية لأن التوظيف دائمًا اختياري",
+        "ذلك مسموح إذا كان صاحب العمل شركة صغيرة",
+        "ذلك محظور بموجب قانون مكافحة التمييز",
+        "ذلك محظور فقط في القطاع العام"
       ]
     },
     "correct": 2,
@@ -2414,6 +4070,24 @@
         "Следить за соблюдением закона о недискриминации и работать за равные права и возможности для всех"
       ]
     },
+    "en": {
+      "q": "What is the Equality Ombudsman's (DO) main task?",
+      "o": [
+        "To pass judgment in discrimination cases instead of a court",
+        "To decide on residence permits for asylum seekers",
+        "To set wages in the Swedish labor market",
+        "To ensure the Discrimination Act is followed and work for everyone's equal rights and opportunities"
+      ]
+    },
+    "ar": {
+      "q": "ما المهمة الرئيسية لأمين المظالم لمكافحة التمييز (DO)؟",
+      "o": [
+        "إصدار الأحكام في قضايا التمييز بدلًا من المحكمة",
+        "اتخاذ قرارات بشأن تصاريح الإقامة لطالبي اللجوء",
+        "تحديد الأجور في سوق العمل السويدي",
+        "ضمان الالتزام بقانون مكافحة التمييز والعمل من أجل حقوق وفرص متساوية للجميع"
+      ]
+    },
     "correct": 3,
     "why": "DO — надзорное ведомство, следящее за соблюдением закона о недискриминации, а не суд, не миграционное ведомство и не орган, устанавливающий зарплаты — эти задачи выполняют другие структуры."
   },
@@ -2438,6 +4112,24 @@
         "Омбудсмен по вопросам дискриминации (DO)",
         "Миграционное ведомство",
         "Налоговое ведомство"
+      ]
+    },
+    "en": {
+      "q": "A company systematically refuses to hire people above a certain age. Which agency can an affected person turn to for help?",
+      "o": [
+        "The Enforcement Authority (Kronofogdemyndigheten)",
+        "The Equality Ombudsman (DO)",
+        "The Migration Agency",
+        "The Tax Agency"
+      ]
+    },
+    "ar": {
+      "q": "ترفض شركة بشكل منهجي توظيف أشخاص فوق سن معينة. إلى أي هيئة يمكن للشخص المتضرر التوجه طلبًا للمساعدة؟",
+      "o": [
+        "هيئة التنفيذ (Kronofogdemyndigheten)",
+        "أمين المظالم لمكافحة التمييز (DO)",
+        "هيئة الهجرة",
+        "مصلحة الضرائب"
       ]
     },
     "correct": 1,
@@ -2466,6 +4158,24 @@
         "Ждать, пока DO само примет меры"
       ]
     },
+    "en": {
+      "q": "A school discovers recurring discrimination against students based on their ethnic background. What is the school expected to do in Sweden?",
+      "o": [
+        "Work with active measures against discrimination",
+        "Ignore the problem since it happens between the students themselves",
+        "Only report the incident to the police and do nothing further",
+        "Wait for DO to act on its own"
+      ]
+    },
+    "ar": {
+      "q": "تكتشف مدرسة تمييزًا متكررًا ضد الطلاب بسبب انتمائهم العرقي. ماذا يُتوقَّع من المدرسة أن تفعل في السويد؟",
+      "o": [
+        "العمل بتدابير فعالة لمكافحة التمييز",
+        "تجاهل المشكلة لأنها تحدث بين الطلاب أنفسهم",
+        "الاكتفاء بإبلاغ الشرطة بالحادثة دون فعل أي شيء آخر",
+        "انتظار أن تتصرف هيئة DO من تلقاء نفسها"
+      ]
+    },
     "correct": 0,
     "why": "Школы, как и рабочие места, обязаны сами вести активную работу против дискриминации, а не просто сообщать в полицию или ждать вмешательства DO со стороны."
   },
@@ -2490,6 +4200,24 @@
         "Дискриминацию могут совершать только ведомства, а преступления на почве ненависти — только частные лица",
         "Это преступление, совершённое против человека именно из-за его принадлежности к определённой группе, что влечёт более строгое наказание",
         "Разницы нет, это два слова для одного и того же"
+      ]
+    },
+    "en": {
+      "q": "What distinguishes a hate crime from discrimination in general?",
+      "o": [
+        "A hate crime is a milder concept than discrimination",
+        "Discrimination can only be committed by agencies, hate crimes only by private individuals",
+        "A hate crime concerns a crime committed against a person specifically because the person belongs to a certain group, which results in a harsher sentence",
+        "There is no difference, the words mean exactly the same thing"
+      ]
+    },
+    "ar": {
+      "q": "بمَ تختلف جريمة الكراهية (hatbrott) عن التمييز بوجه عام؟",
+      "o": [
+        "جريمة الكراهية مفهوم أخف من التمييز",
+        "لا يمكن أن يرتكب التمييز إلا الهيئات، ولا يمكن أن ترتكب جرائم الكراهية إلا الأفراد",
+        "تتعلق جريمة الكراهية بجريمة تُرتكب ضد شخص تحديدًا بسبب انتمائه إلى فئة معينة، ما يؤدي إلى عقوبة أشد",
+        "لا فرق، فالكلمتان تعنيان الشيء نفسه تمامًا"
       ]
     },
     "correct": 2,
