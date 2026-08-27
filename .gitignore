@@ -3,3 +3,4 @@ dist
 src/data/questions.json
 .DS_Store
 docs/source/
+prompt.md
