@@ -27,6 +27,15 @@ export const CHAPTER_TITLE = {
   13: 'Traditioner och högtider'
 }
 
+// Uttalad kapitelordning — hämtad från CHAPTER_TITLE, inte från vilken
+// ordning kapitlen råkar få i en pool som byggs vid körning. Object.keys()
+// på en sådan pool ger insättningsordning för icke-numeriska nycklar (t.ex.
+// strängbaserade kapitel-id:n i ett framtida prov), medan numeriska nycklar
+// som dagens `ch` råkar sorteras av JS-motorn ändå — den distinktionen ska
+// inte vara något koden är beroende av att känna till. Den här listan gör
+// ordningen till ett uttalat faktum istället.
+const CHAPTER_ORDER = Object.keys(CHAPTER_TITLE).map(Number).sort((a, b) => a - b)
+
 export const bankSize = bank.length
 
 // mulberry32 — liten deterministisk generator så att en variantkod
@@ -94,17 +103,19 @@ export function buildExam(code, size = EXAM_SIZE) {
   const pools = {}
   for (const q of bank) (pools[q.ch] ??= []).push(q)
 
-  const totalWeight = Object.keys(pools).reduce((s, ch) => s + (CHAPTER_WEIGHT[ch] || 1), 0)
+  const totalWeight = CHAPTER_ORDER.reduce((s, ch) => s + (CHAPTER_WEIGHT[ch] || 1), 0)
   const picked = []
   const used = new Set()
 
-  // Steg 1: proportionellt urval per kapitel.
-  for (const ch of Object.keys(pools)) {
+  // Steg 1: proportionellt urval per kapitel, i kapitelordning (CHAPTER_ORDER)
+  // — inte i den ordning kapitlen råkar dyka upp i `pools`.
+  for (const ch of CHAPTER_ORDER) {
+    const chPool = pools[ch] || []
     const want = Math.min(
-      pools[ch].length,
+      chPool.length,
       Math.round((size * (CHAPTER_WEIGHT[ch] || 1)) / totalWeight)
     )
-    for (const q of shuffle(pools[ch], rand).slice(0, want)) {
+    for (const q of shuffle(chPool, rand).slice(0, want)) {
       picked.push(q)
       used.add(q.id)
     }
@@ -123,10 +134,7 @@ export function buildExam(code, size = EXAM_SIZE) {
 export function chapterCounts() {
   const counts = {}
   for (const q of bank) counts[q.ch] = (counts[q.ch] || 0) + 1
-  return Object.keys(CHAPTER_TITLE)
-    .map(Number)
-    .sort((a, b) => a - b)
-    .map(ch => ({ ch, title: CHAPTER_TITLE[ch], count: counts[ch] || 0 }))
+  return CHAPTER_ORDER.map(ch => ({ ch, title: CHAPTER_TITLE[ch], count: counts[ch] || 0 }))
 }
 
 /**
