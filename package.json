@@ -7,7 +7,9 @@
     "bank": "node data/build-bank.mjs",
     "dev": "npm run bank && vite",
     "build": "npm run bank && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "snapshot": "node scripts/seed-snapshot.mjs",
+    "verify": "node scripts/seed-verify.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
