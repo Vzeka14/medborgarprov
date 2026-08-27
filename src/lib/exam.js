@@ -1,4 +1,20 @@
-import bank from '../data/questions.json'
+import rawBank from '../data/questions.json'
+
+// `rawBank` kommer i den ordning datafilerna råkade slås ihop i (se
+// data/build-bank.mjs — filnamn i bokstavsordning). shuffle() nedan är
+// Fisher–Yates, vars resultat beror på indataordningen, inte bara på
+// seedet — så en omdöpt eller omgrupperad datafil skulle annars tyst
+// ändra vilka frågor ett sparat frö genererar. Banken normaliseras därför
+// en gång här, till en kanonisk ordning efter `id` (stabil sortering),
+// innan något annat i den här filen använder den. Alla id:n i banken
+// följer formen `c<kapitel>-<tvåsiffrigt nummer>` (t.ex. `c1-01`,
+// `c13-40`) — kapitelnumret är inte nollutfyllt, så en vanlig
+// strängjämförelse sorterar t.ex. `c10-01` före `c2-01`. Det gör inget:
+// målet är en fast, filoberoende ordning, inte kapitelordning (den sköts
+// separat av CHAPTER_ORDER i buildExam). En enkel kodenhets-jämförelse
+// (`<`/`>`) används istället för localeCompare, som kan variera med
+// Node-byggets ICU-data/locale-inställningar.
+const bank = [...rawBank].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
 
 export const EXAM_SIZE = 60
 export const EXAM_MINUTES = 90

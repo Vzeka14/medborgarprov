@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..', '..')
 const examSrcPath = path.join(repoRoot, 'src', 'lib', 'exam.js')
 const questionsJsonPath = path.join(repoRoot, 'src', 'data', 'questions.json')
-const IMPORT_LINE = "import bank from '../data/questions.json'"
+const IMPORT_LINE = "import rawBank from '../data/questions.json'"
 
 /**
  * src/lib/exam.js статически импортирует '../data/questions.json' без
@@ -37,7 +37,7 @@ export async function loadExam() {
   }
 
   const jsonUrl = pathToFileURL(questionsJsonPath).href
-  const patched = source.replace(IMPORT_LINE, `import bank from '${jsonUrl}' with { type: 'json' }`)
+  const patched = source.replace(IMPORT_LINE, `import rawBank from '${jsonUrl}' with { type: 'json' }`)
 
   const tmpFile = path.join(os.tmpdir(), `medborgarprov-exam-${process.pid}-${Date.now()}.mjs`)
   fs.writeFileSync(tmpFile, patched)
