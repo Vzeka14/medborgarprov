@@ -1,49 +1,31 @@
 import fs from 'node:fs'
-import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..', '..')
 const examSrcPath = path.join(repoRoot, 'src', 'lib', 'exam.js')
+const configSrcPath = path.join(repoRoot, 'src', 'exams', 'medborgarskap', 'config.js')
 const questionsJsonPath = path.join(repoRoot, 'src', 'data', 'questions.json')
-const IMPORT_LINE = "import rawBank from '../data/questions.json'"
 
 /**
- * src/lib/exam.js статически импортирует '../data/questions.json' без
- * import-атрибута. Vite умеет грузить такой JSON сам, но обычный Node
- * (>=20) при загрузке файла как самостоятельного ESM-модуля требует
- * `with { type: 'json' }` у самого импорта — иначе падает с
- * ERR_IMPORT_ATTRIBUTE_MISSING.
- *
- * Менять код в src/ нельзя, поэтому здесь читается исходник exam.js как
- * текст, единственная строка импорта JSON заменяется на абсолютный путь
- * с нужным атрибутом, и получившийся код запускается из временного
- * файла вне репозитория. Весь остальной текст exam.js — побайтово тот
- * же, что и в src/lib/exam.js.
+ * Motorn (src/lib/exam.js) importerar sedan förra refaktoreringssteget
+ * inte längre någon JSON-fil själv — den tar emot bank och config som
+ * argument. exam.js och config.js är därför vanliga ESM-moduler utan
+ * JSON-import inuti, och kan laddas med ett vanligt dynamiskt `import()`
+ * utan tricket som tidigare behövdes här (patcha en import-rad och köra
+ * från en temporär fil). Banken själv läses som ren JSON via fs — inte
+ * via `import ... with { type: 'json' }` — så det här skriptet inte
+ * bryr sig om vilken Node-version som kör det.
  */
-export async function loadExam() {
-  const source = fs.readFileSync(examSrcPath, 'utf8')
-  if (!source.includes(IMPORT_LINE)) {
-    throw new Error(
-      `Ожидаемая строка импорта не найдена в ${path.relative(repoRoot, examSrcPath)}: ${IMPORT_LINE}\n` +
-      'exam.js изменился — обнови этот загрузчик, не подгоняй результат.'
-    )
-  }
+export async function loadExamInputs() {
   if (!fs.existsSync(questionsJsonPath)) {
     throw new Error(
       `Не найден ${path.relative(repoRoot, questionsJsonPath)}. Сначала выполни: npm run bank`
     )
   }
-
-  const jsonUrl = pathToFileURL(questionsJsonPath).href
-  const patched = source.replace(IMPORT_LINE, `import rawBank from '${jsonUrl}' with { type: 'json' }`)
-
-  const tmpFile = path.join(os.tmpdir(), `medborgarprov-exam-${process.pid}-${Date.now()}.mjs`)
-  fs.writeFileSync(tmpFile, patched)
-  try {
-    return await import(pathToFileURL(tmpFile).href)
-  } finally {
-    fs.unlinkSync(tmpFile)
-  }
+  const bank = JSON.parse(fs.readFileSync(questionsJsonPath, 'utf8'))
+  const examModule = await import(pathToFileURL(examSrcPath).href)
+  const { default: config } = await import(pathToFileURL(configSrcPath).href)
+  return { examModule, bank, config }
 }

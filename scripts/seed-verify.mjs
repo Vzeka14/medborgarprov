@@ -8,7 +8,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { loadExam } from './lib/load-exam.mjs'
+import { loadExamInputs } from './lib/load-exam.mjs'
 import { computeSeedData } from './lib/compute-seed-data.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -21,8 +21,8 @@ if (!fs.existsSync(baselinePath)) {
 }
 
 const baseline = JSON.parse(fs.readFileSync(baselinePath, 'utf8'))
-const exam = await loadExam()
-const fresh = computeSeedData(exam)
+const inputs = await loadExamInputs()
+const fresh = computeSeedData(inputs)
 
 const problems = []
 

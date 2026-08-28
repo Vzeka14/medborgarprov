@@ -1,10 +1,19 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
-  buildExam, scoreExam, newVariantCode, bankSize,
-  EXAM_SIZE, EXAM_MINUTES, DEFAULT_PASS, CHAPTER_TITLE,
+  buildExam, scoreExam, newVariantCode,
   chapterCounts, buildChapterPractice, buildBankPractice, newSeed, refBreakdown
 } from './lib/exam'
 import { support } from './site.config'
+import bank from './data/questions.json'
+import examConfig from './exams/medborgarskap/config.js'
+
+// Motorn (src/lib/exam.js) vet inget om medborgarskapsprovet — den tar
+// emot bank/config som argument i varje anrop nedan. De här är bara
+// bekväma lokala alias så att resten av filen (texter, JSX) kan fortsätta
+// använda samma namn som innan den här uppdelningen fanns.
+const { examSize: EXAM_SIZE, examMinutes: EXAM_MINUTES, defaultPass: DEFAULT_PASS, passOptions: PASS_OPTIONS } = examConfig
+const bankSize = bank.length
+const CHAPTER_TITLE = Object.fromEntries(examConfig.chapters.map(c => [c.ch, c.title]))
 
 const KEY = 'medborgarprov:pagaende'
 const chapterKey = ch => `medborgarprov:kapitel:${ch}`
@@ -54,10 +63,10 @@ export default function App() {
   const [pAt, setPAt] = useState(0)
   const [pAnswers, setPAnswers] = useState([])
 
-  const exam = useMemo(() => (code ? buildExam(code) : []), [code])
+  const exam = useMemo(() => (code ? buildExam(bank, examConfig, code) : []), [code])
   const practice = useMemo(() => {
     if (!pSeed) return []
-    return mode === 'chapter' ? buildChapterPractice(pSeed, pCh) : buildBankPractice(pSeed)
+    return mode === 'chapter' ? buildChapterPractice(bank, pSeed, pCh) : buildBankPractice(bank, pSeed)
   }, [mode, pSeed, pCh])
 
   useEffect(() => {
@@ -87,7 +96,7 @@ export default function App() {
 
   function startChapter(ch, save) {
     const seed = save?.seed ?? newSeed()
-    const set = buildChapterPractice(seed, ch)
+    const set = buildChapterPractice(bank, seed, ch)
     setMode('chapter')
     setPCh(ch)
     setPSeed(seed)
@@ -248,7 +257,7 @@ function Start({
         <label className="field">
           Godkäntgräns
           <select value={pass} onChange={e => setPass(Number(e.target.value))}>
-            {[42, 45, 48, 52, 54].map(n => (
+            {PASS_OPTIONS.map(n => (
               <option key={n} value={n}>{n} av {EXAM_SIZE} ({Math.round((n / EXAM_SIZE) * 100)} %)</option>
             ))}
           </select>
@@ -304,7 +313,7 @@ function Start({
 }
 
 function ChapterList({ onStart }) {
-  const chapters = useMemo(() => chapterCounts(), [])
+  const chapters = useMemo(() => chapterCounts(bank, examConfig), [])
   return (
     <div>
       {chapters.map(c => {

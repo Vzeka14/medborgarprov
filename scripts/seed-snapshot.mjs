@@ -2,14 +2,13 @@
 // Строит регрессионный снимок текущего поведения генератора экзаменов
 // (src/lib/exam.js) на фиксированном наборе кодов вариантов и одном
 // фиксированном seed для тренировочных режимов — до рефакторинга,
-// описанного в docs/refactor-plan.md. Код в src/ не трогает и не
-// импортирует напрямую (см. scripts/lib/load-exam.mjs, почему).
+// описанного в docs/refactor-plan.md.
 //
 // Запуск: npm run snapshot
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { loadExam } from './lib/load-exam.mjs'
+import { loadExamInputs } from './lib/load-exam.mjs'
 import { computeSeedData } from './lib/compute-seed-data.mjs'
 import { stableStringify } from './lib/stable-json.mjs'
 
@@ -17,8 +16,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..')
 const outPath = path.join(repoRoot, 'test', 'snapshots', 'seed-baseline.json')
 
-const exam = await loadExam()
-const data = computeSeedData(exam)
+const inputs = await loadExamInputs()
+const data = computeSeedData(inputs)
 
 fs.mkdirSync(path.dirname(outPath), { recursive: true })
 fs.writeFileSync(outPath, stableStringify(data))

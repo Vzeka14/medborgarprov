@@ -10,22 +10,26 @@ function pick(questions) {
   return questions.map(q => ({ id: q.id, order: q.order }))
 }
 
-export function computeSeedData(examModule) {
-  const { buildExam, buildChapterPractice, buildBankPractice, chapterCounts, EXAM_SIZE, bankSize } = examModule
+// Движок больше не читает bank/config из модульных констант — принимает
+// их аргументами (см. src/lib/exam.js), поэтому снимок теперь тоже
+// явно прокидывает bank/config в каждый вызов, вместо того чтобы читать
+// их из examModule.
+export function computeSeedData({ examModule, bank, config }) {
+  const { buildExam, buildChapterPractice, buildBankPractice, chapterCounts } = examModule
 
   const exam = {}
-  for (const code of VARIANT_CODES) exam[code] = pick(buildExam(code))
+  for (const code of VARIANT_CODES) exam[code] = pick(buildExam(bank, config, code))
 
-  const chapters = chapterCounts().map(c => c.ch)
+  const chapters = chapterCounts(bank, config).map(c => c.ch)
   const chapterPractice = {}
-  for (const ch of chapters) chapterPractice[ch] = pick(buildChapterPractice(PRACTICE_SEED, ch))
+  for (const ch of chapters) chapterPractice[ch] = pick(buildChapterPractice(bank, PRACTICE_SEED, ch))
 
-  const bankPractice = pick(buildBankPractice(PRACTICE_SEED))
+  const bankPractice = pick(buildBankPractice(bank, PRACTICE_SEED))
 
   return {
     meta: {
-      examSize: EXAM_SIZE,
-      bankSize,
+      examSize: config.examSize,
+      bankSize: bank.length,
       practiceSeed: PRACTICE_SEED,
       variantCodes: VARIANT_CODES,
       chapters
