@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "bank": "node data/build-bank.mjs",
+    "bank": "node scripts/build-bank.mjs medborgarskap",
+    "bank:all": "node scripts/build-bank-all.mjs",
     "dev": "npm run bank && vite",
     "build": "npm run bank && vite build",
     "preview": "vite preview",

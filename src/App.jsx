@@ -4,7 +4,7 @@ import {
   chapterCounts, buildChapterPractice, buildBankPractice, newSeed, refBreakdown
 } from './lib/exam'
 import { support } from './site.config'
-import bank from './data/questions.json'
+import bank from './data/medborgarskap/questions.json'
 import examConfig from './exams/medborgarskap/config.js'
 
 // Motorn (src/lib/exam.js) vet inget om medborgarskapsprovet — den tar

@@ -4,9 +4,12 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..', '..')
+// Путь и id экзамена здесь по-прежнему захардкожены на medborgarskap —
+// снимок и verify проверяют один конкретный экзамен, параметризация по id
+// не входила в шаг 5 (см. src/exams/medborgarskap/config.js).
 const examSrcPath = path.join(repoRoot, 'src', 'lib', 'exam.js')
 const configSrcPath = path.join(repoRoot, 'src', 'exams', 'medborgarskap', 'config.js')
-const questionsJsonPath = path.join(repoRoot, 'src', 'data', 'questions.json')
+const questionsJsonPath = path.join(repoRoot, 'src', 'data', 'medborgarskap', 'questions.json')
 
 /**
  * Motorn (src/lib/exam.js) importerar sedan förra refaktoreringssteget
