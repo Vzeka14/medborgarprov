@@ -74,6 +74,18 @@ function canonicalBank(bank) {
   return [...bank].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
 }
 
+// Kapitel-id kan vara ett tal (medborgarskapsprovets 1..13, se config.js)
+// eller en sträng-slug (ett framtida prov). Motorn ska aldrig bry sig om
+// vilket — varje ställe som jämför två ch-värden eller använder ch som
+// nyckel i ett objekt/Map normaliserar båda sidor genom den här EN
+// funktionen, istället för att var och en gissar på ett eget sätt
+// (tidigare stod det Number(ch) bara i buildChapterPractice, medan andra
+// ställen litade på att objektnycklar auto-stringas — två olika
+// beteenden som råkade sammanfalla för dagens numeriska kapitel).
+function chKey(ch) {
+  return String(ch)
+}
+
 // Kapitelordning + vikt — hämtade ur config.chapters (en lista), inte ur
 // nycklarna i en pool byggd vid körning. Object.keys() på en sådan pool
 // ger insättningsordning för icke-numeriska nycklar (t.ex. strängbaserade
@@ -84,7 +96,7 @@ function chapterOrder(config) {
 }
 
 function chapterWeights(config) {
-  return new Map(config.chapters.map(c => [c.ch, c.weight]))
+  return new Map(config.chapters.map(c => [chKey(c.ch), c.weight]))
 }
 
 /**
@@ -95,21 +107,21 @@ export function buildExam(bank, config, code, size = config.examSize) {
   const canon = canonicalBank(bank)
   const rand = rng(codeToSeed(code))
   const pools = {}
-  for (const q of canon) (pools[q.ch] ??= []).push(q)
+  for (const q of canon) (pools[chKey(q.ch)] ??= []).push(q)
 
   const order = chapterOrder(config)
   const weightOf = chapterWeights(config)
-  const totalWeight = order.reduce((s, ch) => s + (weightOf.get(ch) ?? 1), 0)
+  const totalWeight = order.reduce((s, ch) => s + (weightOf.get(chKey(ch)) ?? 1), 0)
   const picked = []
   const used = new Set()
 
   // Steg 1: proportionellt urval per kapitel, i kapitelordning (från
   // config.chapters) — inte i den ordning kapitlen råkar dyka upp i `pools`.
   for (const ch of order) {
-    const chPool = pools[ch] || []
+    const chPool = pools[chKey(ch)] || []
     const want = Math.min(
       chPool.length,
-      Math.round((size * (weightOf.get(ch) ?? 1)) / totalWeight)
+      Math.round((size * (weightOf.get(chKey(ch)) ?? 1)) / totalWeight)
     )
     for (const q of shuffle(chPool, rand).slice(0, want)) {
       picked.push(q)
@@ -132,8 +144,8 @@ export function buildExam(bank, config, code, size = config.examSize) {
 // buildBankPractice, som bygger listor vars ORDNING är resultatet).
 export function chapterCounts(bank, config) {
   const counts = {}
-  for (const q of bank) counts[q.ch] = (counts[q.ch] || 0) + 1
-  return config.chapters.map(c => ({ ch: c.ch, title: c.title, count: counts[c.ch] || 0 }))
+  for (const q of bank) counts[chKey(q.ch)] = (counts[chKey(q.ch)] || 0) + 1
+  return config.chapters.map(c => ({ ch: c.ch, title: c.title, count: counts[chKey(c.ch)] || 0 }))
 }
 
 /**
@@ -144,7 +156,7 @@ export function chapterCounts(bank, config) {
 export function buildChapterPractice(bank, seed, ch) {
   const canon = canonicalBank(bank)
   const rand = rng(seed)
-  const pool = canon.filter(q => q.ch === Number(ch))
+  const pool = canon.filter(q => chKey(q.ch) === chKey(ch))
   return shuffle(pool, rand).map(q => shuffleOptions(q, rand))
 }
 
@@ -179,7 +191,7 @@ export function scoreExam(exam, answers) {
   const perChapter = {}
   let correct = 0
   exam.forEach((q, i) => {
-    const stat = (perChapter[q.ch] ??= { right: 0, total: 0 })
+    const stat = (perChapter[chKey(q.ch)] ??= { right: 0, total: 0 })
     stat.total++
     if (answers[i] === q.correct) {
       correct++
