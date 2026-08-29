@@ -325,6 +325,61 @@ footer.site a { color: var(--ink); }
   * { transition: none !important; animation: none !important; }
 }
 
+/* ---------- Examensväljare (/) ---------- */
+.picker-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 6px;
+}
+
+.exam-cards { display: grid; gap: 14px; margin-top: 22px; }
+
+.exam-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 20px var(--pad);
+  transition: border-color 0.12s ease, transform 0.12s ease;
+}
+.exam-card:hover { border-color: var(--ink); transform: translateY(-1px); }
+
+.exam-card-title { font-size: 22px; font-weight: 700; letter-spacing: -0.015em; margin: 0 0 2px; }
+.exam-card-official {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--graphite);
+  margin: 0 0 10px;
+}
+.exam-card-meta { margin: 0; color: var(--graphite); }
+
+.exam-card-soon {
+  cursor: default;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.exam-card-soon:hover { border-color: var(--rule); transform: none; }
+
+.badge {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px dashed var(--graphite);
+  color: var(--graphite);
+  padding: 4px 8px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
 /* ---------- Stödblock ---------- */
 .support {
   margin: 36px 0 0;

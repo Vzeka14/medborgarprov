@@ -14,6 +14,24 @@
  */
 export default {
   id: 'medborgarskap',
+  // Officiellt namn — visas alltid på svenska, oavsett gränssnittsspråk
+  // (andra raden på examensväljarens kort, se src/ExamPicker.jsx).
+  officialName: 'Medborgarskapsprovet',
+  // Kortets rubrik och korta beskrivning, per gränssnittsspråk
+  // (src/i18n.js UI_LANGS). Bara examensväljaren läser de här — motorn
+  // (src/lib/exam.js) och själva provet bryr sig inte om dem.
+  title: {
+    sv: 'Prov i samhällskunskap',
+    en: 'Citizenship exam',
+    ru: 'Экзамен на гражданство',
+    ar: 'امتحان الجنسية'
+  },
+  description: {
+    sv: 'Frågor om det svenska samhället, baserat på UHR:s utbildningsmaterial.',
+    en: 'Questions about Swedish society, based on official UHR study material.',
+    ru: 'Вопросы об устройстве шведского общества по официальным материалам UHR.',
+    ar: 'أسئلة عن المجتمع السويدي، استناداً إلى مواد تعليمية رسمية من UHR.'
+  },
   examSize: 60,
   examMinutes: 90,
   defaultPass: 52,
