@@ -30,23 +30,39 @@ export async function buildBank(id) {
     throw new Error(`Ingen config: ${path.relative(repoRoot, configPath)}`)
   }
 
+  const files = fs.readdirSync(dataDir).filter(f => /^questions-.*\.json$/.test(f)).sort()
+
+  // Provet har fått sin datamapp och sin config, men ingen fråga är
+  // skriven än — det är inte samma sak som en trasig bank och ska inte
+  // fälla `npm run bank:all` för hela sajten. Flera prov ska kunna vara
+  // förberedda i förväg medan de väntar på innehåll (se
+  // src/exams/jagarexamen/config.js). Skiljs uttryckligen från "har
+  // frågor men saknar ett obligatoriskt språk" — det fallet faller
+  // fortfarande igenom till valideringen nedan och ska fortsätta fela.
+  if (files.length === 0) {
+    return { id, skipped: true, reason: `inga questions-*.json i ${path.relative(repoRoot, dataDir)}` }
+  }
+
   const { default: config } = await import(pathToFileURL(configPath).href)
   const requiredLangs = config.requiredLangs
   if (!Array.isArray(requiredLangs) || requiredLangs.length === 0) {
     throw new Error(`${id}: config.requiredLangs saknas eller är tom`)
   }
 
-  // Ett av de obligatoriska språken ligger inbäddat direkt i frågeobjektet
-  // (fältet `why`, historiskt ryska — så skrevs medborgarskapsdatan innan
-  // den här uppdelningen fanns) — resten av requiredLangs kommer från
-  // separata why-<lang>.json-filer bredvid frågefilerna. Samma struktur
-  // som innan, bara parametriserad på id istället för hårdkodad.
+  // Ett av de obligatoriska språken KAN ligga inbäddat direkt i
+  // frågeobjektet (fältet `why`, historiskt ryska — så skrevs
+  // medborgarskapsdatan innan den här uppdelningen fanns) — resten av
+  // requiredLangs kommer från separata why-<lang>.json-filer bredvid
+  // frågefilerna. Gäller bara om det språket faktiskt står i
+  // requiredLangs — ett prov som inte kräver EMBEDDED_WHY_LANG alls
+  // (t.ex. jägarexamen, requiredLangs: ['sv']) ska inte plötsligt behöva
+  // ett `why`-fält som inget i dess egen config bad om.
   const EMBEDDED_WHY_LANG = 'ru'
+  const hasEmbeddedWhyLang = requiredLangs.includes(EMBEDDED_WHY_LANG)
   const whyField = lang =>
     lang === EMBEDDED_WHY_LANG ? 'why' : `why${lang[0].toUpperCase()}${lang.slice(1)}`
   const fileLangs = requiredLangs.filter(l => l !== EMBEDDED_WHY_LANG)
 
-  const files = fs.readdirSync(dataDir).filter(f => /^questions-.*\.json$/.test(f)).sort()
   let all = []
   for (const f of files) all = all.concat(JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8')))
 
@@ -70,7 +86,7 @@ export async function buildBank(id) {
     }
     if (!Number.isInteger(q.correct) || q.correct < 0 || q.correct > 3) errs.push(`${q.id}: ogiltigt correct`)
     if (!q.ref) errs.push(`${q.id}: saknar ref`)
-    if (!q[whyField(EMBEDDED_WHY_LANG)]) {
+    if (hasEmbeddedWhyLang && !q[whyField(EMBEDDED_WHY_LANG)]) {
       errs.push(`${q.id}: saknar ${EMBEDDED_WHY_LANG}-förklaring (${whyField(EMBEDDED_WHY_LANG)})`)
     }
     for (const lang of fileLangs) {
@@ -105,9 +121,13 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {
   }
   try {
     const r = await buildBank(id)
-    console.log(`OK ${r.id}: ${r.count} frågor, alla med förklaring på ${r.requiredLangs.join(', ')}`)
-    console.log('per kapitel:', JSON.stringify(r.byCh))
-    console.log('per typ:', JSON.stringify(r.byKind))
+    if (r.skipped) {
+      console.warn(`ÖVERHOPPAD ${r.id}: ${r.reason}`)
+    } else {
+      console.log(`OK ${r.id}: ${r.count} frågor, alla med förklaring på ${r.requiredLangs.join(', ')}`)
+      console.log('per kapitel:', JSON.stringify(r.byCh))
+      console.log('per typ:', JSON.stringify(r.byKind))
+    }
   } catch (err) {
     console.error(err.message)
     process.exit(1)

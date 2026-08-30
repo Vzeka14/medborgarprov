@@ -17,12 +17,16 @@ const configModules = import.meta.glob('./exams/*/config.js', { eager: true, imp
 const configById = {}
 for (const config of Object.values(configModules)) configById[config.id] = config
 
-// Ordning på korten. `/jagarexamen`-rutten finns redan (App.jsx), men
-// provet har ännu ingen config/data — SOON nedan är bara ett namn att visa
-// på en icke-klickbar platshållare. Den posten tas bort den dag
-// src/exams/jagarexamen/config.js finns; loopen ovan tar över automatiskt,
-// inget annat i den här filen behöver ändras.
+// Ordning på korten.
 const ROUTE_ORDER = ['medborgarskap', 'jagarexamen']
+
+// Prov i den här listan visas ALLTID som en icke-klickbar "kommer
+// snart"-platshållare, oavsett om de redan har fått en
+// src/exams/<id>/config.js (se SOON-koll FÖRE configById-koll nedan).
+// jägarexamen fick sin config i refaktoreringssteg 7, innan rutten är
+// redo att visa något — configen finns för att motorn/build-bank.mjs ska
+// kunna förberedas, inte för att kortet ska bli klickbart. Ta bort raden
+// här (inte config-filen) den dag /jagarexamen faktiskt ska fungera.
 const SOON = { jagarexamen: { name: 'Jägarexamen' } }
 
 export default function ExamPicker() {
@@ -60,30 +64,30 @@ export default function ExamPicker() {
 
       <div className="exam-cards">
         {ROUTE_ORDER.map(id => {
-          const config = configById[id]
-          if (config) {
+          const soon = SOON[id]
+          if (soon) {
             return (
-              <Link to={`/${id}`} className="exam-card" key={id}>
-                <p className="exam-card-title">{config.title?.[uiLang] ?? config.title?.en ?? config.id}</p>
-                {config.officialName && <p className="exam-card-official">{config.officialName}</p>}
-                {config.description && (
-                  <p className="small muted" style={{ margin: '0 0 12px' }}>
-                    {config.description[uiLang] ?? config.description.en}
-                  </p>
-                )}
-                <p className="mono small exam-card-meta">
-                  {t('questions', uiLang, config.examSize)} · {t('minutes', uiLang, config.examMinutes)}
-                </p>
-              </Link>
+              <div className="exam-card exam-card-soon" key={id} aria-disabled="true">
+                <p className="exam-card-title" style={{ margin: 0 }}>{soon.name}</p>
+                <span className="badge">{t('comingSoon', uiLang)}</span>
+              </div>
             )
           }
-          const soon = SOON[id]
-          if (!soon) return null
+          const config = configById[id]
+          if (!config) return null
           return (
-            <div className="exam-card exam-card-soon" key={id} aria-disabled="true">
-              <p className="exam-card-title" style={{ margin: 0 }}>{soon.name}</p>
-              <span className="badge">{t('comingSoon', uiLang)}</span>
-            </div>
+            <Link to={`/${id}`} className="exam-card" key={id}>
+              <p className="exam-card-title">{config.title?.[uiLang] ?? config.title?.en ?? config.id}</p>
+              {config.officialName && <p className="exam-card-official">{config.officialName}</p>}
+              {config.description && (
+                <p className="small muted" style={{ margin: '0 0 12px' }}>
+                  {config.description[uiLang] ?? config.description.en}
+                </p>
+              )}
+              <p className="mono small exam-card-meta">
+                {t('questions', uiLang, config.examSize)} · {t('minutes', uiLang, config.examMinutes)}
+              </p>
+            </Link>
           )
         })}
       </div>

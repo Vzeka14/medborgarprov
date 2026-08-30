@@ -25,14 +25,23 @@ if (ids.length === 0) {
 }
 
 let failed = false
+let skippedCount = 0
+let builtCount = 0
 for (const id of ids) {
   try {
     const r = await buildBank(id)
-    console.log(`OK ${r.id}: ${r.count} frågor, alla med förklaring på ${r.requiredLangs.join(', ')}`)
+    if (r.skipped) {
+      skippedCount++
+      console.warn(`ÖVERHOPPAD ${r.id}: ${r.reason}`)
+    } else {
+      builtCount++
+      console.log(`OK ${r.id}: ${r.count} frågor, alla med förklaring på ${r.requiredLangs.join(', ')}`)
+    }
   } catch (err) {
     failed = true
     console.error(`FEL ${id}:`)
     console.error(err.message)
   }
 }
+console.log(`Klart: ${builtCount} byggda, ${skippedCount} överhoppade (ingen data än).`)
 if (failed) process.exit(1)
