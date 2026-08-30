@@ -3393,43 +3393,43 @@
     "kind": "situation",
     "ref": "Sveriges moderna historia, s. 36",
     "sv": {
-      "q": "Sverige hade under 1800-talet varit ett land som många lämnade. Vad blev landet i stället under rekordåren, tack vare den starka ekonomin?",
+      "q": "Under rekordåren blev Sverige ett invandrarland. Vad var den viktigaste orsaken till det?",
       "o": [
-        "Ett invandrarland",
-        "Ett land utan någon arbetskraft",
-        "Ett land med minskande befolkning",
-        "Ett land som stängde sina gränser helt"
+        "Den starka ekonomin skapade en stor efterfrågan på arbetskraft som den inhemska befolkningen inte räckte till för, och arbetskraftsinvandrare kom bland annat från Finland, Grekland, Jugoslavien och Turkiet",
+        "Riksdagen hade nyligen infört allmän och lika rösträtt för män och kvinnor, vilket gjorde Sverige attraktivt att flytta till",
+        "Fack och arbetsgivare hade slutit Saltsjöbadsavtalet 1938, som la grunden för fredliga förhandlingar på arbetsmarknaden",
+        "Staten satsade på miljonprogrammet för att bygga en miljon nya bostäder och lösa bostadsbristen i städerna"
       ]
     },
     "ru": {
-      "q": "В XIX веке Швеция была страной, которую многие покидали. Чем страна стала вместо этого в «рекордные годы» благодаря сильной экономике?",
+      "q": "В «рекордные годы» Швеция стала страной иммиграции. В чём была главная причина этого?",
       "o": [
-        "Страной иммиграции",
-        "Страной без рабочей силы",
-        "Страной с сокращающимся населением",
-        "Страной, полностью закрывшей границы"
+        "Сильная экономика создала большой спрос на рабочую силу, который не могло покрыть местное население, и трудовые мигранты приезжали, в частности, из Финляндии, Греции, Югославии и Турции",
+        "Риксдаг незадолго до этого ввёл всеобщее и равное избирательное право для мужчин и женщин, что сделало Швецию привлекательной для переезда",
+        "Профсоюзы и работодатели заключили Сальтшёбаденское соглашение 1938 года, заложившее основу мирных переговоров на рынке труда",
+        "Государство запустило «программу миллиона» (miljonprogrammet) для строительства миллиона новых жилищ и решения нехватки жилья в городах"
       ]
     },
     "en": {
-      "q": "During the 1800s Sweden had been a country many left. What did the country become instead during the record years, thanks to the strong economy?",
+      "q": "During the record years, Sweden became a country of immigration. What was the main reason for that?",
       "o": [
-        "A country of immigration",
-        "A country with no labor force at all",
-        "A country with a shrinking population",
-        "A country that closed its borders completely"
+        "The strong economy created a large demand for labor that the domestic population could not meet, and labor migrants came from countries including Finland, Greece, Yugoslavia, and Turkey",
+        "The Riksdag had recently introduced universal and equal suffrage for men and women, which made Sweden attractive to move to",
+        "Unions and employers had signed the Saltsjöbaden Agreement of 1938, which laid the foundation for peaceful labor market negotiations",
+        "The state invested in the million programme (miljonprogrammet) to build a million new homes and solve the housing shortage in the cities"
       ]
     },
     "ar": {
-      "q": "كانت السويد في القرن التاسع عشر بلدًا يهجره كثيرون. بماذا أصبحت البلاد بدلًا من ذلك خلال «السنوات القياسية» بفضل الاقتصاد القوي؟",
+      "q": "خلال «السنوات القياسية» أصبحت السويد بلد هجرة وافدة. ما كان السبب الرئيسي وراء ذلك؟",
       "o": [
-        "بلد هجرة وافدة",
-        "بلد بلا أي قوى عاملة",
-        "بلد يتقلص عدد سكانه",
-        "بلد أغلق حدوده تمامًا"
+        "خلق الاقتصاد القوي طلبًا كبيرًا على العمالة لم يستطع السكان المحليون تلبيته، فجاء العمال المهاجرون من دول من بينها فنلندا واليونان ويوغوسلافيا وتركيا",
+        "كان الريكسداغ قد أقر مؤخرًا حق الاقتراع العام والمتساوي للرجال والنساء، ما جعل السويد وجهة جاذبة للانتقال إليها",
+        "وقّعت النقابات وأصحاب العمل اتفاقية سالتشوبادن عام 1938، التي أرست أساس المفاوضات السلمية في سوق العمل",
+        "استثمرت الدولة في «برنامج المليون» (miljonprogrammet) لبناء مليون مسكن جديد وحل أزمة نقص السكن في المدن"
       ]
     },
     "correct": 0,
-    "why": "Роли поменялись: страна эмиграции XIX века (более миллиона уехавших в США) стала страной иммиграции благодаря экономическому росту рекордных лет."
+    "why": "Причина — не избирательное право, соглашение профсоюзов или жилищная программа сами по себе (это реальные события того же периода), а нехватка рабочих рук при быстро растущей экономике: спрос на труд превысил внутреннее предложение, и Швеция начала целенаправленно набирать рабочих за границей."
   },
   {
     "id": "c10-36",

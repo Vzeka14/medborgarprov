@@ -12,6 +12,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script data-goatcounter="https://medborgarprov.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <!--
+      no_onload: SPA:n har egen klientroutning (src/router.jsx) och räknar
+      sidvisningar manuellt vid varje rutt-byte, inklusive den första (se
+      src/lib/analytics.js) — annars skulle den automatiska räkningen här
+      OCH det manuella anropet båda räkna den första sidvisningen.
+    -->
+    <script
+      data-goatcounter="https://medborgarprov.goatcounter.com/count"
+      data-goatcounter-settings='{"no_onload": true}'
+      async src="//gc.zgo.at/count.js"
+    ></script>
   </body>
 </html>
