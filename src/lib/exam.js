@@ -46,19 +46,31 @@ export function newSeed() {
   return Math.floor(Math.random() * 0xffffffff) >>> 0
 }
 
+// Ett språkfält är { q: "...", o: [...] } — vilket fält som helst på
+// frågan som ser ut så räknas som ett språk, oavsett språkkod. Ingen
+// fast lista: medborgarskap har sv/ru/en/ar, jägarexamen kan ha bara sv
+// (requiredLangs: ['sv']) — motorn ska inte behöva veta i förväg vilka
+// eller hur många. `id`/`ch`/`kind`/`ref`/`correct`/`why*` matchar inte
+// den här formen och plockas aldrig upp av misstag.
+function languageFields(q) {
+  return Object.keys(q).filter(k => typeof q[k]?.q === 'string' && Array.isArray(q[k]?.o))
+}
+
 // Blandar ordningen på de fyra svarsalternativen för en fråga och
-// flyttar med det rätta svaret. Delas av alla lägen som bygger frågelistor.
+// flyttar med det rätta svaret. Delas av alla lägen som bygger
+// frågelistor. Samma `order` (en enda permutation) appliceras på VARJE
+// språkfält som finns på frågan — inte bara ett fast urval — annars
+// skulle t.ex. översättningsvyn (sv-text + q[lang]-text sida vid sida,
+// se MedborgarskapExam.jsx) visa alternativ i fel ordning mellan
+// språken, och `correct` (ett enda index, gemensamt för alla språk)
+// skulle inte kunna peka på rätt svar i mer än ett språk åt gången.
 function shuffleOptions(q, rand) {
   const order = shuffle([0, 1, 2, 3], rand)
-  return {
-    ...q,
-    order,
-    sv: { q: q.sv.q, o: order.map(i => q.sv.o[i]) },
-    ru: { q: q.ru.q, o: order.map(i => q.ru.o[i]) },
-    en: { q: q.en.q, o: order.map(i => q.en.o[i]) },
-    ar: { q: q.ar.q, o: order.map(i => q.ar.o[i]) },
-    correct: order.indexOf(q.correct)
+  const shuffled = { ...q, order, correct: order.indexOf(q.correct) }
+  for (const lang of languageFields(q)) {
+    shuffled[lang] = { q: q[lang].q, o: order.map(i => q[lang].o[i]) }
   }
+  return shuffled
 }
 
 // `bank` kan komma i valfri ordning — beror på hur den anropande sidan
