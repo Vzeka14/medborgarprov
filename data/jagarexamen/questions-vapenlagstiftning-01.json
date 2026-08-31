@@ -5,12 +5,12 @@
     "kind": "fakta",
     "ref": "Jaktlag (1987:259) 52 §",
     "sv": {
-      "q": "Jaktlagen sätter ramarna för jakten, men vem bestämmer mer i detalj om till exempel jakttider och tillåtna jaktmedel, inom dessa ramar?",
+      "q": "Jaktlagen sätter ramarna för jakten. Hur bestäms mer i detalj om till exempel exakta jakttider och krav på jaktmedel, inom dessa ramar?",
       "o": [
-        "Regeringen, genom en förordning som i sin tur kan ge en myndighet rätt att meddela egna föreskrifter",
-        "Varje länsstyrelse, genom egna fristående lagar",
-        "Jägarorganisationerna, som beslutar och informerar Naturvårdsverket i efterhand",
-        "Domstolarna, som avgör detaljerna från fall till fall"
+        "Regeringen utfärdar en förordning och kan delegera till en myndighet, till exempel Naturvårdsverket, att besluta om egna föreskrifter",
+        "Naturvårdsverket beslutar självständigt om samtliga jakttider, utan att regeringen är inblandad i något led",
+        "Riksdagen beslutar om varje enskild jakttid direkt i själva jaktlagen, utan förordningar eller föreskrifter",
+        "Länsstyrelserna i respektive län beslutar var för sig, utan gemensamma föreskrifter från någon central myndighet"
       ]
     },
     "correct": 0
@@ -19,17 +19,17 @@
     "id": "vapenlagstiftning-02",
     "ch": "vapenlagstiftning",
     "kind": "situation",
-    "ref": "Jaktlag (1987:259) 29 §; Jaktförordning (1987:905) 2 §",
+    "ref": "Vapenlag (2026:408) 9 kap. 7 §",
     "sv": {
-      "q": "En jägare undrar exakt vilka tider på dygnet och året olika djurarter får jagas. Var regleras detta mest i detalj?",
+      "q": "En 16-åring vill låna sin förälders jaktgevär (inte ett enhandsvapen) för att öva inför älgjakten, under förälderns ständiga uppsikt. Är detta tillåtet enligt vapenlagen?",
       "o": [
-        "I själva jaktlagen (1987:259)",
-        "I jaktförordningen (1987:905) och föreskrifter som meddelats med stöd av den",
-        "I vapenlagen (2026:408)",
-        "Det avgörs fritt av varje enskild jägare"
+        "Ja, personen har fyllt 15 år, vapnet är inte ett enhandsvapen, och det används under förälderns uppsikt",
+        "Nej, utlåning av skjutvapen till den som är minderårig är förbjuden i alla lägen, oavsett uppsikt",
+        "Ja, men bara om personen redan har avlagt jägarexamen, oavsett hur gammal personen är",
+        "Nej, åldersgränsen för denna typ av lån är 18 år, utan undantag för förälders uppsikt"
       ]
     },
-    "correct": 1
+    "correct": 0
   },
   {
     "id": "vapenlagstiftning-03",
@@ -51,17 +51,17 @@
     "id": "vapenlagstiftning-04",
     "ch": "vapenlagstiftning",
     "kind": "fakta",
-    "ref": "Jaktlag (1987:259) 10 §",
+    "ref": "Jaktlag (1987:259) 11 §",
     "sv": {
-      "q": "Vem har jakträtten på den mark som hör till en fastighet, om inget annat följer av lag eller avtal?",
+      "q": "En väg går i gränsen mellan två fastigheter med olika ägare, och ingen av dem äger själva vägmarken. Vem har jakträtten på vägen?",
       "o": [
-        "Fastighetsägaren",
-        "Den som är medlem i en jaktklubb i området",
-        "Kommunen där fastigheten ligger",
-        "Den som först ansöker om jakttillstånd hos länsstyrelsen"
+        "Ingen av fastighetsägarna, jakt på sådan mark är alltid förbjuden",
+        "Var och en av dem har jakträtt på den marken",
+        "Endast den fastighetsägare vars fastighet är störst",
+        "Kommunen, eftersom vägen inte tillhör någon av fastigheterna"
       ]
     },
-    "correct": 0
+    "correct": 1
   },
   {
     "id": "vapenlagstiftning-05",
@@ -71,10 +71,10 @@
     "sv": {
       "q": "En lantbrukare arrenderar jordbruksmark. Vem har jakträtten på den arrenderade marken, om inget annat avtalats?",
       "o": [
-        "Fastighetsägaren, eftersom jakträtten alltid följer ägandet",
-        "Arrendatorn",
-        "Länsstyrelsen, eftersom marken är arrenderad",
-        "Ingen har jakträtt förrän ett särskilt jaktavtal skrivits"
+        "Fastighetsägaren, eftersom jakträtten alltid följer ägandet av marken",
+        "Arrendatorn, eftersom jakträtten vid jordbruksarrende följer brukandet av marken",
+        "Länsstyrelsen, eftersom marken är föremål för ett arrendeavtal",
+        "Ingen har jakträtt förrän ett särskilt jaktavtal har skrivits"
       ]
     },
     "correct": 1
@@ -83,14 +83,14 @@
     "id": "vapenlagstiftning-06",
     "ch": "vapenlagstiftning",
     "kind": "fakta",
-    "ref": "Jaktlag (1987:259) 27 §",
+    "ref": "Jaktlag (1987:259) 12 §",
     "sv": {
-      "q": "Hur ska jakten enligt jaktlagen bedrivas i förhållande till viltet, människor och egendom?",
+      "q": "En fastighet gränsar till allmänt vatten, till exempel en sjö. Hur långt ut från strandlinjen har fastighetsägaren jakträtt på det vattnet?",
       "o": [
-        "Så att viltet inte utsätts för onödigt lidande och så att människor och egendom inte utsätts för fara",
-        "Så att jaktresultatet blir så stort som möjligt",
-        "Så att den som jagar först alltid har företräde i området",
-        "Så att jakten kan avslutas så snabbt som möjligt"
+        "Intill 100 meter från strandlinjen",
+        "Intill 200 meter från strandlinjen",
+        "Intill 300 meter från strandlinjen",
+        "Intill 500 meter från strandlinjen"
       ]
     },
     "correct": 0
@@ -98,18 +98,18 @@
   {
     "id": "vapenlagstiftning-07",
     "ch": "vapenlagstiftning",
-    "kind": "situation",
-    "ref": "Jaktlag (1987:259) 28 §",
+    "kind": "fakta",
+    "ref": "Jaktlag (1987:259) 16 §",
     "sv": {
-      "q": "En jägare skadeskjuter ett rådjur under jakt. Vad är jägaren skyldig att göra enligt jaktlagen?",
+      "q": "En jakträtt har upplåtits genom avtal på viss tid, minst ett år. Vad krävs för att avtalet ska upphöra vid avtalstidens utgång, om inte längre uppsägningstid har avtalats?",
       "o": [
-        "Fortsätta jakten och rapportera skadan i efterhand till länsstyrelsen",
-        "Snarast vidta de åtgärder som behövs för att djuret ska kunna spåras upp och avlivas",
-        "Vänta till nästa dag och leta tillsammans med fler jägare",
-        "Inget särskilt, skadeskjutning räknas som en normal risk vid jakt"
+        "Avtalet ska sägas upp senast sex månader före avtalstidens utgång",
+        "Avtalet ska sägas upp senast ett år före avtalstidens utgång",
+        "Avtalet ska sägas upp senast fem år före avtalstidens utgång",
+        "Uppsägning krävs inte alls, avtalet upphör automatiskt vid avtalstidens utgång"
       ]
     },
-    "correct": 1
+    "correct": 0
   },
   {
     "id": "vapenlagstiftning-08",
@@ -135,10 +135,10 @@
     "sv": {
       "q": "Vad säger jaktlagen om krav på kunskapsprov (som jägarexamen) för att få jaga?",
       "o": [
-        "Regeringen får meddela föreskrifter om skyldighet att avlägga prov i kunskaper och skjutförmåga som villkor för att få jaga",
-        "Jaktlagen kräver inget kunskapsprov alls, det är bara en rekommendation",
-        "Kravet på kunskapsprov gäller bara jakt efter björn, varg, järv och lo",
-        "Kunskapsprovet regleras enbart av vapenlagen, inte av jaktlagen"
+        "Regeringen får meddela föreskrifter om skyldighet att avlägga prov i kunskaper och skjutförmåga för att få jaga",
+        "Jaktlagen anger uttryckligen att kunskapsprov är frivilligt och aldrig kan göras obligatoriskt",
+        "Kravet på kunskapsprov gäller enligt lagen bara vid jakt efter björn, varg, järv och lo",
+        "Kunskapsprovet regleras enligt lagen enbart genom vapenlagen, aldrig genom jaktlagen"
       ]
     },
     "correct": 0
@@ -152,9 +152,9 @@
       "q": "Hur ska ett skjutvapen förvaras när det inte används?",
       "o": [
         "I ett säkerhetsskåp eller ett annat lika säkert förvaringsutrymme",
-        "Inlåst i ett valfritt skåp i hemmet",
-        "Osäkrat men oladdat och väl synligt, för att avskräcka tjuvar",
-        "Hos en granne som inte själv äger vapen"
+        "Inlåst i ett valfritt skåp i innehavarens bostad",
+        "Var som helst i innehavarens bostad, oavsett hur förvaringsutrymmet är utformat",
+        "Hos en granne som själv saknar tillstånd att inneha vapen"
       ]
     },
     "correct": 0
@@ -167,10 +167,10 @@
     "sv": {
       "q": "En jägare ska transportera sitt gevär till en jaktmark i bil. Hur ska vapnet vara enligt vapenlagen?",
       "o": [
-        "Laddat men säkrat, för snabb beredskap",
+        "Laddat men säkrat, så att det är redo för snabb användning vid ankomst",
         "Oladdat och, i den utsträckning det är lämpligt, isärtaget och nerpackat",
         "Fullt monterat men utan ammunition i närheten av vapnet",
-        "Det spelar ingen roll så länge vapnet ligger i en väska"
+        "Det spelar ingen roll om vapnet är laddat, så länge det ligger i en väska"
       ]
     },
     "correct": 1
@@ -183,10 +183,10 @@
     "sv": {
       "q": "För vilka ändamål kan en enskild person beviljas tillstånd att inneha ett skjutvapen för skjutning?",
       "o": [
-        "Bara om personen är medlem i valfri jaktklubb",
+        "Bara om personen är medlem i en jaktklubb i området",
         "Till exempel för jakt, målskytte, skydd eller avlivning av fällfångade djur",
         "Bara om personen äger mark på minst fem hektar",
-        "Bara om personen kan uppvisa körkort"
+        "Bara om personen är ansluten till en auktoriserad sammanslutning för målskytte"
       ]
     },
     "correct": 1
@@ -199,10 +199,10 @@
     "sv": {
       "q": "Vad är en grundläggande förutsättning för att tillstånd att inneha ett skjutvapen ska beviljas, oavsett ändamål?",
       "o": [
-        "Att sökanden har avlagt jägarexamen",
+        "Att sökanden har avlagt jägarexamen för det ändamål tillståndet avser",
         "Att det skäligen kan antas att vapnet inte kommer att missbrukas",
-        "Att sökanden är medlem i en auktoriserad skytteförening",
-        "Att vapnet är tillverkat i Sverige"
+        "Att sökanden är medlem i en auktoriserad sammanslutning för målskytte",
+        "Att sökanden kan visa särskilda skäl för att inneha just det vapnet"
       ]
     },
     "correct": 1
@@ -215,10 +215,10 @@
     "sv": {
       "q": "En jägare vill låna ut sitt gevär till en vän för en enstaka jakt. Vännen saknar eget tillstånd att inneha ett vapen av samma typ. Vad krävs enligt vapenlagen?",
       "o": [
-        "Inget särskilt, muntligt godkännande räcker",
-        "Vännen måste ha ett lånetillstånd, om vapnet inte innehas och används under långivarens uppsikt",
-        "Utlåning av jaktvapen är alltid förbjuden",
-        "Vapnet får lånas ut i högst två veckor, men utan att låntagaren behöver uppfylla några ytterligare krav"
+        "Inget särskilt krävs, ett muntligt godkännande mellan vännerna räcker helt och hållet",
+        "Vännen behöver ett eget lånetillstånd, om vapnet inte används under långivarens uppsikt",
+        "Utlåning av jaktvapen till andra privatpersoner är alltid förbjuden enligt vapenlagen",
+        "Vapnet får lånas ut i högst två veckor utan att några ytterligare krav behöver uppfyllas"
       ]
     },
     "correct": 1
@@ -231,10 +231,10 @@
     "sv": {
       "q": "Vad kan den som uppsåtligen innehar ett skjutvapen utan att ha rätt till det dömas för?",
       "o": [
-        "Enbart böter, oavsett omständigheterna",
+        "Böter, oavsett hur allvarligt innehavet bedöms vara",
         "Vapenbrott, med fängelse i högst fem år",
-        "En ren ordningsförseelse utan påföljd",
-        "Förlust av jaktkort i fem år"
+        "Böter eller fängelse i högst sex månader, oavsett omständigheterna",
+        "Förlust av rätten att jaga i fem år, men inget straffrättsligt ansvar"
       ]
     },
     "correct": 1
