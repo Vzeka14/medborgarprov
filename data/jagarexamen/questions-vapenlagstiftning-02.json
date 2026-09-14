@@ -1,0 +1,242 @@
+[
+  {
+    "id": "vapenlagstiftning-16",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Ordningslag (1993:1617) 3 kap. 6 §",
+    "sv": {
+      "q": "En jägare vill provskjuta sitt gevär inom ett område som omfattas av detaljplan (till exempel ett samhälle). Vad krävs enligt ordningslagen?",
+      "o": [
+        "Tillstånd av Polismyndigheten, oavsett var inom området det sker",
+        "Endast markägarens medgivande, ingen myndighet behöver kontaktas",
+        "Endast en anmälan till kommunen i förväg, utan krav på tillstånd",
+        "Inget särskilt krävs så länge skjutningen sker på egen mark"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-17",
+    "ch": "vapenlagstiftning",
+    "kind": "situation",
+    "ref": "Ordningslag (1993:1617) 3 kap. 6 §",
+    "sv": {
+      "q": "En 16-åring vill öva med ett luftgevär utomhus, utanför ett område med detaljplan. Vem måste ha uppsikt över detta för att det ska vara tillåtet utan särskilt tillstånd?",
+      "o": [
+        "Vem som helst i familjen, oavsett ålder",
+        "En person som har fyllt 20 år",
+        "En person som har fyllt 18 år",
+        "Ingen uppsikt krävs alls utanför detaljplanelagt område"
+      ]
+    },
+    "correct": 1
+  },
+  {
+    "id": "vapenlagstiftning-18",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Ordningslag (1993:1617) 3 kap. 6 §",
+    "sv": {
+      "q": "En civil skytteförening (inte Försvarsmakten) vill öppna en skjutbana. Vad krävs enligt ordningslagen?",
+      "o": [
+        "Tillstånd av Polismyndigheten för att banan ska få användas",
+        "Endast ett godkännande från kommunens byggnadsnämnd",
+        "Endast en anmälan till länsstyrelsen, utan krav på tillstånd",
+        "Inget särskilt krävs så länge banan ligger utanför detaljplanelagt område"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-19",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Djurskyddslag (2018:1192) 1 kap. 2 §",
+    "sv": {
+      "q": "En jägare skadeskjuter ett rådjur under jakt. Vilken lag reglerar kravet på att djuret inte ska utsättas för onödigt lidande i den situationen?",
+      "o": [
+        "Jaktlagen, eftersom djurskyddslagen enligt sin egen avgränsning inte gäller viltlevande djur som fälls vid jakt",
+        "Djurskyddslagen, eftersom den gäller alla djur oavsett om de hålls av människan eller lever vilt",
+        "Både jaktlagen och djurskyddslagen tillämpas alltid parallellt i en sådan situation",
+        "Ingen av lagarna, frågan regleras enbart av lokala jaktvårdsföreningars egna regler"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-20",
+    "ch": "vapenlagstiftning",
+    "kind": "situation",
+    "ref": "Djurskyddslag (2018:1192) 2 kap. 3 §",
+    "sv": {
+      "q": "En jägare håller flera jakthundar hemma. Eftersom hundarna är djur som hålls av en människa, vilket krav ställer djurskyddslagen på jägaren som hundhållare?",
+      "o": [
+        "Att jägaren har tillräcklig kompetens för att tillgodose hundarnas behov",
+        "Att jägaren är medlem i en av Jägareförbundet godkänd hundklubb",
+        "Att jägaren har avlagt ett särskilt hundprov utöver jägarexamen",
+        "Inget särskilt, djurskyddslagen omfattar bara lantbruksdjur"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-21",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Djurskyddslag (2018:1192) 2 kap. 9 §",
+    "sv": {
+      "q": "Vad säger djurskyddslagens grundläggande förbud om hur djur som hålls av en människa, till exempel en jakthund, får behandlas?",
+      "o": [
+        "Djur får inte agas, tillfogas skada eller överansträngas",
+        "Djur får agas i uppfostrande syfte, men inte tillfogas fysisk skada",
+        "Djur får överansträngas vid träning inför jaktprov, men inte agas",
+        "Förbudet gäller bara djur som föds upp för livsmedelsproduktion"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-22",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Terrängkörningslag (1975:1313) 1 §",
+    "sv": {
+      "q": "Enligt terrängkörningslagen, hur regleras körning i terräng med motordrivet fordon på barmark, i jämförelse med på snötäckt skogsmark med plant- eller ungskog?",
+      "o": [
+        "På barmark är körningen förbjuden i hela landet utan undantag för uppenbar riskfrihet, medan snötäckt skogsmark får köras på om det är uppenbart att det kan ske utan risk för skada på skogen",
+        "Båda är förbjudna på exakt samma villkor, undantag gäller lika i båda fallen",
+        "På barmark är körningen tillåten om det är uppenbart att det kan ske utan skaderisk, medan snötäckt skogsmark alltid är förbjuden",
+        "Ingen av situationerna regleras av terrängkörningslagen, båda faller under jaktlagen istället"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-23",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Terrängkörningslag (1975:1313) 2 §",
+    "sv": {
+      "q": "För att medge undantag från körförbudet inom de delar av fjällområdet som regeringen bestämmer, vilken nivå av skäl krävs enligt terrängkörningslagen, jämfört med undantag i övriga landet?",
+      "o": [
+        "Synnerliga skäl i fjällområdet, mot särskilda skäl i övriga landet",
+        "Särskilda skäl krävs lika i båda fallen, ingen skillnad görs",
+        "Synnerliga skäl krävs i övriga landet, men bara särskilda skäl i fjällområdet",
+        "Inget särskilt skäl krävs i fjällområdet, eftersom förbudet inte gäller där"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-24",
+    "ch": "vapenlagstiftning",
+    "kind": "situation",
+    "ref": "Terrängkörningslag (1975:1313) 3 a §",
+    "sv": {
+      "q": "En naturvårdsvakt upptäcker en person som utan rätt till det kör i terräng med motordrivet fordon inom ett skyddat fjällområde. Vilken befogenhet har naturvårdsvakten enligt terrängkörningslagen i den situationen?",
+      "o": [
+        "Att avvisa personen från området",
+        "Att omedelbart beslagta fordonet på plats",
+        "Att döma ut böter direkt till föraren",
+        "Ingen särskild befogenhet, endast en polisman får ingripa"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-25",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Jaktlag (1987:259) 13 §",
+    "sv": {
+      "q": "På en samfällighet med flera delägare, för vilket ändamål får delägarna som huvudregel utöva sin jakträtt, om de inte kommit överens om något annat?",
+      "o": [
+        "Bara för att tillgodose sina egna personliga behov av jakt",
+        "För valfri kommersiell försäljning av det fällda viltet",
+        "Bara om samtliga delägare jagar tillsammans vid samma tillfälle",
+        "Jakträtten på en samfällighet får som huvudregel inte utövas alls"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-26",
+    "ch": "vapenlagstiftning",
+    "kind": "situation",
+    "ref": "Jaktlag (1987:259) 14 §",
+    "sv": {
+      "q": "En person som har fått jakträtt upplåten till sig (i annat fall än vid jordbruksarrende) vill i sin tur upplåta samma jakträtt vidare till någon annan. Vad krävs enligt jaktlagen?",
+      "o": [
+        "Fastighetsägarens samtycke till den vidare upplåtelsen",
+        "Endast en skriftlig anmälan till länsstyrelsen",
+        "Inget särskilt, jakträtt får alltid upplåtas vidare fritt",
+        "Godkännande från jaktvårdsföreningen i området"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-27",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Jaktlag (1987:259) 12 a §",
+    "sv": {
+      "q": "I Sveriges ekonomiska zon får jakt bedrivas av medborgare i Sverige eller ett annat EU/EES-land. Vilken begränsning gäller för vilken sorts jakt som är tillåten där, enligt jaktlagen?",
+      "o": [
+        "Jakten får bara avse säl och kräver att den bedrivs efter anmälan",
+        "Jakten får avse valfritt vilt utan några ytterligare krav",
+        "Jakten får bara avse fågelvilt och kräver särskild licens av Naturvårdsverket",
+        "Jakt i den ekonomiska zonen är helt förbjuden för alla, oavsett medborgarskap"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-28",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Jaktförordning (1987:905) 2 §",
+    "sv": {
+      "q": "Hur ofta ska Naturvårdsverket enligt jaktförordningen se över de allmänna jakttiderna och vid behov föreslå ändringar till regeringen?",
+      "o": [
+        "Minst en gång vart sjätte år",
+        "Minst en gång vartannat år",
+        "Minst en gång per år",
+        "Minst en gång vart tionde år"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-29",
+    "ch": "vapenlagstiftning",
+    "kind": "fakta",
+    "ref": "Jaktförordning (1987:905) 3 c-3 d §§",
+    "sv": {
+      "q": "Vem ansvarar enligt jaktförordningen för att inrätta älgförvaltningsområden och älgförvaltningsgrupper, samt godkänna älgförvaltningsplanen?",
+      "o": [
+        "Länsstyrelsen",
+        "Naturvårdsverket",
+        "Jaktvårdsföreningen",
+        "Regeringen"
+      ]
+    },
+    "correct": 0
+  },
+  {
+    "id": "vapenlagstiftning-30",
+    "ch": "vapenlagstiftning",
+    "kind": "situation",
+    "ref": "Jaktförordning (1987:905) 24 a §",
+    "sv": {
+      "q": "Naturvårdsverket har rätt att fatta beslut om skyddsjakt efter björn, varg, järv, lo och kungsörn. Vad kan Naturvårdsverket göra med den befogenheten enligt jaktförordningen?",
+      "o": [
+        "Överlämna till länsstyrelsen att besluta om sådan skyddsjakt",
+        "Befogenheten kan aldrig delegeras till någon annan myndighet",
+        "Överlämna befogenheten till den enskilda jakträttshavaren",
+        "Befogenheten upphör automatiskt om inte beslut fattas inom en vecka"
+      ]
+    },
+    "correct": 0
+  }
+]
