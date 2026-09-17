@@ -3,8 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Övningsprov · medborgarskapsprovet i samhällskunskap</title>
-    <meta name="description" content="Kostnadsfria övningsprov baserade på UHR:s utbildningsmaterial Sverige i fokus. 60 frågor, 90 minuter. Svenska med rysk översättning. Inte kopplat till UHR." />
+    <!--
+      Statiska defaultvärden för "/" (måste hållas i synk för hand med
+      ROUTE_META['/'] i src/lib/seo.js). De här taggarna är ENDA versionen
+      krawlare utan JS-motor någonsin ser — Facebooks länk-crawler
+      (delningsförhandsvisningar) kör inte JS, så useSeo-uppdateringen i
+      src/lib/seo.js händer aldrig för den. Googlebot kör JS och ser den
+      uppdaterade versionen på /medborgarskap och /jagarexamen, men får
+      samma korrekta värden redan här på "/" innan JS ens kört.
+    -->
+    <title>Övningsprov – gratis övningsprov inför svenska prov</title>
+    <meta name="description" content="Kostnadsfria övningsprov inför svenska prov. Just nu tillgängliga: medborgarskapsprovet och jägarexamen teoriprov." />
+    <link rel="canonical" href="https://ovningsprov.se/" />
+
+    <!--
+      og:image/og:type/og:site_name/og:locale/twitter:card gäller hela
+      sajten och ändras ALDRIG per rutt — se src/lib/seo.js (useSeo rör
+      bara og:title/description/url). og:image måste vara en ABSOLUT URL
+      (Facebook löser inte relativa sökvägar).
+    -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Övningsprov" />
+    <meta property="og:locale" content="sv_SE" />
+    <meta property="og:title" content="Övningsprov – gratis övningsprov inför svenska prov" />
+    <meta property="og:description" content="Kostnadsfria övningsprov inför svenska prov. Just nu tillgängliga: medborgarskapsprovet och jägarexamen teoriprov." />
+    <meta property="og:url" content="https://ovningsprov.se/" />
+    <meta property="og:image" content="https://ovningsprov.se/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
