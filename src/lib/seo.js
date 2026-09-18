@@ -29,7 +29,15 @@ export const ROUTE_META = {
   },
   '/jagarexamen': {
     title: 'Jägarexamen teoriprov – gratis övningsfrågor',
-    description: 'Öva gratis inför jägarexamens teoriprov: 70 frågor, 60 minuter, 60 rätt krävs för godkänt.'
+    description: 'Den här delen är under uppbyggnad. Övningsfrågor till jägarexamens teoriprov kommer snart.',
+    // /jagarexamen visar idag bara ComingSoon (src/ComingSoon.jsx) — inget
+    // riktigt prov att indexera än. noindex: true lägger till
+    // <meta name="robots" content="noindex"> (se applySeo/setRobots
+    // nedan). TA BORT DEN HÄR RADEN (inte hela objektet) den dag rutten
+    // faktiskt visar ett prov — se även README, "Как добавить третий
+    // экзамен", och public/sitemap.xml (URL:en är borttagen därifrån av
+    // samma skäl, med samma påminnelse att lägga tillbaka den).
+    noindex: true
   }
 }
 
@@ -88,10 +96,35 @@ function setCanonical(href) {
   el.setAttribute('href', href)
 }
 
-function setJsonLd(path, canonicalUrl) {
+// <meta name="robots" content="noindex"> läggs bara till/tas bort — den
+// SKA INTE finnas kvar i <head> efter en navigering bort från en
+// noindex-rutt (se ROUTE_META, fältet noindex). document.head.querySelector
+// hittar den och tar bort den lika enkelt som setMeta skulle skriva över
+// den, så ingen egen "residual tag"-bugg att hålla koll på.
+function setRobots(noindex) {
+  const el = document.head.querySelector('meta[name="robots"]')
+  if (!noindex) {
+    el?.remove()
+    return
+  }
+  if (el) {
+    el.setAttribute('content', 'noindex')
+    return
+  }
+  const meta = document.createElement('meta')
+  meta.setAttribute('name', 'robots')
+  meta.setAttribute('content', 'noindex')
+  document.head.appendChild(meta)
+}
+
+function setJsonLd(path, canonicalUrl, noindex) {
   const id = 'route-jsonld'
   const existing = document.getElementById(id)
-  const quiz = ROUTE_QUIZ_JSONLD[path]
+  // En noindex-rutt är inte menad att synas i sökresultat alls — att
+  // ändå skicka med JSON-LD som beskriver den som ett färdigt Quiz vore
+  // motsägelsefullt (och poänglöst, Google struntar i structured data på
+  // en sida den inte får indexera).
+  const quiz = noindex ? null : ROUTE_QUIZ_JSONLD[path]
 
   if (!quiz) {
     existing?.remove()
@@ -131,6 +164,7 @@ function setJsonLd(path, canonicalUrl) {
 export function applySeo(path) {
   const meta = ROUTE_META[path] ?? ROUTE_META['/']
   const canonicalUrl = SITE_URL + path
+  const noindex = meta.noindex === true
 
   document.title = meta.title
   setMeta('name', 'description', meta.description)
@@ -138,9 +172,10 @@ export function applySeo(path) {
   setMeta('property', 'og:title', meta.title)
   setMeta('property', 'og:description', meta.description)
   setMeta('property', 'og:url', canonicalUrl)
-  setJsonLd(path, canonicalUrl)
+  setRobots(noindex)
+  setJsonLd(path, canonicalUrl, noindex)
 
-  return { title: meta.title, description: meta.description, canonicalUrl }
+  return { title: meta.title, description: meta.description, canonicalUrl, noindex }
 }
 
 export function useSeo(path) {
