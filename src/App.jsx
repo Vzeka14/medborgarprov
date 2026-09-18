@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { useRoute } from './router.jsx'
 import { trackPageview } from './lib/analytics.js'
+import { useSeo } from './lib/seo.js'
 import ExamPicker from './ExamPicker.jsx'
 import ComingSoon from './ComingSoon.jsx'
 
@@ -19,6 +20,12 @@ export default function App() {
   useEffect(() => {
     trackPageview(path)
   }, [path])
+
+  // <title>, description, canonical, og:title/description/url — se
+  // src/lib/seo.js för varför og:image/type/site_name/locale och
+  // twitter:card INTE sätts här (de är rutt-oberoende, statiska i
+  // index.html).
+  useSeo(path)
 
   if (path === '/medborgarskap') {
     return (
